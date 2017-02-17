@@ -11,7 +11,7 @@
 
  */
 'use strict';
-
+console.time('runtime');
 const
   fs      = require('fs'),
   util    = require('util'),
@@ -65,7 +65,9 @@ function readResults(results) {
         fs.writeFileSync(path, file);
       });
     }
+
   });
+  console.timeEnd('runtime');
 }
 
 function categoryProductId(manufacturerId, productTypeId, productId) {
