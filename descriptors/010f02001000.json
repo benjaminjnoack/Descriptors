@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGWPE/F Wall Plug"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGWPE/F Wall Plug"
+        }
+    }
 }

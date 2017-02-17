@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZF5201 Flood sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZF5201 Flood sensor"
+        }
+    }
 }

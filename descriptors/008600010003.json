@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSA03202 Minimote"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSA03202 Minimote"
+        }
+    }
 }

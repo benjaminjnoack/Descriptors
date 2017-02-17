@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRC0P-1LW Plug-in Serial Interface Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRC0P-1LW Plug-in Serial Interface Module"
+        }
+    }
 }

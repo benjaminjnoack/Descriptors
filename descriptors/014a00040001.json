@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Ecolink",
-    "meta": {},
-    "product": "Motion Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Ecolink",
+            "product": "Motion Detector"
+        }
+    }
 }

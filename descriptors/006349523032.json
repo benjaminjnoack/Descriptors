@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "12722 On/Off Relay Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "12722 On/Off Relay Switch"
+        }
+    }
 }

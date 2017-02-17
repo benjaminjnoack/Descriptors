@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FortrezZ",
-    "meta": {},
-    "product": "SSA1 / SSA2 - Siren/Strobe Light Alarm"
+    "meta": {
+        "display": {
+            "manufacturer": "FortrezZ",
+            "product": "SSA1 / SSA2 - Siren/Strobe Light Alarm"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "SE812 Siren"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "SE812 Siren"
+        }
+    }
 }

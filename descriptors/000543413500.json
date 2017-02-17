@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Intermatic",
-    "meta": {},
-    "product": "CA3560 Split-Duplex Receptacle"
+    "meta": {
+        "display": {
+            "manufacturer": "Intermatic",
+            "product": "CA3560 Split-Duplex Receptacle"
+        }
+    }
 }

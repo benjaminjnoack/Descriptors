@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "12720 Outdoor Smart Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "12720 Outdoor Smart Switch"
+        }
+    }
 }

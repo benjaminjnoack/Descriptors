@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "RZS15-1LX Binary Scene Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "RZS15-1LX Binary Scene Switch"
+        }
+    }
 }

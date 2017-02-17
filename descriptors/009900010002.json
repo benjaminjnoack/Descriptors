@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GreenWave",
-    "meta": {},
-    "product": "One Gateway"
+    "meta": {
+        "display": {
+            "manufacturer": "GreenWave",
+            "product": "One Gateway"
+        }
+    }
 }

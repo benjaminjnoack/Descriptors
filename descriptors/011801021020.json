@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Wenzhou TKB Control System",
-    "meta": {},
-    "product": "TZ66D Dual Wall Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Wenzhou TKB Control System",
+            "product": "TZ66D Dual Wall Switch"
+        }
+    }
 }

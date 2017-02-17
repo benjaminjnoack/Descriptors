@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Evolve Guest Controls",
-    "meta": {},
-    "product": "LFM-20 Fixture Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Evolve Guest Controls",
+            "product": "LFM-20 Fixture Module"
+        }
+    }
 }

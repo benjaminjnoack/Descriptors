@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGD212 Dimmer 2"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGD212 Dimmer 2"
+        }
+    }
 }

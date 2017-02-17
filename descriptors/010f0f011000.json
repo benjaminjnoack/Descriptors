@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGPB101 Button"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGPB101 Button"
+        }
+    }
 }

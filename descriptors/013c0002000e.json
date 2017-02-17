@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Philio Technology Corporation",
-    "meta": {},
-    "product": "PST02-C Door/Window 3 in 1 sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Philio Technology Corporation",
+            "product": "PST02-C Door/Window 3 in 1 sensor"
+        }
+    }
 }

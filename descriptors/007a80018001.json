@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Merten",
-    "meta": {},
-    "product": "Receiver Flush-Mounted 1-Gang Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Merten",
+            "product": "Receiver Flush-Mounted 1-Gang Switch"
+        }
+    }
 }

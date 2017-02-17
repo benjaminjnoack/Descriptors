@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZL7101 Plug-in Dimmer Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZL7101 Plug-in Dimmer Module"
+        }
+    }
 }

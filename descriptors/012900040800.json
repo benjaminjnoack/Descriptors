@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Assa Abloy",
-    "meta": {},
-    "product": "Yale Push Button Deadbolt (YRD110)"
+    "meta": {
+        "display": {
+            "manufacturer": "Assa Abloy",
+            "product": "Yale Push Button Deadbolt (YRD110)"
+        }
+    }
 }

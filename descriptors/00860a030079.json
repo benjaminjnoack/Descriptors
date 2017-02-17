@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW121 LED Strip"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW121 LED Strip"
+        }
+    }
 }

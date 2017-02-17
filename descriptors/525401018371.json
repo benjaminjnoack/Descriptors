@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Remotec",
-    "meta": {},
-    "product": "ZXT-310EU"
+    "meta": {
+        "display": {
+            "manufacturer": "Remotec",
+            "product": "ZXT-310EU"
+        }
+    }
 }

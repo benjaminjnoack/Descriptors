@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHKDx Flush Heat and Cool thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHKDx Flush Heat and Cool thermostat"
+        }
+    }
 }

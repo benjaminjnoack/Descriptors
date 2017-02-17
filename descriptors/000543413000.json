@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Intermatic",
-    "meta": {},
-    "product": "CA3000 Wall Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Intermatic",
+            "product": "CA3000 Wall Switch"
+        }
+    }
 }

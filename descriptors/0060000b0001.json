@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "ST812 Flood Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "ST812 Flood Detector"
+        }
+    }
 }

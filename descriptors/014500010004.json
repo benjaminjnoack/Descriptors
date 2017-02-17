@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Buffalo",
-    "meta": {},
-    "product": "HW-100V15A-ZW Measure Power Monitor"
+    "meta": {
+        "display": {
+            "manufacturer": "Buffalo",
+            "product": "HW-100V15A-ZW Measure Power Monitor"
+        }
+    }
 }

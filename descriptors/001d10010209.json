@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRF01-1LZ Multilevel Scene Switch - 1.5A Fan"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRF01-1LZ Multilevel Scene Switch - 1.5A Fan"
+        }
+    }
 }

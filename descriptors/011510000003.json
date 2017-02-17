@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "ZME_06436 Motor Control"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "ZME_06436 Motor Control"
+        }
+    }
 }

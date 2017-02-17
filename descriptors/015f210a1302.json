@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Mcohome",
-    "meta": {},
-    "product": "MH-P210 Mini Energy Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Mcohome",
+            "product": "MH-P210 Mini Energy Dimmer"
+        }
+    }
 }

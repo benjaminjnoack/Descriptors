@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Miyakawa Electric Works",
-    "meta": {},
-    "product": "ZW-GW Smart Bridge"
+    "meta": {
+        "display": {
+            "manufacturer": "Miyakawa Electric Works",
+            "product": "ZW-GW Smart Bridge"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "SP103 PIR Motion Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "SP103 PIR Motion Sensor"
+        }
+    }
 }

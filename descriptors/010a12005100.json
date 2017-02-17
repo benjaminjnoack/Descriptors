@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vitrum",
-    "meta": {},
-    "product": "Vitrum I EU Wireless On-off"
+    "meta": {
+        "display": {
+            "manufacturer": "Vitrum",
+            "product": "Vitrum I EU Wireless On-off"
+        }
+    }
 }

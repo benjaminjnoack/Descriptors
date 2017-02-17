@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "45613 3-Way Dimmer Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "45613 3-Way Dimmer Switch"
+        }
+    }
 }

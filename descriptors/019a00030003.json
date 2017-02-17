@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Sensative",
-    "meta": {},
-    "product": "Strips"
+    "meta": {
+        "display": {
+            "manufacturer": "Sensative",
+            "product": "Strips"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGR221 Roller Shutter Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGR221 Roller Shutter Controller"
+        }
+    }
 }

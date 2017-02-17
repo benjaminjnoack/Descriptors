@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Cooper",
-    "meta": {},
-    "product": "RF9501 Light Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Cooper",
+            "product": "RF9501 Light Switch"
+        }
+    }
 }

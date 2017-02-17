@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "G.R.",
-    "meta": {},
-    "product": "GR105 Auto Valve"
+    "meta": {
+        "display": {
+            "manufacturer": "G.R.",
+            "product": "GR105 Auto Valve"
+        }
+    }
 }

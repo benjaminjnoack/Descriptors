@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Ecolink",
-    "meta": {},
-    "product": "Garage Door Tilt Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Ecolink",
+            "product": "Garage Door Tilt Sensor"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSC11 Smart Strip"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSC11 Smart Strip"
+        }
+    }
 }

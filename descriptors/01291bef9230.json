@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Assa Abloy",
-    "meta": {},
-    "product": "Yale Keyless Connected Smart Lock (YSL)"
+    "meta": {
+        "display": {
+            "manufacturer": "Assa Abloy",
+            "product": "Yale Keyless Connected Smart Lock (YSL)"
+        }
+    }
 }

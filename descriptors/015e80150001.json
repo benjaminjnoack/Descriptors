@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Locstar",
-    "meta": {},
-    "product": "LS-8015-ZW Single Latch Door Lock"
+    "meta": {
+        "display": {
+            "manufacturer": "Locstar",
+            "product": "LS-8015-ZW Single Latch Door Lock"
+        }
+    }
 }

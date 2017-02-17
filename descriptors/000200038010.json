@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Danfoss",
-    "meta": {},
-    "product": "RS Room Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Danfoss",
+            "product": "RS Room Sensor"
+        }
+    }
 }

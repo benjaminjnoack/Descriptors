@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "ZRP100 Plugin Appliance Module"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "ZRP100 Plugin Appliance Module"
+        }
+    }
 }

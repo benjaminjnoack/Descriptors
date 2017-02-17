@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Horstmann",
-    "meta": {},
-    "product": "SES 303 Temperature and Humidity Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Horstmann",
+            "product": "SES 303 Temperature and Humidity Sensor"
+        }
+    }
 }

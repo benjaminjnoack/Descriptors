@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "Plug-in Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "Plug-in Switch"
+        }
+    }
 }

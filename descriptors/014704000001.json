@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "RaZberry Controller ZWave+"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "RaZberry Controller ZWave+"
+        }
+    }
 }

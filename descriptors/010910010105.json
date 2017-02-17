@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZU1401 Z-Wave USB Stick"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZU1401 Z-Wave USB Stick"
+        }
+    }
 }

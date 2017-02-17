@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHTDx Smart meter"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHTDx Smart meter"
+        }
+    }
 }

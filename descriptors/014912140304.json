@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "wiDom",
-    "meta": {},
-    "product": "UME304 Energy Driven Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "wiDom",
+            "product": "UME304 Energy Driven Switch"
+        }
+    }
 }

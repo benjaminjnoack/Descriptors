@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Popp",
-    "meta": {},
-    "product": "012501 Strike Lock Control"
+    "meta": {
+        "display": {
+            "manufacturer": "Popp",
+            "product": "012501 Strike Lock Control"
+        }
+    }
 }

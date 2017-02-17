@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Horstmann",
-    "meta": {},
-    "product": "SIR321 RF Countdown Timer with temperature"
+    "meta": {
+        "display": {
+            "manufacturer": "Horstmann",
+            "product": "SIR321 RF Countdown Timer with temperature"
+        }
+    }
 }

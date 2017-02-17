@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Horstmann",
-    "meta": {},
-    "product": "ASR-ZW Thermostat Receiver"
+    "meta": {
+        "display": {
+            "manufacturer": "Horstmann",
+            "product": "ASR-ZW Thermostat Receiver"
+        }
+    }
 }

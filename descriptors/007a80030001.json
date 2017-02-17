@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Merten",
-    "meta": {},
-    "product": "Plug-in Roller Shutter Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Merten",
+            "product": "Plug-in Roller Shutter Module"
+        }
+    }
 }

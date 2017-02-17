@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRCZ4-M0Z 4-Button Zone Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRCZ4-M0Z 4-Button Zone Controller"
+        }
+    }
 }

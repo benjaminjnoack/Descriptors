@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "D-Link Corporation",
-    "meta": {},
-    "product": "DCH-Z510 Siren"
+    "meta": {
+        "display": {
+            "manufacturer": "D-Link Corporation",
+            "product": "DCH-Z510 Siren"
+        }
+    }
 }

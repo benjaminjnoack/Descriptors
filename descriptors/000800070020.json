@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Wayne Dalton",
-    "meta": {},
-    "product": "WDTC-20 Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Wayne Dalton",
+            "product": "WDTC-20 Thermostat"
+        }
+    }
 }

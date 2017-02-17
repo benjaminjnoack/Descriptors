@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Popp",
-    "meta": {},
-    "product": "009402 10-Year Smoke Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Popp",
+            "product": "009402 10-Year Smoke Detector"
+        }
+    }
 }

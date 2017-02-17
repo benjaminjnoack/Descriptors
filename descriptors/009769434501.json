@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Schlage Link",
-    "meta": {},
-    "product": "On-Wall Power Socket"
+    "meta": {
+        "display": {
+            "manufacturer": "Schlage Link",
+            "product": "On-Wall Power Socket"
+        }
+    }
 }

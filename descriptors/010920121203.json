@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZR1202 Repeater"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZR1202 Repeater"
+        }
+    }
 }

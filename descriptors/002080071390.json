@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "General Electric",
-    "meta": {},
-    "product": "Wireless Lighting Control"
+    "meta": {
+        "display": {
+            "manufacturer": "General Electric",
+            "product": "Wireless Lighting Control"
+        }
+    }
 }

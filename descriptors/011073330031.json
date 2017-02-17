@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Frostdale",
-    "meta": {},
-    "product": "Nanogrid: FDN2nxx light switch - where n is 1, 2, 3 or 4 buttons"
+    "meta": {
+        "display": {
+            "manufacturer": "Frostdale",
+            "product": "Nanogrid: FDN2nxx light switch - where n is 1, 2, 3 or 4 buttons"
+        }
+    }
 }

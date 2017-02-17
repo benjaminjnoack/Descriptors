@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Linear",
-    "meta": {},
-    "product": "LB60Z-1 Dimmable LED Light Bulb"
+    "meta": {
+        "display": {
+            "manufacturer": "Linear",
+            "product": "LB60Z-1 Dimmable LED Light Bulb"
+        }
+    }
 }

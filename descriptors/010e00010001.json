@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Polycontrol",
-    "meta": {},
-    "product": "Polylock"
+    "meta": {
+        "display": {
+            "manufacturer": "Polycontrol",
+            "product": "Polylock"
+        }
+    }
 }

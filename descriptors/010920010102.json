@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZD2102 AU Door/Window Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZD2102 AU Door/Window Sensor"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "wiDom",
-    "meta": {},
-    "product": "WDS Universal Double Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "wiDom",
+            "product": "WDS Universal Double Switch"
+        }
+    }
 }

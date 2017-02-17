@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Danfoss",
-    "meta": {},
-    "product": "Devolo Home Control Radiator Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Danfoss",
+            "product": "Devolo Home Control Radiator Thermostat"
+        }
+    }
 }

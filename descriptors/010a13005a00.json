@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vitrum",
-    "meta": {},
-    "product": "Vitrum II EU Roller Blind Control"
+    "meta": {
+        "display": {
+            "manufacturer": "Vitrum",
+            "product": "Vitrum II EU Roller Blind Control"
+        }
+    }
 }

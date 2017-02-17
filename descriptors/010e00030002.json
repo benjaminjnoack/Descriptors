@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Polycontrol",
-    "meta": {},
-    "product": "Danalock Circle/Square"
+    "meta": {
+        "display": {
+            "manufacturer": "Polycontrol",
+            "product": "Danalock Circle/Square"
+        }
+    }
 }

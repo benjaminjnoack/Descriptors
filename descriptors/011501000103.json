@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "Popp KFOB-C Remote Control"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "Popp KFOB-C Remote Control"
+        }
+    }
 }

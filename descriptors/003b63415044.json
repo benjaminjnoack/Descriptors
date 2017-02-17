@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Schlage",
-    "meta": {},
-    "product": "BE469NXCEN Touchscreen DeadBolt"
+    "meta": {
+        "display": {
+            "manufacturer": "Schlage",
+            "product": "BE469NXCEN Touchscreen DeadBolt"
+        }
+    }
 }

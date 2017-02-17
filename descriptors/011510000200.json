@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "ZME_064281 Wall Plug switch Schuko (IP44) Gen 5"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "ZME_064281 Wall Plug switch Schuko (IP44) Gen 5"
+        }
+    }
 }

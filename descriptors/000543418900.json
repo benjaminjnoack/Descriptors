@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Intermatic",
-    "meta": {},
-    "product": "CA8900 Digital Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Intermatic",
+            "product": "CA8900 Digital Thermostat"
+        }
+    }
 }

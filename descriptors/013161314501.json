@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Zipato",
-    "meta": {},
-    "product": "Zipato Mini Keypad"
+    "meta": {
+        "display": {
+            "manufacturer": "Zipato",
+            "product": "Zipato Mini Keypad"
+        }
+    }
 }

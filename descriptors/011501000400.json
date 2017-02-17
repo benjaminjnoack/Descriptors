@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "Z-Weather Wind and Weather Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "Z-Weather Wind and Weather Sensor"
+        }
+    }
 }

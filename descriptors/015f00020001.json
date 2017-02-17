@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Mcohome",
-    "meta": {},
-    "product": "Mini Energy Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Mcohome",
+            "product": "Mini Energy Switch"
+        }
+    }
 }

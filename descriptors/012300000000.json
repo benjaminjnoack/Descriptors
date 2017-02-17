@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Iwatsu Electric Co",
-    "meta": {},
-    "product": "TM-H2VHD081 HA Dongle"
+    "meta": {
+        "display": {
+            "manufacturer": "Iwatsu Electric Co",
+            "product": "TM-H2VHD081 HA Dongle"
+        }
+    }
 }

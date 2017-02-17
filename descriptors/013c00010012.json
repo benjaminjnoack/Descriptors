@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Philio Technology Corporation",
-    "meta": {},
-    "product": "PAN04-1 Double Relay Switch 2x1.5kW with Power Measurement"
+    "meta": {
+        "display": {
+            "manufacturer": "Philio Technology Corporation",
+            "product": "PAN04-1 Double Relay Switch 2x1.5kW with Power Measurement"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "Heating Control"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "Heating Control"
+        }
+    }
 }

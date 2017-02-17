@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "ZME_KFOB 4 Button Key Fob"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "ZME_KFOB 4 Button Key Fob"
+        }
+    }
 }

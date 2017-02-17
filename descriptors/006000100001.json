@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "HAC01 In-wall Remote Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "HAC01 In-wall Remote Module"
+        }
+    }
 }

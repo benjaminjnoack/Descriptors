@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Philio Technology Corporation",
-    "meta": {},
-    "product": "PAN11 Smart Energy Plug In Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Philio Technology Corporation",
+            "product": "PAN11 Smart Energy Plug In Switch"
+        }
+    }
 }

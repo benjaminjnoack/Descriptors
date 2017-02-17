@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Permundo",
-    "meta": {},
-    "product": "PSC234ZW Smart Plug"
+    "meta": {
+        "display": {
+            "manufacturer": "Permundo",
+            "product": "PSC234ZW Smart Plug"
+        }
+    }
 }

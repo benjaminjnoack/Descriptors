@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Schlage",
-    "meta": {},
-    "product": "FE599GR Wireless Door Lock"
+    "meta": {
+        "display": {
+            "manufacturer": "Schlage",
+            "product": "FE599GR Wireless Door Lock"
+        }
+    }
 }

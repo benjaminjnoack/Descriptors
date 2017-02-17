@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Cooper",
-    "meta": {},
-    "product": "RF9534DS Wall Dimmer Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Cooper",
+            "product": "RF9534DS Wall Dimmer Module"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "DZPD3-1LW Plug-In Dimming Lamp Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "DZPD3-1LW Plug-In Dimming Lamp Module"
+        }
+    }
 }

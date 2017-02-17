@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRCPG-SG RF Handheld Remote Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRCPG-SG RF Handheld Remote Controller"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "ZTW230 Wall Transmitter Module"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "ZTW230 Wall Transmitter Module"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aspalis",
-    "meta": {},
-    "product": "Plugin Lamp Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Aspalis",
+            "product": "Plugin Lamp Module"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "There",
-    "meta": {},
-    "product": "ThereGate"
+    "meta": {
+        "display": {
+            "manufacturer": "There",
+            "product": "ThereGate"
+        }
+    }
 }

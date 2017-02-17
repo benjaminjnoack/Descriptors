@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Nexia",
-    "meta": {},
-    "product": "DB100Z Doorbell Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Nexia",
+            "product": "DB100Z Doorbell Sensor"
+        }
+    }
 }

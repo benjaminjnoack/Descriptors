@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW078 Heavy Duty Smart Switch Gen5"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW078 Heavy Duty Smart Switch Gen5"
+        }
+    }
 }

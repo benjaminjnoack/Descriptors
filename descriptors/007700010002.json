@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Innovus",
-    "meta": {},
-    "product": "RAone SmartPower Wall Appliance Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Innovus",
+            "product": "RAone SmartPower Wall Appliance Module"
+        }
+    }
 }

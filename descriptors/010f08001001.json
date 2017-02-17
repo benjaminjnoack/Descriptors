@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGMS001 Motion Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGMS001 Motion Sensor"
+        }
+    }
 }

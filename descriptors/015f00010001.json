@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Mcohome",
-    "meta": {},
-    "product": "Mini Energy Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Mcohome",
+            "product": "Mini Energy Dimmer"
+        }
+    }
 }

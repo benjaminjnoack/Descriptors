@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Neo CoolCam",
-    "meta": {},
-    "product": "Siren Alarm"
+    "meta": {
+        "display": {
+            "manufacturer": "Neo CoolCam",
+            "product": "Siren Alarm"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Merten",
-    "meta": {},
-    "product": "Plug-in Appliance Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Merten",
+            "product": "Plug-in Appliance Module"
+        }
+    }
 }

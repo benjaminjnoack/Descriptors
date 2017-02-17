@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Danfoss",
-    "meta": {},
-    "product": "Living Connect Radiator Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Danfoss",
+            "product": "Living Connect Radiator Thermostat"
+        }
+    }
 }

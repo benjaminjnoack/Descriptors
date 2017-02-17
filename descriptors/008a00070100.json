@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "Tag Reader"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "Tag Reader"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHZDx Weather Station"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHZDx Weather Station"
+        }
+    }
 }

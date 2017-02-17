@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "WeBeHome AB",
-    "meta": {},
-    "product": "WBH HG-900 Home Gateway"
+    "meta": {
+        "display": {
+            "manufacturer": "WeBeHome AB",
+            "product": "WBH HG-900 Home Gateway"
+        }
+    }
 }

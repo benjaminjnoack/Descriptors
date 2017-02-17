@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Zipato",
-    "meta": {},
-    "product": "ZP3102-EU Multisensor Duo"
+    "meta": {
+        "display": {
+            "manufacturer": "Zipato",
+            "product": "ZP3102-EU Multisensor Duo"
+        }
+    }
 }

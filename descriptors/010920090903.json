@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZM1602 Main Operated Siren"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZM1602 Main Operated Siren"
+        }
+    }
 }

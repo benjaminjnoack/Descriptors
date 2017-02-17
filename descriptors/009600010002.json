@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "NorthQ",
-    "meta": {},
-    "product": "NQ-9021 Power Reader"
+    "meta": {
+        "display": {
+            "manufacturer": "NorthQ",
+            "product": "NQ-9021 Power Reader"
+        }
+    }
 }

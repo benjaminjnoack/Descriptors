@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Domitech",
-    "meta": {},
-    "product": "Smart LED Retrofit Kit ZE27EU"
+    "meta": {
+        "display": {
+            "manufacturer": "Domitech",
+            "product": "Smart LED Retrofit Kit ZE27EU"
+        }
+    }
 }

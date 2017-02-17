@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "LFM-20 Relay Fixture Module"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "LFM-20 Relay Fixture Module"
+        }
+    }
 }

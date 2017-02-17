@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGRGBWM441 RGBW Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGRGBWM441 RGBW Controller"
+        }
+    }
 }

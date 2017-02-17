@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "iTemp Temperature Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "iTemp Temperature Sensor"
+        }
+    }
 }

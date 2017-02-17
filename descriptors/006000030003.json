@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "AD147 Plug-in Dimmer Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "AD147 Plug-in Dimmer Module"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Remotec",
-    "meta": {},
-    "product": "ZTS-110"
+    "meta": {
+        "display": {
+            "manufacturer": "Remotec",
+            "product": "ZTS-110"
+        }
+    }
 }

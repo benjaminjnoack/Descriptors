@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW097 Dry Contact Sensor Gen5"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW097 Dry Contact Sensor Gen5"
+        }
+    }
 }

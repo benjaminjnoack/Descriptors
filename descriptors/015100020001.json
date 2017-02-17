@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Sercomm",
-    "meta": {},
-    "product": "SW-CLP01-EU Clamp Power Meter"
+    "meta": {
+        "display": {
+            "manufacturer": "Sercomm",
+            "product": "SW-CLP01-EU Clamp Power Meter"
+        }
+    }
 }

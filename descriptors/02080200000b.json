@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Hank",
-    "meta": {},
-    "product": "Scene Controller 4 Button"
+    "meta": {
+        "display": {
+            "manufacturer": "Hank",
+            "product": "Scene Controller 4 Button"
+        }
+    }
 }

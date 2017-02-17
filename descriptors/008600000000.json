@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "Z-Wave Extender"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "Z-Wave Extender"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSC27103 Micro Dimmer (2nd Edition)"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSC27103 Micro Dimmer (2nd Edition)"
+        }
+    }
 }

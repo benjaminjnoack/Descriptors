@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Zooz",
-    "meta": {},
-    "product": "ZSE08 Contact Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Zooz",
+            "product": "ZSE08 Contact Sensor"
+        }
+    }
 }

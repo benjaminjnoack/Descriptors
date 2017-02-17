@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Cytech Tech",
-    "meta": {},
-    "product": "Comfort 9000 with UCM/Zwave"
+    "meta": {
+        "display": {
+            "manufacturer": "Cytech Tech",
+            "product": "Comfort 9000 with UCM/Zwave"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Domitech",
-    "meta": {},
-    "product": "Smart LED Light Bulb ZB22UK"
+    "meta": {
+        "display": {
+            "manufacturer": "Domitech",
+            "product": "Smart LED Light Bulb ZB22UK"
+        }
+    }
 }

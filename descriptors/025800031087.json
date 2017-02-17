@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Neo CoolCam",
-    "meta": {},
-    "product": "Power plug 12A"
+    "meta": {
+        "display": {
+            "manufacturer": "Neo CoolCam",
+            "product": "Power plug 12A"
+        }
+    }
 }

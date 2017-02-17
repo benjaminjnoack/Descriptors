@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Philio Technology Corporation",
-    "meta": {},
-    "product": "PH-PAT02.eu Flood Multisensor 3in1"
+    "meta": {
+        "display": {
+            "manufacturer": "Philio Technology Corporation",
+            "product": "PH-PAT02.eu Flood Multisensor 3in1"
+        }
+    }
 }

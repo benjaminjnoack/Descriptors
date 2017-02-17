@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW080 Siren Gen5"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW080 Siren Gen5"
+        }
+    }
 }

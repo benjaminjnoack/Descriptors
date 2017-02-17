@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHUD1 DIN Pilot Wire"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHUD1 DIN Pilot Wire"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSB05 Multisensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSB05 Multisensor"
+        }
+    }
 }

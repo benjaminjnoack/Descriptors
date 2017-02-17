@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Home Manageables",
-    "meta": {},
-    "product": "Door/Window Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Home Manageables",
+            "product": "Door/Window Sensor"
+        }
+    }
 }

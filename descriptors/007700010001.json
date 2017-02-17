@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Innovus",
-    "meta": {},
-    "product": "RAone SmartDimmer Wall Dimmer Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Innovus",
+            "product": "RAone SmartDimmer Wall Dimmer Module"
+        }
+    }
 }

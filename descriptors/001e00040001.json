@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Homeseer",
-    "meta": {},
-    "product": "HSM200 Wireless Multi-Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Homeseer",
+            "product": "HSM200 Wireless Multi-Sensor"
+        }
+    }
 }

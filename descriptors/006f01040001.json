@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Home Manageables",
-    "meta": {},
-    "product": "HM-AM001 Plugin Appliance Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Home Manageables",
+            "product": "HM-AM001 Plugin Appliance Module"
+        }
+    }
 }

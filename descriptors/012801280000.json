@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Eneco",
-    "meta": {},
-    "product": "ED2.0 Display"
+    "meta": {
+        "display": {
+            "manufacturer": "Eneco",
+            "product": "ED2.0 Display"
+        }
+    }
 }

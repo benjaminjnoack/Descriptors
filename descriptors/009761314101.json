@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Schlage Link",
-    "meta": {},
-    "product": "Mini Keypad RFID"
+    "meta": {
+        "display": {
+            "manufacturer": "Schlage Link",
+            "product": "Mini Keypad RFID"
+        }
+    }
 }

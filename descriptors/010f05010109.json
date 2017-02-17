@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGBS001 Universal Binary Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGBS001 Universal Binary Sensor"
+        }
+    }
 }

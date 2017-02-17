@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Enerwave",
-    "meta": {},
-    "product": "ZWN-BPC Ceiling Mounted PIR Motion Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Enerwave",
+            "product": "ZWN-BPC Ceiling Mounted PIR Motion Sensor"
+        }
+    }
 }

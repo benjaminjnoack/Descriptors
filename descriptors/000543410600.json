@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Intermatic",
-    "meta": {},
-    "product": "CA600 Wall Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Intermatic",
+            "product": "CA600 Wall Dimmer"
+        }
+    }
 }

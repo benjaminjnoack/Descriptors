@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "ZME_WCD2 Double Paddle Wall Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "ZME_WCD2 Double Paddle Wall Controller"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Remotec",
-    "meta": {},
-    "product": "Z-URC"
+    "meta": {
+        "display": {
+            "manufacturer": "Remotec",
+            "product": "Z-URC"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "MIOS",
-    "meta": {},
-    "product": "Vera Lite"
+    "meta": {
+        "display": {
+            "manufacturer": "MIOS",
+            "product": "Vera Lite"
+        }
+    }
 }

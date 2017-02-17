@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Horstmann",
-    "meta": {},
-    "product": "SCSC17 Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Horstmann",
+            "product": "SCSC17 Thermostat"
+        }
+    }
 }

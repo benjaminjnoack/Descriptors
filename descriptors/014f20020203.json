@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Linear",
-    "meta": {},
-    "product": "WAPIRZ-1 Motion Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Linear",
+            "product": "WAPIRZ-1 Motion Sensor"
+        }
+    }
 }

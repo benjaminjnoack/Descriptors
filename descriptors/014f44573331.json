@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Linear",
-    "meta": {},
-    "product": "WD1000Z-1 Wall Dimmer Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Linear",
+            "product": "WD1000Z-1 Wall Dimmer Switch"
+        }
+    }
 }

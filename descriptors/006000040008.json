@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "AN179 In wall ON/OFF Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "AN179 In wall ON/OFF Module"
+        }
+    }
 }

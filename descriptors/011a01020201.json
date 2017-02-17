@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Enerwave",
-    "meta": {},
-    "product": "ZW500D 500W In-Wall Preset Dimmer Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Enerwave",
+            "product": "ZW500D 500W In-Wall Preset Dimmer Switch"
+        }
+    }
 }

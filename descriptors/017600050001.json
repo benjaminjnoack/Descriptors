@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Telldus",
-    "meta": {},
-    "product": "TZDW-100 Magnet Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Telldus",
+            "product": "TZDW-100 Magnet Switch"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Devolo home Control",
-    "meta": {},
-    "product": "Remote MT 2653"
+    "meta": {
+        "display": {
+            "manufacturer": "Devolo home Control",
+            "product": "Remote MT 2653"
+        }
+    }
 }

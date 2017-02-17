@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Mcohome",
-    "meta": {},
-    "product": "MH-S314 Four-load"
+    "meta": {
+        "display": {
+            "manufacturer": "Mcohome",
+            "product": "MH-S314 Four-load"
+        }
+    }
 }

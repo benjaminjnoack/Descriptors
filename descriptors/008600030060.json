@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW096 Smart Switch 6"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW096 Smart Switch 6"
+        }
+    }
 }

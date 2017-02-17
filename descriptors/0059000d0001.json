@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Horstmann",
-    "meta": {},
-    "product": "SES 301 Temperature Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Horstmann",
+            "product": "SES 301 Temperature Sensor"
+        }
+    }
 }

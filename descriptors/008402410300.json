@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FortrezZ",
-    "meta": {},
-    "product": "WV-01 Automated Water Shut-Off Valve"
+    "meta": {
+        "display": {
+            "manufacturer": "FortrezZ",
+            "product": "WV-01 Automated Water Shut-Off Valve"
+        }
+    }
 }

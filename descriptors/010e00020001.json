@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Polycontrol",
-    "meta": {},
-    "product": "Danalock Keypad"
+    "meta": {
+        "display": {
+            "manufacturer": "Polycontrol",
+            "product": "Danalock Keypad"
+        }
+    }
 }

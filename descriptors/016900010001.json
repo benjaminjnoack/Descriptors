@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Popp",
-    "meta": {},
-    "product": "ZWeather"
+    "meta": {
+        "display": {
+            "manufacturer": "Popp",
+            "product": "ZWeather"
+        }
+    }
 }

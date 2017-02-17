@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Linear",
-    "meta": {},
-    "product": "WA00Z-1 Scene Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Linear",
+            "product": "WA00Z-1 Scene Switch"
+        }
+    }
 }

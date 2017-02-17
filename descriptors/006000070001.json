@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "ST815 Illumination Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "ST815 Illumination Sensor"
+        }
+    }
 }

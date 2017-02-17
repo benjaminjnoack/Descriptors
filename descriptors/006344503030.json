@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "45602 Lamp Dimmer Module"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "45602 Lamp Dimmer Module"
+        }
+    }
 }

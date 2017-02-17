@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "12727 In-Wall Smart Switch (Toggle)"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "12727 In-Wall Smart Switch (Toggle)"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "wiDom",
-    "meta": {},
-    "product": "UBS104 Universal Relay Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "wiDom",
+            "product": "UBS104 Universal Relay Switch"
+        }
+    }
 }

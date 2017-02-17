@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vitrum",
-    "meta": {},
-    "product": "Vitrum I EU Wireless Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Vitrum",
+            "product": "Vitrum I EU Wireless Dimmer"
+        }
+    }
 }

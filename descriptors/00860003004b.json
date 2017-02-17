@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW075 Smart Switch Gen5"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW075 Smart Switch Gen5"
+        }
+    }
 }

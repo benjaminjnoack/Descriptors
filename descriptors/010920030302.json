@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZS5101 Shock and Vibration Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZS5101 Shock and Vibration Sensor"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Wenzhou TKB Control System",
-    "meta": {},
-    "product": "TZ69 Smart energy plug in switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Wenzhou TKB Control System",
+            "product": "TZ69 Smart energy plug in switch"
+        }
+    }
 }

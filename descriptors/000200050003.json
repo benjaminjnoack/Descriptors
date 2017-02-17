@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Danfoss",
-    "meta": {},
-    "product": "Z Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Danfoss",
+            "product": "Z Thermostat"
+        }
+    }
 }

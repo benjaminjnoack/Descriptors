@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "12721 Lighting Control Duplex Receptacle"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "12721 Lighting Control Duplex Receptacle"
+        }
+    }
 }

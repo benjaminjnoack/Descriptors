@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZS6101 Smoke Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZS6101 Smoke Detector"
+        }
+    }
 }

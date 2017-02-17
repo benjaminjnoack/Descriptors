@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZS6301 CO Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZS6301 CO Detector"
+        }
+    }
 }

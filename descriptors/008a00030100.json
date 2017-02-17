@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "MoLiTe Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "MoLiTe Sensor"
+        }
+    }
 }

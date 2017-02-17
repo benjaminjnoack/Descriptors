@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRC51-1LX One Scene Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRC51-1LX One Scene Controller"
+        }
+    }
 }

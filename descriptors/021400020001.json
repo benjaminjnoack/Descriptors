@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Kaipule",
-    "meta": {},
-    "product": "IM20 Door/Window Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Kaipule",
+            "product": "IM20 Door/Window Sensor"
+        }
+    }
 }

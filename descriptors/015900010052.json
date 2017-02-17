@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHSDx Din Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHSDx Din Dimmer"
+        }
+    }
 }

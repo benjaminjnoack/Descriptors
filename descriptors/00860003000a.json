@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSC10 Heavy-Duty Smart Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSC10 Heavy-Duty Smart Switch"
+        }
+    }
 }

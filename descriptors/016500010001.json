@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "NodOn",
-    "meta": {},
-    "product": "ASP-3-1-00 Smart Plug"
+    "meta": {
+        "display": {
+            "manufacturer": "NodOn",
+            "product": "ASP-3-1-00 Smart Plug"
+        }
+    }
 }

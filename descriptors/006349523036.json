@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "12491 In-Wall Smart Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "12491 In-Wall Smart Switch"
+        }
+    }
 }

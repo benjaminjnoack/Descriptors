@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHDD1 Flush Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHDD1 Flush Dimmer"
+        }
+    }
 }

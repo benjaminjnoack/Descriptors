@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Neo CoolCam",
-    "meta": {},
-    "product": "Battery Powered PIR Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Neo CoolCam",
+            "product": "Battery Powered PIR Sensor"
+        }
+    }
 }

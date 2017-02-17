@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRCS2-MRZ 2-Button Scene Controller with Switches"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRCS2-MRZ 2-Button Scene Controller with Switches"
+        }
+    }
 }

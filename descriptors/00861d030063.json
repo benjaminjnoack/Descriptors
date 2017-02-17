@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW099 Smart Dimmer 6"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW099 Smart Dimmer 6"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Logic Soft",
-    "meta": {},
-    "product": "ZHC5010 Wall switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Logic Soft",
+            "product": "ZHC5010 Wall switch"
+        }
+    }
 }

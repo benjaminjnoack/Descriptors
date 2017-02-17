@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Trane",
-    "meta": {},
-    "product": "Model TZEMT400AB32MAA"
+    "meta": {
+        "display": {
+            "manufacturer": "Trane",
+            "product": "Model TZEMT400AB32MAA"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "2Pole Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "2Pole Switch"
+        }
+    }
 }

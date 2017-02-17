@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGK101 Door Opening Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGK101 Door Opening Sensor"
+        }
+    }
 }

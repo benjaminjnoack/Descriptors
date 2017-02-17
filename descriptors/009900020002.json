@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GreenWave",
-    "meta": {},
-    "product": "PowerNode 1 port"
+    "meta": {
+        "display": {
+            "manufacturer": "GreenWave",
+            "product": "PowerNode 1 port"
+        }
+    }
 }

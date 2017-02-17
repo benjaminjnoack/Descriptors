@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "Scene Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "Scene Controller"
+        }
+    }
 }

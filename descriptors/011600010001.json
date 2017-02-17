@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Chromagic Technologies Corporation",
-    "meta": {},
-    "product": "HSCP02 Motion Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Chromagic Technologies Corporation",
+            "product": "HSCP02 Motion Detector"
+        }
+    }
 }

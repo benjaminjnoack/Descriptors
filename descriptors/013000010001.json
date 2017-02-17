@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Quby",
-    "meta": {},
-    "product": "Energy Management System"
+    "meta": {
+        "display": {
+            "manufacturer": "Quby",
+            "product": "Energy Management System"
+        }
+    }
 }

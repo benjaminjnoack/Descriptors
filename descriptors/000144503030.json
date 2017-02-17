@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "ZDP100 Plugin Lamp Module"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "ZDP100 Plugin Lamp Module"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRP03-1LW Lamp Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRP03-1LW Lamp Module"
+        }
+    }
 }

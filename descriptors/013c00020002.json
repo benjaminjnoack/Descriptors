@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Philio Technology Corporation",
-    "meta": {},
-    "product": "PSM02-1 Slim Multi-Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Philio Technology Corporation",
+            "product": "PSM02-1 Slim Multi-Sensor"
+        }
+    }
 }

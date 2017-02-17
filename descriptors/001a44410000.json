@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Cooper",
-    "meta": {},
-    "product": "RF9542-Z Accessory Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Cooper",
+            "product": "RF9542-Z Accessory Dimmer"
+        }
+    }
 }

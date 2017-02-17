@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Popp / Duwi",
-    "meta": {},
-    "product": "Plugin Dimmer"
+    "meta": {
+        "display": {
+            "manufacturer": "Popp / Duwi",
+            "product": "Plugin Dimmer"
+        }
+    }
 }

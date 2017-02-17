@@ -82,9 +82,12 @@ function generateTemplate(manufacturer, product) {
   let template = {
     commands: {},
     configurations: [],
-    manufacturer: manufacturer,
-    meta: {},
-    product: product,
+    meta: {
+      display: {
+        manufacturer: manufacturer,
+        product: product
+      }
+    }
   };
 
   return JSON.stringify(template, null, 4);

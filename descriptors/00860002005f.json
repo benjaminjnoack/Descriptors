@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW095 Home Energy Meter Gen5"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW095 Home Energy Meter Gen5"
+        }
+    }
 }

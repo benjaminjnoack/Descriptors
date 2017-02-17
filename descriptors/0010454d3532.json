@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "RCS",
-    "meta": {},
-    "product": "EM52-ZW Z-Wave Home Energy Meter"
+    "meta": {
+        "display": {
+            "manufacturer": "RCS",
+            "product": "EM52-ZW Z-Wave Home Energy Meter"
+        }
+    }
 }

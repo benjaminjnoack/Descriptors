@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Wenzhou TKB Control System",
-    "meta": {},
-    "product": "ST812 Flood Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Wenzhou TKB Control System",
+            "product": "ST812 Flood Detector"
+        }
+    }
 }

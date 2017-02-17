@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Ecolink",
-    "meta": {},
-    "product": "Tilt Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Ecolink",
+            "product": "Tilt Sensor"
+        }
+    }
 }

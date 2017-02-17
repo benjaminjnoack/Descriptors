@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZD2301 Multisensor 4in1"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZD2301 Multisensor 4in1"
+        }
+    }
 }

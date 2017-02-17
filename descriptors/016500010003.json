@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "NodOn",
-    "meta": {},
-    "product": "MSP-3-1-XX Micro Smart Plug"
+    "meta": {
+        "display": {
+            "manufacturer": "NodOn",
+            "product": "MSP-3-1-XX Micro Smart Plug"
+        }
+    }
 }

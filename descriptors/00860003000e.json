@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSC14104 Micro Motor Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSC14104 Micro Motor Controller"
+        }
+    }
 }

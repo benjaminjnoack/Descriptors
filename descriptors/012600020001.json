@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Iris",
-    "meta": {},
-    "product": "Range Extender"
+    "meta": {
+        "display": {
+            "manufacturer": "Iris",
+            "product": "Range Extender"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Evolve Guest Controls",
-    "meta": {},
-    "product": "LTM-5 Wall Switch Transmitter"
+    "meta": {
+        "display": {
+            "manufacturer": "Evolve Guest Controls",
+            "product": "LTM-5 Wall Switch Transmitter"
+        }
+    }
 }

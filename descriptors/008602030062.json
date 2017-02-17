@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW098 LED Bulb"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW098 LED Bulb"
+        }
+    }
 }

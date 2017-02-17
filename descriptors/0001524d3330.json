@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "ZRM230 Wall Appliance Module"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "ZRM230 Wall Appliance Module"
+        }
+    }
 }

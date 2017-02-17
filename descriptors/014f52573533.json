@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Linear",
-    "meta": {},
-    "product": "WS15Z-1 Wall Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Linear",
+            "product": "WS15Z-1 Wall Switch"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGS213 Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGS213 Switch"
+        }
+    }
 }

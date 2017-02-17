@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "E Housekeeper",
-    "meta": {},
-    "product": "Switchkeeper Plug-in Appliance Module"
+    "meta": {
+        "display": {
+            "manufacturer": "E Housekeeper",
+            "product": "Switchkeeper Plug-in Appliance Module"
+        }
+    }
 }

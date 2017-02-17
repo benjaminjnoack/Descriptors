@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Cooper",
-    "meta": {},
-    "product": "RF9517 Accessory Light Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Cooper",
+            "product": "RF9517 Accessory Light Switch"
+        }
+    }
 }

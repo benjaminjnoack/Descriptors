@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSC13104 Micro Smart Energy Illuminator"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSC13104 Micro Smart Energy Illuminator"
+        }
+    }
 }

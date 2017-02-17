@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Swiid",
-    "meta": {},
-    "product": "SwiidPlug"
+    "meta": {
+        "display": {
+            "manufacturer": "Swiid",
+            "product": "SwiidPlug"
+        }
+    }
 }

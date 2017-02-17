@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "ZDM230 Wall Dimmer Module"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "ZDM230 Wall Dimmer Module"
+        }
+    }
 }

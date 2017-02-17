@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "32563 Hinge Pin Smart Door Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "32563 Hinge Pin Smart Door Sensor"
+        }
+    }
 }

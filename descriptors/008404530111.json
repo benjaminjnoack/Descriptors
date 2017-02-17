@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FortrezZ",
-    "meta": {},
-    "product": "MIMOlite Wireless Interface/Bridge Module"
+    "meta": {
+        "display": {
+            "manufacturer": "FortrezZ",
+            "product": "MIMOlite Wireless Interface/Bridge Module"
+        }
+    }
 }

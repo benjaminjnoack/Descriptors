@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Airline Mechanical",
-    "meta": {},
-    "product": "ZDS-100"
+    "meta": {
+        "display": {
+            "manufacturer": "Airline Mechanical",
+            "product": "ZDS-100"
+        }
+    }
 }

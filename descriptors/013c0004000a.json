@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Philio Technology Corporation",
-    "meta": {},
-    "product": "PH-PSE02.eu Zipato Indoor Siren"
+    "meta": {
+        "display": {
+            "manufacturer": "Philio Technology Corporation",
+            "product": "PH-PSE02.eu Zipato Indoor Siren"
+        }
+    }
 }

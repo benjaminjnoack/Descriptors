@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Remotec",
-    "meta": {},
-    "product": "ZFM-X10EU Dual Mode Insert Module "
+    "meta": {
+        "display": {
+            "manufacturer": "Remotec",
+            "product": "ZFM-X10EU Dual Mode Insert Module "
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGFS101 Zwave+ Flood Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGFS101 Zwave+ Flood Sensor"
+        }
+    }
 }

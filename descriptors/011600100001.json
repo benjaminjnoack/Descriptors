@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Chromagic Technologies Corporation",
-    "meta": {},
-    "product": "HAC01 Remote Button"
+    "meta": {
+        "display": {
+            "manufacturer": "Chromagic Technologies Corporation",
+            "product": "HAC01 Remote Button"
+        }
+    }
 }

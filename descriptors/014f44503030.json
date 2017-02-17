@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Linear",
-    "meta": {},
-    "product": "PD300Z-2 Plug-in Dimmer Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Linear",
+            "product": "PD300Z-2 Plug-in Dimmer Module"
+        }
+    }
 }

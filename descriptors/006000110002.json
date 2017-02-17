@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "HAN02 In-wall Switch Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "HAN02 In-wall Switch Module"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSB04100 Door/Window Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSB04100 Door/Window Sensor"
+        }
+    }
 }

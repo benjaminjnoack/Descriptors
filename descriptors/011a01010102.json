@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Enerwave",
-    "meta": {},
-    "product": "ZW15S 15A On/Off Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Enerwave",
+            "product": "ZW15S 15A On/Off Switch"
+        }
+    }
 }

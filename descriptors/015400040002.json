@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Popp",
-    "meta": {},
-    "product": "Solar Powered Outdoor Siren"
+    "meta": {
+        "display": {
+            "manufacturer": "Popp",
+            "product": "Solar Powered Outdoor Siren"
+        }
+    }
 }

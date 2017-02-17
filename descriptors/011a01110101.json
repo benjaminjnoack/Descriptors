@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Enerwave",
-    "meta": {},
-    "product": "ZW20RM 20A TR Smart Meter Duplex Receptacle"
+    "meta": {
+        "display": {
+            "manufacturer": "Enerwave",
+            "product": "ZW20RM 20A TR Smart Meter Duplex Receptacle"
+        }
+    }
 }

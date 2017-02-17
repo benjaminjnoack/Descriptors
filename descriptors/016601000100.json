@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Swiid",
-    "meta": {},
-    "product": "SwiidInter"
+    "meta": {
+        "display": {
+            "manufacturer": "Swiid",
+            "product": "SwiidInter"
+        }
+    }
 }

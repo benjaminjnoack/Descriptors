@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHADx Flush 1 Relay"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHADx Flush 1 Relay"
+        }
+    }
 }

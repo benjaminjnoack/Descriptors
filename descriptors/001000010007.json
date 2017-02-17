@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "RCS",
-    "meta": {},
-    "product": "TZ45-IHD SMUD Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "RCS",
+            "product": "TZ45-IHD SMUD Thermostat"
+        }
+    }
 }

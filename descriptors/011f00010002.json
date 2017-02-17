@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Ingersoll Rand",
-    "meta": {},
-    "product": "DWZWAVE1"
+    "meta": {
+        "display": {
+            "manufacturer": "Ingersoll Rand",
+            "product": "DWZWAVE1"
+        }
+    }
 }

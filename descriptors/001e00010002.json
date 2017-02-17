@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Homeseer",
-    "meta": {},
-    "product": "ZTroller"
+    "meta": {
+        "display": {
+            "manufacturer": "Homeseer",
+            "product": "ZTroller"
+        }
+    }
 }

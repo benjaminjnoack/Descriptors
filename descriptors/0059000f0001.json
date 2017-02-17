@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Horstmann",
-    "meta": {},
-    "product": "SWM01 Water Meter Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Horstmann",
+            "product": "SWM01 Water Meter Sensor"
+        }
+    }
 }

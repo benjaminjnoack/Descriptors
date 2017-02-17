@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Kwikset",
-    "meta": {},
-    "product": "Touchpad Electronic Deadbolt"
+    "meta": {
+        "display": {
+            "manufacturer": "Kwikset",
+            "product": "Touchpad Electronic Deadbolt"
+        }
+    }
 }

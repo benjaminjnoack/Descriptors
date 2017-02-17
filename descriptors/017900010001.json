@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ConnectHome",
-    "meta": {},
-    "product": "CH-201 Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "ConnectHome",
+            "product": "CH-201 Thermostat"
+        }
+    }
 }

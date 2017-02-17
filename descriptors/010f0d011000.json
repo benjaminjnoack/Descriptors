@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGGC001 Swipe"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGGC001 Swipe"
+        }
+    }
 }

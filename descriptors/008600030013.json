@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSC19103 Micro Smart Dimmer (2nd Edition)"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSC19103 Micro Smart Dimmer (2nd Edition)"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Cooper",
-    "meta": {},
-    "product": "RF9505-T Split Control Duplex Receptacle"
+    "meta": {
+        "display": {
+            "manufacturer": "Cooper",
+            "product": "RF9505-T Split Control Duplex Receptacle"
+        }
+    }
 }

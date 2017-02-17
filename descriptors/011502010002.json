@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Z-Wave.Me",
-    "meta": {},
-    "product": "Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Z-Wave.Me",
+            "product": "Thermostat"
+        }
+    }
 }

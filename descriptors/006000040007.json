@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "AN180 Plug-in ON/OFF Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "AN180 Plug-in ON/OFF Module"
+        }
+    }
 }

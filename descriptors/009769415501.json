@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Schlage Link",
-    "meta": {},
-    "product": "LE120 Appliance Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Schlage Link",
+            "product": "LE120 Appliance Module"
+        }
+    }
 }

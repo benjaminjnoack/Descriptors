@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qees",
-    "meta": {},
-    "product": "RETO Dimmer Plus 2013"
+    "meta": {
+        "display": {
+            "manufacturer": "Qees",
+            "product": "RETO Dimmer Plus 2013"
+        }
+    }
 }

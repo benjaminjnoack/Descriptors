@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "Energy Switch plus"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "Energy Switch plus"
+        }
+    }
 }

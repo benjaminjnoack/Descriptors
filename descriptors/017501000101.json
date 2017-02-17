@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Devolo home Control",
-    "meta": {},
-    "product": "Scene Switch MT 2652"
+    "meta": {
+        "display": {
+            "manufacturer": "Devolo home Control",
+            "product": "Scene Switch MT 2652"
+        }
+    }
 }

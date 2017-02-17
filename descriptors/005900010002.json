@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Horstmann",
-    "meta": {},
-    "product": "AS2-RF Thermostat Transmitter"
+    "meta": {
+        "display": {
+            "manufacturer": "Horstmann",
+            "product": "AS2-RF Thermostat Transmitter"
+        }
+    }
 }

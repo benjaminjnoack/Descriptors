@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHBA2 Flush 2 Relays"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHBA2 Flush 2 Relays"
+        }
+    }
 }

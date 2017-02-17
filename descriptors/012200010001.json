@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Miyakawa Electric Works",
-    "meta": {},
-    "product": "ME-D101 Electric Power Measuring Instrument"
+    "meta": {
+        "display": {
+            "manufacturer": "Miyakawa Electric Works",
+            "product": "ME-D101 Electric Power Measuring Instrument"
+        }
+    }
 }

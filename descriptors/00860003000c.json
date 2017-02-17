@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSC12104 Micro Smart Energy Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSC12104 Micro Smart Energy Switch"
+        }
+    }
 }

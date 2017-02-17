@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "SM103 Door/Window Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "SM103 Door/Window Sensor"
+        }
+    }
 }

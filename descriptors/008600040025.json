@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSD37 Range Extender"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSD37 Range Extender"
+        }
+    }
 }

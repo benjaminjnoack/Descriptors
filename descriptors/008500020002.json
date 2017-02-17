@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Fakro",
-    "meta": {},
-    "product": "ARZ Roof Window Roller Shutter"
+    "meta": {
+        "display": {
+            "manufacturer": "Fakro",
+            "product": "ARZ Roof Window Roller Shutter"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSA22 Key Fob"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSA22 Key Fob"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Linear",
-    "meta": {},
-    "product": "FS20Z Isolated Contact Fixture Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Linear",
+            "product": "FS20Z Isolated Contact Fixture Module"
+        }
+    }
 }

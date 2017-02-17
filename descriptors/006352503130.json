@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "GE",
-    "meta": {},
-    "product": "45604 Outdoor Module"
+    "meta": {
+        "display": {
+            "manufacturer": "GE",
+            "product": "45604 Outdoor Module"
+        }
+    }
 }

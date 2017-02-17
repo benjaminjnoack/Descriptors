@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Permundo",
-    "meta": {},
-    "product": "PSC132ZW Smart Mini Plug"
+    "meta": {
+        "display": {
+            "manufacturer": "Permundo",
+            "product": "PSC132ZW Smart Mini Plug"
+        }
+    }
 }

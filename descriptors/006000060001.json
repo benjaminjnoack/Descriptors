@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "ST814 Temperature and Humidity Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "ST814 Temperature and Humidity Sensor"
+        }
+    }
 }

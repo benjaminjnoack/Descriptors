@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Schlage Link",
-    "meta": {},
-    "product": "iTemp Dual Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Schlage Link",
+            "product": "iTemp Dual Sensor"
+        }
+    }
 }

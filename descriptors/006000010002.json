@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Everspring",
-    "meta": {},
-    "product": "SP814 Motion Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Everspring",
+            "product": "SP814 Motion Detector"
+        }
+    }
 }

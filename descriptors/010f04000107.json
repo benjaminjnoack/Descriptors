@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGS211 Switch 3kW"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGS211 Switch 3kW"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZP3111 Multisensor 4in1"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZP3111 Multisensor 4in1"
+        }
+    }
 }

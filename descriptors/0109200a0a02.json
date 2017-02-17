@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Vision",
-    "meta": {},
-    "product": "ZG8101 Garage Door Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Vision",
+            "product": "ZG8101 Garage Door Detector"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW116 Nano Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW116 Nano Switch"
+        }
+    }
 }

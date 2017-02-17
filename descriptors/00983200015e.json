@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "2GIG Technologies",
-    "meta": {},
-    "product": "CT50e Thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "2GIG Technologies",
+            "product": "CT50e Thermostat"
+        }
+    }
 }

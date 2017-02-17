@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "ZIR010 PIR Motion Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "ZIR010 PIR Motion Sensor"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ID Lock",
-    "meta": {},
-    "product": "ID Lock 101"
+    "meta": {
+        "display": {
+            "manufacturer": "ID Lock",
+            "product": "ID Lock 101"
+        }
+    }
 }

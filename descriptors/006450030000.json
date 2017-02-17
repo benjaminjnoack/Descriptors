@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Popp / Duwi",
-    "meta": {},
-    "product": "Static Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Popp / Duwi",
+            "product": "Static Controller"
+        }
+    }
 }

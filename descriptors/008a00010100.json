@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "myGate"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "myGate"
+        }
+    }
 }

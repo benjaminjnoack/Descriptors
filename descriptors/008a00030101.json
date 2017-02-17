@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "DHS-ZW-SNMT-01 Multi Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "DHS-ZW-SNMT-01 Multi Sensor"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "ZW130 WallMote Quad"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "ZW130 WallMote Quad"
+        }
+    }
 }

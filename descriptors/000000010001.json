@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Sigma Designs",
-    "meta": {},
-    "product": "UZB Z-Wave USB Adapter"
+    "meta": {
+        "display": {
+            "manufacturer": "Sigma Designs",
+            "product": "UZB Z-Wave USB Adapter"
+        }
+    }
 }

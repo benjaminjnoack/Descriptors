@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "DiehlControls",
-    "meta": {},
-    "product": "Dimmer Actuator"
+    "meta": {
+        "display": {
+            "manufacturer": "DiehlControls",
+            "product": "Dimmer Actuator"
+        }
+    }
 }

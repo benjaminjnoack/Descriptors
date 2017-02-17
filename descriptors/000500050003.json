@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Intermatic",
-    "meta": {},
-    "product": "HA-05C Lamp Screw In Module"
+    "meta": {
+        "display": {
+            "manufacturer": "Intermatic",
+            "product": "HA-05C Lamp Screw In Module"
+        }
+    }
 }

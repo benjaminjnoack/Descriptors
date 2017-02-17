@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Chromagic Technologies Corporation",
-    "meta": {},
-    "product": "HSM02 Mini Door/Window Detector"
+    "meta": {
+        "display": {
+            "manufacturer": "Chromagic Technologies Corporation",
+            "product": "HSM02 Mini Door/Window Detector"
+        }
+    }
 }

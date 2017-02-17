@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Philio Technology Corporation",
-    "meta": {},
-    "product": "PH-PAB01.eu Micromodule Energy Meter"
+    "meta": {
+        "display": {
+            "manufacturer": "Philio Technology Corporation",
+            "product": "PH-PAB01.eu Micromodule Energy Meter"
+        }
+    }
 }

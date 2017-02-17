@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Mcohome",
-    "meta": {},
-    "product": "MH-S411 One-load"
+    "meta": {
+        "display": {
+            "manufacturer": "Mcohome",
+            "product": "MH-S411 One-load"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHCDx Flush Shutter"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHCDx Flush Shutter"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "RZP03-1LW Binary Scene Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "RZP03-1LW Binary Scene Switch"
+        }
+    }
 }

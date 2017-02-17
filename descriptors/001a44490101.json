@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Cooper",
-    "meta": {},
-    "product": "RF9540-N All Load Dimmer Light Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Cooper",
+            "product": "RF9540-N All Load Dimmer Light Switch"
+        }
+    }
 }

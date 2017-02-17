@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Leviton",
-    "meta": {},
-    "product": "VRI10-1LX Multilevel Scene Switch"
+    "meta": {
+        "display": {
+            "manufacturer": "Leviton",
+            "product": "VRI10-1LX Multilevel Scene Switch"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Homeseer",
-    "meta": {},
-    "product": "EZMotion+ 3-in-1 Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Homeseer",
+            "product": "EZMotion+ 3-in-1 Sensor"
+        }
+    }
 }

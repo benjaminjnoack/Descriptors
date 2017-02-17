@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "Panic Button"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "Panic Button"
+        }
+    }
 }

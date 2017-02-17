@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "NodOn",
-    "meta": {},
-    "product": "CRC-3-1-00 Octan Remote"
+    "meta": {
+        "display": {
+            "manufacturer": "NodOn",
+            "product": "CRC-3-1-00 Octan Remote"
+        }
+    }
 }

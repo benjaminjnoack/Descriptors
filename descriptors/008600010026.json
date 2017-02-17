@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Aeotec",
-    "meta": {},
-    "product": "DSA38 Panic Button"
+    "meta": {
+        "display": {
+            "manufacturer": "Aeotec",
+            "product": "DSA38 Panic Button"
+        }
+    }
 }

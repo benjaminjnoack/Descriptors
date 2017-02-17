@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Popp",
-    "meta": {},
-    "product": "009303 Battery Wall Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Popp",
+            "product": "009303 Battery Wall Controller"
+        }
+    }
 }

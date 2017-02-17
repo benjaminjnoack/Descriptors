@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Mcohome",
-    "meta": {},
-    "product": "Touch Panel Switch MH-S513"
+    "meta": {
+        "display": {
+            "manufacturer": "Mcohome",
+            "product": "Touch Panel Switch MH-S513"
+        }
+    }
 }

@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Qubino",
-    "meta": {},
-    "product": "ZMNHLDx Flush PWM thermostat"
+    "meta": {
+        "display": {
+            "manufacturer": "Qubino",
+            "product": "ZMNHLDx Flush PWM thermostat"
+        }
+    }
 }

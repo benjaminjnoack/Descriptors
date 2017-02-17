@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Assa Abloy",
-    "meta": {},
-    "product": "Yale Key Free Touchscreen Deadbolt (YRD240)"
+    "meta": {
+        "display": {
+            "manufacturer": "Assa Abloy",
+            "product": "Yale Key Free Touchscreen Deadbolt (YRD240)"
+        }
+    }
 }

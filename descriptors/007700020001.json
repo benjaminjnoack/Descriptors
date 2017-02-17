@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Innovus",
-    "meta": {},
-    "product": "SmoothRemote Controller"
+    "meta": {
+        "display": {
+            "manufacturer": "Innovus",
+            "product": "SmoothRemote Controller"
+        }
+    }
 }

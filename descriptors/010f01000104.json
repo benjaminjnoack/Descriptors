@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "FIBARO System",
-    "meta": {},
-    "product": "FGD211 Universal Dimmer 500W"
+    "meta": {
+        "display": {
+            "manufacturer": "FIBARO System",
+            "product": "FGD211 Universal Dimmer 500W"
+        }
+    }
 }

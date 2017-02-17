@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Zipato",
-    "meta": {},
-    "product": "RGBW LED Bulb"
+    "meta": {
+        "display": {
+            "manufacturer": "Zipato",
+            "product": "RGBW LED Bulb"
+        }
+    }
 }

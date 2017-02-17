@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "Alarm Sound"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "Alarm Sound"
+        }
+    }
 }

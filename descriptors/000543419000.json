@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Intermatic",
-    "meta": {},
-    "product": "CA9000 PIR Occupancy Sensor"
+    "meta": {
+        "display": {
+            "manufacturer": "Intermatic",
+            "product": "CA9000 PIR Occupancy Sensor"
+        }
+    }
 }

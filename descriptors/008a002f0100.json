@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "BeNext",
-    "meta": {},
-    "product": "P1 Dongle"
+    "meta": {
+        "display": {
+            "manufacturer": "BeNext",
+            "product": "P1 Dongle"
+        }
+    }
 }

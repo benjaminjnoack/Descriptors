@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "Electronic Solutions Inc",
-    "meta": {},
-    "product": "DBMZ Motor Control"
+    "meta": {
+        "display": {
+            "manufacturer": "Electronic Solutions Inc",
+            "product": "DBMZ Motor Control"
+        }
+    }
 }

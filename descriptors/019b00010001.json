@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ThermoFloor AS",
-    "meta": {},
-    "product": "Heatit Thermostat TF 021"
+    "meta": {
+        "display": {
+            "manufacturer": "ThermoFloor AS",
+            "product": "Heatit Thermostat TF 021"
+        }
+    }
 }

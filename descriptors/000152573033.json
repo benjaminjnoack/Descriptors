@@ -1,7 +1,10 @@
 {
     "commands": {},
     "configurations": [],
-    "manufacturer": "ACT",
-    "meta": {},
-    "product": "ZRW103 Wall Switch Module"
+    "meta": {
+        "display": {
+            "manufacturer": "ACT",
+            "product": "ZRW103 Wall Switch Module"
+        }
+    }
 }
