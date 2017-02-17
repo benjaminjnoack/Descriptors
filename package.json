@@ -1,0 +1,14 @@
+{
+  "name": "descriptors",
+  "version": "1.0.0",
+  "description": "Auto build ZWave Descriptors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Noack",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  }
+}
