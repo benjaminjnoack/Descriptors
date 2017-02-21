@@ -3,22 +3,36 @@
  */
 'use strict';
 
-const CommandClass = require('./CommandClass');
+const CommandClass  = require('./CommandClass'),
+      File          = require('./File'),
+      fs            = require('fs'),
+      path          = require('path');
 
 const
   CONFIG  = 'config',
+  DESCRIPTORS_DIR = path.join(__dirname, '..', 'descriptors'),
   ID    = 'id',
   NAME  = 'name',
   TYPE  = 'type';
+
 const util = require('util');
-class Product {
-  constructor(meta) {
-    this.config = meta[CONFIG];
-    this.id = meta[ID];
-    this.name = meta[NAME];
-    this.type = meta[TYPE];
+
+class Product extends File {
+  constructor(manufacturer_meta, product_meta) {
+    super(product_meta[CONFIG]);
+
+    this.id = product_meta[ID];
+    this.manufacturer = manufacturer_meta;
+    this.name = product_meta[NAME];
+    this.type = product_meta[TYPE];
 
     this._cc = [];
+
+    // if (this.path)
+    //   this.parse();
+
+    this.log();
+    Product.writeProductFile(this.manufacturer, this);
   }
 
   get command_classes() {
@@ -29,20 +43,20 @@ class Product {
     this._cc.push(cc);
   }
 
-  get config() {
-    return this._config;
-  }
-
-  set config(config) {
-    this._config = config;
-  }
-
   get id() {
     return parseInt(this._id, 16);
   }
 
   set id(id) {
     this._id = id;
+  }
+
+  get manufacturer() {
+    return this._manufacturer;
+  }
+
+  set manufacturer(meta) {
+    this._manufacturer = meta;
   }
 
   get name() {
@@ -65,10 +79,45 @@ class Product {
     console.log(`Product: ${this.name} ${this.type} ${this.id}`);
   }
 
-  processCommandClasses(cmdCls) {
-    cmdCls.forEach((cmd) => {
-      this.command_classes = new CommandClass(cmd);
-    });
+  parse() {
+    return super.parse()
+      .then((result) => {
+        result = result[PRODUCT];
+        result = result[COMMAND_CLASS];
+      });
+  }
+
+  static categoryProductId(manufacturer, product) {
+    const id = Buffer.allocUnsafe(6);
+    id.writeUInt16BE(manufacturer.id);
+    id.writeUInt16BE(product.type, 2);
+    id.writeUInt16BE(product.id, 4);
+    return id.toString('hex');
+  }
+
+  static getTemplate(manufacturer, product) {
+    let template = {
+      commands: {},
+      // command_classes: product.command_classes,
+      configurations: [],
+      meta: {
+        display: {
+          manufacturer: manufacturer.name,
+          product: product.name
+        }
+      },
+      manufacturerId: manufacturer.id,
+      productId: product.id,
+      productTypeId: product.type
+    };
+
+    return JSON.stringify(template, null, 4);
+  }
+
+  static writeProductFile(manufacturer, product) {
+    let file = Product.categoryProductId(manufacturer, product);
+    file = `${DESCRIPTORS_DIR}/${file}.json`;
+    fs.writeFileSync(file, Product.getTemplate(manufacturer, product));
   }
 }
 

@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZDM230 Wall Dimmer Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 13104,
+    "productTypeId": 17485
 }

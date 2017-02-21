@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZDP100 Plugin Lamp Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 12336,
+    "productTypeId": 17488
 }

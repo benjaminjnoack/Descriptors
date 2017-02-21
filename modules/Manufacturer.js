@@ -3,14 +3,22 @@
  */
 'use strict';
 
+const Product = require('./Product');
+
 const
   ID    = 'id',
-  NAME  = 'name';
+  META  = '$',
+  NAME  = 'name',
+  PRODUCT  = 'Product';
 
 class Manufacturer {
-  constructor(meta) {
-    this.id = meta[ID];
-    this.name = meta[NAME];
+  constructor(manufacturer) {
+    this.meta = manufacturer[META];
+
+    if (manufacturer[PRODUCT])
+      this.products = manufacturer[PRODUCT];
+
+    this.log();
   }
 
   get id() {
@@ -27,6 +35,30 @@ class Manufacturer {
 
   set name(name) {
     this._name = name;
+  }
+
+  get meta() {
+    return this._meta;
+  }
+
+  set meta(meta) {
+    this.id = meta[ID];
+    this.name = meta[NAME];
+
+    this._meta = {
+      id: this.id,
+      name: this.name
+    };
+  }
+
+  get products() {
+    return this._products;
+  }
+
+  set products(products) {
+    this._products = products.map((product) => {
+      return new Product(this.meta, product[META]);
+    });
   }
 
   log() {

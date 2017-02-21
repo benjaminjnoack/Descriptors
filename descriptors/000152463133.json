@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "LFM-20 Relay Fixture Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 12595,
+    "productTypeId": 21062
 }

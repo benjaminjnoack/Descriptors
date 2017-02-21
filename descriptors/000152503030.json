@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZRP100 Plugin Appliance Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 12336,
+    "productTypeId": 21072
 }

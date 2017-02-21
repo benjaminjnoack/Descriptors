@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZIR010 PIR Motion Sensor"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 12592,
+    "productTypeId": 18770
 }

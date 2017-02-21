@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZDW103 Wall Dimmer Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 12339,
+    "productTypeId": 17495
 }

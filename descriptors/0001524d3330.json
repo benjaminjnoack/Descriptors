@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZRM230 Wall Appliance Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 13104,
+    "productTypeId": 21069
 }

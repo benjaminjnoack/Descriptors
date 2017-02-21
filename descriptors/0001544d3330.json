@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZTM230 Wall Transmitter Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 13104,
+    "productTypeId": 21581
 }

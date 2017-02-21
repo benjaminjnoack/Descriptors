@@ -6,5 +6,8 @@
             "manufacturer": "ACT",
             "product": "ZDW232 Wall Dimmer Module"
         }
-    }
+    },
+    "manufacturerId": 1,
+    "productId": 13106,
+    "productTypeId": 17495
 }

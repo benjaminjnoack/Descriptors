@@ -6,5 +6,8 @@
             "manufacturer": "Homeseer",
             "product": "ZTroller"
         }
-    }
+    },
+    "manufacturerId": 30,
+    "productId": 2,
+    "productTypeId": 1
 }

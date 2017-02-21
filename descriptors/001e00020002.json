@@ -6,5 +6,8 @@
             "manufacturer": "Homeseer",
             "product": "EZMotion+ 3-in-1 Sensor"
         }
-    }
+    },
+    "manufacturerId": 30,
+    "productId": 2,
+    "productTypeId": 2
 }

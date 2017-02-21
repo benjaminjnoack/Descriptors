@@ -6,5 +6,8 @@
             "manufacturer": "Homeseer",
             "product": "HSM200 Wireless Multi-Sensor"
         }
-    }
+    },
+    "manufacturerId": 30,
+    "productId": 1,
+    "productTypeId": 4
 }
