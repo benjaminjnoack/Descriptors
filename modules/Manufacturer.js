@@ -52,7 +52,7 @@ class Manufacturer {
   }
 
   get products() {
-    return this._products;
+    return this._products || [];
   }
 
   set products(products) {
@@ -63,6 +63,19 @@ class Manufacturer {
 
   log() {
     console.log(`Manufacturer: ${this.id} ${this.name}`);
+  }
+
+  parse() {
+    if (!this.products.length)
+      return Promise.resolve();
+
+    let all = [];
+
+    this.products.forEach((product) => {
+      all.push(product.parse());
+    });
+
+    return Promise.all(all);
   }
 }
 

@@ -31,15 +31,6 @@ class Product extends File {
     this._cc = [];
 
     this.log();
-
-    if (this.path) {
-      this.parse()
-        .then((result) => {
-          Product.writeProductFile(this.manufacturer, this);
-        });
-    } else {
-      Product.writeProductFile(this.manufacturer, this);
-    }
   }
 
   get command_classes() {
@@ -87,17 +78,30 @@ class Product extends File {
   }
 
   parse() {
-    return super.parse()
-      .then((result) => {
-        result = result[PRODUCT];
-        result = result[COMMAND_CLASS];
+    let result = Promise.resolve();
 
-        if (result) {
-          result.forEach(cc => {
-            this.command_classes = new CommandClass(cc);
-          });
-        }
-      });
+    result = result.then(() => {
+      if (!this.path)
+        return;
+
+      return super.parse()
+        .then((result) => {
+          result = result[PRODUCT];
+          result = result[COMMAND_CLASS];
+
+          if (result) {
+            result.forEach(cc => {
+              this.command_classes = new CommandClass(cc);
+            });
+          }
+        });
+    });
+
+    result = result.then(() => {
+      Product.writeProductFile(this.manufacturer, this);
+    });
+
+    return result;
   }
 
   static categoryProductId(manufacturer, product) {
