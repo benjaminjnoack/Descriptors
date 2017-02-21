@@ -1,5 +1,12 @@
 {
     "commands": {},
+    "command_classes": [
+        113,
+        156,
+        39,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {

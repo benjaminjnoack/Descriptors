@@ -9,10 +9,12 @@ const CommandClass  = require('./CommandClass'),
       path          = require('path');
 
 const
+  COMMAND_CLASS = 'CommandClass',
   CONFIG  = 'config',
   DESCRIPTORS_DIR = path.join(__dirname, '..', 'descriptors'),
   ID    = 'id',
   NAME  = 'name',
+  PRODUCT = 'Product',
   TYPE  = 'type';
 
 const util = require('util');
@@ -28,11 +30,16 @@ class Product extends File {
 
     this._cc = [];
 
-    // if (this.path)
-    //   this.parse();
-
     this.log();
-    Product.writeProductFile(this.manufacturer, this);
+
+    if (this.path) {
+      this.parse()
+        .then((result) => {
+          Product.writeProductFile(this.manufacturer, this);
+        });
+    } else {
+      Product.writeProductFile(this.manufacturer, this);
+    }
   }
 
   get command_classes() {
@@ -84,6 +91,12 @@ class Product extends File {
       .then((result) => {
         result = result[PRODUCT];
         result = result[COMMAND_CLASS];
+
+        if (result) {
+          result.forEach(cc => {
+            this.command_classes = new CommandClass(cc);
+          });
+        }
       });
   }
 
@@ -98,7 +111,7 @@ class Product extends File {
   static getTemplate(manufacturer, product) {
     let template = {
       commands: {},
-      // command_classes: product.command_classes,
+      command_classes: product.command_classes,
       configurations: [],
       meta: {
         display: {
