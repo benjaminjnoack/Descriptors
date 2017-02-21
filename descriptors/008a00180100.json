@@ -1,8 +1,129 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Set all configuration values to default values (factory settings).",
+                    "label": "Set to Default",
+                    "index": "1",
+                    "items": [],
+                    "type": "byte",
+                    "value": "-1"
+                },
+                {
+                    "help": "The way the Built-in Dimmer reacts when light is turned on/off with button",
+                    "label": "Control Type",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Switch own light on and send a Z-Wave message to all associated nodes (direct and external)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Don.t switch own light on but only send a Z-Wave message to associated node. (external only)",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "This parameter is used to enable the dimming option of the product. When disabled the dimming and fading routine are disabled.",
+                    "label": "Dimming enabled",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "Dimming disabled.",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Dimming enabled.",
+                            "value": "2"
+                        }
+                    ],
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "The maximum power load in watts when light is turned on, when measured higher then this value the Inline Dimmer is automatically turned off.",
+                    "label": "Maximum Power load",
+                    "index": "6",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "125"
+                },
+                {
+                    "help": "The speed of dimming when activated (manual and RF). Dim speed is 1% per value (* 10 ms)",
+                    "label": "Dimming Speed",
+                    "index": "7",
+                    "items": [],
+                    "type": "byte",
+                    "value": "3"
+                },
+                {
+                    "help": "The speed of fading up when activated (manual and RF). Fade speed is 1% per value (* 10 ms)",
+                    "label": "Fading up  Speed",
+                    "index": "8",
+                    "items": [],
+                    "type": "byte",
+                    "value": "3"
+                },
+                {
+                    "help": "A percentage that an energy value must be different compared to a previous sent value before an unsolicited meter report is sent. Minimum value = 0% (disabled report)  Maximum value = 100%",
+                    "label": "Auto meter report: percentage",
+                    "index": "11",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "2"
+                },
+                {
+                    "help": "A watt value that an energy value must be different compared to a previous sent value before an unsolicited meter report is sent. Minimum value = 0 watt  (disabled report) Maximum value = 255 watt",
+                    "label": "Auto meter report: watt",
+                    "index": "12",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "3"
+                },
+                {
+                    "help": "A time value that has to be passed compared to a previous sent value before a unsolicited meter report is sent. Minimum value = 10 seconds  Maximum value = 255 seconds",
+                    "label": "Auto meter report: time",
+                    "index": "13",
+                    "items": [],
+                    "type": "byte",
+                    "value": "20"
+                },
+                {
+                    "help": "What to do with lamp status when power applied. If 0x00: Always switch light off when power applied. If > 0x00: Switch lamp on/off depending on last known lampstatus before power was disconnected.",
+                    "label": "Last known status",
+                    "index": "14",
+                    "items": [],
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "The speed of fading up when activated (manual and RF). Fade speed is 1% per value (* 10 ms)",
+                    "label": "Fading down speed",
+                    "index": "15",
+                    "items": [],
+                    "type": "byte",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

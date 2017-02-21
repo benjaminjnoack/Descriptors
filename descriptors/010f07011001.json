@@ -1,8 +1,367 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Parameter defines device operation mode.",
+                    "label": "Operation Mode",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Door/Window Sensor or external alarm sensor",
+                            "value": "0"
+                        },
+                        {
+                            "label": "External switch",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Parameter defines state of the sensor when the magnet is close. \n\t\t\t\tIf you connect the alarm sensor, it determines the output type. \n\t\t\t\tParameter inactive in Switch Mode (parameter 1 set to 1).",
+                    "label": "DOOR/WINDOW/ALARM",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Closed",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Opened",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "This parameter defines events indicated by the visual LED indicator. \n\t\t\t\tDisabling events might extend battery life.\n\t\t\t\t0 - no indications\n\t\t\t\t1 - indication of opening/closing status change (input IN)\n\t\t\t\t2 - indication of wake up (1 x click or periodical)\n\t\t\t\t4 - indication of device tampering\t\t\t\n\t\t\t",
+                    "label": "Visual LED indications",
+                    "index": "3",
+                    "items": [],
+                    "max": "7",
+                    "min": "1",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "6"
+                },
+                {
+                    "help": "Parameter defines state of the sensor when the magnet is close. \n\t\t\t\tIf you connect the alarm sensor, it determines the output type. \n\t\t\t\tParameter inactive in Switch Mode (parameter 1 set to 1).",
+                    "label": "Range test after double click",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Parameter defines events which result in sending on/off commands to devices added to the 2nd association group. \n\t\t\t\tThese commands are sent alternately to switch the devices on and off. \n\t\t\t\tCommands represent the values of BASIC SET command frames. \n\t\t\t\tParameter is inactive in external button mode (parameter 1 set to 1). ",
+                    "label": "2nd association group triggers",
+                    "index": "10",
+                    "items": [
+                        {
+                            "label": "Switch after opening and closing",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Switch after opening",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch after closing",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Command frames sent to devices added to the 2nd association group. ",
+                    "label": "Commands sent to 2nd association group",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "ON",
+                            "value": "0"
+                        },
+                        {
+                            "label": "OFF",
+                            "value": "1"
+                        },
+                        {
+                            "label": "ON and OFF",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "The value of 0 turns OFF the device, 255 turns it ON. \n\t\t\t\tIn case of associating the Dimmer or Roller Shutter module, values 1-99 allow to set an associated device to a specified level.\t\t\t\n\t\t\t",
+                    "label": "Value of ON command frame sent to 2nd association group",
+                    "index": "12",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "255"
+                },
+                {
+                    "help": "The value of 0 turns OFF the device, 255 turns it ON. \n\t\t\t\tIn case of associating the Dimmer or Roller Shutter module, values 1-99 allow to set an associated device to a specified level.\t\t\t\n\t\t\t",
+                    "label": "Value of OFF command frame sent to 2nd association group",
+                    "index": "13",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Time period after which ON command frame will be sent.\t\t\t\n\t\t\t",
+                    "label": "Time delay of ON command frame",
+                    "index": "14",
+                    "items": [],
+                    "max": "32400",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "Time period after which OFF command frame will be sent.\t\t\t\n\t\t\t",
+                    "label": "Time delay of OFF command frame",
+                    "index": "15",
+                    "items": [],
+                    "max": "32400",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "Type of control frames transmitted to the main controller and 3rd association group Alarm. \n\t\t\t\tIf an external sensor is connected to IN input, it is possible to choose its functionality. \n\t\t\t\tOtherwise it is recommended to set this parameter to default value.",
+                    "label": "Type of sent alarm frames",
+                    "index": "20",
+                    "items": [
+                        {
+                            "label": "Door/Window Sensor (General Purpose Alarm)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Smoke sensor (Smoke Alarm)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "CO detector (CO Alarm)",
+                            "value": "2"
+                        },
+                        {
+                            "label": "CO2 detector (CO2 Alarm)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "High temperature sensor (Heat Alarm)",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Flood sensor (Water Alarm)",
+                            "value": "5"
+                        }
+                    ],
+                    "max": "5",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Time period after which a tamper alarm will be cancelled.\t\t\n\t\t\t",
+                    "label": "Delay of tamper alarm cancellation",
+                    "index": "30",
+                    "items": [],
+                    "max": "32400",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "seconds",
+                    "value": "5"
+                },
+                {
+                    "help": "Reporting cancellation of tamper alarm to the controller and 5th association group.",
+                    "label": "Reporting tamper alarm cancellation",
+                    "index": "31",
+                    "items": [
+                        {
+                            "label": "Do not send tamper cancellation report",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Send tamper cancellation report",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "This parameter defines how often the temperature will be measured. \n\t\t\t\tThe shorter the time, the more frequently the temperature will be measured, but the battery life will shorten.\t\n\t\t\t\t0 - temperature measurements disabled\n\t\t\t\t5-32400 - time in seconds\t\t\n\t\t\t",
+                    "label": "Interval of temperature measurements",
+                    "index": "50",
+                    "items": [],
+                    "max": "32400",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "seconds",
+                    "value": "300"
+                },
+                {
+                    "help": "This parameter defines the change of temperature in comparison with last reported, resulting in temperature report being sent to the main controller.\n\t\t\t\t0 - temperature reports based on threshold disabled\n\t\t\t\t1-300 - temperature threshold (0.1-30C, 0.1C step)\t\t\n\t\t\t",
+                    "label": "Temperature reports threshold",
+                    "index": "51",
+                    "items": [],
+                    "max": "300",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "10"
+                },
+                {
+                    "help": "This parameter determines how often the temperature reports will be sent to the main controller.\n\t\t\t\t0 - periodic temperature reports disabled\n\t\t\t\t5-32400 - time in seconds\t\t\n\t\t\t",
+                    "label": "Interval of temperature reports",
+                    "index": "52",
+                    "items": [],
+                    "max": "32400",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "The value to be added to the actual temperature, measured by the sensor (temperature compensation). (0,1C steps)\t\t\n\t\t\t",
+                    "label": "Temperature offset",
+                    "index": "53",
+                    "items": [],
+                    "max": "1000",
+                    "min": "-1000",
+                    "size": "4",
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Temperature alarms reported to the Z-Wave controller. \n\t\t\t\tThresholds are set in parameters 55 and 56.",
+                    "label": "Temperature alarm reports",
+                    "index": "54",
+                    "items": [
+                        {
+                            "label": "Temperature alarms disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "High temperature alarm",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Low temperature alarm",
+                            "value": "2"
+                        },
+                        {
+                            "label": "High and low temperature alarms",
+                            "value": "3"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "If temperature is higher than set value, overheat notification will be sent and high temperature scene will be triggered (if activated).\n\t\t\t\t0-1000 (0-100C, 0.1C step).\n\t\t\t",
+                    "label": "High temperature alarm threshold",
+                    "index": "55",
+                    "items": [],
+                    "max": "1000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "540"
+                },
+                {
+                    "help": "If temperature is lower than the set value, underheat notification will be sent and low temperature scene will be triggered (if activated).\n\t\t\t\t300-700 (-30-70C, 0.1C step)\n\t\t\t",
+                    "label": "Low temperature alarm threshold",
+                    "index": "56",
+                    "items": [],
+                    "max": "700",
+                    "min": "-300",
+                    "size": "2",
+                    "type": "short",
+                    "value": "40"
+                },
+                {
+                    "help": "The device can trigger scenes using scene IDs assigned to different events.\n\t\t\t\tTo deactivate all scenes set the value to 0. \n\t\t\t\tTo activate all scenes set the value to 3903.\n\t\t\t\t1    - [ID 10] opening door/window (single click).\n\t\t\t\t2    - [ID 11] closing door/window (single click).\n\t\t\t\t4    - [ID 12] holding.\n\t\t\t\t8    - [ID 13] releasing.\n\t\t\t\t16   - [ID 14] double click.\n\t\t\t\t32   - [ID 15] triple click.\n\t\t\t\t256  - [ID 50] high temperature - door/window opened.\n\t\t\t\t512  - [ID 50] high temperature - door/window closed.\n\t\t\t\t1024 - [ID 51] low temperature  - door/window opened.\n\t\t\t\t2048 - [ID 51] low temperature  - door/window closed.\n\t\t\t",
+                    "label": "Scene activation functionality",
+                    "index": "70",
+                    "items": [],
+                    "max": "3903",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Settings for broadcasting ON/OFF commands, sensor alarm and tamper alarm. \n\t\t\t\tValue other than 0 means alarms are sent in Broadcast Mode, to all devices only within the range of the device. \n\t\t\t\tThey are not repeated by the mesh network.\n\t\t\t0 - broadcasts inactive.\n\t\t\t1 - ON/OFF commands broadcast active.\n\t\t\t2 - sensor alarm broadcast active.\n\t\t\t4 - tamper alarm broadcast active.\n\t\t\t",
+                    "label": "Alarm broadcast",
+                    "index": "71",
+                    "items": [],
+                    "max": "7",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "This parameter defines how commands are sent in specified association groups: as secure or non-secure. \n\t\t\t\tParameter is active only in Z-Wave network security mode. It does not apply to 1st group Lifeline\n\t\t\t0 - none of the groups sent as secure.\n\t\t\t1 - 2nd group Control sent as secure.\n\t\t\t2 - 3rd group Alarm sent as secure.\n\t\t\t4 - 4th group Sensor ZW3 sent as secure.\n\t\t\t8 - 5th group Tamper ZW3 sent as secure.\n\t\t\t",
+                    "label": "Associations in Z-Wave network Security Mode",
+                    "index": "72",
+                    "items": [],
+                    "max": "15",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "15"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

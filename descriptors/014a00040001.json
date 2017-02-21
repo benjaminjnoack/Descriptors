@@ -1,9 +1,59 @@
 {
     "commands": {},
     "command_classes": [
-        32,
-        112,
-        133
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\t\t\tConfigures the sensor to send or not send Basic Set commands of 0x00 to nodes in Association group 2 turning the devices off when the sensor is in a restored state (i.e. motion not detected).  \n\t\t\tBy default the sensor does NOT send Basic Set commands of 0x00.\n\t\t\t",
+                    "label": "Basic Set Report when sensor is restored",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "255"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t\t\tConfigures the sensor to either to send or not to send Sensor Binary Report commands to Association Group 1 when the sensor is faulted and restored.  \n\t\t\t",
+                    "label": "Basic Set Report",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Enable Binary Reports",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Disable Binary Reports",
+                            "value": "255"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

@@ -1,7 +1,120 @@
 {
     "commands": {},
     "command_classes": [
-        112
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "How many pulses are counted per 10 kWh.",
+                    "label": "Pulse factor",
+                    "index": "1",
+                    "items": [],
+                    "max": "65535",
+                    "min": "1",
+                    "type": "short",
+                    "units": "pulses",
+                    "value": "1024"
+                },
+                {
+                    "help": "Defines the type of sensor.",
+                    "label": "Sensor type",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Pulse Meter",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Rotating Wheel",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "1",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "2"
+                },
+                {
+                    "help": "Additional time for feedback measurement.Should always be 0.",
+                    "label": "IR Listen period",
+                    "index": "3",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Adjusts transmit signal so received signal will in average be equal to this values. Auto calibration might select another value than this.",
+                    "label": "IR Pulse Width",
+                    "index": "4",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "50"
+                },
+                {
+                    "help": "Wake device up this many times per second. This value also controls number of measurements per second on mechanical meters.",
+                    "label": "Poll / Wake up frequency",
+                    "index": "5",
+                    "items": [],
+                    "max": "50",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "20"
+                },
+                {
+                    "help": "Do not use. Set this value using WAKE_UP_INTERVAL_SET instead.",
+                    "label": "Wake up interval",
+                    "index": "8",
+                    "items": [],
+                    "max": "32767",
+                    "min": "1",
+                    "type": "int",
+                    "units": "seconds",
+                    "value": "900"
+                },
+                {
+                    "help": "Current pulse count in device (pulse count / pulse factor = kWh).",
+                    "label": "Pulse count",
+                    "index": "9",
+                    "items": [],
+                    "max": "2147483647",
+                    "min": "0",
+                    "type": "int",
+                    "units": "pulses/kWh",
+                    "value": "0"
+                },
+                {
+                    "help": "How many 'ticks' before going back to sleep in normal wakeup mode.",
+                    "label": "Keep alive period",
+                    "index": "10",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "type": "int",
+                    "units": "pulses/kWh",
+                    "value": "60"
+                },
+                {
+                    "help": "Set this to enter real-time mode from remote. Contains seconds * poll frequency before going back to sleep. If you press the button once this value will be set.",
+                    "label": "Real-time mode",
+                    "index": "11",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "type": "int",
+                    "units": "pulses/kWh",
+                    "value": "0"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

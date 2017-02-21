@@ -1,7 +1,33 @@
 {
     "commands": {},
     "command_classes": [
-        112
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "If the setting is configured for 1 hour (value=720), the TZ88 will report its instant power consumption every 1 hour.",
+                    "label": "Watt meter report period",
+                    "index": "1",
+                    "items": [],
+                    "max": "32767",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "5 sec",
+                    "value": "1"
+                },
+                {
+                    "help": "If the setting is configured for 1 hour (value=6), the TZ88 will report its accumulated power consumption (kWh) every 1 hour.",
+                    "label": "kWh meter report period",
+                    "index": "2",
+                    "items": [],
+                    "max": "32767",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "10 min",
+                    "value": "6"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

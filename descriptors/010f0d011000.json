@@ -1,8 +1,346 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n                Parameter determines orientation of the Swipe in relation to its default position.\n                Required for proper gestures recognition.\n            ",
+                    "label": "Device orientation",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Default orientation",
+                            "value": "0"
+                        },
+                        {
+                            "label": "180 rotation",
+                            "value": "1"
+                        },
+                        {
+                            "label": "90 clockwise rotation",
+                            "value": "2"
+                        },
+                        {
+                            "label": "90 counter-clockwise rotation",
+                            "value": "3"
+                        }
+                    ],
+                    "max": "3",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Acoustic signalling of gestures detection.",
+                    "label": "Buzzer",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Visual indication of gestures detection",
+                    "label": "LED diode",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Acoustic signalling of gesture recognition result (using the built-in buzzer).\n                Note: Parameter 4 is relevant only if parameter 2 is set to Enabled.\n            ",
+                    "label": "Buzzer signalling result of gesture recognition",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "On successful recognition",
+                            "value": "1"
+                        },
+                        {
+                            "label": "On failed recognition",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Successful and failed recognition is signalled",
+                            "value": "3"
+                        }
+                    ],
+                    "max": "3",
+                    "min": "1",
+                    "size": "1",
+                    "type": "list",
+                    "value": "3"
+                },
+                {
+                    "help": "\n                This parameter determines how often the device checks if the USB power supply is connected and updates powering mode if needed.\n                0 - powering mode is not updated\n                1-1080 (in minutes) - time interval\n                Default : (4 minutes)\n            ",
+                    "label": "Powering mode - interval of updating the current mode",
+                    "index": "5",
+                    "items": [],
+                    "max": "1080",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "minutes",
+                    "value": "4"
+                },
+                {
+                    "help": "\n                This parameter determines operation of gesture detection when battery powered.\n                When Standby Mode is selected, hold gesture must be performed to exit power saving mode and reactivate normal gesture recognition.\n                The device in Standby Mode consumes the least battery life.\n                When Simple Mode mode is selected, gesture recognition is always active, but only slowly performed gestures will be recognized properly (high battery consumption).\n            ",
+                    "label": "Power saving mode (battery mode)",
+                    "index": "6",
+                    "items": [
+                        {
+                            "label": "Standby Mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Simple Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "The Swipe does not enter power saving mode",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "This parameter allows to choose if the menu can be entered using the Hold gesture",
+                    "label": "Hold gesture to enter the menu",
+                    "index": "7",
+                    "items": [
+                        {
+                            "label": "Enabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Disabled",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Defines which actions result in sending scenes to 1st Lifeline group\n                1 - scenes for Flick UP gesture enabled\n                2 - scenes for Flick DOWN gesture enabled\n                4 - scenes for Flick LEFT gesture enabled\n                8 - scenes for Flick RIGHT gesture enabled\n                16 - scenes for clockwise circular gesture enabled\n                32 - scenes for counter-clockwise circular gesture enabled\n                Default setting: 15\n            ",
+                    "label": "Scenes sent to the controller",
+                    "index": "10",
+                    "items": [],
+                    "size": "1",
+                    "type": "byte",
+                    "value": "15"
+                },
+                {
+                    "help": "\n                Parameter defines how commands are sent in specified association groups: as secure or non-secure.\n                Parameter is active only in Z-Wave network security mode.\n                It does not apply to 1st Lifeline association group.\n                1 - 2nd group Flick UP sent as secure\n                2 - 3rd group Flick DOWN sent as secure\n                4 - 4th group Flick LEFT sent as secure\n                8 - 5th group Flick RIGHT sent as secure\n                16 - 6th group Circular AirWheel sent as secure\n                Default setting: 31\n            ",
+                    "label": "Associations in Z-Wave network security mode",
+                    "index": "11",
+                    "items": [],
+                    "size": "1",
+                    "type": "byte",
+                    "value": "31"
+                },
+                {
+                    "help": "\n                Parameter allows to choose control mode for 2nd-5th groups and scenes.\n                By default, Toggle Mode is active, meaning that a single flick turns ON\n                the group and the same flick turns it OFF, doubled flicks are inactive.\n                After disabling Toggle Mode a single flick will turn the device ON and the same flick doubled will turn it OFF.\n                1 - Toggle Mode enabled for 2nd association group\n                2 - Toggle Mode enabled for 3rd association group\n                4 - Toggle Mode enabled for 4th association group\n                8 - Toggle Mode enabled for 5th association group\n                Default setting: 15\n            ",
+                    "label": "Control mode of 2nd-5th association groups and scenes",
+                    "index": "12",
+                    "items": [],
+                    "size": "1",
+                    "type": "byte",
+                    "value": "15"
+                },
+                {
+                    "help": "\n                Parameter allows to choose how long the hand has to be held near the center of the pad after AirWheel gesture for the associated devices to reach their maximum/minimum level.\n                0-10 - duration in seconds\n                255 - default settings of controlled devices\n            ",
+                    "label": "Rate of smooth level control",
+                    "index": "13",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "255"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch ON command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch ON control frame value for Flick UP gesture",
+                    "index": "20",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "255"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch OFF command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch OFF control frame value for Flick UP gesture",
+                    "index": "21",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch ON command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch ON control frame value for Flick DOWN gesture",
+                    "index": "22",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "255"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch OFF command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch OFF control frame value for Flick DOWN gesture",
+                    "index": "23",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch ON command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch ON control frame value for Flick LEFT gesture",
+                    "index": "24",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "255"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch OFF command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch OFF control frame value for Flick LEFT gesture",
+                    "index": "25",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch ON command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch ON control frame value for Flick RIGHT gesture",
+                    "index": "26",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "255"
+                },
+                {
+                    "help": "\n                This parameter allows to set value sent in switch OFF command frame to the association group.\n                0-99 or 255\n            ",
+                    "label": "Switch OFF control frame value for Flick RIGHT gesture",
+                    "index": "27",
+                    "items": [],
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Parameter activated by the main Z-Wave controller.\n                Change its value to launch sequence learning procedure for the desired slot.\n                0 - learning mode disabled\n                1-6 - launch sequence learning for selected slot\n            ",
+                    "label": "Sequence learning mode",
+                    "index": "30",
+                    "items": [],
+                    "max": "6",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Value containing sequence of gestures. See Sequences of gestures on page 12 for more information.\n            ",
+                    "label": "1st gestures sequence (SLOT 1)",
+                    "index": "31",
+                    "items": [],
+                    "max": "1076",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Value containing sequence of gestures. See Sequences of gestures on page 12 for more information.\n            ",
+                    "label": "2nd gestures sequence (SLOT 2)",
+                    "index": "32",
+                    "items": [],
+                    "max": "1076",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Value containing sequence of gestures. See Sequences of gestures on page 12 for more information.\n            ",
+                    "label": "3rd gestures sequence (SLOT 3)",
+                    "index": "33",
+                    "items": [],
+                    "max": "1076",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Value containing sequence of gestures. See Sequences of gestures on page 12 for more information.\n            ",
+                    "label": "4th gestures sequence (SLOT 4)",
+                    "index": "34",
+                    "items": [],
+                    "max": "1076",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Value containing sequence of gestures. See Sequences of gestures on page 12 for more information.\n            ",
+                    "label": "5th gestures sequence (SLOT 5)",
+                    "index": "35",
+                    "items": [],
+                    "max": "1076",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Value containing sequence of gestures. See Sequences of gestures on page 12 for more information.\n            ",
+                    "label": "6th gestures sequence (SLOT 6)",
+                    "index": "36",
+                    "items": [],
+                    "max": "1076",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

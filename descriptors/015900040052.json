@@ -1,10 +1,163 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133,
-        32,
-        96
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "",
+                    "label": "Input 1 switch type",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Mono-stable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 1 contact type",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Normally Open",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Normally Close",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": " Input 1 operation mode 1",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "No modification with Input 1",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1C",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2C",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco Mode",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Frost Protection",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Stop",
+                            "value": "6"
+                        }
+                    ],
+                    "max": "6",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": " Input 1 operation mode 2",
+                    "index": "12",
+                    "items": [
+                        {
+                            "label": "No modification with Input 1",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1C",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2C",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco Mode",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Frost Protection",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Stop",
+                            "value": "6"
+                        }
+                    ],
+                    "max": "6",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "4"
+                },
+                {
+                    "help": "",
+                    "label": "Saving the state of the device after a power failure",
+                    "index": "30",
+                    "items": [
+                        {
+                            "label": "Returns to the last position saved before a power failure",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Returns to off position",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 96,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

@@ -3,13 +3,17 @@
  */
 'use strict';
 
+const Value = require('./Value');
+
 const
   ID    = 'id',
-  META  = '$';
+  META  = '$',
+  VALUE = 'Value';
 
 class CommandClass {
   constructor(cc) {
     this.id = cc[META];
+    this.values = cc[VALUE];
   }
 
   get id() {
@@ -18,6 +22,33 @@ class CommandClass {
 
   set id(meta) {
     this._id = meta[ID];
+  }
+
+  get values() {
+    return this._values || [];
+  }
+
+  set values(values) {
+    this._values = values;
+  }
+
+  parse() {
+    this.values = this.values.map(value => {
+      value = new Value(value);
+      value.parse();
+      return value;
+    });
+  }
+
+  print() {
+    let values = this.values.map((value) => {
+      return value.print();
+    });
+
+    return {
+      id: this.id,
+      values: values
+    };
   }
 }
 

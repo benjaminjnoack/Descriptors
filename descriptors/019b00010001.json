@@ -1,10 +1,270 @@
 {
     "commands": {},
     "command_classes": [
-        64,
-        67,
-        112,
-        133
+        {
+            "id": 64,
+            "values": [
+                {
+                    "label": "Mode",
+                    "index": "0",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Heat (Default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Cool",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Energy Heat",
+                            "value": "11"
+                        }
+                    ],
+                    "max": "0",
+                    "min": "0",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "values": [
+                {
+                    "label": "Heating",
+                    "index": "1",
+                    "items": [],
+                    "max": "0",
+                    "min": "0",
+                    "type": "decimal",
+                    "units": "C",
+                    "value": "20"
+                },
+                {
+                    "label": "Energy Heat",
+                    "index": "11",
+                    "items": [],
+                    "max": "0",
+                    "min": "0",
+                    "type": "decimal",
+                    "units": "C",
+                    "value": "16"
+                }
+            ]
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "label": "Operation mode",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Heat",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Cool",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Energy save heat",
+                            "value": "11"
+                        }
+                    ],
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "label": "Temperature sensor",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "F  - Floor mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "A  - Room temperature mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "AF - Room mode w/floor limitations",
+                            "value": "2"
+                        },
+                        {
+                            "label": "A2 - Room temperature mode",
+                            "value": "3"
+                        },
+                        {
+                            "label": "P  - Power regulator",
+                            "value": "4"
+                        },
+                        {
+                            "label": "FP - Floor mode with minimum power limitation",
+                            "value": "5"
+                        }
+                    ],
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "label": "Floor sensor type",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "10k ntc",
+                            "value": "0"
+                        },
+                        {
+                            "label": "12k ntc",
+                            "value": "1"
+                        },
+                        {
+                            "label": "15k ntc",
+                            "value": "2"
+                        },
+                        {
+                            "label": "22k ntc",
+                            "value": "3"
+                        },
+                        {
+                            "label": "33k ntc",
+                            "value": "4"
+                        },
+                        {
+                            "label": "47k ntc",
+                            "value": "5"
+                        }
+                    ],
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "3-30 (0,2C - 3.0C)",
+                    "label": "DIFF l. Temperature control Hysteresis",
+                    "index": "4",
+                    "items": [],
+                    "max": "30",
+                    "min": "3",
+                    "size": "1",
+                    "type": "short",
+                    "value": "5"
+                },
+                {
+                    "help": "50-400 (5.0C - 40.0C)",
+                    "label": "FLo: Floor min limit",
+                    "index": "5",
+                    "items": [],
+                    "max": "400",
+                    "min": "50",
+                    "size": "1",
+                    "type": "short",
+                    "value": "50"
+                },
+                {
+                    "help": "50-400 (5.0C - 40.0C)",
+                    "label": "FHi: Floor max limit",
+                    "index": "6",
+                    "items": [],
+                    "max": "400",
+                    "min": "50",
+                    "size": "1",
+                    "type": "short",
+                    "value": "400"
+                },
+                {
+                    "help": "50-400 (5.0C - 40.0C)",
+                    "label": "ALo: Air min limit",
+                    "index": "7",
+                    "items": [],
+                    "max": "400",
+                    "min": "50",
+                    "size": "1",
+                    "type": "short",
+                    "value": "50"
+                },
+                {
+                    "help": "50-400 (5.0C - 40.0C)",
+                    "label": "AHi: Air max limit",
+                    "index": "8",
+                    "items": [],
+                    "max": "400",
+                    "min": "50",
+                    "size": "1",
+                    "type": "short",
+                    "value": "400"
+                },
+                {
+                    "help": "0-9. Min temperature in Power Regulator Mode (setting 2. Temperature sensor - P)",
+                    "label": "PLo: Min temperature in Power Reg Mode",
+                    "index": "9",
+                    "items": [],
+                    "max": "9",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "50-400 (5.0C - 40.0C)",
+                    "label": "CO mode setpoint",
+                    "index": "10",
+                    "items": [],
+                    "max": "400",
+                    "min": "50",
+                    "size": "1",
+                    "type": "short",
+                    "value": "210"
+                },
+                {
+                    "help": "50-400 (5.0C - 40.0C)",
+                    "label": "ECO mode setpoint",
+                    "index": "11",
+                    "items": [],
+                    "max": "400",
+                    "min": "50",
+                    "size": "1",
+                    "type": "short",
+                    "value": "180"
+                },
+                {
+                    "help": "0-10",
+                    "label": "P setting",
+                    "index": "12",
+                    "items": [],
+                    "max": "10",
+                    "min": "0",
+                    "size": "1",
+                    "type": "short",
+                    "value": "2"
+                },
+                {
+                    "help": "\n\t\t\t\tOnly if cooling is enabled.\n\t\t\t\t50-400 (5.0C - 40.0C)\n\t\t\t",
+                    "label": "COOL setpoint",
+                    "index": "13",
+                    "items": [],
+                    "max": "400",
+                    "min": "50",
+                    "size": "1",
+                    "type": "short",
+                    "value": "180"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

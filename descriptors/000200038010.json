@@ -1,8 +1,161 @@
 {
     "commands": {},
     "command_classes": [
-        67,
-        112
+        {
+            "id": 67,
+            "values": []
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n       Temperature Report threshold (1=0.1C)\n      ",
+                    "label": "Temperature Threshold",
+                    "index": "1",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "short",
+                    "value": "5"
+                },
+                {
+                    "help": "\n        Set-point display resolution (1=0.1C)\n      ",
+                    "label": "Setpoint resolution",
+                    "index": "2",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "short",
+                    "value": "5"
+                },
+                {
+                    "help": "\n       Min Set-point and override limit\n      ",
+                    "label": "Min/Override Setpoint",
+                    "index": "3",
+                    "items": [],
+                    "max": "10",
+                    "min": "0",
+                    "type": "short",
+                    "value": "12"
+                },
+                {
+                    "help": "\n       Max Set-point and override limit\n      ",
+                    "label": "Max/Override Setpoint",
+                    "index": "4",
+                    "items": [],
+                    "max": "40",
+                    "min": "0",
+                    "type": "short",
+                    "value": "12"
+                },
+                {
+                    "help": "\n       Setpoint control function\n      ",
+                    "label": "Setpoint control function",
+                    "index": "6",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "\n       Temporarily override scheduler\n      ",
+                    "label": "Temporarily override scheduler",
+                    "index": "7",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "\n       Setpoint type in thermostat setpoint_reports\n      ",
+                    "label": "Setpoint type",
+                    "index": "8",
+                    "items": [
+                        {
+                            "label": "Heating",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Cooling",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Auto Changeover",
+                            "value": "10"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "\n       Led on time (1=100ms)\n      ",
+                    "label": "Led on time",
+                    "index": "9",
+                    "items": [],
+                    "max": "5",
+                    "min": "1",
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "\n       Led Flash Period (0 to 65535 seconds)\n      ",
+                    "label": "Led Flash Period",
+                    "index": "5",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "short",
+                    "value": "1"
+                },
+                {
+                    "help": "\n       Number of led flashes (duration)\n      ",
+                    "label": "Number of flash",
+                    "index": "10",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "5"
+                },
+                {
+                    "help": "\n       Led Color\n      ",
+                    "label": "Led Color",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "Green",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Red",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

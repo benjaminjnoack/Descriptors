@@ -1,8 +1,104 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Sets the tamper triggering mode when removed from the holder",
+                    "label": "Siren triggering mode",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "The Siren triggers automatically when it's removed from the holder. Must be turned off, using the button or from the controller (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "The Siren triggers automatically when it's removed from the holder and turns off, when placed back on the holder",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Siren doesn't trigger at all, when removed from the holder. Service Mode",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Temperature correction. For positive value 10 = 1 C, for negative value x = 256 - (TC * 10). Example, if need shift -2.6C, value calculate: 256 - (2.6 * 10) = 230 Default: 0",
+                    "label": "Temperature adjustments",
+                    "index": "2",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "Threshold temperature to send unsolicited report. 10 = 1C",
+                    "label": "Send unsolicited temperature report",
+                    "index": "3",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "If the value is set, after N wake up number (measurement is every 4 minutes) the temperature report will be sent. By default it's 15 = every 1 hour",
+                    "label": "Send unsolicited temperature report after N wake up",
+                    "index": "4",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "15"
+                },
+                {
+                    "help": "Siren only, flash only, flash + siren",
+                    "label": "Switch mode",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "Siren only",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Flash only",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Flash + Siren (Default)",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "2"
+                },
+                {
+                    "help": "If the value is set, the siren will be switched off automatically after a defined alarm time.\n\t\t\t\t0: No auto off\n\t\t\t",
+                    "label": "Auto OFF",
+                    "index": "6",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "units": "minutes",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

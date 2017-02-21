@@ -1,8 +1,167 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n          If the setting is configured for 1hour (set value =720), the Home Control Metering Plug will report its instant power consumption every 1 hour to Group1 node. The maximum interval to report its instant power consumption is 45 hours (5s*32767/3600=45hr).\n\t  ",
+                    "label": "Watt Meter",
+                    "index": "1",
+                    "items": [],
+                    "max": "32767",
+                    "min": "1",
+                    "type": "short",
+                    "value": "720"
+                },
+                {
+                    "help": "\n          If the setting is configured for 1hour (set value =6), the Home Control Metering Plug will report its Accumulated Power Consumption (KW/h) every 1 hour to Group1 node. The maximum interval to report its Accumulated Power Consumption (KW/h) is 227.55 days (10min*32767/1440=227.55 days).\n    ",
+                    "label": "KWH Meter Report Period",
+                    "index": "2",
+                    "items": [],
+                    "max": "32767",
+                    "min": "1",
+                    "type": "short",
+                    "value": "6"
+                },
+                {
+                    "help": "\n          This is a warning when the current of load over the preset threshold value, if the setting value is 1300, when the load current of Relay1 over this value, Home Control Metering Plug will send current meter report to warn the Group1 node, the Range of the setting value is from 10 to 1300,and the default value is 1300.\n    ",
+                    "label": "Threshold of current for Load caution",
+                    "index": "3",
+                    "items": [],
+                    "max": "1300",
+                    "min": "10",
+                    "type": "short",
+                    "value": "1300"
+                },
+                {
+                    "help": "\n          This is a warning when the current of load over the preset threshold value, if the setting value is 1300, when the load current of Relay1 over this value, Home Control Metering Plug will send current meter report to warn the Group1 node, the Range of the setting value is from 10 to 1300,and the default value is 1300.\n    ",
+                    "label": "Threshold of KWh for Load caution",
+                    "index": "4",
+                    "items": [],
+                    "max": "10000",
+                    "min": "1",
+                    "type": "short",
+                    "units": "KWh",
+                    "value": "1000"
+                },
+                {
+                    "help": "\n          Whenever the AC power return from lost, Home Control Metering Plug will restore the switch state which could be SWITCH OFF, LAST SWITCH STATE, SWITCH ON. The default setting is LAST SWITCH STATE.\n      ",
+                    "label": "Restore switch state mode",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "Switch off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Last switch state",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch on",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "1"
+                },
+                {
+                    "help": "\n            When the mode of switch On/Off is set to 0, any command of switch off will be disabled and the On/Off function of include button will be disabled. The default setting is enable mode.\n      ",
+                    "label": "Mode of Switch Off function",
+                    "index": "6",
+                    "items": [
+                        {
+                            "label": "disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "enable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "1"
+                },
+                {
+                    "help": "\n          LED indication mode\n      ",
+                    "label": "LED indication mode",
+                    "index": "7",
+                    "items": [
+                        {
+                            "label": "Show Switch State:When switch is on, LED is on. When switch is off, LED is off.",
+                            "value": "1"
+                        },
+                        {
+                            "label": "When switch is on, LED is off. When switch is off, LED is on.",
+                            "value": "2"
+                        },
+                        {
+                            "label": "When the state of switch changes, LED will be on only one second, then LED keeps off.",
+                            "value": "3"
+                        }
+                    ],
+                    "max": "3",
+                    "min": "1",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "\n         Whenever Home Control Metering Plug switches to on, the auto off timer begin to count down. After the timer decrease to zero, it will switch to off automatically. However if Auto off timer is set as 0, the auto off function will be disabled. The default setting is 0.\n    ",
+                    "label": "Auto off timer",
+                    "index": "8",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "type": "short",
+                    "units": "s",
+                    "value": "0"
+                },
+                {
+                    "help": "\n          Whenever a switch off command,BASIC_SET, BINARY_SWITCH_SET, SWITCH_ALL_OFF, is received, it could be interpreted as a variety of 4 commands.\n      ",
+                    "label": "RF off command mode",
+                    "index": "9",
+                    "items": [
+                        {
+                            "label": "It switches to OFF state.",
+                            "value": "0"
+                        },
+                        {
+                            "label": "The switch off command will be ignored.",
+                            "value": "1"
+                        },
+                        {
+                            "label": "It switches to the inverse of current state.",
+                            "value": "2"
+                        },
+                        {
+                            "label": "It switches to ON state.",
+                            "value": "3"
+                        }
+                    ],
+                    "max": "3",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

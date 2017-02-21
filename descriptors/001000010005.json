@@ -1,9 +1,28 @@
 {
     "commands": {},
     "command_classes": [
-        133,
-        67,
-        112
+        {
+            "id": 133,
+            "values": []
+        },
+        {
+            "id": 67,
+            "values": []
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "label": "Autosend enable",
+                    "index": "23",
+                    "items": [],
+                    "max": "",
+                    "min": "",
+                    "type": "short",
+                    "units": ""
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

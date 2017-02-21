@@ -1,9 +1,97 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        113,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Toggle the sensor binary report value when the Water Sensor is Triggered",
+                    "label": "Sensor Binary Report Toggle",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Inverse",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Enable wake up 10 minutes when the power is switched on.",
+                    "label": "Wake Up on Power On",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Toggle the basic set value when the Water Sensor is Triggered",
+                    "label": "Basic Set Toggle",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Inverse",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "To set which command will be sent to the associated nodes when the Water Sensor is triggered.\n\t            \tBitsets:\n\t         \t1 -> Battery\n\t                4 -> Sensor Binary\n\t                8 -> Basic Set\n\t                12 -> Alarm\n\t              \tDefault setting: 0x100 (Basic Set)\n              \t\tOZW Ideal Setting: 0x1011 (Battery, Sensor Binary Report, Alarm)\n            \t    ",
+                    "label": "Report Type to Send",
+                    "index": "121",
+                    "items": [],
+                    "max": "4369",
+                    "min": "0",
+                    "type": "int",
+                    "value": "256"
+                },
+                {
+                    "help": "Reset to factory defaults.",
+                    "label": "Reset to default",
+                    "index": "255",
+                    "items": [],
+                    "type": "button",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

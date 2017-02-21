@@ -1,8 +1,58 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "You may select the dim level whenever the light is turned back ON to be either full brightness (100% dim level) or be the same as the last dim setting when the light is ON by flicking the wall switch",
+                    "label": "Dim level when light is turned ON",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Full brightness",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Last brightness setting",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t  You may change the dimming step level when you adjust the brightness by your controller/gateway.\n\t  When the value is low, dimming/brightening is gradual.\n\t  When the value is high, dimming/brightening is rapid.\n\t  ",
+                    "label": "Dimming/Brightening Step Level",
+                    "index": "9",
+                    "items": [],
+                    "max": "99",
+                    "min": "1",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "\n\t  You may change the dimming speed quicker or slower.\n\t  When the value is low, the step timing is quick.\n\t  When the value is high, the step timing is slow.\n\t  ",
+                    "label": "Dimming/Brightening Step Timing",
+                    "index": "10",
+                    "items": [],
+                    "max": "10",
+                    "min": "1",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

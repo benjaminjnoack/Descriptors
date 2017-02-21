@@ -1,9 +1,18 @@
 {
     "commands": {},
     "command_classes": [
-        32,
-        113,
-        133
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

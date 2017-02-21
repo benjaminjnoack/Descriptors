@@ -1,8 +1,105 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\t\t\tThe configuration value is a signed single byte number. This value may represent a value with no units or may represent a value such as time. 0 to 127 (decimal) represents 0 to 127 seconds of time. -128 to -1 (negative decimal numbers) represents 128 to 255 seconds as calculated by this formula.  Config value = desired time in seconds (or desired value) -256 For an example of 172 seconds: config value = 172 - 256 = -84 (decimal) or 0xAC (hex) \n\t\t  ",
+                    "label": "Delayed OFF time",
+                    "index": "1",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t\t  The amount of time in seconds the switch will turn on for when panic mode is trigered.  The configuration value is a signed single byte number. This value may represent a value with no units or may represent a value such as time. 0 to 127 (decimal) represents 0 to 127 seconds of time. -128 to -1 (negative decimal numbers) represents 128 to 255 seconds as calculated by this formula.  Config value = desired time in seconds (or desired value) -256 For an example of 172 seconds: config value = 172 - 256 = -84 (decimal) or 0xAC (hex) \n\t\t  ",
+                    "label": "Panic ON time",
+                    "index": "2",
+                    "items": [],
+                    "max": "255",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t\t  The amount of time in seconds the switch will turn off for when panic mode is triggered.  The configuration value is a signed single byte number. This value may represent a value with no units or may represent a value such as time. 0 to 127 (decimal) represents 0 to 127 seconds of time. -128 to -1 (negative decimal numbers) represents 128 to 255 seconds as calculated by this formula.  Config value = desired time in seconds (or desired value) -256 For an example of 172 seconds: config value = 172 - 256 = -84 (decimal) or 0xAC (hex) \n\t\t  ",
+                    "label": "Panic OFF time",
+                    "index": "3",
+                    "items": [],
+                    "max": "255",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t\t  Setting this to anything other than 0 will cause the value to be transmitted to devices in the association group when the switch is triggered. A setting other than 0 will likely result in undesired operation\n\t\t  ",
+                    "label": "Basic set value",
+                    "index": "4",
+                    "items": [],
+                    "max": "255",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t\t    Power up state of the device\n\t\t  ",
+                    "label": "Power Up State",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "OFF",
+                            "value": "1"
+                        },
+                        {
+                            "label": "ON",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Last state",
+                            "value": "3"
+                        }
+                    ],
+                    "max": "3",
+                    "min": "1",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "3"
+                },
+                {
+                    "help": "\n\t\t    Enables this switch to participate in panic mode\n\t\t  ",
+                    "label": "Panic mode enable",
+                    "index": "6",
+                    "items": [
+                        {
+                            "label": "OFF",
+                            "value": "1"
+                        },
+                        {
+                            "label": "ON",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "1",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

@@ -1,8 +1,77 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\r\n\t\t\t\tParameter #0 is undocumented: let us know if you know what it does!\r\n\t\t\t\tAttributes (type, units, min and max) are wild guesses, except default value.\r\n\t\t\t",
+                    "label": "Unidentified Parameter",
+                    "index": "0",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "5"
+                },
+                {
+                    "help": "\r\n\t\t\t\tOn Time sets the number of minutes that the lights stay on when\r\n\t\t\t\tmotion has not been detected.\r\n\t\t\t\tA value of 0 On Time is a special mode where the lights are\r\n\t\t\t\tconstantly sent a command to turn them on whenever motion is\r\n\t\t\t\tdetected. The device will NOT turn the lights off in this mode.\r\n\t\t\t\tNote that this mode will significantly shorten battery life.\r\n\t\t\t\tRecommended values:\r\n\t\t\t\t5 min for hallways.\r\n\t\t\t\t20 min for an office environment.\r\n\t\t\t\t60 min for a library or other room where someone may be sitting\r\n\t\t\t\tstill for a long time.\r\n\t\t\t\tThis may be inaccurate, but default for Homeseer HSM100 may actually be 3 minutes, instead of 20?\t\t\t\t\r\n\t\t\t",
+                    "label": "On Time",
+                    "index": "1",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "minutes",
+                    "value": "20"
+                },
+                {
+                    "help": "\r\n\t\t\t\tOnLevel is the value sent by the Z-Wave BASIC_SET command to all Association Group 2 nodes when motion is detected. \r\n\t\t\t\tA value of 0 will turn the lights off (not recommended).\r\n\t\t\t\tA value between 1 and 99 will set the dim level to between 1% and 99% (99% is full on).\r\n\t\t\t\tA value of -1 will turn the light on which depends on the device but most will set the dim level to the last dim setting.\r\n\t\t\t",
+                    "label": "On Level",
+                    "index": "2",
+                    "items": [],
+                    "max": "99",
+                    "min": "-1",
+                    "type": "byte",
+                    "value": "99"
+                },
+                {
+                    "help": "\r\n\t\t\t\tLiteMinutes. A Luminance report is sent to the system controller every LiteMin minutes.\r\n\t\t\t\tA value of zero turns this mode off. Luminance values can still be obtained at any time by the home control application in this mode.\r\n\t\t\t",
+                    "label": "Lite Minutes",
+                    "index": "3",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "5"
+                },
+                {
+                    "help": "\r\n\t\t\t\tTempMinutes. A Temperature report is sent to the controller every TempMin minutes.\r\n\t\t\t\tA value of zero turns this mode off. Temperature values can still be obtained at any time by polling the status of the temperature sensor.\r\n\t\t\t",
+                    "label": "Temp Minutes",
+                    "index": "4",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "5"
+                },
+                {
+                    "help": "\r\n\t\t\t\tTempAdj. TempAdj is a twos-complement number that is used to adjust the temperature reading to make it more accurate. The value is in tenths of degree Fahrenheit. The temperature reading can be adjusted by +12.7F to -12.8F. A value of 1 will adjust the temperature reading by +0.1F. A value of -1 will adjust the temperature by -0.1F. A value of 123 will adjust the temperature by +12.3F.\r\n\t\t\t",
+                    "label": "Temp Adj",
+                    "index": "5",
+                    "items": [],
+                    "max": "127",
+                    "min": "-128",
+                    "type": "byte",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

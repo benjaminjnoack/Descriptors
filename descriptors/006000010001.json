@@ -1,9 +1,84 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        32,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\tWhen Basic Set Command is sent where contains a value, the receiver will take it for consideration; for instance, if a lamp module is received the Basic Set Command of which value is decisive as to how bright of dim level of lamp modeule shall be.\n      ",
+                    "label": "Basic Set Level",
+                    "index": "1",
+                    "items": [],
+                    "max": "99",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "99"
+                },
+                {
+                    "help": "\n\tThe Detecting function can be Disabled of Enabled.\n      ",
+                    "label": "Enable/Disable Detecting",
+                    "index": "2",
+                    "items": [],
+                    "max": "3",
+                    "min": "0",
+                    "type": "bool",
+                    "value": "1"
+                },
+                {
+                    "help": "\n\t1 Means lowest sensitivity and 10 means highest.\n      ",
+                    "label": "Sensitivity Level",
+                    "index": "3",
+                    "items": [],
+                    "max": "10",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "",
+                    "value": "6"
+                },
+                {
+                    "help": "\n\tAdjust the interval of being re-triggered afer the detector has\tbeen triggered in seconds.\n      ",
+                    "label": "Re-trigger Interval Setting",
+                    "index": "4",
+                    "items": [],
+                    "max": "3600",
+                    "min": "5",
+                    "type": "byte",
+                    "units": "Seconds",
+                    "value": "180"
+                },
+                {
+                    "help": "\n\tSets minimum Lux Level of ambient illumination neccesary for Motion Detector to trigger.\n      ",
+                    "label": "Lux Level",
+                    "index": "5",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "%",
+                    "value": "10"
+                },
+                {
+                    "help": "\n\tThe duration determines how long before the module sends an Off after being triggered.\n      ",
+                    "label": "On-Off Duration",
+                    "index": "6",
+                    "items": [],
+                    "max": "3600",
+                    "min": "5",
+                    "type": "byte",
+                    "units": "Seconds",
+                    "value": "15"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

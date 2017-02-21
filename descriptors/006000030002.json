@@ -1,8 +1,70 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\t0 is off. 1 to 99 sets output level at specified value. \n255 sets output level at last memorized level\n      ",
+                    "label": "Basic Set Command value",
+                    "index": "1",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "short",
+                    "units": "",
+                    "value": "255"
+                },
+                {
+                    "help": "\n\tDelaying time to report to Group 1\n      ",
+                    "label": "Delay Time",
+                    "index": "2",
+                    "items": [],
+                    "max": "25",
+                    "min": "3",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "3"
+                },
+                {
+                    "help": "\n\tRemember the last status: 0 (do not remember) | 1 (remember)\n      ",
+                    "label": "Last Status",
+                    "index": "3",
+                    "items": [],
+                    "max": "1",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "1"
+                },
+                {
+                    "help": "\n\t0: Single Pole Double Throw (1: Toggle switch)\n      ",
+                    "label": "Switching type",
+                    "index": "4",
+                    "items": [],
+                    "max": "1",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\tOutput mode setting: 0 (dimming) | 1 (on/off)\n      ",
+                    "label": "Output Mode",
+                    "index": "5",
+                    "items": [],
+                    "max": "1",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

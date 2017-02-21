@@ -1,9 +1,69 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        113,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Set all configuration values to default values (factory settings) if set to 0xff.",
+                    "label": "Set to Default",
+                    "index": "1",
+                    "items": [],
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "To configure the time the beep is automatically turned off in seconds. 0 means disabled. 255 is endless",
+                    "label": "Feedback Time",
+                    "index": "2",
+                    "items": [],
+                    "type": "byte",
+                    "value": "16"
+                },
+                {
+                    "help": "To configure the timeout to wait for a WAKEUP_NO_MORE_INFORMATION before the error beep is automatically sound. The error beeps are fixed 8 beeps shortly after each other. 0 means disabled",
+                    "label": "Feedback Timeout",
+                    "index": "3",
+                    "items": [],
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "To configure the number of beeps per second. Every beep is fixed about 10ms.",
+                    "label": "Feedback Beeps per Second",
+                    "index": "4",
+                    "items": [],
+                    "type": "byte",
+                    "value": "2"
+                },
+                {
+                    "help": "To configure the operating mode. If any mode other then 3, that value will be reported after a get but will be handled in SW as mode 1.",
+                    "label": "The Mode",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "Mode 1: Normal operating mode.",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Mode 3: Z-Wave chip is always on to request e.g. version or manufacturer id.",
+                            "value": "3"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

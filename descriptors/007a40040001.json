@@ -1,9 +1,129 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        113,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "To configure if other radio recivers from Merten should be switched as well.",
+                    "label": "Switching additional CONNECT radio receivers",
+                    "index": "1",
+                    "items": [],
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "To configure the time the motor waits before switching direction.",
+                    "label": "Changeover delay (motor protection)",
+                    "index": "176",
+                    "items": [],
+                    "type": "byte",
+                    "value": "100"
+                },
+                {
+                    "help": "To configure input 1 of the raising time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Raising time input 1",
+                    "index": "177",
+                    "items": [],
+                    "type": "byte",
+                    "value": "100"
+                },
+                {
+                    "help": "To configure input 1 of the raising time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Raising time input 2",
+                    "index": "178",
+                    "items": [],
+                    "type": "byte",
+                    "value": "100"
+                },
+                {
+                    "help": "To configure input 1 of the lowering time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Lowering time input 1",
+                    "index": "179",
+                    "items": [],
+                    "type": "byte",
+                    "value": "100"
+                },
+                {
+                    "help": "To configure input 1 of the lowering time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Lowering time input 2",
+                    "index": "180",
+                    "items": [],
+                    "type": "byte",
+                    "value": "100"
+                },
+                {
+                    "help": "To configure use of light sensor. Default: 0 .",
+                    "label": "Light sensor",
+                    "index": "181",
+                    "items": [
+                        {
+                            "label": "0 - Auto",
+                            "value": "0"
+                        },
+                        {
+                            "label": "1 - On",
+                            "value": "1"
+                        },
+                        {
+                            "label": "2 - Off",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "To configure brightness threshold for light sensor.",
+                    "label": "Brightness threshold for light sensor",
+                    "index": "182",
+                    "items": [],
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "To configure input 1 of reaction threshold for raising shutter time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Sensor raising reaction threshold input 1",
+                    "index": "183",
+                    "items": [],
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "To configure input 2 of reaction threshold for raising shutter time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Sensor raising reaction threshold input 1",
+                    "index": "184",
+                    "items": [],
+                    "type": "byte",
+                    "value": "100"
+                },
+                {
+                    "help": "To configure input 1 of reaction threshold for lowering shutter time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Sensor lowering reaction threshold input 1",
+                    "index": "185",
+                    "items": [],
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "To configure input 2 of reaction threshold for lowering shutter time calculation (256 * Input 1 + Input 2) * 0.1 sec",
+                    "label": "Sensor lowering reaction threshold input 1",
+                    "index": "186",
+                    "items": [],
+                    "type": "byte",
+                    "value": "100"
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

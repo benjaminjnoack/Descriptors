@@ -1,10 +1,45 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        39,
-        32,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\tColor Temperature\n      ",
+                    "label": "RGB Color",
+                    "index": "1",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "50"
+                },
+                {
+                    "help": "\n        Shock sensor : 0=Maximum sensitivity ; 32=minimum sensitivity \n      ",
+                    "label": "Shock Sensor",
+                    "index": "2",
+                    "items": [],
+                    "max": "32",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "values": []
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

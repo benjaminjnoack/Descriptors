@@ -1,10 +1,71 @@
 {
     "commands": {},
     "command_classes": [
-        64,
-        67,
-        112,
-        133
+        {
+            "id": 64,
+            "values": []
+        },
+        {
+            "id": 67,
+            "values": []
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "",
+                    "label": "Temperature sensor reading",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "255"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Temperature Scale",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Celsius",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Fahrenheit",
+                            "value": "255"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n        Delta T in steps of 0.1 degree.\n      ",
+                    "label": "Temperature Delta T",
+                    "index": "3",
+                    "items": [],
+                    "type": "byte",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

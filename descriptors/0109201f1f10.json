@@ -1,11 +1,79 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        32,
-        113,
-        30,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "",
+                    "label": "Temperature unity",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Celsius",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Fahrenheit",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Threshold change in temperature to induce an automatic report.\n            1 to 50 ( Set up from 0.1C to 5C)\n            ",
+                    "label": "Temperature Reporting Threshold",
+                    "index": "2",
+                    "items": [],
+                    "max": "50",
+                    "min": "1",
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "Threshold change in humidity to induce an automatic report.\n            1 to 50 ( Set up from 1%-50%)\n            ",
+                    "label": "Humidity Reporting Threshold",
+                    "index": "3",
+                    "items": [],
+                    "max": "50",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "%",
+                    "value": "10"
+                },
+                {
+                    "help": "\n                Threshold change in luminance to induce an automatic report.\n                0 is disabled.\n                5 to 50 ( Set up from 5%-50%)\n            ",
+                    "label": "Luminance Reporting Threshold",
+                    "index": "4",
+                    "items": [],
+                    "max": "50",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "%",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 30,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

@@ -1,8 +1,75 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Watt Meter Report Period. Unit: 5 seconds.",
+                    "label": "Watt meter report period",
+                    "index": "1",
+                    "items": [],
+                    "max": "32767",
+                    "min": "1",
+                    "type": "short",
+                    "value": "720"
+                },
+                {
+                    "help": "kWH Meter Report Period. Unit: 10 minutes.",
+                    "label": "kWh meter report period",
+                    "index": "2",
+                    "items": [],
+                    "max": "32767",
+                    "min": "1",
+                    "type": "short",
+                    "value": "6"
+                },
+                {
+                    "help": "Threshold of Watt for Load Caution. Unit: 1 watt",
+                    "label": "Threshold of Watt for Load Caution",
+                    "index": "3",
+                    "items": [],
+                    "max": "1100",
+                    "min": "10",
+                    "type": "short",
+                    "value": "1100"
+                },
+                {
+                    "help": "Threshold of kWH for Load Caution. Unit: 1 kWH",
+                    "label": "Threshold of kWh for Load Caution",
+                    "index": "4",
+                    "items": [],
+                    "max": "10000",
+                    "min": "1",
+                    "type": "short",
+                    "value": "10000"
+                },
+                {
+                    "help": "External switch type: 1-> One Push button, 2->Two Push button",
+                    "label": "External switch type",
+                    "index": "5",
+                    "items": [],
+                    "max": "2",
+                    "min": "1",
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "Level report mode: 1-> Report destination level in 5s, 2-> Report 10 percent level while running",
+                    "label": "Level report mode",
+                    "index": "6",
+                    "items": [],
+                    "max": "2",
+                    "min": "1",
+                    "type": "byte",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

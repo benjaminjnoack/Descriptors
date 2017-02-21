@@ -1,8 +1,33 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Using Last Dim Setting will bring the bulb back to the last dimness setting when turning on, instead of full brightness by default.",
+                    "label": "Dim Level Memory",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Full Brightness",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Last Dim Setting",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

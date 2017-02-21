@@ -1,8 +1,43 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Enable/Disable ALL ON/OFF",
+                    "label": "Switch All",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Switch off only",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch on only",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Fully enabled (Default)",
+                            "value": "255"
+                        }
+                    ],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "255"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

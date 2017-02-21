@@ -1,9 +1,143 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        113,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Disable the door sensor alarm function.",
+                    "label": "Audio Mode",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "1"
+                        },
+                        {
+                            "label": "On",
+                            "value": "3"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "3"
+                },
+                {
+                    "help": "",
+                    "label": "Auto Relock",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "On",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Off",
+                            "value": "255"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "seconds; after successful code entry and unit unlocks, it will automatically re-lock after specified time (30 = default value)",
+                    "label": "Re-lock Time",
+                    "index": "3",
+                    "items": [],
+                    "max": "255",
+                    "min": "5",
+                    "size": "1",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "30"
+                },
+                {
+                    "help": "\n\t\t\tThe number of invalid code entries lock will accept before sending TAMPER Alarm. \n\t\t\tWhen number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)\n\t\t\t",
+                    "label": "Wrong Code Entry Limit",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "1",
+                            "value": "1"
+                        },
+                        {
+                            "label": "2",
+                            "value": "2"
+                        },
+                        {
+                            "label": "3",
+                            "value": "3"
+                        },
+                        {
+                            "label": "4",
+                            "value": "4"
+                        },
+                        {
+                            "label": "5",
+                            "value": "5"
+                        },
+                        {
+                            "label": "6",
+                            "value": "6"
+                        },
+                        {
+                            "label": "7",
+                            "value": "7"
+                        }
+                    ],
+                    "max": "7",
+                    "min": "1",
+                    "size": "1",
+                    "type": "list",
+                    "value": "5"
+                },
+                {
+                    "help": "number of seconds unit will be inoperable after number of wrong code entries is exceeded (30 = default)",
+                    "label": "Shutdown Time",
+                    "index": "7",
+                    "items": [],
+                    "max": "255",
+                    "min": "5",
+                    "size": "1",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "30"
+                },
+                {
+                    "help": "\n\t\t\tThe number of invalid code entries lock will accept before sending TAMPER Alarm. \n\t\t\tWhen number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)\n\t\t\t",
+                    "label": "Operating Mode",
+                    "index": "8",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Vacation",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Privacy",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

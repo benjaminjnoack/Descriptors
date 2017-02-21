@@ -1,10 +1,45 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        32,
-        113,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\r\n\t\t\t\tPhase Level of ON Command\r\n\t\t\t\tThe Configuration parameter that can be used to adjust the phase level of ON command is transmitted is Configuration Parameter # 1.\r\n\t\t\t\tThis parameter can be configured with the value of 0 through 127.\r\n\t\t\t\tValue 0: Set Device OFF(0x00)\r\n\t\t\t\tValue 1-99: Set Device On (1-99)\r\n\t\t\t\tValue 100-127: Set Device On to the last phase (0xFF)\r\n\t\t\t\tNote: 0xFF means the device will be on to the last phase before the device was turned off.\r\n\t\t\t\tInformation reproduced from: http://www.techstyleuk.co.uk/index_files/sp103_manual.pdf\r\n\t\t\t",
+                    "label": "ON Phase Level",
+                    "index": "1",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "\r\n\t\t\t\tEnabling/Disabling Power Saving Function (for testing)\r\n\t\t\t\tWhen no movement has been detected for 10 seconds, the SP103 will enter the power saving mode.\r\n\t\t\t\tIt can be disabled or enabled power saving function by setting Configuration Parameter # 3.\r\n\t\t\t\tThis parameter can be configured with the value of 0 through 127, where 0 means power saving being enabled and others mean power saving being disabled.\r\n\t\t\t\tPS : As long as the batteries have been refitted, the Detector will enable the power saving function automatically.\r\n\t\t\t\tInformation reproduced from: http://www.techstyleuk.co.uk/index_files/sp103_manual.pdf\r\n\t\t\t",
+                    "label": "Power Saving",
+                    "index": "3",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

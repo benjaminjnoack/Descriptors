@@ -1,8 +1,383 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "label": "Set LED indication mode",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Show switch/dimmer state",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Night mode (inverted switch state)",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Operated by Indicator Command Class (default)",
+                            "value": "3"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "3"
+                },
+                {
+                    "help": "If not zero, automatically switch off after a user defined time",
+                    "label": "Automatically switch off after",
+                    "index": "2",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "int",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the light off that would break logics; Switch on - to switch on the light on both On and Off paddle press on the remote and switch it off after some amount of time. Button off click will still work (if button operations are not disabled).",
+                    "label": "What to do on RF off command",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Switch off (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Ignore",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch on",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Switch on if load is off else switch off (v1.8)",
+                            "value": "3"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines if the dimmer shall ignore start level in StartLevelChange command despite it is specified or not.",
+                    "label": "Ignore Start Level",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "No",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes (default)",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Time to dim on button presses and Set command (if it has no duration specified). If not 0, dimming will be done smoothly to preserve bulb life.",
+                    "label": "Dimmer speed",
+                    "index": "5",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "x 10 milliseconds",
+                    "value": "30"
+                },
+                {
+                    "help": "Time to dim on button holds and StartLevel Change command (if it has no duration specified).",
+                    "label": "Dimming long speed",
+                    "index": "6",
+                    "items": [],
+                    "max": "255",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "Seconds",
+                    "value": "3"
+                },
+                {
+                    "help": "Defines if the dimmer shall set maximum light level on On command. By default on On command dimmer restores last level. This parameter allows to configure to set maximum level on second On command (if already On) or to always switch on to maximum level.",
+                    "label": "Set Maximum Light on On click",
+                    "index": "7",
+                    "items": [
+                        {
+                            "label": "No (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "If already in On state",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Always",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Time to dim on double click Off  button for Baby- Dim function. This function works only if the load is operated by single press and hold button action. If enabled, the device will wait for a click timeout to see if the second click would be pressed. This will introduce a small delay for single click commands, unprotected.",
+                    "label": "Baby Dimming Time",
+                    "index": "8",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "minutes",
+                    "value": "0"
+                },
+                {
+                    "help": "Target level on which to stop while executing Baby Dimming. Can be 0 to completely switch off the light. ",
+                    "label": "Target Dimming Level for Baby Dimming",
+                    "index": "9",
+                    "items": [],
+                    "max": "99",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "dimmer level %",
+                    "value": "0"
+                },
+                {
+                    "help": "Typical time used to differentiate click, hold, double and triple clicks.",
+                    "label": "Typical click timeout",
+                    "index": "10",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "x 10 milliseconds",
+                    "value": "50"
+                },
+                {
+                    "label": "Invert buttons",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "No (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "If disabled, the local operations by buttons will not switch the load, but only send commands to On/Off association group. In  this mode buttons are not linked with the switch anymore. They can be used separately: buttons to control remote device, switch will operate by RF commands only. ",
+                    "label": "Switch by buttons",
+                    "index": "12",
+                    "items": [
+                        {
+                            "label": "No",
+                            "value": "0"
+                        },
+                        {
+                            "label": "By single press and hold (default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "By double press and hold",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Defines which command should be sent on button single press or hold. Basic and Scene Activation commands are sent to Association group. Use Scene Controller Conf to set up Scene ID for Scene Activation. Switch All commands are sent broadcast.",
+                    "label": "Action on button single press or hold",
+                    "index": "13",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Send Basic Set and Switch Multilevel (v1.8)",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Send Basic Set",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Send Switch All",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Send Scenes (v1.8)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Send Preconfigured Scenes (v1.8)",
+                            "value": "5"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "4"
+                },
+                {
+                    "help": "Defines which command should be sent on button double press or press-hold. Basic and Scene Activation commands are sent to Association group. Use Scene Controller Conf to set up Scene ID for Scene Activation. Switch All commands are sent broadcast. If not disabled, the device will wait for a click timeout to see if the second click would be pressed. This will introduce a small delay for single click commands.",
+                    "label": "Action on button double press or hold",
+                    "index": "14",
+                    "items": [
+                        {
+                            "label": "Disabled (don't wait for double click,default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Send Basic Set and Switch Multilevel (v1.8)",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Send Basic Set",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Send Switch All",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Send Scenes (v1.8)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Send Preconfigured Scenes (v1.8)",
+                            "value": "5"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "label": "Send the following Switch All commands",
+                    "index": "15",
+                    "items": [
+                        {
+                            "label": "Switch All Off only (default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On only",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On and Off",
+                            "value": "255"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "label": "Limit minimal light level (v1.8)",
+                    "index": "17",
+                    "items": [],
+                    "max": "95",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "dimmer level %",
+                    "value": "1"
+                },
+                {
+                    "help": "Maximum level should be greater than minimal level. Set to 0 to work as a switch (off or full on only), or set to 10 - 99",
+                    "label": "Limit maximal light level (v1.8)",
+                    "index": "18",
+                    "items": [],
+                    "max": "99",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "dimmer level %",
+                    "value": "99"
+                },
+                {
+                    "help": "Set to 0 to use previous light level, or set to 1 - 99",
+                    "label": "Switch On on a defined level (v1.8)",
+                    "index": "19",
+                    "items": [],
+                    "max": "99",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "dimmer level %",
+                    "value": "0"
+                },
+                {
+                    "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 1. For other bulbs use default value.",
+                    "label": "Pause before pulse (v1.8)",
+                    "index": "51",
+                    "items": [],
+                    "max": "60",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "x 10/156 milliseconds",
+                    "value": "28"
+                },
+                {
+                    "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 40. For other bulbs use default value.",
+                    "label": "Pause after pulse (v1.8)",
+                    "index": "52",
+                    "items": [],
+                    "max": "60",
+                    "min": "5",
+                    "type": "byte",
+                    "units": "x 10/156 milliseconds",
+                    "value": "28"
+                },
+                {
+                    "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 20. For other bulbs use default value.",
+                    "label": "Pulse width (v1.8)",
+                    "index": "53",
+                    "items": [],
+                    "max": "20",
+                    "min": "3",
+                    "type": "byte",
+                    "units": "x 10/156 milliseconds",
+                    "value": "10"
+                },
+                {
+                    "help": "NB: Do not touch these settings if you are not sure what they mean!",
+                    "label": "Pulse type (v1.8)",
+                    "index": "54",
+                    "items": [
+                        {
+                            "label": "Long pulse",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Short pulse",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

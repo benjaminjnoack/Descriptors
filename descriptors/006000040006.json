@@ -1,8 +1,108 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\tSet Basic Set Command value to be sent to group 2 when switch is turned on.\n\n\tWhen the physical button on the mini-plug is used to turn OFF the switch the value \"0\" will always be sent to group 2,\n\thowever this is not the case when the switch is turned off remotely.\n\t    ",
+                    "label": "Basic Set Command",
+                    "index": "1",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "",
+                    "value": "255"
+                },
+                {
+                    "help": "\n                The delaying time to report to Group 1\n            ",
+                    "label": "Delay",
+                    "index": "2",
+                    "items": [],
+                    "max": "25",
+                    "min": "3",
+                    "size": "1",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "3"
+                },
+                {
+                    "help": "\n                Remember the last status on plug\n            ",
+                    "label": "Remember Last",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Do not remember",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Remember",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "1"
+                },
+                {
+                    "help": "Set the interval for wattage auto report (0 = disabled)",
+                    "label": "Wattage Auto Report",
+                    "index": "4",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "minutes",
+                    "value": "1"
+                },
+                {
+                    "help": "Set the interval for kWh auto report (0 = disabled)",
+                    "label": "Energy Auto report",
+                    "index": "5",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "minutes",
+                    "value": "60"
+                },
+                {
+                    "help": "Auto report is sent when load surpasses the set value of wattage (0 = disabled)",
+                    "label": "Value of Wattage surpassed",
+                    "index": "6",
+                    "items": [],
+                    "max": "2500",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "watts",
+                    "value": "0"
+                },
+                {
+                    "help": "Auto report is sent when the change of wattage surpasses the set percentage (0 = disabled)",
+                    "label": "Change of Wattage surpassed",
+                    "index": "7",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "size": "2",
+                    "type": "byte",
+                    "units": "%",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

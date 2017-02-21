@@ -1,8 +1,59 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Sets when the LED on the switch is lit.",
+                    "label": "LED Light",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "LED on when light off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED on when light on",
+                            "value": "1"
+                        },
+                        {
+                            "label": "LED always off",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Change the top of the switch to OFF and the bottom of the switch to ON, if the switch was installed upside down.",
+                    "label": "Invert Switch",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "No",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

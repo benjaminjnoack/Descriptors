@@ -1,7 +1,20 @@
 {
     "commands": {},
     "command_classes": [
-        112
+        {
+            "id": 112,
+            "values": [
+                {
+                    "label": "Load Sense",
+                    "index": "29",
+                    "items": [],
+                    "max": "1",
+                    "min": "0",
+                    "type": "bool",
+                    "units": ""
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

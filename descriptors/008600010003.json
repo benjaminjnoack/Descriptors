@@ -1,11 +1,189 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        38,
-        132,
-        133,
-        155
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Default Mode 0 The button on the Minimote uses the factory default functions for operation instead of any special functionality related to the below modes. Scene Mode 1 The button on the Minimote executes a scene from data received for Parameters Numbers 0-239 related to the button being pressed. Add Mode 2 The button on the Minimote is able to include/add devices into the Z-Wave network. Remove Mode 3 The button on the Minimote is able to remove devices from the Z-Wave network. Association Mode 4 The button on the Minimote is able to associate one device to another. Learn Mode 5 The button on the Minimote is able to allow the Minimote to be included into other Z-Wave networks and to learn Z-Wave network information.",
+                    "label": "Button #1 Programmable",
+                    "index": "241",
+                    "items": [
+                        {
+                            "label": "Default Mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Add Mode",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Remove Mode",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Association Mode",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Learn Mode",
+                            "value": "5"
+                        }
+                    ],
+                    "max": "5",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "label": "Button #2 Programmable",
+                    "index": "242",
+                    "items": [
+                        {
+                            "label": "Default Mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Add Mode",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Remove Mode",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Association Mode",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Learn Mode",
+                            "value": "5"
+                        }
+                    ],
+                    "max": "5",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "label": "Button #3 Programmable",
+                    "index": "243",
+                    "items": [
+                        {
+                            "label": "Default Mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Add Mode",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Remove Mode",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Association Mode",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Learn Mode",
+                            "value": "5"
+                        }
+                    ],
+                    "max": "5",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "label": "Button #4 Programmable",
+                    "index": "244",
+                    "items": [
+                        {
+                            "label": "Default Mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Add Mode",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Remove Mode",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Association Mode",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Learn Mode",
+                            "value": "5"
+                        }
+                    ],
+                    "max": "5",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n        Enable selective Group Mode or Scene Mode when Button is in Use.\n        NOTE: Minimote firmware 1.17 or higher is required, firmware 1.19 is highly recommended.",
+                    "label": "Mode",
+                    "index": "250",
+                    "items": [
+                        {
+                            "label": "Group",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "values": []
+        },
+        {
+            "id": 132,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        },
+        {
+            "id": 155,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

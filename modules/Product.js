@@ -34,7 +34,7 @@ class Product extends File {
   }
 
   get command_classes() {
-    return this._cc.map((cc) => { return cc.id });
+    return this._cc.map((cc) => { return cc.print() });
   }
 
   set command_classes(cc) {
@@ -91,7 +91,9 @@ class Product extends File {
 
           if (result) {
             result.forEach(cc => {
-              this.command_classes = new CommandClass(cc);
+              cc = new CommandClass(cc);
+              cc.parse();
+              this.command_classes = cc;
             });
           }
         });

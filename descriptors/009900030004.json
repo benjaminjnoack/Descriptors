@@ -1,11 +1,141 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        96,
-        113,
-        135,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Consumer variation required to send notification.\n\t  From 1 to 100, default 10",
+                    "label": "Power delta",
+                    "index": "0",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "%",
+                    "value": "10"
+                },
+                {
+                    "help": "After how many minutes the GreenWave device should start flashing if the controller didn't communicate with this device",
+                    "label": "No communication light",
+                    "index": "1",
+                    "items": [],
+                    "max": "255",
+                    "min": "1",
+                    "type": "byte",
+                    "value": "2"
+                },
+                {
+                    "help": "The room color (Corner wheel color) on the GreenWave device",
+                    "label": "Room color",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Black (empty)",
+                            "value": "128"
+                        },
+                        {
+                            "label": "Green (1)",
+                            "value": "129"
+                        },
+                        {
+                            "label": "Dark Blue (2)",
+                            "value": "130"
+                        },
+                        {
+                            "label": "Red (3)",
+                            "value": "131"
+                        },
+                        {
+                            "label": "Yellow (4)",
+                            "value": "132"
+                        },
+                        {
+                            "label": "Purple (5)",
+                            "value": "133"
+                        },
+                        {
+                            "label": "Orange (6)",
+                            "value": "134"
+                        },
+                        {
+                            "label": "Light Blue (7)",
+                            "value": "135"
+                        },
+                        {
+                            "label": "Pink (8)",
+                            "value": "136"
+                        },
+                        {
+                            "label": "Locked",
+                            "value": "137"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list"
+                },
+                {
+                    "help": "Relais state after a power loss",
+                    "label": "Power on relay",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "All OFF",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Remember last state",
+                            "value": "1"
+                        },
+                        {
+                            "label": "All ON",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "2"
+                },
+                {
+                    "help": "Enable/Disable the LED on network error",
+                    "label": "LED on network error",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "values": []
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 135,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

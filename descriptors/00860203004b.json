@@ -1,8 +1,288 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n      Configuration Value 1: 1-255\n      Configuration Value 1  is to Specify the time that Smart Switch need blink, The unit is Second;\n      Configuration Value 2: 1-255\n      Configuration Value 2  is to Specify the Cycle of on/off, the unit of it is 0.1 second.\n      ",
+                    "label": "Blinking behavior",
+                    "index": "2",
+                    "items": [],
+                    "max": "65535",
+                    "min": "257",
+                    "size": "2",
+                    "type": "short",
+                    "units": "",
+                    "value": "3850"
+                },
+                {
+                    "help": "Load will be closed when the Current overruns (EU 16.2A) for more than 2 minutes",
+                    "label": "Current Overload Protection",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Deactivate Overload Protection (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Active Overload Protection",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Configure the output load status after re-power on.",
+                    "label": "Output Load Status",
+                    "index": "20",
+                    "items": [
+                        {
+                            "label": "Last status (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Always on",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Always off",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines the automated status notification of an associated device when status changes",
+                    "label": "Notification status",
+                    "index": "80",
+                    "items": [
+                        {
+                            "label": "Nothing",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Hail",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Basic",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "label": "Configure the state of the LED",
+                    "index": "81",
+                    "items": [
+                        {
+                            "label": "The LED will follow the status (on/off) of its load. (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "When the state of the Switch changes, the LED will follow the status (on/off) of its load, but the LED will turn off after 5 seconds.",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Enable/disable Wattage threshold and percent.",
+                    "label": "Enables/disables parameter 91/92",
+                    "index": "90",
+                    "items": [],
+                    "type": "bool",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "The value represents the minimum change in wattage for a Report to be sent (default 25 W)",
+                    "label": "Minimum Change to send Report (Watt)",
+                    "index": "91",
+                    "items": [],
+                    "max": "32000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "watts",
+                    "value": "25"
+                },
+                {
+                    "help": "The value represents the minimum percentage change in wattage for a Report to be sent (Default 5)",
+                    "label": "Minimum Change to send Report (%)",
+                    "index": "92",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "%",
+                    "value": "5"
+                },
+                {
+                    "help": "Set report types for groups 1, 2 and 3 to default.",
+                    "label": "Default Group Reports",
+                    "index": "100",
+                    "items": [],
+                    "type": "button",
+                    "units": ""
+                },
+                {
+                    "help": "\n          Defines the type of report sent for reporting group 1.\n          1 is meter report for voltage.\n          2 is meter report for current.\n          4 is meter report for watts.\n          8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n          bit 3 kWh\n          bit 2 watt\n          bit 1 current\n          bit 0 voltage\n      ",
+                    "label": "Report type sent in Reporting Group 1",
+                    "index": "101",
+                    "items": [],
+                    "type": "int",
+                    "units": "",
+                    "value": "4"
+                },
+                {
+                    "help": "\n          Defines the type of report sent for reporting group 2.\n          1 is meter report for voltage.\n          2 is meter report for current.\n          4 is meter report for watts.\n          8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n          bit 3 kWh\n          bit 2 watt\n          bit 1 current\n          bit 0 voltage\n      ",
+                    "label": "Report type sent in Reporting Group 2",
+                    "index": "102",
+                    "items": [],
+                    "type": "int",
+                    "units": "",
+                    "value": "8"
+                },
+                {
+                    "help": "\n          Defines the type of report sent for reporting group 3.\n          1 is meter report for voltage.\n          2 is meter report for current.\n          4 is meter report for watts.\n          8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n          bit 3 kWh\n          bit 2 watt\n          bit 1 current\n          bit 0 voltage\n      ",
+                    "label": "Report type sent in Reporting Group 3",
+                    "index": "103",
+                    "items": [],
+                    "type": "int",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Set time interval for sending reports for groups 1, 2 and 3 to default.",
+                    "label": "Set 111-113 to default",
+                    "index": "110",
+                    "items": [],
+                    "type": "button",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines the time interval when the defined report for group 1 is sent.",
+                    "label": "Send Interval for Reporting Group 1",
+                    "index": "111",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "int",
+                    "units": "seconds",
+                    "value": "600"
+                },
+                {
+                    "help": "Defines the time interval when the defined report for group 2 is sent.",
+                    "label": "Send Interval for Reporting Group 2",
+                    "index": "112",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "int",
+                    "units": "seconds",
+                    "value": "600"
+                },
+                {
+                    "help": "Defines the time interval when the defined report for group 3 is sent.",
+                    "label": "Send Interval for Reporting Group 3",
+                    "index": "113",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "int",
+                    "units": "seconds",
+                    "value": "600"
+                },
+                {
+                    "help": "Partner ID",
+                    "label": "Partner ID",
+                    "index": "200",
+                    "items": [
+                        {
+                            "label": "Aeon Labs Standard (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "AT&T",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Enable/disable Configuration Locked",
+                    "label": "Configuration Locked",
+                    "index": "252",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Device tag.",
+                    "label": "Device tag",
+                    "index": "254",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "short",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Reset to the default configuration.",
+                    "label": "Reset device",
+                    "index": "255",
+                    "items": [],
+                    "type": "button",
+                    "units": ""
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

@@ -1,8 +1,36 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n                Bit 0: KWH Report\n                Bit 1: Voltage Report\n                Bit 2: Current Report\n                Bit 3: Watt Report\n                (Bit Set to 1: enable 0:disable)\n            ",
+                    "label": "Report",
+                    "index": "2",
+                    "items": [],
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "0 to 65535 second.\n            ",
+                    "label": "Interval time",
+                    "index": "3",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "second",
+                    "value": "600"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

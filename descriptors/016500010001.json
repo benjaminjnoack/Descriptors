@@ -1,8 +1,256 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "After Power-On-Reset of the device, the Channel Output State is set in Default State",
+                    "label": "Default State",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Channel output state OFF",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Channel output state ON",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Channel output state remembers previous state",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "2"
+                },
+                {
+                    "help": "\n                This parameter allows unsolicited Notification Report Commands and/or Basic Set Commands to be sent when a power failure detection and/or a power failure recover occurs. Only the four least significant bits can be addressed.\n                \n                Bit 0: Enable or disable power failure detection and recover. Setting this bit to 1 automatically allows the product to send unsolicited report through Lifeline. If this bit is not set, it is not possible to enable Association Group 4, 5 and 6. Consequently, if a Configuration Set Command is received, enabling one or more Association Groups (4, 5 and / or 6), this bit will be automatically set.\n                Bit 1: Enable or disable unsolicited Notification Report: Power Management - AC disconnected Command and Notification Report: Power Management - AC re-connected Command sent to associated nodes of Group 4, when, respectively, power failure is detected or power failure is recovered.\n                Bit 2: Enable or disable Basic Set ON Command sent to associated nodes of Group 5, when power failure is detected.\n                Bit 3: Enable or disable Basic Set OFF Command sent to associated nodes of Group 6, when power failure is detected.\n                Bit 4: Enable or disable Basic Set ON Command sent to associated nodes of Group 7, when power recover is detected.\n                Bit 5: Enable or disable Basic Set OFF Command sent to associated nodes of Group 8, when power recover is detected.\n            ",
+                    "label": "Power Failure",
+                    "index": "2",
+                    "items": [],
+                    "max": "63",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                This parameter allows Basic Set Commands to be sent when the channel output state changes (ON or OFF). Only the two least significant bits can be addressed.\n                Bit 0: Enable or disable Basic Set Commands sent to associated nodes of Group 2, when Channel Output State changes.\n                Bit 1: Enable or disable Basic Set Commands sent to associated nodes of Group 3, when Channel Output State changes.\n            ",
+                    "label": "Follow State",
+                    "index": "3",
+                    "items": [],
+                    "max": "3",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "3"
+                },
+                {
+                    "help": "This parameter forces the channel output state to be always ON. It is not possible to turn OFF the channel output, which means that:\n                * All Switch OFF Command is rejected\n                * Basic Set OFF Command is rejected\n                * Binary Switch OFF Command is rejected\n                * Local Control does not toggle channel output state\n                * Product cannot be triggered by unsolicited Notification Report Command and enters in Alarm Mode",
+                    "label": "Always ON",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "Channel output state always ON disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Channel output state always ON enable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 1 Type",
+                    "index": "5",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 1 Parameters",
+                    "index": "6",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 2 Type",
+                    "index": "7",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 2 Parameters",
+                    "index": "8",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 3 Type",
+                    "index": "9",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 3 Parameters",
+                    "index": "10",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 4 Type",
+                    "index": "11",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 4 Parameters",
+                    "index": "12",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 5 Type",
+                    "index": "13",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 5 Parameters",
+                    "index": "14",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 6 Type",
+                    "index": "15",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 6 Parameters",
+                    "index": "16",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 7 Type",
+                    "index": "7",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 7 Parameters",
+                    "index": "18",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 8 Type",
+                    "index": "19",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "see Appendix C - Description of Alarm Parameters",
+                    "label": "Alarm 8 Parameters",
+                    "index": "20",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "size": "4",
+                    "type": "short",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

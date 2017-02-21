@@ -1,8 +1,299 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "After Power-On-Reset of the device, the Channel Output State is set in Default State",
+                    "label": "Default State",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Channel output state OFF",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Channel output state ON",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Channel output state remembers previous state",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "2"
+                },
+                {
+                    "help": "\n                This parameter allows Basic Set Commands to be sent when the channel output state changes (ON or OFF). Only the two least significant bits can be addressed.\n                Bit 0: Enable or disable Basic Set Commands sent to associated nodes of Group 2, when Channel Output State changes.\n                Bit 1: Enable or disable Basic Set Commands sent to associated nodes of Group 3, when Channel Output State changes.\n            ",
+                    "label": "Follow State",
+                    "index": "3",
+                    "items": [],
+                    "max": "3",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "3"
+                },
+                {
+                    "help": "This parameter forces the channel output state to be always ON. It is not possible to turn OFF the channel output, which means that:\n                * All Switch OFF Command is rejected\n                * Basic Set OFF Command is rejected\n                * Binary Switch OFF Command is rejected\n                * Local Control does not toggle channel output state\n                * Product cannot be triggered by unsolicited Notification Report Command and enters in Alarm Mode",
+                    "label": "Always ON",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "Channel output state always ON disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Channel output state always ON enable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 1",
+                    "index": "5",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 1 behavior",
+                    "index": "6",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 2",
+                    "index": "7",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 2 behavior",
+                    "index": "8",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 3",
+                    "index": "9",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 3 behavior",
+                    "index": "10",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 4",
+                    "index": "11",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 4 behavior",
+                    "index": "12",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 5",
+                    "index": "13",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 5 behavior",
+                    "index": "14",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 6",
+                    "index": "15",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 6 behavior",
+                    "index": "16",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 7",
+                    "index": "17",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 7 behavior",
+                    "index": "18",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 8",
+                    "index": "19",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
+                    "label": "Parameter Alarm 8 behavior",
+                    "index": "20",
+                    "items": [],
+                    "type": "int",
+                    "value": "0"
+                },
+                {
+                    "help": "0 is disabled. 1-100 sends report on x% variation",
+                    "label": "Auto Power Report",
+                    "index": "21",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "10"
+                },
+                {
+                    "help": "0 is disabled. 1-4000 sends report on x W overload",
+                    "label": "Overload Report",
+                    "index": "22",
+                    "items": [],
+                    "max": "4000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "2000"
+                },
+                {
+                    "help": "0 is disabled. 1-65535 sends report every x seconds",
+                    "label": "Auto Energy Report",
+                    "index": "23",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "1000"
+                },
+                {
+                    "help": "0 is disabled. 1-65535 sends report every x seconds",
+                    "label": "Metering Heartbeat",
+                    "index": "24",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "3600"
+                },
+                {
+                    "help": "0 is disabled. 1-65535 x W",
+                    "label": "Power High Treshold",
+                    "index": "25",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "20"
+                },
+                {
+                    "help": "0 is disabled. 1-65535 x W",
+                    "label": "Power Low Treshold",
+                    "index": "26",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "5"
+                },
+                {
+                    "help": "0 disbaled. 1 Send Off to group 4. 3 Send On to group 4. 4 Send Off to group 5. 12 Send On to group 5. Values can be summed",
+                    "label": "Power Low Treshold",
+                    "index": "27",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

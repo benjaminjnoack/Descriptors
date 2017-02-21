@@ -1,9 +1,41 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        32,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n        The Basic Set Command is sent with value to have the receiving device recognize the value for controlled level, for example, if the Basic Set Command sent to dimmer with value, the dimmer would activate the luminance according to the value\n        0 : Off\n        1 - 99 : On\n      ",
+                    "label": "Basic Set Level",
+                    "index": "1",
+                    "items": [],
+                    "max": "99",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "99"
+                },
+                {
+                    "help": "\n        This is applied to determine the delay time setting to send the Basic Set Off command when the manual switch input at NO (open)\n        0 : immediately Off\n        1 - 127 : delay 1 - 127 second to Off\n      ",
+                    "label": "Amount of delay",
+                    "index": "2",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "bool",
+                    "units": "second",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

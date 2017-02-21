@@ -1,7 +1,38 @@
 {
     "commands": {},
     "command_classes": [
-        112
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "In night-light mode the LED on the switch will turn ON when the switch is turned OFF, instead of folliwng the state of the load.",
+                    "label": "LED Mode",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Night-light",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
+                    "label": "Invert Switch",
+                    "index": "4",
+                    "items": [],
+                    "size": "1",
+                    "type": "bool",
+                    "value": "False"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

@@ -1,8 +1,60 @@
 {
     "commands": {},
     "command_classes": [
-        64,
-        67
+        {
+            "id": 64,
+            "values": [
+                {
+                    "label": "Mode",
+                    "index": "0",
+                    "items": [
+                        {
+                            "label": "Frost Protection",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Comfort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Energy Saving",
+                            "value": "11"
+                        },
+                        {
+                            "label": "Direct Valve Control",
+                            "value": "31"
+                        }
+                    ],
+                    "type": "list"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "values": [
+                {
+                    "label": "Frost protection setpoint",
+                    "index": "0",
+                    "items": [],
+                    "type": "decimal",
+                    "units": "C"
+                },
+                {
+                    "label": "Comfort setpoint",
+                    "index": "1",
+                    "items": [],
+                    "type": "decimal",
+                    "units": "C"
+                },
+                {
+                    "label": "Energy saving setpoint",
+                    "index": "11",
+                    "items": [],
+                    "type": "decimal",
+                    "units": "C"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

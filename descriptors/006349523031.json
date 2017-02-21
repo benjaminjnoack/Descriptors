@@ -1,7 +1,29 @@
 {
     "commands": {},
     "command_classes": [
-        112
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "In night-light mode the LED on the switch will turn ON when the switch is turned OFF.",
+                    "label": "Night Light",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "No",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

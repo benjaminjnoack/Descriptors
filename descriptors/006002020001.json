@@ -1,10 +1,56 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        32,
-        113,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\t\t\t\tDefines the level in the event sent when the sensor is triggered.  Default is 99 (full brightness for a Z-Wave dimmer). 100-127 will set device on to the last value it was when turned off.\n\t\t\t",
+                    "label": "On Level",
+                    "index": "1",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "99"
+                },
+                {
+                    "help": "\n\t\t\t\tOn Time sets the number of seconds the sensor stays alerted before the off event is sent.\n\t\t\t",
+                    "label": "Off Time",
+                    "index": "2",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "seconds",
+                    "value": "1"
+                },
+                {
+                    "help": "\n\t\t\t  \tEnable/Disable power saving mode. 0 enables.\n\t\t\t",
+                    "label": "Power Saving",
+                    "index": "3",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

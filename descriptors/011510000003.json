@@ -1,8 +1,295 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "label": "Set LED indication mode",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Show switch/dimmer state / when in motion or inactive (for blinds)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Night mode (inverted switch state)",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Operated by Indicator Command Class (default)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Show if not closed (for blinds only)",
+                            "value": "4"
+                        }
+                    ],
+                    "max": "99",
+                    "min": "1",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "3"
+                },
+                {
+                    "help": "If not zero, automatically switch off/close blind after a user defined time",
+                    "label": "Automatically open or close after",
+                    "index": "2",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "int",
+                    "units": "seconds",
+                    "value": "0"
+                },
+                {
+                    "help": "If not zero, automatically switch off/close blind after a user defined time",
+                    "label": "What to do on RF off command",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Switch off (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Ignore",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch on",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Time to go from opened to closed state. Used to estimate the current level. Note that in Permanent motion mode the reported value would a be Closed or Opened, while all Basic and Multilevel Set values (1-99, 255) would Open except 0 value that would Close.",
+                    "label": "Full close time",
+                    "index": "4",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "units": "Second",
+                    "value": "60"
+                },
+                {
+                    "help": "Time to go from closed to open state. This value may differ from Full close time for some blinds due to gravity. Used to estimate the current level. Note that in Permanent motion mode the reported value would a be Closed or Opened, while all Basic and Multilevel Set values (1-99, 255) would Open except 0 value that would Close.",
+                    "label": "Full open time",
+                    "index": "5",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "units": "Second",
+                    "value": "60"
+                },
+                {
+                    "help": "Id of the device which commands would be interpreted not as Open/Close, but as block/unblock. Usefull with door opening detector: if the door is open, block the blind not to break shades while they move.",
+                    "label": "Node Id of the blocking device",
+                    "index": "6",
+                    "items": [],
+                    "max": "232",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines which command from blocking device to interpret as closed door and hence, unprotected.",
+                    "label": "On which command from blocking node to enable the protection",
+                    "index": "7",
+                    "items": [
+                        {
+                            "label": "on On (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "on Off",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines behaviour on open press while closing and vice versa. To allow Stop behavior when switched by remote, use Stop by Basic",
+                    "label": "Stop or Revert if opposite button is pressed",
+                    "index": "8",
+                    "items": [
+                        {
+                            "label": "Stop (by buttons and Binary) (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Stop (by buttons, Binary and Basic)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Revert",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Allow exchanging open and close relays if blind control is wired to the motor incorrectly",
+                    "label": "Invert open and close relays",
+                    "index": "9",
+                    "items": [
+                        {
+                            "label": "No (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Typical time used to differentiate click, hold, double and triple clicks.",
+                    "label": "Typical click timeout",
+                    "index": "10",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "x 10 milliseconds",
+                    "value": "50"
+                },
+                {
+                    "label": "Invert buttons",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "No default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "If disabled, the local operations by buttons will not switch the load, but only send commands to On/Off association group. In  this mode buttons are not linked with the switch anymore. They can be used separately: buttons to control remote device, switch will operate by RF commands only. ",
+                    "label": "Switch by buttons",
+                    "index": "12",
+                    "items": [
+                        {
+                            "label": "No",
+                            "value": "0"
+                        },
+                        {
+                            "label": "By single press and hold (default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "By double press and hold",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Defines which command should be sent on button single press or hold. Basic commands are sent to Association group. Switch All commands are sent broadcast. ",
+                    "label": "Action on button single press or hold",
+                    "index": "13",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Switch On, Off and dim using Basic Set(default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On/Off",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Defines which command should be sent on button double press or press-hold. Basic commands are sent to Association group.   Switch   All commands are sent broadcast. If not disabled, the device will wait for a click timeout to see if the second click would be pressed. This will introduce a small delay for single click commands.",
+                    "label": "Action on button double press or hold",
+                    "index": "14",
+                    "items": [
+                        {
+                            "label": "Disabled (don't wait for double click,default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Switch On, Off and dim using Basic Set",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On/Off",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "label": "Send the following Switch All commands",
+                    "index": "15",
+                    "items": [
+                        {
+                            "label": "Switch All Off only (default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On only",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On and Off",
+                            "value": "255"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

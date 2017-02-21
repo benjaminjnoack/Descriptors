@@ -1,8 +1,165 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Set LED indication mode",
+                    "label": "Led mode",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Show switch",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Indicator CC",
+                            "value": "2"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "If not zero, automatically switch device off after an user defined time. Unit: Sec, Min: 0, Max: 65535, Default: 0",
+                    "label": "Automatically switch off after",
+                    "index": "2",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "second",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines how to interpret RF Off-Command.\n                Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the light off that would break logics;\n                Switch on - to switch on the light on both ON and OFF paddle press on the remote and switch it off after some amount of time.\n                Button OFF click will still work (if button operations are not disabled).\n            ",
+                    "label": "What to do on RF Off-Command",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Switch off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Ignore",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch on",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Switch on if load is off else switch off",
+                            "value": "3"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Defines if the switch should restore switch state to the last prior to device power off (power cycle).",
+                    "label": "Restore switch state after power cycle",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "No, turn off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Specify the consumption of the load in watts, for the calculation of power consumption. Maximum load 1800 W. Unit: Watts, Min: 0, Max: 3500, Default: 0",
+                    "label": "Energy consumption",
+                    "index": "20",
+                    "items": [],
+                    "max": "3500",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "units": "watt",
+                    "value": "0"
+                },
+                {
+                    "help": "Color to OFF state",
+                    "label": "Off color",
+                    "index": "21",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Red",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Green",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Blue",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Yellow",
+                            "value": "4"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Color to ON state",
+                    "label": "On color",
+                    "index": "22",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Red",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Green",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Blue (Default)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Yellow",
+                            "value": "4"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

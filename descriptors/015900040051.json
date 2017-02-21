@@ -1,10 +1,283 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133,
-        32,
-        96
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "",
+                    "label": "Input 1 switch type",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Mono-stable switch type (push button)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable switch type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 2 switch type",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Mono-stable switch type (push button)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable switch type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 3 switch type",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Mono-stable switch type (push button)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable switch type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 1 contact type",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "NO (normally open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normally close) input type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Input 2 contact type",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "NO (normally open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normally close) input type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Input 3 contact type",
+                    "index": "6",
+                    "items": [
+                        {
+                            "label": "NO (normally open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normally close) input type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Input 1 Functionality selection",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "Nothing",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Hors-Gel",
+                            "value": "5"
+                        },
+                        {
+                            "label": "STOP",
+                            "value": "6"
+                        }
+                    ],
+                    "max": "6",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 2 Functionality selection",
+                    "index": "12",
+                    "items": [
+                        {
+                            "label": "Nothing",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Hors-Gel",
+                            "value": "5"
+                        },
+                        {
+                            "label": "STOP",
+                            "value": "6"
+                        }
+                    ],
+                    "max": "6",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "4"
+                },
+                {
+                    "help": "",
+                    "label": "Input 3 Functionality selection",
+                    "index": "13",
+                    "items": [
+                        {
+                            "label": "Nothing",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Hors-Gel",
+                            "value": "5"
+                        },
+                        {
+                            "label": "STOP",
+                            "value": "6"
+                        }
+                    ],
+                    "max": "6",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "5"
+                },
+                {
+                    "help": "",
+                    "label": "Saving the state of the relay after a power failure",
+                    "index": "30",
+                    "items": [
+                        {
+                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 96,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

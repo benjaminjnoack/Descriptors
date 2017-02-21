@@ -1,9 +1,65 @@
 {
     "commands": {},
     "command_classes": [
-        67,
-        112,
-        133
+        {
+            "id": 67,
+            "values": []
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Enables or not the temperature sensor reading",
+                    "label": "Temperature sensor reading",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "255"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "255"
+                },
+                {
+                    "help": "Controls the temperature sensor scale",
+                    "label": "Temperature Scale",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Celsius",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Fahrenheit",
+                            "value": "255"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 10 = 1C)",
+                    "label": "Delta T: Temperature change",
+                    "index": "3",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "byte",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

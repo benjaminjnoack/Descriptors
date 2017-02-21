@@ -1,8 +1,55 @@
 {
     "commands": {},
     "command_classes": [
-        64,
-        67
+        {
+            "id": 64,
+            "values": [
+                {
+                    "label": "Mode",
+                    "index": "0",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Heat",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Heat Econ",
+                            "value": "11"
+                        }
+                    ],
+                    "max": "11",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "values": [
+                {
+                    "label": "Comfort setpoint",
+                    "index": "1",
+                    "items": [],
+                    "type": "decimal",
+                    "units": "C",
+                    "value": "0"
+                },
+                {
+                    "label": "Energy saving setpoint",
+                    "index": "11",
+                    "items": [],
+                    "type": "decimal",
+                    "units": "C",
+                    "value": "0"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

@@ -1,10 +1,426 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133,
-        32,
-        96
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "",
+                    "label": "Input 1 switch type",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Mono-stable(push button)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Input 2 switch type",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Mono-stable (push button)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Input 2 contact type",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "NO (normally open)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normally close)",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Default value 0",
+                    "label": "Input 3 contact type",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "NO (normally open)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normally close)",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Flush dimmer module responds to commands ALL ON / ALL OFF that may be sent by the main controller or by other controller belonging to the system.\n\t\t\tDefault value 255.",
+                    "label": "Activate / deactivate functions ALL ON/ALL OFF",
+                    "index": "10",
+                    "items": [
+                        {
+                            "label": "ALL ON active, ALL OFF active",
+                            "value": "255"
+                        },
+                        {
+                            "label": "ALL ON is not active ALL OFF is not active",
+                            "value": "0"
+                        },
+                        {
+                            "label": "ALL ON is not active ALL OFF active",
+                            "value": "1"
+                        },
+                        {
+                            "label": "ALL ON active ALL OFF is not active",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "255",
+                    "min": "0",
+                    "size": "2",
+                    "type": "list",
+                    "value": "255"
+                },
+                {
+                    "help": "0 - Auto OFF disabled.\n\t\t\t1 second to 32536 seconds Auto OFF enabled with defined time, step is 1 second.\n\t\t\tDefault value 0.",
+                    "label": "Automatic turning off output after set time",
+                    "index": "11",
+                    "items": [],
+                    "max": "32536",
+                    "min": "0",
+                    "size": "1",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "0 - Auto ON disabled.\n\t\t\t1 second to 32535 seconds Auto ON enabled with defined time, step is 1 second.\n\t\t\tDefault value 0.",
+                    "label": "Automatic turning on output after set time",
+                    "index": "12",
+                    "items": [],
+                    "max": "32535",
+                    "min": "0",
+                    "size": "1",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Dimming is done by push button or switch connected to I1 (by default).\n\t\t\t\tEnabling 3-way switch, dimming can be controlled by push button or switch connected to I1 and I2.\n\t\t\t\tDefault value 0.\n\t\t\t",
+                    "label": "Enable/Disable 3-way switch/additional switch",
+                    "index": "20",
+                    "items": [
+                        {
+                            "label": "single push button (connected to I1)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "3-way switch (connected to I1 and I2)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Additional switch (connected to I2)",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "If Double click function is enabled, a fast double click on the push button will set dimming power at maximum dimming value.\n\t\t\t\tDefault value 0.",
+                    "label": "Enable/Disable Double click function",
+                    "index": "21",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Default value 0.",
+                    "label": "Saving the state of the relay after a power failure",
+                    "index": "30",
+                    "items": [
+                        {
+                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Set value from 0 - 100 (0% - 100%).\n\t\t\t0 - Reporting Disabled.\n\t\t\t1 - 100 = 1% - 100% Reporting enabled.\n\t\t\tPower report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%.\n\t\t\tDefault value 5.",
+                    "label": "Power reporting in Watts on power change",
+                    "index": "40",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "5"
+                },
+                {
+                    "help": "Set value means time interval (0 - 32767) in seconds, when power report is send.\n\t\t\t0 - Reporting Disabled.\n\t\t\t1 second to 32767 seconds reporting enabled.\n\t\t\tPower report is send with time interval set by entered value.\n\t\t\tDefault value 300 (power report in Watts is send each 300s).",
+                    "label": "Power reporting in Watts by time interval",
+                    "index": "42",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "type": "short",
+                    "value": "300"
+                },
+                {
+                    "help": "1 - 98 = 1% - 98%, step is 1%. Minimum dimming values is set by entered value.\n\t\t\tDefault value 1 (Minimum dimming value is 1%).",
+                    "label": "Minimum dimming value",
+                    "index": "60",
+                    "items": [],
+                    "max": "98",
+                    "min": "1",
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "2 - 99 = 2% - 99%, step is 1%. Maximum dimming values is set by entered value.\n\t\t\tDefault value 99 (Maximum dimming value is 99%).",
+                    "label": "Maximum dimming value",
+                    "index": "61",
+                    "items": [],
+                    "max": "99",
+                    "min": "2",
+                    "type": "byte",
+                    "value": "99"
+                },
+                {
+                    "help": "Set value means time of moving the Dimmer between min. and max. dimming values by short press of push button I1 or controlled through.\n\t\t\t1- 255 = 10mseconds - 2550mseconds (2,55s), step is 10mseconds.\n\t\t\tDefault value 100 (Dimming time between min. and max. dimming values is 1s).",
+                    "label": "Dimming time (soft on/off)",
+                    "index": "65",
+                    "items": [],
+                    "max": "255",
+                    "min": "1",
+                    "type": "short",
+                    "value": "100"
+                },
+                {
+                    "help": "Time of moving the Dimmer between min. and max dimming values by continues hold of push button I1.\n\t\t\t1- 255 = 1 second - 255 seconds.\n\t\t\tDefault value 3 (Dimming time between min. and max. dimming values is 3s).",
+                    "label": "Dimming time when key pressed",
+                    "index": "66",
+                    "items": [],
+                    "max": "255",
+                    "min": "1",
+                    "type": "short",
+                    "value": "3"
+                },
+                {
+                    "help": "This parameter is used with association group 4.\n\t\t\t\tA receiving device SHOULD respect the start level if the Ignore Start Level bit is 0.\n\t\t\t\tA receiving device MUST ignore the start level if the Ignore Start Level bit is 1.\n\t\t\t\tDefault value 0.",
+                    "label": "Ignore start level",
+                    "index": "67",
+                    "items": [
+                        {
+                            "label": "respect start level",
+                            "value": "0"
+                        },
+                        {
+                            "label": "ignore start level",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "This parameter is used with association group 3.\n\t\t\t\tThe Duration field MUST specify the time that the transition should take from the current value to the new target value.\n\t\t\t\tA supporting device SHOULD respect the specified Duration value.\n\t\t\t\tDefault value 0.",
+                    "label": "Dimming duration",
+                    "index": "68",
+                    "items": [
+                        {
+                            "label": "Respect start level",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Ignore start level",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Enabling I2 means that Endpoint (I2) will be present on UI.\n\t\t\tDisabling it will result in hiding the endpoint according to the parameter set value.\n\t\t\tAdditionally, a Notification Type and Event can be selected for the endpoint.\n\t\t\tEndpoint device type selection: notification sensor (1 - 6) sensor binary (9).\n\t\t\tNOTE: After parameter change, module has to be re included into the network in order setting to take effect!\n\t\t\tDefault value 1.",
+                    "label": "Enable / Disable Endpoints I2 or select Notification Type and Event",
+                    "index": "100",
+                    "items": [
+                        {
+                            "label": "Home Security; Motion Detection, unknown location.",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Carbon Monoxide; Carbon Monoxide detected, unknown location.",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Carbon Dioxide; Carbon Dioxide detected, unknown location.",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Water Alarm; Water Leak detected, unknown location.",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Heat Alarm; Overheat detected, unknown location",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Smoke Alarm; Smoke detected, unknown location",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Endpoint, I2 disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Sensor binary",
+                            "value": "9"
+                        }
+                    ],
+                    "max": "9",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Enabling I3 means that Endpoint (I3) will be present on UI.\n\t\t\tDisabling it will result in hiding the endpoint according to the parameter set value.\n\t\t\tAdditionally, a Notification Type and Event can be selected for the endpoint.\n\t\t\tEndpoint device type selection: notification sensor (1 - 6) sensor binary (9).\n\t\t\tNOTE: After parameter change, module has to be re included into the network in order setting to take effect!\n\t\t\tDefault value 1.",
+                    "label": "Enable / Disable Endpoints I3 or select Notification Type and Event",
+                    "index": "101",
+                    "items": [
+                        {
+                            "label": "Home Security; Motion Detection, unknown location.",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Carbon Monoxide; Carbon Monoxide detected, unknown location.",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Carbon Dioxide; Carbon Dioxide detected, unknown location.",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Water Alarm; Water Leak detected, unknown location.",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Heat Alarm; Overheat detected, unknown location",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Smoke Alarm; Smoke detected, unknown location",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Endpoint, I3 disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Sensor binary",
+                            "value": "9"
+                        }
+                    ],
+                    "max": "9",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Set value is added or subtracted to actual measured value by sensor.\n\t\t\t32536 : offset is 0.0C.\n\t\t\tFrom 1 to 100 : value from 0.1 C to 10.0 C is added to actual measured temperature.\n\t\t\tFrom 1001 to 1100 : value from -0.1 C to -10.0 C is subtracted to actual measured temperature.\n\t\t\tDefault value 32536.\n\t\t\t",
+                    "label": "Temperature sensor offset settings",
+                    "index": "110",
+                    "items": [],
+                    "max": "32536",
+                    "min": "1",
+                    "type": "short",
+                    "value": "32536"
+                },
+                {
+                    "help": "If digital temperature sensor is connected, module reports measured temperature on temperature change defined by this parameter.\n\t\t\t0 : Reporting disabled.\n\t\t\t1- 127 = 0,1C - 12,7C, step is 0,1C.\n\t\t\tDefault value 5 = 0,5C change.\n\t\t\t",
+                    "label": "Digital temperature sensor reporting",
+                    "index": "120",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 96,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

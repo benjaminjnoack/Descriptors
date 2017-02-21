@@ -1,10 +1,158 @@
 {
     "commands": {},
     "command_classes": [
-        113,
-        112,
-        32,
-        133
+        {
+            "id": 113,
+            "values": []
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Which value of the Sensor Binary Report will be sent when \n            the magnet switch to open/close.",
+                    "label": "Sensor Binary Report Toggle",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Inverse",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Which value of the Basic Set will be sent when the magnet \n            switch to open/close.\n            ",
+                    "label": "Basic Set Toggle",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Inverse",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Enable/disable the function of low battery checking, when \n            the current voltage is less than the warning voltage, it will \n            send the Battery Low Warning Report. \n            ",
+                    "label": "Low Battery Check Enable",
+                    "index": "101",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "This parameter is available when the low battery checking\n                  function is activated or the device was waked up by other\n                  actions (i.e. the z-wave button trigger, magnet switch\n                  trigger and the Wake Up Interval Set timeout trigger).\n                  The Recessed Door Sensor will check the battery power\n                  when it was wake up as other ways. For example: the\n                  z-wave button trigger, magnet switch trigger and the\n                  Wake Up Interval Set timeout trigger.\n              Default setting: 86640\n            ",
+                    "label": "Low Battery Check Interval",
+                    "index": "111",
+                    "items": [],
+                    "max": "4294967295",
+                    "min": "0",
+                    "type": "int",
+                    "value": "86640"
+                },
+                {
+                    "help": "Configure which sensor report will be sent when the sensor is Opened/Closed",
+                    "label": "Report Type",
+                    "index": "121",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Basic Set",
+                            "value": "256"
+                        },
+                        {
+                            "label": "Sensor Binary Report",
+                            "value": "16"
+                        },
+                        {
+                            "label": "Basic Set and Sensor Binary Report",
+                            "value": "272"
+                        }
+                    ],
+                    "size": "4",
+                    "type": "list",
+                    "value": "256"
+                },
+                {
+                    "help": "Lock/ unlock all configuration parameters",
+                    "label": "Lock/Unlock Configuration",
+                    "index": "252",
+                    "items": [
+                        {
+                            "label": "Unlock",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Lock",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Device Tag",
+                    "label": "Device Tag",
+                    "index": "254",
+                    "items": [],
+                    "max": "65535",
+                    "min": "0",
+                    "type": "short",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "help": "Reset to factory defaults.",
+                    "label": "Reset To Factory Defaults",
+                    "index": "255",
+                    "items": [],
+                    "type": "button",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

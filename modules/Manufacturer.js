@@ -38,17 +38,15 @@ class Manufacturer {
   }
 
   get meta() {
-    return this._meta;
+    return {
+      id: this.id,
+      name: this.name
+    };
   }
 
   set meta(meta) {
     this.id = meta[ID];
     this.name = meta[NAME];
-
-    this._meta = {
-      id: this.id,
-      name: this.name
-    };
   }
 
   get products() {

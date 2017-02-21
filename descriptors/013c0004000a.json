@@ -1,10 +1,110 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        32,
-        38,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "\n\t\t\t\tNotification Type,\n\t\t\t\t0: Using Notification Report.\n\t\t\t\t1: Using Sensor Binary Report.\n\t\t\t",
+                    "label": "Customer Function",
+                    "index": "7",
+                    "items": [
+                        {
+                            "label": "Using Notification Report",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Using Sensor Binary Report",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t\t\t\tDisable the alarm function.\n\t\t\t\t1: Disable Alarm,\n\t\t\t\t0: Enable Alarm.\n\t\t\t\tCaution: After the power up, this configuration is always 0.\n\t\t\t",
+                    "label": "Disable Alarm",
+                    "index": "29",
+                    "items": [
+                        {
+                            "label": "Enable Alarm",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Disable Alarm",
+                            "value": "1"
+                        }
+                    ],
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n\t\t\t\tPlay alarm sound duration,\n\t\t\t\t1 tick is 30 seconds. Default is 3 minutes, maximum is 63.5 minutes.\n\t\t\t\t0 means never auto stop.\n\t\t\t",
+                    "label": "Basic Set Off Level",
+                    "index": "31",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 38,
+            "values": [
+                {
+                    "help": "\n\t\t\t\tThe device supports using SWITCH_MULTILEVEL SET to play the sound. The sound ID is defined as follows:\n\t\t\t\t1 or 255: Emergency sound.\n\t\t\t\t2: Fire alert.\n\t\t\t\t3: Ambulance sound.\n\t\t\t\t4: Police car sound.\n\t\t\t\t5: Door chime.\n\t\t\t\t6 to 99: Beep Beep.\n\t\t\t\t0: means stop the sound.\n\t\t\t",
+                    "label": "Sounds",
+                    "index": "0",
+                    "items": [
+                        {
+                            "label": "Stop",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Emergency",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Fire",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Ambulance",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Police",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Door chime",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Beep Beep",
+                            "value": "6"
+                        }
+                    ],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

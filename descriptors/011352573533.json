@@ -1,7 +1,33 @@
 {
     "commands": {},
     "command_classes": [
-        112
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "By default, the LED on the LSM-15 will turn OFF when the load attached is turned ON. To make the LED turn ON when the load attached is turned ON, set parameter to a value of 0.",
+                    "label": "Night Light",
+                    "index": "3",
+                    "items": [],
+                    "max": "1",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "1"
+                },
+                {
+                    "help": "To change the top of the switch to OFF and the bottom of the switch to ON, set parameter to 1.",
+                    "label": "Invert Switch",
+                    "index": "4",
+                    "items": [],
+                    "max": "1",
+                    "min": "0",
+                    "type": "byte",
+                    "units": "",
+                    "value": "0"
+                }
+            ]
+        }
     ],
     "configurations": [],
     "meta": {

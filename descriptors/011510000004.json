@@ -1,10 +1,160 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        32,
-        43,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Typical time used to differentiate click, hold, double and triple clicks Values: 1 to 100 in 10 ms units (default is 50, that is equivalent to 500 ms)",
+                    "label": "Typical click timeout",
+                    "index": "10",
+                    "items": [],
+                    "max": "100",
+                    "min": "1",
+                    "type": "byte",
+                    "units": "x 10 milliseconds",
+                    "value": "50"
+                },
+                {
+                    "label": "Invert buttons",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "No (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": ""
+                },
+                {
+                    "help": "Defines which command should be sent on button single press or hold. Basic commands are sent to Association group. Switch All commands are sent broadcast.",
+                    "label": "Action on button single press or hold",
+                    "index": "13",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Switch On, Off and dim using Basic Set (default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On/Off",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Scene Activation",
+                            "value": "3"
+                        }
+                    ],
+                    "max": "3",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "1"
+                },
+                {
+                    "help": "Defines which command should be sent on button double press or press-hold. Basic commands are sent to Association group. Switch All commands are sent broadcast. If not disabled, the device will wait for a click timeout to see if the second click would be pressed. This will introduce a small delay for single click commands.",
+                    "label": "Action on button double press or hold",
+                    "index": "14",
+                    "items": [
+                        {
+                            "label": "Disabled (don't wait for double click, default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Switch On, Off and dim using Basic Set",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On/Off",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Scene Activation",
+                            "value": "3"
+                        }
+                    ],
+                    "max": "3",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                },
+                {
+                    "label": "Send the following Switch All commands",
+                    "index": "15",
+                    "items": [
+                        {
+                            "label": "Switch All Off only (default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch All On only",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Switch All On and Off",
+                            "value": "255"
+                        }
+                    ],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "1"
+                },
+                {
+                    "help": "Send unsolicited battery report on wakeup.",
+                    "label": "Send battery report",
+                    "index": "20",
+                    "items": [
+                        {
+                            "label": "No (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "To same node as wakeup notification",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Broadcast",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "2",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "units": "",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "values": []
+        },
+        {
+            "id": 43,
+            "values": []
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

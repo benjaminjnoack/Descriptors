@@ -1,10 +1,638 @@
 {
     "commands": {},
     "command_classes": [
-        64,
-        67,
-        112,
-        133
+        {
+            "id": 64,
+            "values": []
+        },
+        {
+            "id": 67,
+            "values": []
+        },
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "",
+                    "label": "Input 1 switch type",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Mono-stable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 2 switch type",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Mono-stable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 3 switch type",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "Mono-stable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "",
+                    "label": "Input 1 contact type",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "NO (normaly open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly close) input type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Input 2 contact type",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "NO (normaly open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly close) input type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Input 3 contact type",
+                    "index": "6",
+                    "items": [
+                        {
+                            "label": "NO (normaly open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly close) input type",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "",
+                    "label": "Activate / deactivate functions ALL ON/ALL OFF",
+                    "index": "10",
+                    "items": [
+                        {
+                            "label": "ALL ON active, ALL OFF active",
+                            "value": "255"
+                        },
+                        {
+                            "label": "ALL ON is not active ALL OFF is not active",
+                            "value": "0"
+                        },
+                        {
+                            "label": "ALL ON is not active ALL OFF active",
+                            "value": "1"
+                        },
+                        {
+                            "label": "ALL ON active ALL OFF is not active",
+                            "value": "2"
+                        }
+                    ],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "255"
+                },
+                {
+                    "help": "Default value 1\n\t\t\t\t32767 - input I1 does not influence on the heat/ cool process\n\t\t\t\t1 - input I1 changes the mode of the thermostat between Off and Auto. In this case function on flood sensor (if connected) is disabled.\n\t\t\t\t2 - input I1 influences on cooling and heating valves according to status of flood sensor. In this case function of Off and Auto selection by I1 is disabled",
+                    "label": "I1 Functionality selection",
+                    "index": "11",
+                    "items": [
+                        {
+                            "label": "Mode Off and Auto",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Disabled Mode Off and Auto",
+                            "value": "2"
+                        },
+                        {
+                            "label": "No influence on the heat process",
+                            "value": "32767"
+                        }
+                    ],
+                    "max": "32767",
+                    "min": "1",
+                    "size": "2",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "default value 32767 | 32767 - input I2 does not influence on the heat/ cool process | From 0 to 990 - Temperature set point from 0.0 C to 99.0 C. When I2 is pressed, temperature set point is automatically set to value defined here. In this case function of condense sensor is disabled. | From 1001 to 1150 - Temperature set point from -0.1 C to -15.0\n\t\t\tC. When I2 is pressed, temperature setpoint is automatically set to value defined here. In this case function of condense sensor is disabled. | 2000 - Input I2 influences on the cooling valve according to status of condense sensor, In this case function of setpoint selection with I2 is disabled.",
+                    "label": "I2 Functionality selection",
+                    "index": "12",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "32767"
+                },
+                {
+                    "help": "default value 32767 | 32767 - input I3 does not influence on the heat/ cool process | 1 - input I3 changes the mode of the thermostat between Heat and Cool. In this case function on window sensor is disabled. | 2 - input I3 influences on cooling and heating valves according to status of window sensor. In this case function of Heat and Cool selection by I3 is disabled",
+                    "label": "I3 Functionality selection",
+                    "index": "13",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "32767"
+                },
+                {
+                    "help": "Set value from 0 - 100 (0% - 100%). 0 - Reporting Disabled. 1 - 100 = 1% - 100% Reporting enabled. Power report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%. Default value 0",
+                    "label": "Power reporting in Watts on power change",
+                    "index": "40",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "Set value means time interval (0 - 32767) in seconds, when power report is send. 0 - Reporting Disabled. 1 - 32767 = 1 second - 32767 seconds. Reporting enabled. Power report is send with time interval set by entered value. Default value 0",
+                    "label": "Power reporting in Watts by time interval",
+                    "index": "42",
+                    "items": [],
+                    "max": "32767",
+                    "min": "0",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "Set value means at which temperature the heating will be turned on even if the thermostat was manually set to off. The parameter can be set from 0 to 255 where 0 to 128 means from 0.0 C to 12.8 C and from 129 to 255 means from - 0.0 C to -12.8 C.",
+                    "label": "Antifreeze",
+                    "index": "45",
+                    "items": [],
+                    "max": "255",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "50"
+                },
+                {
+                    "help": "default value 100 (Maximum PWM value) | 2-100 = 2%-100%, step is 1%. Max. PWM set by entered value. NOTE: The maximum level may not be lower than the minimum level! ",
+                    "label": "PWM maximum value",
+                    "index": "50",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "100"
+                },
+                {
+                    "help": "default value 0 (Minimum PWM value is 0%) | 1-99 = 1%-99%, step is 1%. Max. PWM set by entered value. NOTE: The Minimim level may not exceed Maximum level! ",
+                    "label": "PWM minimum value",
+                    "index": "51",
+                    "items": [],
+                    "max": "99",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "0"
+                },
+                {
+                    "help": "Default value 10 (Cycle duration set to 10s) | 5-127 = 5-127s, step is 1s. PWM cycle duration set by entered value. NOTE: PWM cycle duration define the summary of all ON plus OFF time periods. For example if Output is set to 70% with PWM cycle duration of 20s, output will be ON for 14s then OFF 6s, again 14s ON, etc\n\t\t\t",
+                    "label": "PWM cycle duration",
+                    "index": "52",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "10"
+                },
+                {
+                    "help": "When value is set to ZERO PID inside deadband is forced to zero. LASTVALUE means that PID remains on same level as was before entering into deadband",
+                    "label": "PID value inside deadband",
+                    "index": "53",
+                    "items": [
+                        {
+                            "label": "PID value equal ZERO",
+                            "value": "0"
+                        },
+                        {
+                            "label": "PID value set to LAST VALUE",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "default value 5 (0,5 C) | 0-127 - 0.0 C to 12.7 C, step is 0,1C. NOTE: This parameter defines the zone where PID is not active. If the temperature difference between actual and setpoint is bigger than PID deadband, then the PID will start to regulate the system, otherwise the PID is zero or fixed",
+                    "label": "PID deadband",
+                    "index": "54",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "5"
+                },
+                {
+                    "help": "default value 5 (0,5 C) | 0-127 - 0.0 C to 12.7 C, step is 0,1C. NOTE: Parameter defines the time between samples. On each sample the\n\t\t\tcontroller capture difference between SP-act",
+                    "label": "Integral sampling time",
+                    "index": "55",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "size": "1",
+                    "type": "byte",
+                    "value": "5"
+                },
+                {
+                    "help": "default value 100 | 0 -1000 - P value, step is 1",
+                    "label": "P parameter",
+                    "index": "56",
+                    "items": [],
+                    "max": "1000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "100"
+                },
+                {
+                    "help": "default value 1 | 0 -1000 - I value, step is 1",
+                    "label": "I parameter",
+                    "index": "57",
+                    "items": [],
+                    "max": "1000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "1"
+                },
+                {
+                    "help": "default value 1 | 0 -1000 - D value, step is 1",
+                    "label": "D parameter",
+                    "index": "58",
+                    "items": [],
+                    "max": "1000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "1"
+                },
+                {
+                    "help": "default : Heat mode | Heat mode | Cool mode",
+                    "label": "Thermostat mode",
+                    "index": "59",
+                    "items": [
+                        {
+                            "label": "Heat mode (0)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Cool mode (1)",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Default value 50 (Too low temperature limit is 5.0C) | 1 - 1000 = 0.1C - 100.0C, step is 0.1C. Too low temperature limit is set by entered value. In case measured temperature is below set value, module sends BasicSet value.",
+                    "label": "Too low temperature limit",
+                    "index": "60",
+                    "items": [],
+                    "max": "1000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "50"
+                },
+                {
+                    "help": "Default value 700 (too high temperature limit is 70.0C) | 1 - 1000 = 0.1C - 100.0C, step is 0.1C. Too high temperature limit is set by entered value. In case measured temperature is higher than set value, module sends BasicSet value.",
+                    "label": "Too high temperature limit",
+                    "index": "61",
+                    "items": [],
+                    "max": "1000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "700"
+                },
+                {
+                    "help": "",
+                    "label": "Output Switch selection",
+                    "index": "63",
+                    "items": [
+                        {
+                            "label": "(NC) - When system is turned off the output is 0V",
+                            "value": "0"
+                        },
+                        {
+                            "label": "(NO) - When system is turned off the output is 230V",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 11 must be set to 2! NOTE: Device status on UI change immediately ",
+                    "label": "Input 1 status on delay",
+                    "index": "70",
+                    "items": [],
+                    "max": "32000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 11 must be set to 2! NOTE: Device status on UI change immediately",
+                    "label": "Input I status off delay",
+                    "index": "71",
+                    "items": [],
+                    "max": "32000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 12 must be set to 2000!",
+                    "label": "Input 2 status on delay",
+                    "index": "72",
+                    "items": [],
+                    "max": "32000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 12 must be set to 2000!",
+                    "label": "Input 2 status off delay",
+                    "index": "73",
+                    "items": [],
+                    "max": "32000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 13 must be set to 2! NOTE: Device status on UI change immediately",
+                    "label": "Input 3 status on delay",
+                    "index": "74",
+                    "items": [],
+                    "max": "32000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 13 must be set to 2! NOTE: Device status on UI change immediately",
+                    "label": "Input 3 status off delay",
+                    "index": "75",
+                    "items": [],
+                    "max": "32000",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Enabling I1 means that Endpoint (I1) will be present on UI.\n                Disabling it will result in hiding the endpoint according to the parameter set value.\n                Additionally, a Notification Type and Event can be selected for the endpoint.\n                NOTE 1: After parameter change, first exclude module (without setting parameters to default value) and then re include the module!\n                NOTE 2: When the parameter is set to value 9 the notifications are send for Home Security.\n            ",
+                    "label": "Enable / Disable Endpoints I1 or select notification type and event",
+                    "index": "100",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Home Security; Motion Detection",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Carbon Monoxide; Carbon Monoxide detected",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Carbon Dioxide; Carbon Dioxide detected",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Water Alarm; Water Leak detected",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Heat Alarm; Overheat detected",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Smoke Alarm; Smoke detected",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Sensor binary",
+                            "value": "9"
+                        }
+                    ],
+                    "max": "9",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Enabling I2 means that Endpoint (I2) will be present on UI.\n                Disabling it will result in hiding the endpoint according to the parameter set value.\n                Additionally, a Notification Type and Event can be selected for the endpoint.\n                NOTE 1: After parameter change, first exclude module (without setting parameters to default value) and then re include the module!\n                NOTE 2: When the parameter is set to value 9 the notifications are send for Home Security.\n            ",
+                    "label": "Enable / Disable Endpoints I2 or select notification type and event",
+                    "index": "101",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Home Security; Motion Detection",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Carbon Monoxide; Carbon Monoxide detected",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Carbon Dioxide; Carbon Dioxide detected",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Water Alarm; Water Leak detected",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Heat Alarm; Overheat detected",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Smoke Alarm; Smoke detected",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Sensor binary",
+                            "value": "9"
+                        }
+                    ],
+                    "max": "9",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Enabling I3 means that Endpoint (I3) will be present on UI.\n                Disabling it will result in hiding the endpoint according to the parameter set value.\n                Additionally, a Notification Type and Event can be selected for the endpoint.\n                NOTE 1: After parameter change, first exclude module (without setting parameters to default value) and then re include the module!\n                NOTE 2: When the parameter is set to value 9 the notifications are send for Home Security.\n            ",
+                    "label": "Enable / Disable Endpoints I3 or select notification type and event",
+                    "index": "102",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Home Security; Motion Detection",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Carbon Monoxide; Carbon Monoxide detected",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Carbon Dioxide; Carbon Dioxide detected",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Water Alarm; Water Leak detected",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Heat Alarm; Overheat detected",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Smoke Alarm; Smoke detected",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Sensor binary",
+                            "value": "9"
+                        }
+                    ],
+                    "max": "9",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "\n                Set value is added or subtracted to actual measured value by sensor.\n                From 1 to 100 = value from 0.1C to 10.0C is added to actual measured temperature.\n                From 1001 to 1100 = value from -0.1 C to -10.0 C is subtracted to actual measured temperature.\n                Default value 32536. 32536  offset is 0.0C.\n            ",
+                    "label": "Temperature sensor offset settings",
+                    "index": "110",
+                    "items": [],
+                    "max": "32536",
+                    "min": "0",
+                    "size": "2",
+                    "type": "short",
+                    "value": "32536"
+                },
+                {
+                    "help": "If digital temperature sensor is connected, module reports measured temperature on temperature change defined by this parameter.\n                0 = reporting disabled.\n                1 to 127 = 0,1C to 12,7C, step is 0,1C.\n                Default value is 5 = 0,5C",
+                    "label": "Digital temperature sensor reporting",
+                    "index": "120",
+                    "items": [],
+                    "max": "127",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {

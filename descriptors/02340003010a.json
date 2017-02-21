@@ -1,8 +1,522 @@
 {
     "commands": {},
     "command_classes": [
-        112,
-        133
+        {
+            "id": 112,
+            "values": [
+                {
+                    "help": "Upper paddle buttons mode.",
+                    "label": "Set to Default",
+                    "index": "1",
+                    "items": [
+                        {
+                            "label": "Separate mode (toggle mode)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "In pair mode, left side sends on/up commands, right side sends off/down commands",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "Lower paddle buttons mode.",
+                    "label": "Set to Default",
+                    "index": "2",
+                    "items": [
+                        {
+                            "label": "Separate mode (toggle mode)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "In pair mode, left side sends on/up commands, right side sends off/down commands",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "0"
+                },
+                {
+                    "help": "LED #1 mode.",
+                    "label": "Set to Default (1)",
+                    "index": "3",
+                    "items": [
+                        {
+                            "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button",
+                            "value": "1"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button, with inverted indication",
+                            "value": "2"
+                        },
+                        {
+                            "label": "LED indicates the status of corresponding paddle (in pair mode)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding paddle (in pair mode), with inverted indication",
+                            "value": "4"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay",
+                            "value": "5"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay, with inverted indication",
+                            "value": "6"
+                        },
+                        {
+                            "label": "LED show a 5 seconds indication when the corresponding button is pressed",
+                            "value": "7"
+                        }
+                    ],
+                    "max": "7",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "LED #2 mode.",
+                    "label": "Set to Default (1)",
+                    "index": "4",
+                    "items": [
+                        {
+                            "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button",
+                            "value": "1"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button, with inverted indication",
+                            "value": "2"
+                        },
+                        {
+                            "label": "LED indicates the status of corresponding paddle (in pair mode)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding paddle (in pair mode), with inverted indication",
+                            "value": "4"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay",
+                            "value": "5"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay, with inverted indication",
+                            "value": "6"
+                        },
+                        {
+                            "label": "LED show a 5 seconds indication when the corresponding button is pressed",
+                            "value": "7"
+                        }
+                    ],
+                    "max": "7",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "LED #3 mode.",
+                    "label": "Set to Default (1)",
+                    "index": "5",
+                    "items": [
+                        {
+                            "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button",
+                            "value": "1"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button, with inverted indication",
+                            "value": "2"
+                        },
+                        {
+                            "label": "LED indicates the status of corresponding paddle (in pair mode)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding paddle (in pair mode), with inverted indication",
+                            "value": "4"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay",
+                            "value": "5"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay, with inverted indication",
+                            "value": "6"
+                        },
+                        {
+                            "label": "LED show a 5 seconds indication when the corresponding button is pressed",
+                            "value": "7"
+                        }
+                    ],
+                    "max": "7",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "LED #4 mode.",
+                    "label": "Set to Default (1)",
+                    "index": "6",
+                    "items": [
+                        {
+                            "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button",
+                            "value": "1"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding button, with inverted indication",
+                            "value": "2"
+                        },
+                        {
+                            "label": "LED indicates the status of corresponding paddle (in pair mode)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "LED indicates the status of the corresponding paddle (in pair mode), with inverted indication",
+                            "value": "4"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay",
+                            "value": "5"
+                        },
+                        {
+                            "label": "LED indicates the status of the built-in relay, with inverted indication",
+                            "value": "6"
+                        },
+                        {
+                            "label": "LED show a 5 seconds indication when the corresponding button is pressed",
+                            "value": "7"
+                        }
+                    ],
+                    "max": "7",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is on.",
+                    "label": "LED #1 brightness level.",
+                    "index": "7",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "50"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is on.",
+                    "label": "LED #2 brightness level.",
+                    "index": "8",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "50"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is on.",
+                    "label": "LED #3 brightness level.",
+                    "index": "9",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "50"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is on.",
+                    "label": "LED #4 brightness level.",
+                    "index": "10",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "50"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is off.",
+                    "label": "LED #1 off brightness level.",
+                    "index": "11",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "00"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is off.",
+                    "label": "LED #2 off brightness level.",
+                    "index": "12",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "00"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is off.",
+                    "label": "LED #3 off brightness level.",
+                    "index": "13",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "00"
+                },
+                {
+                    "help": "0 - 100 Specifies the brightness level of the LED when it is off.",
+                    "label": "LED #4 off brightness level.",
+                    "index": "14",
+                    "items": [],
+                    "max": "100",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "00"
+                },
+                {
+                    "help": "Defines the relay mode.",
+                    "label": "Relay mode",
+                    "index": "15",
+                    "items": [
+                        {
+                            "label": "Relay is disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Relay is controlled by button #1 or by upper paddle when pair mode is active",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Relay is controlled by button #2 or by upper paddle when pair mode is active",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Relay is controlled by button #3 or by lower paddle when pair mode is active",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Relay is controlled by button #4 or by lower paddle when pair mode is active",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Relay is activated for one second and is controlled by button #1 or by upper paddle when pair mode is active",
+                            "value": "5"
+                        }
+                    ],
+                    "max": "5",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Defines the Indicator mode.",
+                    "label": "Indicator mode",
+                    "index": "16",
+                    "items": [
+                        {
+                            "label": "Indicator Set level values are only used to control the LED",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Indicator Set level values are also used by internal LED activations",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Button #1 will send scene [value], button #2 will send scene [value] + 1, button #3 will send scene [value] + 2, button #4 will send scene [value] + 3. (Default = 1)",
+                    "label": "Scene notification offset",
+                    "index": "17",
+                    "items": [
+                        {
+                            "label": "Scene notifications are turned off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Define a value",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "201",
+                    "min": "0",
+                    "type": "byte",
+                    "value": "1"
+                },
+                {
+                    "help": "Enable/Disable House Cleaning Mode",
+                    "label": "Disable House Cleaning Mode",
+                    "index": "18",
+                    "items": [
+                        {
+                            "label": "Enabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Disabled",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "0",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "\n\t\t\tByte 1: Enable / Disable 0 = Disabled a When single pressing the button, nodes associated to group 6 wonat be switched. 1 = Enabled a When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) \n\t\t\tByte 2: Upper switch value: 0 a 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) \n\t\t\tByte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) \n\t\t\tByte 4: Not used a must be set to 0.\n\t\t\t",
+                    "label": "Multilevel Switch on single press for device 1 (button #1)",
+                    "index": "19",
+                    "items": [],
+                    "size": "4",
+                    "type": "int",
+                    "value": "33488896"
+                },
+                {
+                    "help": "\n\t\t\tByte 1: Enable / Disable 0 = Disabled a When single pressing the button, nodes associated to group 6 wonat be switched. 1 = Enabled a When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) \n\t\t\tByte 2: Upper switch value: 0 a 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) \n\t\t\tByte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) \n\t\t\tByte 4: Not used a must be set to 0.\n\t\t\t",
+                    "label": "Multilevel Switch on single press for device 2 (button #2)",
+                    "index": "20",
+                    "items": [],
+                    "size": "4",
+                    "type": "int",
+                    "value": "33488896"
+                },
+                {
+                    "help": "\n\t\t\tByte 1: Enable / Disable 0 = Disabled a When single pressing the button, nodes associated to group 6 wonat be switched. 1 = Enabled a When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) \n\t\t\tByte 2: Upper switch value: 0 a 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) \n\t\t\tByte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) \n\t\t\tByte 4: Not used a must be set to 0.\n\t\t\t",
+                    "label": "Multilevel Switch on single press for device 3 (button #3)",
+                    "index": "21",
+                    "items": [],
+                    "size": "4",
+                    "type": "int",
+                    "value": "33488896"
+                },
+                {
+                    "help": "\n\t\t\tByte 1: Enable / Disable 0 = Disabled a When single pressing the button, nodes associated to group 6 wonat be switched. 1 = Enabled a When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) \n\t\t\tByte 2: Upper switch value: 0 a 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) \n\t\t\tByte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) \n\t\t\tByte 4: Not used a must be set to 0.\n\t\t\t",
+                    "label": "Multilevel Switch on single press for device 4 (button #4)",
+                    "index": "22",
+                    "items": [],
+                    "size": "4",
+                    "type": "int",
+                    "value": "33488896"
+                },
+                {
+                    "help": "Control of association groups for device 1 (button #1)",
+                    "label": "Control of association groups for device 1 (button #1)",
+                    "index": "23",
+                    "items": [
+                        {
+                            "label": "When commands are received by device 1, nodes in the association groups will not be switched, button activations will still send switch values.",
+                            "value": "0"
+                        },
+                        {
+                            "label": "When commands are received by device 1, nodes in the association groups will be switched.",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Control of association groups for device 2 (button #2)",
+                    "label": "Control of association groups for device 2 (button #2)",
+                    "index": "24",
+                    "items": [
+                        {
+                            "label": "When commands are received by device 2, nodes in the association groups will not be switched, button activations will still send switch values.",
+                            "value": "0"
+                        },
+                        {
+                            "label": "When commands are received by device 2, nodes in the association groups will be switched.",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Control of association groups for device 3 (button #3)",
+                    "label": "Control of association groups for device 3 (button #3)",
+                    "index": "25",
+                    "items": [
+                        {
+                            "label": "When commands are received by device 3, nodes in the association groups will not be switched, button activations will still send switch values.",
+                            "value": "0"
+                        },
+                        {
+                            "label": "When commands are received by device 3, nodes in the association groups will be switched.",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                },
+                {
+                    "help": "Control of association groups for device 4 (button #4)",
+                    "label": "Control of association groups for device 4 (button #4)",
+                    "index": "26",
+                    "items": [
+                        {
+                            "label": "When commands are received by device 4, nodes in the association groups will not be switched, button activations will still send switch values.",
+                            "value": "0"
+                        },
+                        {
+                            "label": "When commands are received by device 4, nodes in the association groups will be switched.",
+                            "value": "1"
+                        }
+                    ],
+                    "max": "1",
+                    "min": "0",
+                    "size": "1",
+                    "type": "list",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "values": []
+        }
     ],
     "configurations": [],
     "meta": {
