@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        133,
+        132
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Remotec",
             "product": "Z-URC"
         }
-    }
+    },
+    "manufacturerId": 21076,
+    "productId": 21279,
+    "productTypeId": 0
 }

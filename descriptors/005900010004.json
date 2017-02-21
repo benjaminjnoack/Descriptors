@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Horstmann",
             "product": "SRT 323 Electronic Room Thermostat and Temperature"
         }
-    }
+    },
+    "manufacturerId": 89,
+    "productId": 4,
+    "productTypeId": 1
 }

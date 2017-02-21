@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHIDx Flush on/off thermostat (H1S1P1)"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 81,
+    "productTypeId": 5
 }

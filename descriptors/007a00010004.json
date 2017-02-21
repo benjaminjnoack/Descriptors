@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Merten",
             "product": "Transmitter 2-Gang Switch"
         }
-    }
+    },
+    "manufacturerId": 122,
+    "productId": 4,
+    "productTypeId": 1
 }

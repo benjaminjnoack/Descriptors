@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Zooz",
             "product": "ZSE08 Contact Sensor"
         }
-    }
+    },
+    "manufacturerId": 634,
+    "productId": 130,
+    "productTypeId": 3
 }

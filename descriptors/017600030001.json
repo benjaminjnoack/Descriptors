@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Telldus",
             "product": "TZWP-100 Plug-in Switch"
         }
-    }
+    },
+    "manufacturerId": 374,
+    "productId": 1,
+    "productTypeId": 3
 }

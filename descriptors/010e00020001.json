@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        98,
+        113,
+        115,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Polycontrol",
             "product": "Danalock Keypad"
         }
-    }
+    },
+    "manufacturerId": 270,
+    "productId": 1,
+    "productTypeId": 2
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Polycontrol",
             "product": "Danalock Circle/Square"
         }
-    }
+    },
+    "manufacturerId": 270,
+    "productId": 2,
+    "productTypeId": 3
 }

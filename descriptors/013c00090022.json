@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PSR04 Smart Color Button"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 34,
+    "productTypeId": 9
 }

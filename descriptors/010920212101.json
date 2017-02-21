@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZP3111 Multisensor 4in1"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 8449,
+    "productTypeId": 8225
 }

@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        64,
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHLDx Flush PWM thermostat"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 83,
+    "productTypeId": 5
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSB04100 Door/Window Sensor"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 4,
+    "productTypeId": 2
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        96,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "wiDom",
             "product": "WDS Universal Double Switch"
         }
-    }
+    },
+    "manufacturerId": 329,
+    "productId": 1284,
+    "productTypeId": 4628
 }

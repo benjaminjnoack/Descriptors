@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Evolve Guest Controls",
             "product": "LTM-5 Wall Switch Transmitter"
         }
-    }
+    },
+    "manufacturerId": 275,
+    "productId": 12339,
+    "productTypeId": 21591
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "BeNext",
             "product": "DHS-ZW-SNMT-01 Multi Sensor"
         }
-    }
+    },
+    "manufacturerId": 138,
+    "productId": 257,
+    "productTypeId": 3
 }

@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp",
             "product": "009402 10-Year Smoke Detector"
         }
-    }
+    },
+    "manufacturerId": 340,
+    "productId": 4,
+    "productTypeId": 4
 }

@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        32
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Iris",
             "product": "Range Extender"
         }
-    }
+    },
+    "manufacturerId": 294,
+    "productId": 1,
+    "productTypeId": 2
 }

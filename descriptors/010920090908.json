@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        37,
+        128,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZM1602+ DC/AC Power Siren"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 2312,
+    "productTypeId": 8201
 }

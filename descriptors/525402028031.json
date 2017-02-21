@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Remotec",
             "product": "ZTS-110"
         }
-    }
+    },
+    "manufacturerId": 21076,
+    "productId": 32817,
+    "productTypeId": 514
 }

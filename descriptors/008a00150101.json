@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "BeNext",
             "product": "Panic Watch"
         }
-    }
+    },
+    "manufacturerId": 138,
+    "productId": 257,
+    "productTypeId": 21
 }

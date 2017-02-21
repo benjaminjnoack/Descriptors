@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSA07203 Z-Stick Lite"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 7,
+    "productTypeId": 1
 }

@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSC10 Heavy-Duty Smart Switch"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 10,
+    "productTypeId": 3
 }

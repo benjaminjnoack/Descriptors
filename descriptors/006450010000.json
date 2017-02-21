@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp / Duwi",
             "product": "ZW FB Wireless remote control 10-channel"
         }
-    }
+    },
+    "manufacturerId": 100,
+    "productId": 0,
+    "productTypeId": 20481
 }

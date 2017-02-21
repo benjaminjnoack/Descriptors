@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        113,
+        156,
+        39,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGWPE/F Wall Plug"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 4096,
+    "productTypeId": 1536
 }

@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        64,
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Horstmann",
             "product": "SCSC17 Thermostat"
         }
-    }
+    },
+    "manufacturerId": 89,
+    "productId": 1,
+    "productTypeId": 4
 }

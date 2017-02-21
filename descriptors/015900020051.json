@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        37,
+        133,
+        32
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHBDx Flush 2 Relays"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 81,
+    "productTypeId": 2
 }

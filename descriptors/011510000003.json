@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "ZME_06436 Motor Control"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 3,
+    "productTypeId": 4096
 }

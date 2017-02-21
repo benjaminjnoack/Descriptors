@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSC06106 Smart Energy Switch"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 6,
+    "productTypeId": 3
 }

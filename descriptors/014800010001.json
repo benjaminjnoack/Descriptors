@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        64,
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "EUROtronic",
             "product": "EUR_STELLAZ Wall Radiator Thermostat Valve Control"
         }
-    }
+    },
+    "manufacturerId": 328,
+    "productId": 1,
+    "productTypeId": 1
 }

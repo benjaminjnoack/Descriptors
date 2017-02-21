@@ -1,10 +1,21 @@
 {
     "commands": {},
+    "command_classes": [
+        113,
+        156,
+        139,
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGSS101 Smoke Sensor"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 4096,
+    "productTypeId": 3072
 }

@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "NodOn",
             "product": "CRC-3-6-0x Soft Remote"
         }
-    }
+    },
+    "manufacturerId": 357,
+    "productId": 2,
+    "productTypeId": 2
 }

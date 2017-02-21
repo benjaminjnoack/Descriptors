@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "ZME_054313Z Flush-Mountable Switch"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 1,
+    "productTypeId": 4096
 }

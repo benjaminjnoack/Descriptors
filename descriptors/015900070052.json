@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133,
+        142,
+        32,
+        96
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHTDx Smart meter"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 82,
+    "productTypeId": 7
 }

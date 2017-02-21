@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133,
+        32,
+        96
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHUD1 DIN Pilot Wire"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 82,
+    "productTypeId": 4
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        43,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "ZME_WCD2 Double Paddle Wall Controller"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 4,
+    "productTypeId": 256
 }

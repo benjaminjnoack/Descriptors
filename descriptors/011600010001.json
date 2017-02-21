@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Chromagic Technologies Corporation",
             "product": "HSCP02 Motion Detector"
         }
-    }
+    },
+    "manufacturerId": 278,
+    "productId": 1,
+    "productTypeId": 1
 }

@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Intermatic",
             "product": "HA-03WD Lamp Module"
         }
-    }
+    },
+    "manufacturerId": 5,
+    "productId": 3,
+    "productTypeId": 3
 }

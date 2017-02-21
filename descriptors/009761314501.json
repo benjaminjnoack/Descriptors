@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        113,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Schlage Link",
             "product": "Mini Keypad RFID"
         }
-    }
+    },
+    "manufacturerId": 151,
+    "productId": 17665,
+    "productTypeId": 24881
 }

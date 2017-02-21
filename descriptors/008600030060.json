@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW096 Smart Switch 6"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 96,
+    "productTypeId": 3
 }

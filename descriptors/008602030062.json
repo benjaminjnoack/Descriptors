@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW098 LED Bulb"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 98,
+    "productTypeId": 515
 }

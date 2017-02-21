@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Wayne Dalton",
             "product": "WDTC-20 Thermostat"
         }
-    }
+    },
+    "manufacturerId": 8,
+    "productId": 32,
+    "productTypeId": 7
 }

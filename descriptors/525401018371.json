@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Remotec",
             "product": "ZXT-310EU"
         }
-    }
+    },
+    "manufacturerId": 21076,
+    "productId": 33649,
+    "productTypeId": 257
 }

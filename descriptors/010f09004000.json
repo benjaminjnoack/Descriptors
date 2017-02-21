@@ -1,10 +1,21 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        115,
+        51,
+        38,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGRGBWM441 RGBW Controller"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 16384,
+    "productTypeId": 2304
 }

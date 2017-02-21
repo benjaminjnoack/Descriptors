@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        38,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "G.R.",
             "product": "GR105 Auto Valve"
         }
-    }
+    },
+    "manufacturerId": 338,
+    "productId": 1297,
+    "productTypeId": 514
 }

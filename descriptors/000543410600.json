@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Intermatic",
             "product": "CA600 Wall Dimmer"
         }
-    }
+    },
+    "manufacturerId": 5,
+    "productId": 1536,
+    "productTypeId": 17217
 }

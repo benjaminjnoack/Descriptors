@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "D-Link Corporation",
             "product": "DCH-Z120 PIR/Motion 3 in 1 sensor"
         }
-    }
+    },
+    "manufacturerId": 264,
+    "productId": 13,
+    "productTypeId": 2
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        96,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGFS101 Flood Sensor"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 40448,
+    "productTypeId": 2816
 }

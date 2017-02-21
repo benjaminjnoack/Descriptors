@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGRM222 Roller Shutter Controller 2"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 4097,
+    "productTypeId": 769
 }

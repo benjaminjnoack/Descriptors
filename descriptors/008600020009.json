@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        132,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSB09104 Home Energy Meter"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 9,
+    "productTypeId": 2
 }

@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "There",
             "product": "ThereGate"
         }
-    }
+    },
+    "manufacturerId": 268,
+    "productId": 1,
+    "productTypeId": 1
 }

@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "LS Control",
             "product": "ES 861 Temperature Sensor"
         }
-    }
+    },
+    "manufacturerId": 113,
+    "productId": 861,
+    "productTypeId": 2
 }

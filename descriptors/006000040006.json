@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Everspring",
             "product": "AN181 Miniplug On/Off with meter function"
         }
-    }
+    },
+    "manufacturerId": 96,
+    "productId": 6,
+    "productTypeId": 4
 }

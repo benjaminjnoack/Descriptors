@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        134
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Leviton",
             "product": "RZI10-1LX Multilevel Scene Switch"
         }
-    }
+    },
+    "manufacturerId": 29,
+    "productId": 518,
+    "productTypeId": 1025
 }

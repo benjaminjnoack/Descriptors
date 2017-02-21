@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Enerwave",
             "product": "ZW20R 20A TR Duplex Receptacle"
         }
-    }
+    },
+    "manufacturerId": 282,
+    "productId": 1539,
+    "productTypeId": 257
 }

@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        38
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Linear",
             "product": "WD500Z-1 Wall Dimmer Switch"
         }
-    }
+    },
+    "manufacturerId": 335,
+    "productId": 12340,
+    "productTypeId": 17495
 }

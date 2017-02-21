@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Devolo home Control",
             "product": "Metering Plug MT 2646"
         }
-    }
+    },
+    "manufacturerId": 373,
+    "productId": 17,
+    "productTypeId": 1
 }

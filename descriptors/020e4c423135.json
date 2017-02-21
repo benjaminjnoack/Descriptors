@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Domitech",
             "product": "Smart LED Light Bulb ZB22UK"
         }
-    }
+    },
+    "manufacturerId": 526,
+    "productId": 12597,
+    "productTypeId": 19522
 }

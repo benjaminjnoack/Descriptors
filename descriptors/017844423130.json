@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Nexia",
             "product": "DB100Z Doorbell Sensor"
         }
-    }
+    },
+    "manufacturerId": 376,
+    "productId": 12592,
+    "productTypeId": 17474
 }

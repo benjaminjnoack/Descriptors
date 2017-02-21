@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "RCS",
             "product": "TZ43 Thermostat"
         }
-    }
+    },
+    "manufacturerId": 16,
+    "productId": 2,
+    "productTypeId": 1
 }

@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        119
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "RCS",
             "product": "EM52-ZW Z-Wave Home Energy Meter"
         }
-    }
+    },
+    "manufacturerId": 16,
+    "productId": 13618,
+    "productTypeId": 17741
 }

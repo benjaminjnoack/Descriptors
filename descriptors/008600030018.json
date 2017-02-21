@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSC24 Smart Switch (2nd Edition)"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 24,
+    "productTypeId": 3
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        113,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Zipato",
             "product": "Zipato Mini Keypad"
         }
-    }
+    },
+    "manufacturerId": 305,
+    "productId": 17665,
+    "productTypeId": 24881
 }

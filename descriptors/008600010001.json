@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "Z-Stick"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 1,
+    "productTypeId": 1
 }

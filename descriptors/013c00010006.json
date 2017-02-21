@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PAN08-1 In Wall Roller Shutter Controller"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 6,
+    "productTypeId": 1
 }

@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PAN11-4 Smart Energy Plug In Switch"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 1,
+    "productTypeId": 1
 }

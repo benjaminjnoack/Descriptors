@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSC14104 Micro Motor Controller"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 14,
+    "productTypeId": 3
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        48,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PSM02-1 Slim Multi-Sensor"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 2,
+    "productTypeId": 2
 }

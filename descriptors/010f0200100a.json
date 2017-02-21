@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        96,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGS221 Double Relay Switch 2x1.5kW"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 4106,
+    "productTypeId": 512
 }

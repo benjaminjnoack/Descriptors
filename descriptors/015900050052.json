@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHKDx Flush Heat and Cool thermostat"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 82,
+    "productTypeId": 5
 }

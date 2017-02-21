@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp / Duwi",
             "product": "Wall Dimmer Set for Busch-Jaeger DURO 2000"
         }
-    }
+    },
+    "manufacturerId": 100,
+    "productId": 9,
+    "productTypeId": 4096
 }

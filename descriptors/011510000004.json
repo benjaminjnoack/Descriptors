@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        43,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "ZME_064435 Wall Controller"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 4,
+    "productTypeId": 4096
 }

@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        113,
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW089 Recessed Door Sensor Gen5"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 89,
+    "productTypeId": 2
 }

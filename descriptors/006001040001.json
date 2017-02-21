@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Everspring",
             "product": "AN145 Lamp Screw In Module"
         }
-    }
+    },
+    "manufacturerId": 96,
+    "productId": 1,
+    "productTypeId": 260
 }

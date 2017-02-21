@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "RaZberry Controller"
         }
-    }
+    },
+    "manufacturerId": 327,
+    "productId": 3,
+    "productTypeId": 2
 }

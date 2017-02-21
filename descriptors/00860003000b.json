@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSC11 Smart Strip"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 11,
+    "productTypeId": 3
 }

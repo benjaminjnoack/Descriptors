@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        133,
+        67,
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "RCS",
             "product": "TZ43-IHD SMUD Thermostat"
         }
-    }
+    },
+    "manufacturerId": 16,
+    "productId": 5,
+    "productTypeId": 1
 }

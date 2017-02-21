@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        113,
+        30,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZD2201 Multisensor 4in1"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 7952,
+    "productTypeId": 8223
 }

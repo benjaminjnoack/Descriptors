@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        134
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Leviton",
             "product": "VRCPG-SG RF Handheld Remote Controller"
         }
-    }
+    },
+    "manufacturerId": 29,
+    "productId": 518,
+    "productTypeId": 3073
 }

@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        96,
+        32,
+        113,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PAN03 Switch Module with meter 3 KW X1"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 15,
+    "productTypeId": 1
 }

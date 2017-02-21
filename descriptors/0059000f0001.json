@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Horstmann",
             "product": "SWM01 Water Meter Sensor"
         }
-    }
+    },
+    "manufacturerId": 89,
+    "productId": 1,
+    "productTypeId": 15
 }

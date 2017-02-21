@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Fakro",
             "product": "ZWS12 Chain actuator 12VDC"
         }
-    }
+    },
+    "manufacturerId": 133,
+    "productId": 1,
+    "productTypeId": 3
 }

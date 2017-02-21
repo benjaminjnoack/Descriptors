@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Everspring",
             "product": "SF812 Smoke Alarm"
         }
-    }
+    },
+    "manufacturerId": 96,
+    "productId": 1,
+    "productTypeId": 13
 }

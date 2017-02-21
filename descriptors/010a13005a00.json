@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        96
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vitrum",
             "product": "Vitrum II EU Roller Blind Control"
         }
-    }
+    },
+    "manufacturerId": 266,
+    "productId": 23040,
+    "productTypeId": 4864
 }

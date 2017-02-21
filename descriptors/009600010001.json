@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "NorthQ",
             "product": "NQ-92021 Power Reader"
         }
-    }
+    },
+    "manufacturerId": 150,
+    "productId": 1,
+    "productTypeId": 1
 }

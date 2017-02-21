@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZG8101 Garage Door Detector"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 2562,
+    "productTypeId": 8202
 }

@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Evolve Guest Controls",
             "product": "LRM-AS Wall Dimmer 500W"
         }
-    }
+    },
+    "manufacturerId": 275,
+    "productId": 12340,
+    "productTypeId": 17495
 }

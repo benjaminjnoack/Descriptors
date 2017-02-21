@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        113
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Assa Abloy",
             "product": "Yale Keyless Connected Smart Lock (YSL)"
         }
-    }
+    },
+    "manufacturerId": 297,
+    "productId": 0,
+    "productTypeId": 7
 }

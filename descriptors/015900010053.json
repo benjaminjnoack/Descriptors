@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133,
+        32
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHVDx Flush Dimmer 0-10V"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 83,
+    "productTypeId": 1
 }

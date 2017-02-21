@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133,
+        32,
+        96
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHJD1 Flush Dimmer Pilot Wire"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 81,
+    "productTypeId": 4
 }

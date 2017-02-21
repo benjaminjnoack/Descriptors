@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        67,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Danfoss",
             "product": "Z Thermostat"
         }
-    }
+    },
+    "manufacturerId": 2,
+    "productId": 3,
+    "productTypeId": 5
 }

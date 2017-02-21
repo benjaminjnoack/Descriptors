@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        113,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "BeNext",
             "product": "Alarm Sound"
         }
-    }
+    },
+    "manufacturerId": 138,
+    "productId": 257,
+    "productTypeId": 5
 }

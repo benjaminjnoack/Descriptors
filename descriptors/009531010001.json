@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        38,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qees",
             "product": "RETO Dimmer Plus 2013"
         }
-    }
+    },
+    "manufacturerId": 149,
+    "productId": 1,
+    "productTypeId": 12545
 }

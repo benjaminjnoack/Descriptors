@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Devolo home Control",
             "product": "Door/Window Contact MT 02648"
         }
-    }
+    },
+    "manufacturerId": 373,
+    "productId": 14,
+    "productTypeId": 2
 }

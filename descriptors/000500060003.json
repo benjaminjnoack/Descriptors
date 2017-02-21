@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Intermatic",
             "product": "HA-06 In-Wall Switch Dimmer"
         }
-    }
+    },
+    "manufacturerId": 5,
+    "productId": 3,
+    "productTypeId": 6
 }

@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FortrezZ",
             "product": "MIMOlite Wireless Interface/Bridge Module"
         }
-    }
+    },
+    "manufacturerId": 132,
+    "productId": 273,
+    "productTypeId": 1107
 }

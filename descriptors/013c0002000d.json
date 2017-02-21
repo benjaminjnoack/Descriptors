@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PST02-B PIR/Motion 3 in 1 Sensor"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 13,
+    "productTypeId": 2
 }

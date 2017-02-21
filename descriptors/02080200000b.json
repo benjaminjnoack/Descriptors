@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Hank",
             "product": "Scene Controller 4 Button"
         }
-    }
+    },
+    "manufacturerId": 520,
+    "productId": 11,
+    "productTypeId": 512
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133,
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Trane",
             "product": "Model TZEMT400BB32MAA"
         }
-    }
+    },
+    "manufacturerId": 139,
+    "productId": 21555,
+    "productTypeId": 21586
 }

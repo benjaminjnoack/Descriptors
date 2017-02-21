@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp / Duwi",
             "product": "ZW EDAN 300 Flush Mounted Dimmer"
         }
-    }
+    },
+    "manufacturerId": 100,
+    "productId": 0,
+    "productTypeId": 1
 }

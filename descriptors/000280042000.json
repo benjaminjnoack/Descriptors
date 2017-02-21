@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Danfoss",
             "product": "RXZ3 RF relay Switching Unit"
         }
-    }
+    },
+    "manufacturerId": 2,
+    "productId": 8192,
+    "productTypeId": 32772
 }

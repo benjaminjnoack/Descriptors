@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Enerwave",
             "product": "ZW500D 500W In-Wall Preset Dimmer Switch"
         }
-    }
+    },
+    "manufacturerId": 282,
+    "productId": 513,
+    "productTypeId": 258
 }

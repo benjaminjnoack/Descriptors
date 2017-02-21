@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW117 Range Extender 6"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 117,
+    "productTypeId": 516
 }

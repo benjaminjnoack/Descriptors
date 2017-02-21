@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "NorthQ",
             "product": "NQ-9121 Gas Meter"
         }
-    }
+    },
+    "manufacturerId": 150,
+    "productId": 1,
+    "productTypeId": 16
 }

@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        49,
+        96,
+        112,
+        133,
+        142
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHZDx Weather Station"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 83,
+    "productTypeId": 7
 }

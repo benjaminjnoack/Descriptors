@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Zooz",
             "product": "ZSE40 4-in-1 sensor"
         }
-    }
+    },
+    "manufacturerId": 634,
+    "productId": 8449,
+    "productTypeId": 8225
 }

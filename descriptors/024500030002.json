@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Permundo",
             "product": "PSC132ZW Smart Mini Plug"
         }
-    }
+    },
+    "manufacturerId": 581,
+    "productId": 2,
+    "productTypeId": 3
 }

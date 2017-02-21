@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133,
+        32
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qubino",
             "product": "ZMNHOD1 Flush Shutter DC"
         }
-    }
+    },
+    "manufacturerId": 345,
+    "productId": 83,
+    "productTypeId": 3
 }

@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        119
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "RCS",
             "product": "PM12-ZW Z-Wave Power Monitoring Module"
         }
-    }
+    },
+    "manufacturerId": 16,
+    "productId": 12594,
+    "productTypeId": 20557
 }

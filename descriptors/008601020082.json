@@ -1,10 +1,21 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        37,
+        38,
+        112,
+        133,
+        142
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW130 WallMote Quad"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 130,
+    "productTypeId": 258
 }

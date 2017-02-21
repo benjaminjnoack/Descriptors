@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSB05 Multisensor"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 5,
+    "productTypeId": 2
 }

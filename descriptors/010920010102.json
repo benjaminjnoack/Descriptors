@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        113,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZD2102 AU Door/Window Sensor"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 258,
+    "productTypeId": 8193
 }

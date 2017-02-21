@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "E Housekeeper",
             "product": "Switchkeeper Plug-in Appliance Module"
         }
-    }
+    },
+    "manufacturerId": 18,
+    "productId": 1,
+    "productTypeId": 1
 }

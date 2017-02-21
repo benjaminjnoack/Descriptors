@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Devolo home Control",
             "product": "Motion Detector MT 2647"
         }
-    }
+    },
+    "manufacturerId": 373,
+    "productId": 13,
+    "productTypeId": 2
 }

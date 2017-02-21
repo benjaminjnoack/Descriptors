@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "First Alert",
             "product": "ZCombo Smoke and Carbon Monoxide Detector"
         }
-    }
+    },
+    "manufacturerId": 312,
+    "productId": 2,
+    "productTypeId": 1
 }

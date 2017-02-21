@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "ZME_06433/05433 Wall Flush-Mountable Dimmer"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 2,
+    "productTypeId": 4096
 }

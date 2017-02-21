@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        32
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Enerwave",
             "product": "ZWN-SC7 7-Button Scene Controller"
         }
-    }
+    },
+    "manufacturerId": 282,
+    "productId": 2819,
+    "productTypeId": 2049
 }

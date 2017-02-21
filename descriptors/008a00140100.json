@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "BeNext",
             "product": "Panic Button"
         }
-    }
+    },
+    "manufacturerId": 138,
+    "productId": 256,
+    "productTypeId": 20
 }

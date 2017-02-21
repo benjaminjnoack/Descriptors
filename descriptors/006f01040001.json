@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Home Manageables",
             "product": "HM-AM001 Plugin Appliance Module"
         }
-    }
+    },
+    "manufacturerId": 111,
+    "productId": 1,
+    "productTypeId": 260
 }

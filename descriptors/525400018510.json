@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Remotec",
             "product": "ZRC-90"
         }
-    }
+    },
+    "manufacturerId": 21076,
+    "productId": 34064,
+    "productTypeId": 1
 }

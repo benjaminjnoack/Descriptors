@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Leviton",
             "product": "VRC0P-1LW Plug-in Serial Interface Module"
         }
-    }
+    },
+    "manufacturerId": 29,
+    "productId": 779,
+    "productTypeId": 2818
 }

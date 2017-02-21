@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        38,
+        132,
+        133,
+        155
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSA03202 Minimote"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 3,
+    "productTypeId": 1
 }

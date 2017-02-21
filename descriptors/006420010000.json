@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        38
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp / Duwi",
             "product": "ZW ES 1000 Flush Mounted Switch"
         }
-    }
+    },
+    "manufacturerId": 100,
+    "productId": 0,
+    "productTypeId": 8193
 }

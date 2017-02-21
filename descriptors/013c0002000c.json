@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PST02-A 4 in 1 Multi-Sensor"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 12,
+    "productTypeId": 2
 }

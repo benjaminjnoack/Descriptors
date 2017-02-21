@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Ecolink",
             "product": "Tilt Sensor"
         }
-    }
+    },
+    "manufacturerId": 330,
+    "productId": 3,
+    "productTypeId": 1
 }

@@ -13,6 +13,7 @@ const
   Product       = require('./modules/Product');
 
 const
+  COMMAND_CLASS               = 'CommandClass',
   CONFIG                      = 'config',
   CONFIG_DIR                  = `${__dirname}/config`,
   META                        = '$',
@@ -33,7 +34,7 @@ function parseManufacturerSpecific(results) {
   results = results[MANUFACTURER_SPECIFIC_DATA];
   results = results[MANUFACTURER];//An Array
   results.forEach(parseManufacturer);
-  console.timeEnd('runtime');
+  console.timeEnd('runtime');//TODO make above a promise
 }
 
 function parseManufacturer(manufacturer) {
@@ -53,11 +54,11 @@ function parseManufacturer(manufacturer) {
       products.forEach((product) => {
         writeFile(manufacturer, product);
       });
+
     })
     .catch((reason) => {
       console.error(`1: ${reason}`);
     });
-
 }
 
 function parseProduct(product) {
@@ -70,6 +71,10 @@ function parseProduct(product) {
 
   return parseFile(product[CONFIG])
     .then((result) => {
+      result = result[PRODUCT];
+      result = result[COMMAND_CLASS];
+      product.processCommandClasses(result);
+      console.log(`${product.name} has ${product.command_classes.length} CCs`);
       return product;
     });
 }
@@ -80,6 +85,8 @@ function parseFile(path) {
 
   return new Promise((resolve, reject) => {
     fs.readFile(path, (err, data) => {
+      if (err) return reject(err);
+
       parser.parseString(data, (err, result) => {
         return err ? reject(err) : resolve(result);
       });
@@ -98,20 +105,24 @@ function categoryProductId(manufacturerId, productTypeId, productId) {
 function writeFile(manufacturer, product) {
   let path = categoryProductId(manufacturer.id, product.type, product.id);
   path = `${__dirname}/descriptors/${path}.json`;
-  let file = getTemplate(manufacturer.name, product.name);
+  let file = getTemplate(manufacturer, product);
   fs.writeFileSync(path, file);
 }
 
 function getTemplate(manufacturer, product) {
   let template = {
     commands: {},
+    command_classes: product.command_classes,
     configurations: [],
     meta: {
       display: {
-        manufacturer: manufacturer,
-        product: product
+        manufacturer: manufacturer.name,
+        product: product.name
       }
-    }
+    },
+    manufacturerId: manufacturer.id,
+    productId: product.id,
+    productTypeId: product.type
   };
 
   return JSON.stringify(template, null, 4);

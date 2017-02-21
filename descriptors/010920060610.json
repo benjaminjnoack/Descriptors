@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZM1701 Electronic Deadbolt Door Lock without Handle"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 1552,
+    "productTypeId": 8198
 }

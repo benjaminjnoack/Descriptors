@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Linear",
             "product": "PS15Z-2 Plug-in Appliance Module"
         }
-    }
+    },
+    "manufacturerId": 335,
+    "productId": 12336,
+    "productTypeId": 21072
 }

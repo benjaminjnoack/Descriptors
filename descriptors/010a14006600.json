@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        96
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vitrum",
             "product": "Vitrum VI EU Wireless On-off"
         }
-    }
+    },
+    "manufacturerId": 266,
+    "productId": 26112,
+    "productTypeId": 5120
 }

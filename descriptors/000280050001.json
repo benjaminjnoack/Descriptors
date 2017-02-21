@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Danfoss",
             "product": "Living Connect Radiator Thermostat"
         }
-    }
+    },
+    "manufacturerId": 2,
+    "productId": 1,
+    "productTypeId": 32773
 }

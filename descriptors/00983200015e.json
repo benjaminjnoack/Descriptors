@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "2GIG Technologies",
             "product": "CT50e Thermostat"
         }
-    }
+    },
+    "manufacturerId": 152,
+    "productId": 350,
+    "productTypeId": 12800
 }

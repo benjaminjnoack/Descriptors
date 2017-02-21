@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "iTemp Temperature Sensor"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 1,
+    "productTypeId": 513
 }

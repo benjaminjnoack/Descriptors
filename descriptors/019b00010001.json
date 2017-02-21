@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        64,
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "ThermoFloor AS",
             "product": "Heatit Thermostat TF 021"
         }
-    }
+    },
+    "manufacturerId": 411,
+    "productId": 1,
+    "productTypeId": 1
 }

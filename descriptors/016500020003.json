@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "NodOn",
             "product": "CWS-3-1-01 Wall Switch"
         }
-    }
+    },
+    "manufacturerId": 357,
+    "productId": 3,
+    "productTypeId": 2
 }

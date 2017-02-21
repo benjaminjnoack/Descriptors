@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Everspring",
             "product": "AN179 In wall ON/OFF Module"
         }
-    }
+    },
+    "manufacturerId": 96,
+    "productId": 8,
+    "productTypeId": 4
 }

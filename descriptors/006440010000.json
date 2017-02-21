@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp / Duwi",
             "product": "ZW ESJ Blind Control"
         }
-    }
+    },
+    "manufacturerId": 100,
+    "productId": 0,
+    "productTypeId": 16385
 }

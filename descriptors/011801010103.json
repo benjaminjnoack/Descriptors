@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Wenzhou TKB Control System",
             "product": "TZ68 On/Off Switch Socket"
         }
-    }
+    },
+    "manufacturerId": 280,
+    "productId": 259,
+    "productTypeId": 257
 }

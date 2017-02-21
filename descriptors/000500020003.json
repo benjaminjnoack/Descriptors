@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Intermatic",
             "product": "HA-02 Appliance Module"
         }
-    }
+    },
+    "manufacturerId": 5,
+    "productId": 3,
+    "productTypeId": 2
 }

@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        134
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Leviton",
             "product": "VRMX1-1LZ Multilevel Scene Switch"
         }
-    }
+    },
+    "manufacturerId": 29,
+    "productId": 521,
+    "productTypeId": 1538
 }

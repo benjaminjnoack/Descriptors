@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Neo CoolCam",
             "product": "Power plug 12A"
         }
-    }
+    },
+    "manufacturerId": 600,
+    "productId": 4231,
+    "productTypeId": 3
 }

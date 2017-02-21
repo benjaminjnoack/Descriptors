@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGK10x Door Opening Sensor"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 8192,
+    "productTypeId": 1792
 }

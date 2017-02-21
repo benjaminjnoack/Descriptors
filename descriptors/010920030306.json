@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZS5101 Shock and Vibration Sensor"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 774,
+    "productTypeId": 8195
 }

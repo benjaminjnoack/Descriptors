@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        38,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW088 Key Fob Gen5"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 88,
+    "productTypeId": 257
 }

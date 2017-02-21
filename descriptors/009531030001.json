@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        48,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Qees",
             "product": "RETO Plug-in Switch Plus"
         }
-    }
+    },
+    "manufacturerId": 149,
+    "productId": 1,
+    "productTypeId": 12547
 }

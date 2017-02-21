@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp / Duwi",
             "product": "ZW ZSA 3500 Plugin Switch"
         }
-    }
+    },
+    "manufacturerId": 100,
+    "productId": 0,
+    "productTypeId": 12290
 }

@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Remotec",
             "product": "ZFM-X10EU Dual Mode Insert Module "
         }
-    }
+    },
+    "manufacturerId": 21076,
+    "productId": 33056,
+    "productTypeId": 33281
 }

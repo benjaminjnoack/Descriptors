@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        48,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Wenzhou TKB Control System",
             "product": "TSP01 3 in 1 PIR Motion Sensor"
         }
-    }
+    },
+    "manufacturerId": 280,
+    "productId": 2,
+    "productTypeId": 2
 }

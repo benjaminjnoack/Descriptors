@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        96,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "FIBARO System",
             "product": "FGD212 Dimmer 2"
         }
-    }
+    },
+    "manufacturerId": 271,
+    "productId": 16384,
+    "productTypeId": 258
 }

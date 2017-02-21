@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        96,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Mcohome",
             "product": "MH-S314 Four-load"
         }
-    }
+    },
+    "manufacturerId": 351,
+    "productId": 516,
+    "productTypeId": 12546
 }

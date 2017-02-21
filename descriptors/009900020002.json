@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        113,
+        135,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "GreenWave",
             "product": "PowerNode 1 port"
         }
-    }
+    },
+    "manufacturerId": 153,
+    "productId": 2,
+    "productTypeId": 2
 }

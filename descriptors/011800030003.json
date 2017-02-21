@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Wenzhou TKB Control System",
             "product": "TZ56 Wall Switch On/Off"
         }
-    }
+    },
+    "manufacturerId": 280,
+    "productId": 3,
+    "productTypeId": 3
 }

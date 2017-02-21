@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Sensative",
             "product": "Strips"
         }
-    }
+    },
+    "manufacturerId": 410,
+    "productId": 3,
+    "productTypeId": 3
 }

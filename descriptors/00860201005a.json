@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW090 Z-Stick Gen5"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 90,
+    "productTypeId": 513
 }

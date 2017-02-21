@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "wiDom",
             "product": "UME304 Energy Driven Switch"
         }
-    }
+    },
+    "manufacturerId": 329,
+    "productId": 772,
+    "productTypeId": 4628
 }

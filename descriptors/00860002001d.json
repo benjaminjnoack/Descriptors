@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "DSB29 Door/Window Sensor (2nd Edition)"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 29,
+    "productTypeId": 2
 }

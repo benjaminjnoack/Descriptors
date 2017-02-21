@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Enerwave",
             "product": "ZW15S 15A On/Off Switch"
         }
-    }
+    },
+    "manufacturerId": 282,
+    "productId": 258,
+    "productTypeId": 257
 }

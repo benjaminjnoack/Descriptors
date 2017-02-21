@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "2GIG Technologies",
             "product": "CT100 Thermostat USA"
         }
-    }
+    },
+    "manufacturerId": 152,
+    "productId": 263,
+    "productTypeId": 25601
 }

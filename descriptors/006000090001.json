@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        132,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Everspring",
             "product": "TSE03 Door Bell"
         }
-    }
+    },
+    "manufacturerId": 96,
+    "productId": 1,
+    "productTypeId": 9
 }

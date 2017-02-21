@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Popp",
             "product": "123658 Plug-in Switch plus Power Meter"
         }
-    }
+    },
+    "manufacturerId": 340,
+    "productId": 1,
+    "productTypeId": 1
 }

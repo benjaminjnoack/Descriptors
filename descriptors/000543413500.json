@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Intermatic",
             "product": "CA3560 Split-Duplex Receptacle"
         }
-    }
+    },
+    "manufacturerId": 5,
+    "productId": 13568,
+    "productTypeId": 17217
 }

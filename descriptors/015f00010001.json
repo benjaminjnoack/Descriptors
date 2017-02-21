@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Mcohome",
             "product": "Mini Energy Dimmer"
         }
-    }
+    },
+    "manufacturerId": 351,
+    "productId": 1,
+    "productTypeId": 1
 }

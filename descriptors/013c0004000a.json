@@ -1,10 +1,19 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        38,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PH-PSE02.eu Zipato Indoor Siren"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 10,
+    "productTypeId": 4
 }

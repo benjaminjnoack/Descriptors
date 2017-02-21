@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Everspring",
             "product": "HAN01 In-wall Switch Module"
         }
-    }
+    },
+    "manufacturerId": 96,
+    "productId": 1,
+    "productTypeId": 17
 }

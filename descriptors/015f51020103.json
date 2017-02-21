@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        96,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Mcohome",
             "product": "Touch Panel Switch MH-S513"
         }
-    }
+    },
+    "manufacturerId": 351,
+    "productId": 259,
+    "productTypeId": 20738
 }

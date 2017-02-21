@@ -1,10 +1,21 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        48,
+        113,
+        128,
+        132,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Chromagic Technologies Corporation",
             "product": "HSM02 Mini Door/Window Detector"
         }
-    }
+    },
+    "manufacturerId": 278,
+    "productId": 1,
+    "productTypeId": 2
 }

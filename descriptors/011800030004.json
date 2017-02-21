@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Wenzhou TKB Control System",
             "product": "TZ55 Wall Switch Dimmer"
         }
-    }
+    },
+    "manufacturerId": 280,
+    "productId": 4,
+    "productTypeId": 3
 }

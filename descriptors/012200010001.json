@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Miyakawa Electric Works",
             "product": "ME-D101 Electric Power Measuring Instrument"
         }
-    }
+    },
+    "manufacturerId": 290,
+    "productId": 1,
+    "productTypeId": 1
 }

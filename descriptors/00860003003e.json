@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        113,
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW062 Garage Door Controller"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 62,
+    "productTypeId": 3
 }

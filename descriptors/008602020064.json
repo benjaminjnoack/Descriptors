@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        113,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW100 MultiSensor 6"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 100,
+    "productTypeId": 514
 }

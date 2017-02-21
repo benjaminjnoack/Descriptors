@@ -1,10 +1,20 @@
 {
     "commands": {},
+    "command_classes": [
+        64,
+        67,
+        112,
+        122,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "BeNext",
             "product": "Heating Control"
         }
-    }
+    },
+    "manufacturerId": 138,
+    "productId": 1,
+    "productTypeId": 33
 }

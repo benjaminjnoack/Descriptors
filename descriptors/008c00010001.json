@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "MIOS",
             "product": "Vera Lite"
         }
-    }
+    },
+    "manufacturerId": 140,
+    "productId": 1,
+    "productTypeId": 1
 }

@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZL7432 In-Wall Switch, Dual Relay"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 5911,
+    "productTypeId": 8215
 }

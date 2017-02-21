@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW111 Nano Dimmer"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 111,
+    "productTypeId": 7427
 }

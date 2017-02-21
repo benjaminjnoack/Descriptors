@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Fakro",
             "product": "ZWS230 Chain actuator 230VAC"
         }
-    }
+    },
+    "manufacturerId": 133,
+    "productId": 2,
+    "productTypeId": 3
 }

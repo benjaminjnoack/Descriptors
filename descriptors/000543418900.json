@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Intermatic",
             "product": "CA8900 Digital Thermostat"
         }
-    }
+    },
+    "manufacturerId": 5,
+    "productId": 35072,
+    "productTypeId": 17217
 }

@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        113,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Assa Abloy",
             "product": "Yale Touchscreen Lever (YRL220)"
         }
-    }
+    },
+    "manufacturerId": 297,
+    "productId": 0,
+    "productTypeId": 1
 }

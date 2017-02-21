@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "ID Lock",
             "product": "ID Lock 101"
         }
-    }
+    },
+    "manufacturerId": 560,
+    "productId": 1,
+    "productTypeId": 3
 }

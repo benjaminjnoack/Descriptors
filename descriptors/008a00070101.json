@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        113,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "BeNext",
             "product": "Tag Reader"
         }
-    }
+    },
+    "manufacturerId": 138,
+    "productId": 257,
+    "productTypeId": 7
 }

@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Mcohome",
             "product": "MH-S411 One-load"
         }
-    }
+    },
+    "manufacturerId": 351,
+    "productId": 513,
+    "productTypeId": 16642
 }

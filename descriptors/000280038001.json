@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        67,
+        112
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Danfoss",
             "product": "RS Room Sensor"
         }
-    }
+    },
+    "manufacturerId": 2,
+    "productId": 32769,
+    "productTypeId": 32771
 }

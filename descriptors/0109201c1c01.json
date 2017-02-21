@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "ZF5201 Flood sensor"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 7169,
+    "productTypeId": 8220
 }

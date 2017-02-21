@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Devolo home Control",
             "product": "Flood Detector MT 2756"
         }
-    }
+    },
+    "manufacturerId": 373,
+    "productId": 33,
+    "productTypeId": 2
 }

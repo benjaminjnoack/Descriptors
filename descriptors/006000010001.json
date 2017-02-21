@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Everspring",
             "product": "HSP02 Motion Detector"
         }
-    }
+    },
+    "manufacturerId": 96,
+    "productId": 1,
+    "productTypeId": 1
 }

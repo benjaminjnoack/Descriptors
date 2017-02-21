@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        133,
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Stelpro",
             "product": "STZW402+ Electronic Thermostat"
         }
-    }
+    },
+    "manufacturerId": 569,
+    "productId": 1,
+    "productTypeId": 1
 }

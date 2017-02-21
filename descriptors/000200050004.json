@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        32,
+        67,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Danfoss",
             "product": "Z Thermostat 014G0013"
         }
-    }
+    },
+    "manufacturerId": 2,
+    "productId": 4,
+    "productTypeId": 5
 }

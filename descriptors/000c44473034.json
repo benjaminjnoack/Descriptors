@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "HomeSeer",
             "product": "HS-WD100+ Wall Dimmer"
         }
-    }
+    },
+    "manufacturerId": 12,
+    "productId": 12340,
+    "productTypeId": 17479
 }

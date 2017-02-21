@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Airline Mechanical",
             "product": "ZDS-100"
         }
-    }
+    },
+    "manufacturerId": 273,
+    "productId": 512,
+    "productTypeId": 33280
 }

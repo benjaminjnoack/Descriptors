@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "ZME_WALLC-S Secure Wall Controller"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 257,
+    "productTypeId": 256
 }

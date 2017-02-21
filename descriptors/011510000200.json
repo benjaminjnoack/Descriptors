@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Z-Wave.Me",
             "product": "ZME_064281 Wall Plug switch Schuko (IP44) Gen 5"
         }
-    }
+    },
+    "manufacturerId": 277,
+    "productId": 512,
+    "productTypeId": 4096
 }

@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Leviton",
             "product": "VRS15-1LZ Binary Scene Switch"
         }
-    }
+    },
+    "manufacturerId": 29,
+    "productId": 521,
+    "productTypeId": 769
 }

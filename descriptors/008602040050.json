@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Aeotec",
             "product": "ZW080 Siren Gen5"
         }
-    }
+    },
+    "manufacturerId": 134,
+    "productId": 80,
+    "productTypeId": 516
 }

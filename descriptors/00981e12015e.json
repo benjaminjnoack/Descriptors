@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        67,
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "2GIG Technologies",
             "product": "CT30 Thermostat"
         }
-    }
+    },
+    "manufacturerId": 152,
+    "productId": 350,
+    "productTypeId": 7698
 }

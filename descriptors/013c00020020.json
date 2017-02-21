@@ -1,10 +1,18 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        32,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Philio Technology Corporation",
             "product": "PH-PAT02-B.eu Multisensor 2in1"
         }
-    }
+    },
+    "manufacturerId": 316,
+    "productId": 32,
+    "productTypeId": 2
 }

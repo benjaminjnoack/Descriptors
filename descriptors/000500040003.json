@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Intermatic",
             "product": "HA-04C Outdoor Module"
         }
-    }
+    },
+    "manufacturerId": 5,
+    "productId": 3,
+    "productTypeId": 4
 }

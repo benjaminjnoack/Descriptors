@@ -1,10 +1,17 @@
 {
     "commands": {},
+    "command_classes": [
+        112,
+        133
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Zooz",
             "product": "ZEN07 Mini Plug"
         }
-    }
+    },
+    "manufacturerId": 634,
+    "productId": 135,
+    "productTypeId": 3
 }

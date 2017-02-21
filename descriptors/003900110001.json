@@ -1,10 +1,16 @@
 {
     "commands": {},
+    "command_classes": [
+        67
+    ],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Honeywell",
             "product": "TH8320ZW1000 Touchscreen Thermostat"
         }
-    }
+    },
+    "manufacturerId": 57,
+    "productId": 1,
+    "productTypeId": 17
 }

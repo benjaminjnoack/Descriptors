@@ -1,10 +1,14 @@
 {
     "commands": {},
+    "command_classes": [],
     "configurations": [],
     "meta": {
         "display": {
             "manufacturer": "Vision",
             "product": "Plug-in Switch"
         }
-    }
+    },
+    "manufacturerId": 265,
+    "productId": 1795,
+    "productTypeId": 8199
 }
