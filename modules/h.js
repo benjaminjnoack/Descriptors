@@ -8,29 +8,41 @@ const path = require('path');
 let h = {};
 
 h = Object.defineProperties(h, {
-  'COMMAND_CLASS':  { value: 'CommandClass'},
-  'CONFIG'      : { value: 'config'},
-  'HELP'        : { value: 'Help'},
-  'ID'          : { value: 'id'},
-  'INDEX'       : { value: 'index'},
-  'ITEM'        : { value: 'Item'},
-  'LABEL'       : { value: 'label'},
-  'MAX'         : { value: 'max'},
-  'META'        : { value: '$'},
-  'MIN'         : { value: 'min'},
-  'MANUFACTURER': { value: 'Manufacturer'},
-  'MSD'         : { value: 'ManufacturerSpecificData'},
-  'NAME'        : { value: 'name'},
-  'PRODUCT'     : { value: 'Product'},
-  'SIZE'        : { value: 'size'},
-  'TYPE'        : { value: 'type'},
-  'UNITS'       : { value: 'units'},
-  'VALUE'       : { value: 'Value'}
+  'BASE_DIR'        : { value: path.join(__dirname, '..')},
+  'BASIC'           : { value: 'basic'},
+  'BASIC_CLASS'     : { value: 'Basic'},
+  'COMMAND_CLASS'   : { value: 'CommandClass'},
+  'COMMAND_CLASSES' : { value: 'command_classes'},
+  'CONFIG'          : { value: 'config'},
+  'DEVICE_CLASSES'  : { value: 'DeviceClasses'},
+  'DEVICE_TYPE'     : { value: 'DeviceType'},
+  'GENERIC_CLASS'   : { value: 'Generic'},
+  'HELP'            : { value: 'Help'},
+  'ID'              : { value: 'id'},
+  'INDEX'           : { value: 'index'},
+  'ITEM'            : { value: 'Item'},
+  'KEY'             : { value: 'key'},
+  'LABEL'           : { value: 'label'},
+  'MAX'             : { value: 'max'},
+  'META'            : { value: '$'},
+  'MIN'             : { value: 'min'},
+  'MANUFACTURER'    : { value: 'Manufacturer'},
+  'MSD'             : { value: 'ManufacturerSpecificData'},
+  'NAME'            : { value: 'name'},
+  'NODE_TYPE'       : { value: 'NodeType'},
+  'PRODUCT'         : { value: 'Product'},
+  'ROLE'            : { value: 'Role'},
+  'SIZE'            : { value: 'size'},
+  'SPECIFIC_CLASS'  : { value: 'Specific'},
+  'TYPE'            : { value: 'type'},
+  'UNITS'           : { value: 'units'},
+  'VALUE'           : { value: 'Value'}
 });
 
 h = Object.defineProperties(h, {
   'CONFIG_DIR'      : { value: path.join(__dirname, '..', 'config')},
-  'DESCRIPTORS_DIR' : { value: path.join(__dirname, '..', 'descriptors')}
+  'DESCRIPTORS_DIR' : { value: path.join(__dirname, '..', 'descriptors')},
+  'META_DIR'        : { value: path.join(h.BASE_DIR, 'meta')}
 });
 
 module.exports = h;

@@ -3,7 +3,7 @@
  */
 'use strict';
 console.time('runtime');
-
+//TODO move all parse functions into setters, skip that step
 const
   FILE = `manufacturer_specific.xml`,
   ManufacturerSpecific = require('./modules/ManufacturerSpecific');

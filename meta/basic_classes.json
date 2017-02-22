@@ -1,0 +1,18 @@
+[
+    {
+        "key": "0x01",
+        "label": "Controller"
+    },
+    {
+        "key": "0x02",
+        "label": "Static Controller"
+    },
+    {
+        "key": "0x03",
+        "label": "Slave"
+    },
+    {
+        "key": "0x04",
+        "label": "Routing Slave"
+    }
+]
