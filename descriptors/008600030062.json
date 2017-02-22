@@ -10,23 +10,19 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "The last state before re-power on",
-                            "value": "0"
+                            "label": "The last state before re-power on"
                         },
                         {
-                            "label": "Always On",
-                            "value": "1"
+                            "label": "Always On"
                         },
                         {
-                            "label": "Always Off",
-                            "value": "2"
+                            "label": "Always Off"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Enable/disable to send out a report when the color is changed",
@@ -34,19 +30,16 @@
                     "index": "32",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Hail CC",
-                            "value": "1"
+                            "label": "Hail CC"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\tValue 1 = Reserved.\n\t\t\tValue 2 = Red color value.\n\t\t\tValue 3 = Green color value.\n\t\t\tValue 4 = Blue color value.\n\t\t\tNote: This parameter is a get-only parameter\n\t\t\t",
@@ -56,8 +49,7 @@
                     "max": "4294967295",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Enable/disable the function of using External Switch to turn on/off the bulb",
@@ -65,19 +57,16 @@
                     "index": "34",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Enable/disable the function of using External Switch to changes the bulb color",
@@ -85,19 +74,16 @@
                     "index": "35",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Reboot/save/exit Colorful mode",
@@ -105,27 +91,22 @@
                     "index": "36",
                     "items": [
                         {
-                            "label": "Un-reboot Colorful mode",
-                            "value": "0"
+                            "label": "Un-reboot Colorful mode"
                         },
                         {
-                            "label": "Reboot Colorful mode",
-                            "value": "1"
+                            "label": "Reboot Colorful mode"
                         },
                         {
-                            "label": "Exit Colorful mode",
-                            "value": "2"
+                            "label": "Exit Colorful mode"
                         },
                         {
-                            "label": "Save the current Colorful mode value and then to be exited",
-                            "value": "3"
+                            "label": "Save the current Colorful mode value and then to be exited"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Colorful mode configuration (See https://aeotec.freshdesk.com/helpdesk/attachments/6035749140)",
@@ -135,8 +116,7 @@
                     "max": "4294967295",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "157483008"
+                    "type": "int"
                 },
                 {
                     "help": "\n\t\t\tValue 1: the speed from OFF to ON.\n\t\t\tValue 2: the speed from ON to OFF.\n\t\t\tValue 3: pause time of ON.\n\t\t\tValue 4: pause time of OFF.\n\t\t\t",
@@ -146,8 +126,7 @@
                     "max": "4294967295",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "50332416"
+                    "type": "int"
                 },
                 {
                     "help": "Color index configuration when the bulb is in Multi color mode (See https://aeotec.freshdesk.com/helpdesk/attachments/6035749140)",
@@ -157,8 +136,7 @@
                     "max": "4294967295",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "2271560481"
+                    "type": "int"
                 },
                 {
                     "help": "Enable to send notifications to associated devices (Lifeline) when the state of LED Bulb is changed",
@@ -166,23 +144,19 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "Nothing",
-                            "value": "0"
+                            "label": "Nothing"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Enable to send notifications to associated devices (Lifeline) when the state of LED Bulb is changed",
@@ -190,27 +164,22 @@
                     "index": "112",
                     "items": [
                         {
-                            "label": "Parabolic curve",
-                            "value": "0"
+                            "label": "Parabolic curve"
                         },
                         {
-                            "label": "Index curve",
-                            "value": "1"
+                            "label": "Index curve"
                         },
                         {
-                            "label": "(Parabolic + Index)/2",
-                            "value": "2"
+                            "label": "(Parabolic + Index)/2"
                         },
                         {
-                            "label": "Linear",
-                            "value": "3"
+                            "label": "Linear"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Lock/ unlock all configuration parameters",
@@ -218,19 +187,16 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -238,21 +204,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

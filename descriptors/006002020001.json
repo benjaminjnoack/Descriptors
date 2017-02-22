@@ -12,8 +12,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "99"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tOn Time sets the number of seconds the sensor stays alerted before the off event is sent.\n\t\t\t",
@@ -23,8 +22,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "1"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t\t\t  \tEnable/Disable power saving mode. 0 enables.\n\t\t\t",
@@ -34,8 +32,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

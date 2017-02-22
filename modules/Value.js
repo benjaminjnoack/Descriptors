@@ -3,26 +3,15 @@
  */
 'use strict';
 
-const Item = require('./Item');
-
 const
-  HELP  = 'Help',
-  INDEX = 'index',
-  ITEM  = 'Item',
-  LABEL = 'label',
-  MAX   = 'max',
-  META  = '$',
-  MIN   = 'min',
-  SIZE  = 'size',
-  TYPE  = 'type',
-  UNITS = 'units',
-  VALUE = 'value';
+  h     = require('./h'),
+  Item  = require('./Item');
 
 class Value {
   constructor(value) {
-    this.help = value[HELP];
-    this.items = value[ITEM];
-    this.meta = value[META];
+    this.help = value[h.HELP];
+    this.items = value[h.ITEM];
+    this.meta = value[h.META];
   }
 
   get help() {
@@ -49,14 +38,14 @@ class Value {
   }
 
   set meta(meta) {
-    this[INDEX] = meta[INDEX];
-    this[LABEL] = meta[LABEL];
-    this[MAX] = meta[MAX];
-    this[MIN] = meta[MIN];
-    this[SIZE] = meta[SIZE];
-    this[TYPE] = meta[TYPE];
-    this[UNITS] = meta[UNITS];
-    this[VALUE] = meta[VALUE];
+    this[h.INDEX] = meta[h.INDEX];
+    this[h.LABEL] = meta[h.LABEL];
+    this[h.MAX] = meta[h.MAX];
+    this[h.MIN] = meta[h.MIN];
+    this[h.SIZE] = meta[h.SIZE];
+    this[h.TYPE] = meta[h.TYPE];
+    this[h.UNITS] = meta[h.UNITS];
+    this[h.VALUE] = meta[h.VALUE];
 
     this._meta = meta;
   }

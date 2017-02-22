@@ -12,8 +12,7 @@
                     "max": "120",
                     "min": "0",
                     "type": "short",
-                    "units": "100ms",
-                    "value": "10"
+                    "units": "100ms"
                 },
                 {
                     "help": "\n\tEnable or Disable Send Basic Command to Group 2 when the local\nbutton press changes the switching state.\n      ",
@@ -23,8 +22,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tThe device will report its meter value within the interval\nset. Set to 0 will disable the autoreporting function.\n      ",
@@ -34,8 +32,7 @@
                     "max": "3240",
                     "min": "0",
                     "type": "short",
-                    "units": "10s",
-                    "value": "3"
+                    "units": "10s"
                 }
             ]
         },

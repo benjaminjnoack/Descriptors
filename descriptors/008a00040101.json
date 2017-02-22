@@ -9,8 +9,7 @@
                     "label": "Set to Default",
                     "index": "1",
                     "items": [],
-                    "type": "byte",
-                    "value": "-1"
+                    "type": "byte"
                 },
                 {
                     "help": "Configure what the external contact sends when triggered. (Default: 0)",
@@ -18,33 +17,28 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Send a alarm report with type 2.",
-                            "value": "0"
+                            "label": "Send a alarm report with type 2."
                         },
                         {
-                            "label": "Send a Basic set frame to all nodes in association group 2.",
-                            "value": "1"
+                            "label": "Send a Basic set frame to all nodes in association group 2."
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Is not used but can still be set and requested.",
                     "label": "Not used",
                     "index": "3",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Is not used but can still be set and requested.",
                     "label": "Not used",
                     "index": "4",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the operating mode. (Default: 1)",
@@ -52,48 +46,41 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Mode 1: Normal operating mode.",
-                            "value": "1"
+                            "label": "Mode 1: Normal operating mode."
                         },
                         {
-                            "label": "Mode 3: Z-Wave chip is always on to request e.g. version or manufacturer id.",
-                            "value": "3"
+                            "label": "Mode 3: Z-Wave chip is always on to request e.g. version or manufacturer id."
                         }
                     ],
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "A signed integer to determine the offset of the temperature. (Default: 0)",
                     "label": "Temperature offset",
                     "index": "6",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Debounce time when the external contact is opened. (Default: 0)",
                     "label": "Extern Contact Debounce ON",
                     "index": "7",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Debounce time when the external contact is opened. (Default 0)",
                     "label": "Extern Contact Debounce OFF",
                     "index": "8",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "A delay from the wake up time to give the external contact a chance to change his status. (Default 0, value * 100 ms, 0 - 25,5 seconds)",
                     "label": "Wake up delay",
                     "index": "9",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 }
             ]
         },

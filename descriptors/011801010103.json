@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Night light",
-                            "value": "0"
+                            "label": "Night light"
                         },
                         {
-                            "label": "On indicator",
-                            "value": "1"
+                            "label": "On indicator"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

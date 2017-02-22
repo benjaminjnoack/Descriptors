@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Choose how often you want the Mini Plug to send metering reports to the controller, in seconds.",
@@ -33,8 +30,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "300"
+                    "units": "seconds"
                 },
                 {
                     "help": "Percentage change of elecricity, voltage, power consumption, or energy before report is sent.\n                Defaults to 5%.",
@@ -45,8 +41,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "5"
+                    "units": "%"
                 },
                 {
                     "help": "Use this parameter to adjust the max amount of electricity you want your Mini Plug to handle, by Amperes.\n                Defaults to 13A.",
@@ -57,8 +52,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "Amperes",
-                    "value": "13"
+                    "units": "Amperes"
                 },
                 {
                     "help": "Use this parameter to adjust the LED Notification for Heavy Load by setting a threshold of Amperes.\n                Must be lower than Parameter #3.\n                Defaults to 12A",
@@ -69,8 +63,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "Amperes",
-                    "value": "12"
+                    "units": "Amperes"
                 },
                 {
                     "help": "Use this parameter to turn LED notifications on or off.",
@@ -78,19 +71,16 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Choose the recovery state for the Mini Plug if power outage occurs. Off sets the state to \"OFF\" once power is restored.\n                Resume sets the state to the previous state prior to the outage.\n                Defaults to Resume.",
@@ -98,19 +88,16 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Resume",
-                            "value": "1"
+                            "label": "Resume"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Use this parameter to enable or disable the auto turn-off timer function.\n                If enabled, the Mini Plug will automatically turn off after a fixed period of time, set in Parameter #9.\n                Defaults to Disabled.",
@@ -118,19 +105,16 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Use this parameter to set the time, in minutes, after which the Mini Plug should turn off if Auto Turn-Off Timer is Enabled (Parameter #8).\n                Defaults to 150 minutes.",
@@ -141,8 +125,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "150"
+                    "units": "minutes"
                 },
                 {
                     "help": "Choose if you want the Z-Wave button to turn the Mini Plug on or off manually, or if you want to disable this function. Defaults to Enabled.",
@@ -150,19 +133,16 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

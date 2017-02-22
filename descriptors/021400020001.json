@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "When the device triggered and sends out BASIC SET to the lightings, the light turns on and off as the set time. \n\t\t\tThe minimum value is 1, means the light bright time is 1*10s (10seconds), and turn off after 10 seconds, if the value is t, means the bright time is t*10s, turn off after t*10 seconds.",
@@ -24,8 +23,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "10seconds",
-                    "value": "1"
+                    "units": "10seconds"
                 },
                 {
                     "help": "Disable the door sensor alarm function.",
@@ -33,17 +31,14 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Enabled",
-                            "value": "0"
+                            "label": "Enabled"
                         },
                         {
-                            "label": "Disabled",
-                            "value": "1"
+                            "label": "Disabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "0-24 hours (Default 6 hours)",
@@ -54,8 +49,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "hours",
-                    "value": "6"
+                    "units": "hours"
                 }
             ]
         },

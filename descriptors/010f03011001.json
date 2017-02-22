@@ -10,21 +10,17 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "No protection. Roller Shutter responds to push buttons",
-                            "value": "0"
+                            "label": "No protection. Roller Shutter responds to push buttons"
                         },
                         {
-                            "label": "Not supported",
-                            "value": "1"
+                            "label": "Not supported"
                         },
                         {
-                            "label": "Local protection active. Roller Shutter does not respond to push buttons",
-                            "value": "2"
+                            "label": "Local protection active. Roller Shutter does not respond to push buttons"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Once the RF Protection is activated, the module stops responding to command frames setting the blind position. It's still possible however to configure the device (advanced configuration parameters, protection modes) and checking it's current state through polling (position, power, energy).",
@@ -32,21 +28,17 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "No protection. Roller Shutter responds to command frames",
-                            "value": "0"
+                            "label": "No protection. Roller Shutter responds to command frames"
                         },
                         {
-                            "label": "RF Protection active. Roller Shutter does not respond to the Z-Wave control frames",
-                            "value": "1"
+                            "label": "RF Protection active. Roller Shutter does not respond to the Z-Wave control frames"
                         },
                         {
-                            "label": "Not supported",
-                            "value": "2"
+                            "label": "Not supported"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Parameters value shoud be set to 1 if the module operates in Venetian Blind mode.\n\t       Default setting: 0",
@@ -54,17 +46,14 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Blind position reports sent to the main controller using Z-Wave Command Class",
-                            "value": "0"
+                            "label": "Blind position reports sent to the main controller using Z-Wave Command Class"
                         },
                         {
-                            "label": "Blind position reports sent to the main controller using Fibar Command Class",
-                            "value": "1"
+                            "label": "Blind position reports sent to the main controller using Fibar Command Class"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Default settng: 1",
@@ -72,29 +61,23 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "0 - Roller Blind Mode, without positioning",
-                            "value": "0"
+                            "label": "0 - Roller Blind Mode, without positioning"
                         },
                         {
-                            "label": "1 - Roller Blind Mode, with positioning",
-                            "value": "1"
+                            "label": "1 - Roller Blind Mode, with positioning"
                         },
                         {
-                            "label": "2 - Venetian Blind Mode, with positioning",
-                            "value": "2"
+                            "label": "2 - Venetian Blind Mode, with positioning"
                         },
                         {
-                            "label": "3 - Gate Mode, without positioning",
-                            "value": "3"
+                            "label": "3 - Gate Mode, without positioning"
                         },
                         {
-                            "label": "4 - Gate Mode, with positioning",
-                            "value": "4"
+                            "label": "4 - Gate Mode, with positioning"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "In Venetian Blind mode (parameter 10 set to 2) the parameter determines time of full turn of the lamellas.\n\t      In Gate Mode (parameter 10 set to 3 or 4) the parameter defines the COUNTDOWN time, i.e. the time period after which an open gate starts closing. \n\t      In any other operating mode the parameter value is irrelevant. Value of 0 means the gate will not close automatically\n\t      Available settings: 0-65535 (0 - 655,35s)\n\t      Default setting: 150 (1,5 s)",
@@ -103,8 +86,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "150"
+                    "type": "short"
                 },
                 {
                     "help": "In Venetian Blind Mode (parameter 10 set to 2) the parameter influences lamellas positioning in various situations. In any other operating mode the parameter value is irrelevant.\n\t      Default setting: 1",
@@ -112,21 +94,17 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "0 - Lamellas return to previously set position only in case of the main controller operation",
-                            "value": "0"
+                            "label": "0 - Lamellas return to previously set position only in case of the main controller operation"
                         },
                         {
-                            "label": "1 - Lamellas return to previously set position in case of the main controller operation, momentary switch operation, or when the limit switch is reached",
-                            "value": "1"
+                            "label": "1 - Lamellas return to previously set position in case of the main controller operation, momentary switch operation, or when the limit switch is reached"
                         },
                         {
-                            "label": "2 - Lamellas return to previously set position in case of the main controller operation, momentary switch operation, when the limit switch is reached or after receiving a STOP control frame (Switch Multilevel Stop).",
-                            "value": "2"
+                            "label": "2 - Lamellas return to previously set position in case of the main controller operation, momentary switch operation, when the limit switch is reached or after receiving a STOP control frame (Switch Multilevel Stop)."
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "The parameter settings are relevant for Roller Blind Mode and Venetian Blind Mode (parameter 10 set to 0, 1, 2).",
@@ -134,21 +112,17 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Momentary switches",
-                            "value": "0"
+                            "label": "Momentary switches"
                         },
                         {
-                            "label": "Toggle switches",
-                            "value": "1"
+                            "label": "Toggle switches"
                         },
                         {
-                            "label": "Single, momentary switch.",
-                            "value": "2"
+                            "label": "Single, momentary switch."
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "In Roller Blind Mode or Venetian Blind mode (parameter 10 set to 0, 1, 2) the parameter determines when the Roller Shutter relays are turned off after reaching a limit switch.\n\t      In Gate Mode (parameter 10 set to 3 or 4) the parameter determines a time period after which a gate will start closing after a S2 contact has been disconnected. In this mode, time to turn off the Roller Shutter relays after reaching a limit switch is set to 3 seconds and cannot be modified.\n\t      Value of 0 means the gate will note close automatically.\n\t      Available settings: 0 - 255 (0,1-25,5s).\n\t      Default setting: 10 (1s).",
@@ -157,8 +131,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "Power threshold to be interpreted as reaching a limit switch.\n\t      Available settings: 0 - 255 (1-255 W)\n\t      The value of 0 means reaching a limit switch will not be detected\n\t      Default setting: 10 (10W).",
@@ -167,8 +140,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "Time period for the motor to continue operation.\n\t      Available settings: 0 - 65535 (0 - 65535s)\n\t      The value of 0 means the function is disabled.\n\t      Default setting: 240 (240s. - 4 minutes)",
@@ -177,8 +149,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "240"
+                    "type": "short"
                 },
                 {
                     "help": "By modifying the parameters setting from 0 to 1 a Roller Shutter enters the calibration mode. The parameter relevant only if a Roller Shutter is set to work in positioning mode (parameter 10 set to 1, 2 or 4).",
@@ -186,17 +157,14 @@
                     "index": "29",
                     "items": [
                         {
-                            "label": "Default",
-                            "value": "0"
+                            "label": "Default"
                         },
                         {
-                            "label": "Start calibration process",
-                            "value": "1"
+                            "label": "Start calibration process"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Default setting: 2-Close blind",
@@ -204,21 +172,17 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "No reaction",
-                            "value": "0"
+                            "label": "No reaction"
                         },
                         {
-                            "label": "Open blind",
-                            "value": "1"
+                            "label": "Open blind"
                         },
                         {
-                            "label": "Close blind",
-                            "value": "2"
+                            "label": "Close blind"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Default setting: 0-No reaction",
@@ -226,21 +190,17 @@
                     "index": "31",
                     "items": [
                         {
-                            "label": "No reaction",
-                            "value": "0"
+                            "label": "No reaction"
                         },
                         {
-                            "label": "Open blind",
-                            "value": "1"
+                            "label": "Open blind"
                         },
                         {
-                            "label": "Close blind",
-                            "value": "2"
+                            "label": "Close blind"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Default setting: 1-Open blind",
@@ -248,21 +208,17 @@
                     "index": "32",
                     "items": [
                         {
-                            "label": "No reaction",
-                            "value": "0"
+                            "label": "No reaction"
                         },
                         {
-                            "label": "Open blind",
-                            "value": "1"
+                            "label": "Open blind"
                         },
                         {
-                            "label": "Close blind",
-                            "value": "2"
+                            "label": "Close blind"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Default setting: 1-Open blind",
@@ -270,21 +226,17 @@
                     "index": "33",
                     "items": [
                         {
-                            "label": "No reaction",
-                            "value": "0"
+                            "label": "No reaction"
                         },
                         {
-                            "label": "Open blind",
-                            "value": "1"
+                            "label": "Open blind"
                         },
                         {
-                            "label": "Close blind",
-                            "value": "2"
+                            "label": "Close blind"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "In Venetian Blind Mode (parameter 10 set to 2), the parameter determines how the lamellas will react upon alarm detection. In any other modes, the parameter value is not relevant.\n\t      Default setting: 1 Set lamellas to their extreme position",
@@ -292,17 +244,14 @@
                     "index": "35",
                     "items": [
                         {
-                            "label": "Do not change lamellas position - lamellas return to the last set position",
-                            "value": "0"
+                            "label": "Do not change lamellas position - lamellas return to the last set position"
                         },
                         {
-                            "label": "Set lamellas to their extreme position",
-                            "value": "1"
+                            "label": "Set lamellas to their extreme position"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Power level change that will result in new power value report being sent. The parameter defines a change that needs to occur in order to trigger the report. The value is a percentage of the previous report.\n\t      Power report threshold available settings: 1-100 (1-100%).\n\t      Value of 0 means the reports are turned off.\n\t      Default setting: 10 (10%).",
@@ -311,8 +260,7 @@
                     "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "The parameter defines a time period between consecutive reports.\n\t      Available settings: 1-65534 (1-65534 seconds)\n\t      Value of 0 means the reports are turned off.\n\t      Default setting: 3600 (3600 seconds / 60 minutes).",
@@ -321,8 +269,7 @@
                     "items": [],
                     "max": "65534",
                     "min": "1",
-                    "type": "short",
-                    "value": "3600"
+                    "type": "short"
                 },
                 {
                     "help": "Energy level change which will result in new energy value report being sent. The parameter defines a change that needs to occur in order to trigger the report.\n\t      Energy threshold available settings: 1-254 (0,01 - 2,54kWh).\n\t      Value of 0 means the reports are turned off.\n\t      Default setting 10 (0,1kWh).",
@@ -331,8 +278,7 @@
                     "items": [],
                     "max": "254",
                     "min": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "A Roller Shutter may include power and energy used by itself in reports sent to the main controller\n\t      Default setting: 0-Self-measurement inactive",
@@ -340,17 +286,14 @@
                     "index": "44",
                     "items": [
                         {
-                            "label": "Self-measurement inactive",
-                            "value": "0"
+                            "label": "Self-measurement inactive"
                         },
                         {
-                            "label": "Self-measurement active",
-                            "value": "1"
+                            "label": "Self-measurement active"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Parameter determines whether scenes or associations are activated by the switch keys.\n\t      Default setting: 0-Associations activation",
@@ -358,17 +301,14 @@
                     "index": "50",
                     "items": [
                         {
-                            "label": "Associations activation",
-                            "value": "0"
+                            "label": "Associations activation"
                         },
                         {
-                            "label": "Scenes activation",
-                            "value": "1"
+                            "label": "Scenes activation"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

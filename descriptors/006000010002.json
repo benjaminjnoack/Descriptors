@@ -12,8 +12,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "99"
+                    "units": ""
                 },
                 {
                     "help": "The Detecting function can be Disabled of Enabled.",
@@ -21,20 +20,17 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "1 Means lowest sensitivity and 10 means highest.",
@@ -42,52 +38,41 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "1",
-                            "value": "1"
+                            "label": "1"
                         },
                         {
-                            "label": "2",
-                            "value": "2"
+                            "label": "2"
                         },
                         {
-                            "label": "3",
-                            "value": "3"
+                            "label": "3"
                         },
                         {
-                            "label": "4",
-                            "value": "4"
+                            "label": "4"
                         },
                         {
-                            "label": "5",
-                            "value": "5"
+                            "label": "5"
                         },
                         {
-                            "label": "6",
-                            "value": "6"
+                            "label": "6"
                         },
                         {
-                            "label": "7",
-                            "value": "7"
+                            "label": "7"
                         },
                         {
-                            "label": "8",
-                            "value": "8"
+                            "label": "8"
                         },
                         {
-                            "label": "9",
-                            "value": "9"
+                            "label": "9"
                         },
                         {
-                            "label": "10",
-                            "value": "10"
+                            "label": "10"
                         }
                     ],
                     "max": "10",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "6"
+                    "units": ""
                 },
                 {
                     "help": "\n\t  Adjust the interval of being re-triggered afer the detector has\tbeen triggered in seconds.\n\t  IMPORTANT: Parameter size is 1 5-127 or 2 if value > 127. Any value below 127 will be rejected!\n      ",
@@ -97,8 +82,7 @@
                     "max": "3600",
                     "min": "5",
                     "type": "short",
-                    "units": "Seconds",
-                    "value": "5"
+                    "units": "Seconds"
                 },
                 {
                     "help": "\n\tSets minimum Lux Level of ambient illumination neccesary for Motion Detector to trigger.\n      ",
@@ -108,8 +92,7 @@
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t  The duration determines how long before the module sends an Off after being triggered.\n\t  IMPORTANT: Parameter size is 1 5-127 or 2 if value > 127. Any value below 127 will be rejected!\t  \n      ",
@@ -119,8 +102,7 @@
                     "max": "3600",
                     "min": "5",
                     "type": "short",
-                    "units": "Seconds",
-                    "value": "5"
+                    "units": "Seconds"
                 }
             ]
         },

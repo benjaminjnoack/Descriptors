@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Mono-stable",
-                            "value": "0"
+                            "label": "Mono-stable"
                         },
                         {
-                            "label": "Bi-stable",
-                            "value": "1"
+                            "label": "Bi-stable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -30,19 +27,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "NO (normaly open) input type",
-                            "value": "0"
+                            "label": "NO (normaly open) input type"
                         },
                         {
-                            "label": "NC (normaly close) input type",
-                            "value": "1"
+                            "label": "NC (normaly close) input type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -50,19 +44,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "NO (normaly open) input type",
-                            "value": "0"
+                            "label": "NO (normaly open) input type"
                         },
                         {
-                            "label": "NC (normaly close) input type",
-                            "value": "1"
+                            "label": "NC (normaly close) input type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Flush on off thermostat module responds to commands ALL ON / ALL OFF that may be sent by the main controller or by other controller belonging to the system.",
@@ -70,27 +61,22 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "ALL ON active, ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active, ALL OFF active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF is not active",
-                            "value": "0"
+                            "label": "ALL ON is not active ALL OFF is not active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON is not active ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active ALL OFF is not active",
-                            "value": "2"
+                            "label": "ALL ON active ALL OFF is not active"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tWhen I2 is pressed set point will be set according to the value of this parameter.\n\t\t\t\tdefault value 65535\n\t\t\t\t65535 - input I2 does not influence on the set point\n\t\t\t\tFrom 0 to 990 - set point from 0.0 C to 99.0 C\n\t\t\t\tFrom 1001 to 1150 - set point from -0.1 C to -15.0 C\n\t\t\t\t",
@@ -100,8 +86,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "65535"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t\tWhen I3 is pressed set point will be set according to the value of this parameter.\n\t\t\t\tdefault value 65535\n\t\t\t\t65535 - input I2 does not influence on the set point\n\t\t\t\tFrom 0 to 990 - set point from 0.0 C to 99.0 C\n\t\t\t\tFrom 1001 to 1150 - set point from -0.1 C to -15.0 C\n\t\t\t\t",
@@ -111,8 +96,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "65535"
+                    "type": "short"
                 },
                 {
                     "help": "",
@@ -120,19 +104,16 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "Module saves its state before power failure (it returns to the last position saved before a power failure)",
-                            "value": "0"
+                            "label": "Module saves its state before power failure (it returns to the last position saved before a power failure)"
                         },
                         {
-                            "label": "Module does not save the state after a power failure, it returns to off position",
-                            "value": "1"
+                            "label": "Module does not save the state after a power failure, it returns to off position"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Set value from 0 - 100 (0% - 100%). 0 - Reporting Disabled. 1 - 100 = 1% - 100% Reporting enabled. Power report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%. Default value 5",
@@ -142,8 +123,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Set value means time interval (0 - 65535) in seconds, when power report is send. 0 - Reporting Disabled. 1 - 65535 = 1 second - 65535 seconds. Reporting enabled. Power report is send with time interval set by entered value. Default value 300 (power report in Watts is send each 300s)",
@@ -152,8 +132,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "300"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter defines temperature min difference between real measured temperature and set-point temperature to turn heating on. The parameter can be set from 0 to 255 where 0 to 128 means from 0.0 C to 12.8 C and from 129 to 255 means from - 0.0 C to -12.8 C.",
@@ -163,8 +142,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "132"
+                    "type": "byte"
                 },
                 {
                     "help": "This parameter defines temperature min difference between real measured temperature and set-point temperature to turn heating off. The parameter can be set from 0 to 255 where 0 to 128 means from 0.0 C to 12.8 C and from 129 to 255 means from - 0.0 C to -12.8 C.",
@@ -174,8 +152,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "132"
+                    "type": "byte"
                 },
                 {
                     "help": "Set value means at which temperature the heating will be turned on even if the thermostat was manually set to off. The parameter can be set from 0 to 255 where 0 to 128 means from 0.0 C to 12.8 C and from 129 to 255 means from - 0.0 C to -12.8 C.",
@@ -185,8 +162,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "50"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\t\tDefault value 50 (Minimum Temperature alarm is 5.0C)\n\t\t\t\t1 - 1000 = 0.1C - 100.0C, step is 0.1C.\n\t\t\t\tMinimum temperature alarm is set by entered value. In case is set value out of this range, module is changing set value automatically to default value\n\t\t\t\t",
@@ -196,8 +172,7 @@
                     "max": "1000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t\tDefault value 700 (Minimum Temperature alarm is 70.0C)\n\t\t\t\t1 - 1000 = 0.1C - 100.0C, step is 0.1C.\n\t\t\t\tMaximum temperature alarm is set by entered value. In case is set value out of this range, module is changing set value automatically to default value\n\t\t\t\t",
@@ -207,8 +182,7 @@
                     "max": "1000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "700"
+                    "type": "short"
                 },
                 {
                     "help": "Set value means the type of the heating device that is connected to the relay output. The heating device type can be normally open (NO) or normally close (NC).",
@@ -216,19 +190,16 @@
                     "index": "63",
                     "items": [
                         {
-                            "label": "NO (normaly open) input type",
-                            "value": "0"
+                            "label": "NO (normaly open) input type"
                         },
                         {
-                            "label": "NC (normaly close) input type",
-                            "value": "1"
+                            "label": "NC (normaly close) input type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

@@ -9,27 +9,22 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Heat (Default)",
-                            "value": "1"
+                            "label": "Heat (Default)"
                         },
                         {
-                            "label": "Cool",
-                            "value": "2"
+                            "label": "Cool"
                         },
                         {
-                            "label": "Energy Heat",
-                            "value": "11"
+                            "label": "Energy Heat"
                         }
                     ],
                     "max": "0",
                     "min": "0",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },
@@ -43,8 +38,7 @@
                     "max": "0",
                     "min": "0",
                     "type": "decimal",
-                    "units": "C",
-                    "value": "20"
+                    "units": "C"
                 },
                 {
                     "label": "Energy Heat",
@@ -53,8 +47,7 @@
                     "max": "0",
                     "min": "0",
                     "type": "decimal",
-                    "units": "C",
-                    "value": "16"
+                    "units": "C"
                 }
             ]
         },
@@ -66,88 +59,69 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Heat",
-                            "value": "1"
+                            "label": "Heat"
                         },
                         {
-                            "label": "Cool",
-                            "value": "2"
+                            "label": "Cool"
                         },
                         {
-                            "label": "Energy save heat",
-                            "value": "11"
+                            "label": "Energy save heat"
                         }
                     ],
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "label": "Temperature sensor",
                     "index": "2",
                     "items": [
                         {
-                            "label": "F  - Floor mode",
-                            "value": "0"
+                            "label": "F  - Floor mode"
                         },
                         {
-                            "label": "A  - Room temperature mode",
-                            "value": "1"
+                            "label": "A  - Room temperature mode"
                         },
                         {
-                            "label": "AF - Room mode w/floor limitations",
-                            "value": "2"
+                            "label": "AF - Room mode w/floor limitations"
                         },
                         {
-                            "label": "A2 - Room temperature mode",
-                            "value": "3"
+                            "label": "A2 - Room temperature mode"
                         },
                         {
-                            "label": "P  - Power regulator",
-                            "value": "4"
+                            "label": "P  - Power regulator"
                         },
                         {
-                            "label": "FP - Floor mode with minimum power limitation",
-                            "value": "5"
+                            "label": "FP - Floor mode with minimum power limitation"
                         }
                     ],
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "label": "Floor sensor type",
                     "index": "3",
                     "items": [
                         {
-                            "label": "10k ntc",
-                            "value": "0"
+                            "label": "10k ntc"
                         },
                         {
-                            "label": "12k ntc",
-                            "value": "1"
+                            "label": "12k ntc"
                         },
                         {
-                            "label": "15k ntc",
-                            "value": "2"
+                            "label": "15k ntc"
                         },
                         {
-                            "label": "22k ntc",
-                            "value": "3"
+                            "label": "22k ntc"
                         },
                         {
-                            "label": "33k ntc",
-                            "value": "4"
+                            "label": "33k ntc"
                         },
                         {
-                            "label": "47k ntc",
-                            "value": "5"
+                            "label": "47k ntc"
                         }
                     ],
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "3-30 (0,2C - 3.0C)",
@@ -157,8 +131,7 @@
                     "max": "30",
                     "min": "3",
                     "size": "1",
-                    "type": "short",
-                    "value": "5"
+                    "type": "short"
                 },
                 {
                     "help": "50-400 (5.0C - 40.0C)",
@@ -168,8 +141,7 @@
                     "max": "400",
                     "min": "50",
                     "size": "1",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "50-400 (5.0C - 40.0C)",
@@ -179,8 +151,7 @@
                     "max": "400",
                     "min": "50",
                     "size": "1",
-                    "type": "short",
-                    "value": "400"
+                    "type": "short"
                 },
                 {
                     "help": "50-400 (5.0C - 40.0C)",
@@ -190,8 +161,7 @@
                     "max": "400",
                     "min": "50",
                     "size": "1",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "50-400 (5.0C - 40.0C)",
@@ -201,8 +171,7 @@
                     "max": "400",
                     "min": "50",
                     "size": "1",
-                    "type": "short",
-                    "value": "400"
+                    "type": "short"
                 },
                 {
                     "help": "0-9. Min temperature in Power Regulator Mode (setting 2. Temperature sensor - P)",
@@ -212,8 +181,7 @@
                     "max": "9",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "50-400 (5.0C - 40.0C)",
@@ -223,8 +191,7 @@
                     "max": "400",
                     "min": "50",
                     "size": "1",
-                    "type": "short",
-                    "value": "210"
+                    "type": "short"
                 },
                 {
                     "help": "50-400 (5.0C - 40.0C)",
@@ -234,8 +201,7 @@
                     "max": "400",
                     "min": "50",
                     "size": "1",
-                    "type": "short",
-                    "value": "180"
+                    "type": "short"
                 },
                 {
                     "help": "0-10",
@@ -245,8 +211,7 @@
                     "max": "10",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "2"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t\tOnly if cooling is enabled.\n\t\t\t\t50-400 (5.0C - 40.0C)\n\t\t\t",
@@ -256,8 +221,7 @@
                     "max": "400",
                     "min": "50",
                     "size": "1",
-                    "type": "short",
-                    "value": "180"
+                    "type": "short"
                 }
             ]
         },

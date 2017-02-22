@@ -12,8 +12,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enables automatic notifications to associated devices whenever there is a state change.",
@@ -21,22 +20,18 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "None",
-                            "value": "0"
+                            "label": "None"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set External Switch/Button Control mode",
@@ -44,22 +39,18 @@
                     "index": "120",
                     "items": [
                         {
-                            "label": "Momentary button",
-                            "value": "0"
+                            "label": "Momentary button"
                         },
                         {
-                            "label": "2 state switch",
-                            "value": "1"
+                            "label": "2 state switch"
                         },
                         {
-                            "label": "Unidentified",
-                            "value": "255"
+                            "label": "Unidentified"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "255"
+                    "units": ""
                 },
                 {
                     "help": "\n\tDevice tag.\n      ",
@@ -69,8 +60,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tReset to the default configuration.\n      ",
@@ -78,8 +68,7 @@
                     "index": "255",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

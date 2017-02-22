@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t\t  Setting this to anything other than 0 will cause the value to be transmitted to devices in the association group when the switch is triggered. A setting other than 0 will likely result in undesired operation\n\t\t  ",
@@ -23,8 +22,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

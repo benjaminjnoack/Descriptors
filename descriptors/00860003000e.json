@@ -11,8 +11,7 @@
                     "items": [],
                     "size": "4",
                     "type": "int",
-                    "units": "ms",
-                    "value": "0"
+                    "units": "ms"
                 },
                 {
                     "help": "\n\t  Total time from endpoint of close go to endpoint of opening (ms).\n\t  This value set 0x00000000, will use the time of last calibration.\n\t  Default 5 seconds",
@@ -21,8 +20,7 @@
                     "items": [],
                     "size": "4",
                     "type": "short",
-                    "units": "ms",
-                    "value": "5000"
+                    "units": "ms"
                 },
                 {
                     "help": "\n\t  Total time from endpoint of opening go to endpoint of close (ms).\n\t  This value set 0x00000000, will use the time of last calibration.\n\t  Default 5 seconds",
@@ -31,8 +29,7 @@
                     "items": [],
                     "size": "4",
                     "type": "short",
-                    "units": "ms",
-                    "value": "5000"
+                    "units": "ms"
                 },
                 {
                     "help": "Motor status after power on",
@@ -40,24 +37,20 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Motor keep still (Default)",
-                            "value": "0"
+                            "label": "Motor keep still (Default)"
                         },
                         {
-                            "label": "Open Motor",
-                            "value": "1"
+                            "label": "Open Motor"
                         },
                         {
-                            "label": "Close Motor",
-                            "value": "2"
+                            "label": "Close Motor"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t  Set count of External Button/Switch\n\t  Note: Single External Button must connect to ST and COMport.\n\t  ",
@@ -65,20 +58,17 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "0=Three External Button/Switch (Default)",
-                            "value": "0"
+                            "label": "0=Three External Button/Switch (Default)"
                         },
                         {
-                            "label": "Single External Button",
-                            "value": "1"
+                            "label": "Single External Button"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enable automatic notifications to associated group Reports devices whenever there is a state change",
@@ -86,24 +76,20 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "Nothing",
-                            "value": "0"
+                            "label": "Nothing"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set External Switch/Button Control mode",
@@ -111,20 +97,17 @@
                     "index": "120",
                     "items": [
                         {
-                            "label": "Momentary button mode",
-                            "value": "0"
+                            "label": "Momentary button mode"
                         },
                         {
-                            "label": "2 state switch mode",
-                            "value": "1"
+                            "label": "2 state switch mode"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Device tag.",
@@ -134,8 +117,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to the default configuration.",

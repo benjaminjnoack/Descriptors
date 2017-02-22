@@ -10,17 +10,14 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Using Notification Report",
-                            "value": "0"
+                            "label": "Using Notification Report"
                         },
                         {
-                            "label": "Using Sensor Binary Report",
-                            "value": "1"
+                            "label": "Using Sensor Binary Report"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tDisable the alarm function.\n\t\t\t\t1: Disable Alarm,\n\t\t\t\t0: Enable Alarm.\n\t\t\t\tCaution: After the power up, this configuration is always 0.\n\t\t\t",
@@ -28,17 +25,14 @@
                     "index": "29",
                     "items": [
                         {
-                            "label": "Enable Alarm",
-                            "value": "0"
+                            "label": "Enable Alarm"
                         },
                         {
-                            "label": "Disable Alarm",
-                            "value": "1"
+                            "label": "Disable Alarm"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tPlay alarm sound duration,\n\t\t\t\t1 tick is 30 seconds. Default is 3 minutes, maximum is 63.5 minutes.\n\t\t\t\t0 means never auto stop.\n\t\t\t",
@@ -47,8 +41,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "6"
+                    "type": "byte"
                 }
             ]
         },
@@ -65,39 +58,31 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Stop",
-                            "value": "0"
+                            "label": "Stop"
                         },
                         {
-                            "label": "Emergency",
-                            "value": "1"
+                            "label": "Emergency"
                         },
                         {
-                            "label": "Fire",
-                            "value": "2"
+                            "label": "Fire"
                         },
                         {
-                            "label": "Ambulance",
-                            "value": "3"
+                            "label": "Ambulance"
                         },
                         {
-                            "label": "Police",
-                            "value": "4"
+                            "label": "Police"
                         },
                         {
-                            "label": "Door chime",
-                            "value": "5"
+                            "label": "Door chime"
                         },
                         {
-                            "label": "Beep Beep",
-                            "value": "6"
+                            "label": "Beep Beep"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

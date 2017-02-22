@@ -14,19 +14,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "255"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\tConfigures the sensor to either to send or not to send Sensor Binary Report commands to Association Group 1 when the sensor is faulted and restored.  \n\t\t\t",
@@ -34,19 +31,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Enable Binary Reports",
-                            "value": "0"
+                            "label": "Enable Binary Reports"
                         },
                         {
-                            "label": "Disable Binary Reports",
-                            "value": "255"
+                            "label": "Disable Binary Reports"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

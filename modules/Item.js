@@ -3,14 +3,11 @@
  */
 'use strict';
 
-const
-  LABEL = 'label',
-  META  = '$',
-  VALUE = 'value';
+const h = require('./h');
 
 class Item {
   constructor(item) {
-    this.meta = item[META];
+    this.meta = item[h.META];
   }
 
   get meta() {
@@ -21,8 +18,8 @@ class Item {
   }
 
   set meta(meta) {
-    this[LABEL] = meta[LABEL];
-    this[VALUE] = meta[VALUE];
+    this[h.LABEL] = meta[h.LABEL];
+    this[h.VALUE] = meta[h.VALUE];
   }
 
   print() {

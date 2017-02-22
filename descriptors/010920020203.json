@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "3"
+                    "units": "minutes"
                 },
                 {
                     "help": "Report temperature in Celcius or Fahrenheit",
@@ -21,19 +20,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Celcius",
-                            "value": "0"
+                            "label": "Celcius"
                         },
                         {
-                            "label": "Fahrenheit",
-                            "value": "1"
+                            "label": "Fahrenheit"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Sensitivity 1-7 (1 = most sensitive, 7 = most insensitive. 4 is default)",
@@ -43,8 +39,7 @@
                     "max": "7",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "4"
+                    "units": ""
                 },
                 {
                     "help": "-10 to -1, 0 to 10 (Signed decimal: 246 to 255, 0 to 10)",
@@ -54,8 +49,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "Degrees Celsius",
-                    "value": "0"
+                    "units": "Degrees Celsius"
                 }
             ]
         },

@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "On",
-                            "value": "255"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

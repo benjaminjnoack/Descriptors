@@ -9,8 +9,7 @@
                     "label": "Set to Default",
                     "index": "1",
                     "items": [],
-                    "type": "byte",
-                    "value": "-1"
+                    "type": "byte"
                 },
                 {
                     "help": "The state in what the switch is when power is supplied.",
@@ -18,17 +17,14 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Previous state",
-                            "value": "1"
+                            "label": "Previous state"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "When the relay is switched it can't be switched again until the configured time has passed.",
@@ -36,8 +32,7 @@
                     "index": "9",
                     "items": [],
                     "type": "byte",
-                    "units": "ms",
-                    "value": "50"
+                    "units": "ms"
                 },
                 {
                     "help": "Show the led state compared to the relay state.",
@@ -45,21 +40,17 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Led off",
-                            "value": "0"
+                            "label": "Led off"
                         },
                         {
-                            "label": "Led on / Relay on",
-                            "value": "1"
+                            "label": "Led on / Relay on"
                         },
                         {
-                            "label": "Led on / Relay off",
-                            "value": "2"
+                            "label": "Led on / Relay off"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n          Disable the alarm function.\n          0: Enable Alarm, 1:Disable Alarm,\n          Caution: After the power up, this configuration always be 0.\n       ",
@@ -20,20 +19,17 @@
                     "index": "29",
                     "items": [
                         {
-                            "label": "Enable Alarm",
-                            "value": "0"
+                            "label": "Enable Alarm"
                         },
                         {
-                            "label": "Disable Alarm",
-                            "value": "1"
+                            "label": "Disable Alarm"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n          Play alarm sound duration.\n          1 tick is 30 second. Default is 3 minutes, maximum is 63.5 minutes.\n          0: means never auto stop\n       ",
@@ -43,8 +39,7 @@
                     "max": "12",
                     "min": "0",
                     "type": "byte",
-                    "units": "30 sec",
-                    "value": "6"
+                    "units": "30 sec"
                 }
             ]
         },

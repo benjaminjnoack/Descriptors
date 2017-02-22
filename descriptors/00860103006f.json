@@ -10,20 +10,17 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Output load will be closed after 30 seconds if the temperature inside the product exceeds 100C.",
@@ -31,20 +28,17 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Configure the output load status after re-power on",
@@ -52,21 +46,17 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "The last status before the power outage",
-                            "value": "0"
+                            "label": "The last status before the power outage"
                         },
                         {
-                            "label": "Always on",
-                            "value": "1"
+                            "label": "Always on"
                         },
                         {
-                            "label": "Always off",
-                            "value": "2"
+                            "label": "Always off"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "To set which notification would be sent to the associated nodes in association group 1 when the state of output load is changed",
@@ -74,30 +64,24 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "None",
-                            "value": "0"
+                            "label": "None"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         },
                         {
-                            "label": "Send Multilevel Switch report",
-                            "value": "3"
+                            "label": "Send Multilevel Switch report"
                         },
                         {
-                            "label": "Send Hail CC when using the manual switch to change the load state",
-                            "value": "4"
+                            "label": "Send Hail CC when using the manual switch to change the load state"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "3"
+                    "units": ""
                 },
                 {
                     "help": "To set which notification would be sent to the associated nodes in association group 3 when using the external switch 1 to switch the loads",
@@ -105,18 +89,15 @@
                     "index": "81",
                     "items": [
                         {
-                            "label": "None",
-                            "value": "0"
+                            "label": "None"
                         },
                         {
-                            "label": "Basic",
-                            "value": "1"
+                            "label": "Basic"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "To set which notification would be sent to the associated nodes in association group 4 when using the external switch 2 to switch the loads",
@@ -124,34 +105,29 @@
                     "index": "82",
                     "items": [
                         {
-                            "label": "None",
-                            "value": "0"
+                            "label": "None"
                         },
                         {
-                            "label": "Basic",
-                            "value": "1"
+                            "label": "Basic"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "State appointment\n                Set the ON time of output load.\n                Value1 = 0, disable or = non zero, enable (day, bit0 - bit6 represent Mon to Sun).\n                Value2 = ON (hour)\n                Value3 = ON (minute)\n                Value4 = ON (brightness level)\n            ",
                     "label": "State appointment 1",
                     "index": "85",
                     "items": [],
-                    "type": "int",
-                    "value": "2566920192"
+                    "type": "int"
                 },
                 {
                     "help": "State appointment\n                Set the ON time of output load.\n                Value1 = 0, disable or = non zero, enable (day, bit0 - bit6 represent Mon to Sun).\n                Value2 = ON (hour)\n                Value3 = ON (minute)\n                Value4 = ON (brightness level)\n            ",
                     "label": "State appointment 2",
                     "index": "86",
                     "items": [],
-                    "type": "int",
-                    "value": "8960"
+                    "type": "int"
                 },
                 {
                     "help": "Enables/disables parameter 91 and 92",
@@ -159,18 +135,15 @@
                     "index": "90",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "The value represents the minimum change in wattage for a Report to be sent (default 25 W)",
@@ -181,8 +154,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts",
-                    "value": "25"
+                    "units": "watts"
                 },
                 {
                     "help": "The value represents the minimum percentage change in wattage for a Report to be sent (Default 5)",
@@ -192,8 +164,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "5"
+                    "units": "%"
                 },
                 {
                     "help": "Set report types for groups 1, 2 and 3 to default.",
@@ -209,8 +180,7 @@
                     "index": "101",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n                Defines the type of report sent for reporting group 2.\n                1 is meter report for voltage.\n                2 is meter report for current.\n                4 is meter report for watts.\n                8 is meter report for kilowatts.\n                Value 1 (msb) Reserved\n                Value 2 Reserved\n                Value 3 Reserved\n                Value 4 (lsb) bits 7-4 reserved\n                bit 3 current\n                bit 2 voltage\n                bit 1 watt\n                bit 0 kWh\n            ",
@@ -218,8 +188,7 @@
                     "index": "102",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n                Defines the type of report sent for reporting group 3.\n                1 is meter report for voltage.\n                2 is meter report for current.\n                4 is meter report for watts.\n                8 is meter report for kilowatts.\n                Value 1 (msb) Reserved\n                Value 2 Reserved\n                Value 3 Reserved\n                Value 4 (lsb) bits 7-4 reserved\n                bit 3 current\n                bit 2 voltage\n                bit 1 watt\n                bit 0 kWh\n            ",
@@ -227,8 +196,7 @@
                     "index": "103",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set time interval for sending reports for groups 1, 2 and 3 to default.",
@@ -236,8 +204,7 @@
                     "index": "110",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 1 is sent.",
@@ -247,8 +214,7 @@
                     "max": "2147483647",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "3"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 2 is sent.",
@@ -258,8 +224,7 @@
                     "max": "2147483647",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 3 is sent.",
@@ -269,8 +234,7 @@
                     "max": "2147483647",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "When the mode is determined, this mode value will not be reset after exclusion",
@@ -278,28 +242,23 @@
                     "index": "120",
                     "items": [
                         {
-                            "label": "Enter automatic identification mode",
-                            "value": "0"
+                            "label": "Enter automatic identification mode"
                         },
                         {
-                            "label": "Momentary button mode",
-                            "value": "1"
+                            "label": "Momentary button mode"
                         },
                         {
-                            "label": "3-way switch mode",
-                            "value": "2"
+                            "label": "3-way switch mode"
                         },
                         {
-                            "label": "2-state switch mode",
-                            "value": "3"
+                            "label": "2-state switch mode"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "When the mode is determined, this mode value will not be reset after exclusion",
@@ -307,28 +266,23 @@
                     "index": "121",
                     "items": [
                         {
-                            "label": "Enter automatic identification mode",
-                            "value": "0"
+                            "label": "Enter automatic identification mode"
                         },
                         {
-                            "label": "Momentary button mode",
-                            "value": "1"
+                            "label": "Momentary button mode"
                         },
                         {
-                            "label": "3-way switch mode",
-                            "value": "2"
+                            "label": "3-way switch mode"
                         },
                         {
-                            "label": "2-state switch mode",
-                            "value": "3"
+                            "label": "2-state switch mode"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Get the state of touch panel port",
@@ -336,20 +290,17 @@
                     "index": "122",
                     "items": [
                         {
-                            "label": "Not connected",
-                            "value": "0"
+                            "label": "Not connected"
                         },
                         {
-                            "label": "Connected",
-                            "value": "5"
+                            "label": "Connected"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set the control destination for external switch S1",
@@ -357,24 +308,20 @@
                     "index": "123",
                     "items": [
                         {
-                            "label": "Output loads of itself",
-                            "value": "1"
+                            "label": "Output loads of itself"
                         },
                         {
-                            "label": "Other nodes",
-                            "value": "2"
+                            "label": "Other nodes"
                         },
                         {
-                            "label": "Output loads of itself and other nodes",
-                            "value": "3"
+                            "label": "Output loads of itself and other nodes"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "3"
+                    "units": ""
                 },
                 {
                     "help": "Set the control destination for external switch S2",
@@ -382,24 +329,20 @@
                     "index": "124",
                     "items": [
                         {
-                            "label": "Output loads of itself",
-                            "value": "1"
+                            "label": "Output loads of itself"
                         },
                         {
-                            "label": "Other nodes",
-                            "value": "2"
+                            "label": "Other nodes"
                         },
                         {
-                            "label": "Output loads of itself and other nodes",
-                            "value": "3"
+                            "label": "Output loads of itself and other nodes"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "3"
+                    "units": ""
                 },
                 {
                     "help": "Set the default dimming rate",
@@ -409,8 +352,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "3"
+                    "units": "%"
                 },
                 {
                     "help": "Get the current working mode",
@@ -418,24 +360,20 @@
                     "index": "128",
                     "items": [
                         {
-                            "label": "Unknown",
-                            "value": "0"
+                            "label": "Unknown"
                         },
                         {
-                            "label": "2-wire mode",
-                            "value": "1"
+                            "label": "2-wire mode"
                         },
                         {
-                            "label": "3-wire mode",
-                            "value": "2"
+                            "label": "3-wire mode"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set the dimming principle",
@@ -443,20 +381,17 @@
                     "index": "129",
                     "items": [
                         {
-                            "label": "Trailing edge mode",
-                            "value": "0"
+                            "label": "Trailing edge mode"
                         },
                         {
-                            "label": "Leading edge mode",
-                            "value": "1"
+                            "label": "Leading edge mode"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "To get what type of load the Dimmer is connected to",
@@ -464,28 +399,23 @@
                     "index": "130",
                     "items": [
                         {
-                            "label": "Unknown",
-                            "value": "0"
+                            "label": "Unknown"
                         },
                         {
-                            "label": "Resistive load",
-                            "value": "1"
+                            "label": "Resistive load"
                         },
                         {
-                            "label": "Capacitive load",
-                            "value": "2"
+                            "label": "Capacitive load"
                         },
                         {
-                            "label": "Inductive load",
-                            "value": "3"
+                            "label": "Inductive load"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set the min brightness level that the load can reach to",
@@ -495,8 +425,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "20"
+                    "units": "%"
                 },
                 {
                     "help": "Set the max brightness level that the load can reach to",
@@ -506,8 +435,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "95"
+                    "units": "%"
                 },
                 {
                     "help": "Set the recognition way of load",
@@ -515,24 +443,20 @@
                     "index": "249",
                     "items": [
                         {
-                            "label": "Never recognize the load when power on",
-                            "value": "0"
+                            "label": "Never recognize the load when power on"
                         },
                         {
-                            "label": "Only recognize once when first power on",
-                            "value": "1"
+                            "label": "Only recognize once when first power on"
                         },
                         {
-                            "label": "Recognize the load once power on",
-                            "value": "2"
+                            "label": "Recognize the load once power on"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
@@ -540,20 +464,17 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -561,21 +482,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

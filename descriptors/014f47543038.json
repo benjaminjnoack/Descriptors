@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Full Brightness",
-                            "value": "0"
+                            "label": "Full Brightness"
                         },
                         {
-                            "label": "Last Dim Setting",
-                            "value": "1"
+                            "label": "Last Dim Setting"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

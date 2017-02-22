@@ -13,39 +13,31 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Heat",
-                            "value": "1"
+                            "label": "Heat"
                         },
                         {
-                            "label": "Cool",
-                            "value": "2"
+                            "label": "Cool"
                         },
                         {
-                            "label": "Resume",
-                            "value": "5"
+                            "label": "Resume"
                         },
                         {
-                            "label": "Fan Only",
-                            "value": "6"
+                            "label": "Fan Only"
                         },
                         {
-                            "label": "Dry Air",
-                            "value": "8"
+                            "label": "Dry Air"
                         },
                         {
-                            "label": "Auto Changeover",
-                            "value": "10"
+                            "label": "Auto Changeover"
                         }
                     ],
                     "max": "0",
                     "min": "0",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },
@@ -58,99 +50,76 @@
                     "index": "25",
                     "items": [
                         {
-                            "label": "OFF",
-                            "value": "0"
+                            "label": "OFF"
                         },
                         {
-                            "label": "ON (resume)",
-                            "value": "1"
+                            "label": "ON (resume)"
                         },
                         {
-                            "label": "cool 19 C",
-                            "value": "2"
+                            "label": "cool 19 C"
                         },
                         {
-                            "label": "cool 20 C",
-                            "value": "3"
+                            "label": "cool 20 C"
                         },
                         {
-                            "label": "cool 21 C",
-                            "value": "4"
+                            "label": "cool 21 C"
                         },
                         {
-                            "label": "cool 22 C",
-                            "value": "5"
+                            "label": "cool 22 C"
                         },
                         {
-                            "label": "cool 23 C",
-                            "value": "6"
+                            "label": "cool 23 C"
                         },
                         {
-                            "label": "cool 24 C",
-                            "value": "7"
+                            "label": "cool 24 C"
                         },
                         {
-                            "label": "cool 25 C",
-                            "value": "8"
+                            "label": "cool 25 C"
                         },
                         {
-                            "label": "cool 26 C",
-                            "value": "9"
+                            "label": "cool 26 C"
                         },
                         {
-                            "label": "cool 27 C",
-                            "value": "10"
+                            "label": "cool 27 C"
                         },
                         {
-                            "label": "cool 28 C",
-                            "value": "11"
+                            "label": "cool 28 C"
                         },
                         {
-                            "label": "heat 19 C",
-                            "value": "12"
+                            "label": "heat 19 C"
                         },
                         {
-                            "label": "heat 20 C",
-                            "value": "13"
+                            "label": "heat 20 C"
                         },
                         {
-                            "label": "heat 21 C",
-                            "value": "14"
+                            "label": "heat 21 C"
                         },
                         {
-                            "label": "heat 22 C",
-                            "value": "15"
+                            "label": "heat 22 C"
                         },
                         {
-                            "label": "heat 23 C",
-                            "value": "16"
+                            "label": "heat 23 C"
                         },
                         {
-                            "label": "heat 24 C",
-                            "value": "17"
+                            "label": "heat 24 C"
                         },
                         {
-                            "label": "heat 25 C",
-                            "value": "18"
+                            "label": "heat 25 C"
                         },
                         {
-                            "label": "heat 26 C",
-                            "value": "19"
+                            "label": "heat 26 C"
                         },
                         {
-                            "label": "heat 27 C",
-                            "value": "20"
+                            "label": "heat 27 C"
                         },
                         {
-                            "label": "heat 28 C",
-                            "value": "21"
+                            "label": "heat 28 C"
                         }
                     ],
                     "max": "22",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Note: The status value 0x01 and 0x04 will be reset to 0 when the ZXT-120 receive a get command to this parameter.\n\t\t\t\tIdle - this IR channel is idle (default).\n\t\t\t\tOK - the latest learning process successful and completed.\n\t\t\t\tLearning - the ZXT- 120 is busy processing previous learning request.\n\t\t\t\tFailed - the latest learning request failed.",
@@ -158,20 +127,16 @@
                     "index": "26",
                     "items": [
                         {
-                            "label": "Idle",
-                            "value": "0"
+                            "label": "Idle"
                         },
                         {
-                            "label": "OK",
-                            "value": "1"
+                            "label": "OK"
                         },
                         {
-                            "label": "Learning",
-                            "value": "2"
+                            "label": "Learning"
                         },
                         {
-                            "label": "Failed",
-                            "value": "4"
+                            "label": "Failed"
                         }
                     ],
                     "size": "1",
@@ -183,8 +148,7 @@
                     "index": "27",
                     "items": [],
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "",
@@ -192,17 +156,14 @@
                     "index": "28",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "High",
-                            "value": "255"
+                            "label": "High"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tTo avoid the IR interference by disabling the surrounding IR emitter if 2 air-conditioners in a room are used.\n\t\t\t\tExtend the battery life by disabling the Surround IR Emitters\n\t\t\t",
@@ -210,17 +171,14 @@
                     "index": "32",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "255"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -228,17 +186,14 @@
                     "index": "33",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Auto",
-                            "value": "1"
+                            "label": "Auto"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tBit mask = 1, learn location has learn data.\n\t\t\t\tOtherwise, Bit mask 0 See figure Learn location\n\t\t\t",
@@ -254,55 +209,43 @@
                     "index": "37",
                     "items": [
                         {
-                            "label": "0 C",
-                            "value": "0"
+                            "label": "0 C"
                         },
                         {
-                            "label": "1 C",
-                            "value": "1"
+                            "label": "1 C"
                         },
                         {
-                            "label": "2 C",
-                            "value": "2"
+                            "label": "2 C"
                         },
                         {
-                            "label": "3 C",
-                            "value": "3"
+                            "label": "3 C"
                         },
                         {
-                            "label": "4 C",
-                            "value": "4"
+                            "label": "4 C"
                         },
                         {
-                            "label": "5 C",
-                            "value": "5"
+                            "label": "5 C"
                         },
                         {
-                            "label": "-1 C",
-                            "value": "255"
+                            "label": "-1 C"
                         },
                         {
-                            "label": "-2 C",
-                            "value": "254"
+                            "label": "-2 C"
                         },
                         {
-                            "label": "-3 C",
-                            "value": "253"
+                            "label": "-3 C"
                         },
                         {
-                            "label": "-4 C",
-                            "value": "252"
+                            "label": "-4 C"
                         },
                         {
-                            "label": "-5 C",
-                            "value": "251"
+                            "label": "-5 C"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         }

@@ -12,8 +12,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "99"
+                    "units": ""
                 },
                 {
                     "help": "\n        This is applied to determine the delay time setting to send the Basic Set Off command when the manual switch input at NO (open)\n        0 : immediately Off\n        1 - 127 : delay 1 - 127 second to Off\n      ",
@@ -23,8 +22,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "bool",
-                    "units": "second",
-                    "value": "1"
+                    "units": "second"
                 }
             ]
         },

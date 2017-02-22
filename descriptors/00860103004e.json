@@ -10,17 +10,14 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "LED status after power on",
@@ -28,21 +25,17 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "Last Status",
-                            "value": "0"
+                            "label": "Last Status"
                         },
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\tEnables automatic notifications to associated devices whenever there is a state change.\n      ",
@@ -50,22 +43,18 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "None",
-                            "value": "0"
+                            "label": "None"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enable/disable Wattage threshold and percent.",
@@ -73,8 +62,7 @@
                     "index": "90",
                     "items": [],
                     "type": "bool",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "The minimum change in wattage for a report to be sent.",
@@ -84,8 +72,7 @@
                     "max": "32000",
                     "min": "0",
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "Minimum change in percent of wattage to send a report.",
@@ -95,8 +82,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "Set report types for groups 1, 2 and 3 to default.",
@@ -104,8 +90,7 @@
                     "index": "100",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n          Defines the type of report sent for reporting group 1.\n          1 is meter report for voltage.\n          2 is meter report for current.\n          4 is meter report for watts.\n          8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n          bit 3 kWh\n          bit 2 watt\n          bit 1 current\n          bit 0 voltage\n      ",
@@ -113,8 +98,7 @@
                     "index": "101",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "4"
+                    "units": ""
                 },
                 {
                     "help": "\n          Defines the type of report sent for reporting group 2.\n          1 is meter report for voltage.\n          2 is meter report for current.\n          4 is meter report for watts.\n          8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n          bit 3 kWh\n          bit 2 watt\n          bit 1 current\n          bit 0 voltage\n      ",
@@ -122,8 +106,7 @@
                     "index": "102",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "8"
+                    "units": ""
                 },
                 {
                     "help": "\n          Defines the type of report sent for reporting group 3.\n          1 is meter report for voltage.\n          2 is meter report for current.\n          4 is meter report for watts.\n          8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n          bit 3 kWh\n          bit 2 watt\n          bit 1 current\n          bit 0 voltage\n      ",
@@ -131,8 +114,7 @@
                     "index": "103",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set time interval for sending reports for groups 1, 2 and 3 to default.",
@@ -140,8 +122,7 @@
                     "index": "110",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 1 is sent.",
@@ -151,8 +132,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "5"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 2 is sent.",
@@ -162,8 +142,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "120"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 3 is sent.",
@@ -173,28 +152,24 @@
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "120"
+                    "units": "seconds"
                 },
                 {
                     "label": "Partner ID",
                     "index": "200",
                     "items": [
                         {
-                            "label": "Aeon Labs Standard Product",
-                            "value": "0"
+                            "label": "Aeon Labs Standard Product"
                         },
                         {
-                            "label": "Other",
-                            "value": "1"
+                            "label": "Other"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Lock/ unlock all configuration parameters",
@@ -202,19 +177,16 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -222,21 +194,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

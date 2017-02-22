@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "PIR sensitivity settings. \n\t\t\t\t0 means disable the PIR motion.\n\t\t\t\t1 means the lowest sensitivity.\n\t\t\t\t99 means the highest sensitivity.\n\t\t\t\tHigh sensitivity means can detect long distance, but if there is more noise signal in the environment, it will re-trigger too frequently.",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "99",
                     "min": "0",
-                    "type": "byte",
-                    "value": "70"
+                    "type": "byte"
                 },
                 {
                     "help": "Setting the illummination threshold to turn on the light. When the event triggered and the environment illumination lower then \n\t\t\t\tthe threshold, the device will turn on the light.\n\t\t\t\t0 means turn off illumination detected function and never turn on the light.\n\t\t\t\t1 means darkest.\n\t\t\t\t99 means brightest.\n\t\t\t\t100 means turn off illumination detected function. And always turn on the light.\n\t\t\t\t* Notice * in none test mode, only the value in 1 to 99 will enable the illumination detected function and update the illumination value.",
@@ -31,8 +29,7 @@
                     "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte",
-                    "value": "99"
+                    "type": "byte"
                 },
                 {
                     "help": "Bit 0: 1 means security mode; 0 means home automation mode.\n\t\t\t\tBit 1: 1 means enable test mode; 0 means disable test mode.\n\t\t\t\t* Notice * Bit 0 and bit 1 will effect when the DIP Switch setting to program mode. If bit1 is enabled, the bit0 is useless.\n\t\t\t\tBit 2: Reserved, always 1.\n\t\t\t\tBit 3: Setting the temperature scale; 0: Fahrenheit, 1:Celsius\n\t\t\t\tBit 4: Disable illumination report after event triggered.\n\t\t\t\tBit 5: Disable temperature report after event triggered.",
@@ -41,8 +38,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Multi-Sensor Function switch. Using bit to control.\n\t\t\t\tBit 0: Reserved, always 1.\n\t\t\t\tBit 1: Disable PIR integrate Illumination.\n\t\t\t\tBit 2: Reserved, always 1.\n\t\t\t\tBit 3: Reserved.\n\t\t\t\tBit 4: Reserved.\n\t\t\t\tBit 5: Reserved.\n\t\t\t\tBit 6: Enable temperature monitoring. When this bit enabled, the temperature changed 3 degree Fahrenheit, it will report. \n\t\t\t\tAnd also the temperature over 140 degree Fahrenheit, it will report every 64 seconds.",
@@ -51,8 +47,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "4"
+                    "type": "byte"
                 },
                 {
                     "help": "In the security mode, after the PIR report motion detected, setting the re-detect time. 8 seconds per tick, and minimum time is 24 seconds, default tick is 3 (24 seconds). Setting the suitable value to prevent received the trigger signal too frequency. Also can save the battery energy. * Notice * If this value bigger than the configuration setting NO. 9. There is a period after the light turned off and the PIR not detecting.",
@@ -62,8 +57,7 @@
                     "max": "27",
                     "min": "3",
                     "type": "byte",
-                    "units": "8 sec",
-                    "value": "3"
+                    "units": "8 sec"
                 },
                 {
                     "help": "After turn on the light, setting the delay time to turn off the light when the PIR motion is not detected. 8 seconds per tick, and minimum time is 32 seconds, default tick is 4 (32 seconds).",
@@ -73,8 +67,7 @@
                     "max": "127",
                     "min": "4",
                     "type": "byte",
-                    "units": "8 sec",
-                    "value": "4"
+                    "units": "8 sec"
                 },
                 {
                     "help": "The interval time for auto report the battery level. 30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)",
@@ -84,8 +77,7 @@
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min",
-                    "value": "12"
+                    "units": "30 min"
                 },
                 {
                     "help": "\n\t\t\t\t The interval time for auto report the illumination.\n\t\t\t\t 30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)\n\t\t\t",
@@ -95,8 +87,7 @@
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min",
-                    "value": "12"
+                    "units": "30 min"
                 },
                 {
                     "help": "The interval time for auto report the temperature. 30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)",
@@ -106,8 +97,7 @@
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min",
-                    "value": "12"
+                    "units": "30 min"
                 }
             ]
         },
@@ -120,8 +110,7 @@
                     "items": [],
                     "max": "0",
                     "min": "0",
-                    "type": "bool",
-                    "value": "false"
+                    "type": "bool"
                 },
                 {
                     "label": "Tamper Sensor",
@@ -129,8 +118,7 @@
                     "items": [],
                     "max": "0",
                     "min": "0",
-                    "type": "bool",
-                    "value": "false"
+                    "type": "bool"
                 }
             ]
         },

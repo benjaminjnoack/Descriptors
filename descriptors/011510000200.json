@@ -10,21 +10,17 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Show switch",
-                            "value": "1"
+                            "label": "Show switch"
                         },
                         {
-                            "label": "Indicator CC",
-                            "value": "2"
+                            "label": "Indicator CC"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If not zero, automatically switch device off after an user defined time. Unit: Sec, Min: 0, Max: 65535, Default: 0",
@@ -35,8 +31,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "second",
-                    "value": "0"
+                    "units": "second"
                 },
                 {
                     "help": "Defines how to interpret RF Off-Command.\n                Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the light off that would break logics;\n                Switch on - to switch on the light on both ON and OFF paddle press on the remote and switch it off after some amount of time.\n                Button OFF click will still work (if button operations are not disabled).\n            ",
@@ -44,25 +39,20 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Switch off",
-                            "value": "0"
+                            "label": "Switch off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "1"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "Switch on",
-                            "value": "2"
+                            "label": "Switch on"
                         },
                         {
-                            "label": "Switch on if load is off else switch off",
-                            "value": "3"
+                            "label": "Switch on if load is off else switch off"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Defines if the switch should restore switch state to the last prior to device power off (power cycle).",
@@ -70,17 +60,14 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "No, turn off",
-                            "value": "0"
+                            "label": "No, turn off"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Specify the consumption of the load in watts, for the calculation of power consumption. Maximum load 1800 W. Unit: Watts, Min: 0, Max: 3500, Default: 0",
@@ -91,8 +78,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watt",
-                    "value": "0"
+                    "units": "watt"
                 },
                 {
                     "help": "Color to OFF state",
@@ -100,29 +86,23 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Red",
-                            "value": "1"
+                            "label": "Red"
                         },
                         {
-                            "label": "Green",
-                            "value": "2"
+                            "label": "Green"
                         },
                         {
-                            "label": "Blue",
-                            "value": "3"
+                            "label": "Blue"
                         },
                         {
-                            "label": "Yellow",
-                            "value": "4"
+                            "label": "Yellow"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Color to ON state",
@@ -130,29 +110,23 @@
                     "index": "22",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Red",
-                            "value": "1"
+                            "label": "Red"
                         },
                         {
-                            "label": "Green",
-                            "value": "2"
+                            "label": "Green"
                         },
                         {
-                            "label": "Blue (Default)",
-                            "value": "3"
+                            "label": "Blue (Default)"
                         },
                         {
-                            "label": "Yellow",
-                            "value": "4"
+                            "label": "Yellow"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 }
             ]
         },

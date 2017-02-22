@@ -12,8 +12,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "99"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tLux level to trigger when a ON command is sent out. 0 will clear the value.\n\t\t\t",
@@ -23,8 +22,7 @@
                     "max": "1000",
                     "min": "0",
                     "type": "short",
-                    "units": "LUX",
-                    "value": "300"
+                    "units": "LUX"
                 },
                 {
                     "help": "\n\t\t\t\tLux level to trigger when an OFF command is sent out. 0 will clear the value.\n\t\t\t",
@@ -34,8 +32,7 @@
                     "max": "1000",
                     "min": "0",
                     "type": "short",
-                    "units": "LUX",
-                    "value": "500"
+                    "units": "LUX"
                 },
                 {
                     "help": "\n\t\t\t\tSet Lux timer trigger to send an OFF command. 0 will clear the value.\n\t\t\t",
@@ -45,8 +42,7 @@
                     "max": "480",
                     "min": "1",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "240"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report time interval. 0 disables.\n\t\t\t",
@@ -56,8 +52,7 @@
                     "max": "1439",
                     "min": "0",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report Lux interval. 0 disabled.\n\t\t\t",
@@ -67,8 +62,7 @@
                     "max": "1000",
                     "min": "30",
                     "type": "short",
-                    "units": "LUX",
-                    "value": "0"
+                    "units": "LUX"
                 }
             ]
         },

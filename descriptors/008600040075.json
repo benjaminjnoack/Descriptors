@@ -14,19 +14,16 @@
                     "index": "82",
                     "items": [
                         {
-                            "label": "On for 2 seconds",
-                            "value": "0"
+                            "label": "On for 2 seconds"
                         },
                         {
-                            "label": "Off",
-                            "value": "1"
+                            "label": "Off"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Partner ID",
@@ -34,20 +31,17 @@
                     "index": "200",
                     "items": [
                         {
-                            "label": "Aeon Labs Standard (Default)",
-                            "value": "0"
+                            "label": "Aeon Labs Standard (Default)"
                         },
                         {
-                            "label": "Others",
-                            "value": "1"
+                            "label": "Others"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
@@ -55,20 +49,17 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Device tag.",
@@ -78,8 +69,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -87,21 +77,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

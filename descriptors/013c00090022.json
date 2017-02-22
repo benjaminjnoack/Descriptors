@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "99",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n          Control the value represented by the right-side in area D.\n\t\t  E.g. Setting this configuration\n\t\t  to 15 means range of Command Basic Set value start from 15\n\t  ",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "99",
                     "min": "0",
-                    "type": "byte",
-                    "value": "99"
+                    "type": "byte"
                 },
                 {
                     "help": "\n          The interval time for auto reporting\n          the Battery level. 0 means turn off auto report battery.\n          The default value is 12.\n       ",
@@ -31,8 +29,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "12"
+                    "type": "byte"
                 },
                 {
                     "help": "\n          Bit 0: Dimmer setting method.\n          0 : Auto send Command Basic Set after rotating.\n          1 : Send Command Basic Set by touching key after rotating\n          Bit 1: Disable buzzer in timer mode.\n          0: Enable.\n          1: Disable.\n       ",
@@ -41,8 +38,7 @@
                     "items": [],
                     "max": "3",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n          Send Central Scene Holding when the button is held.\n       ",
@@ -50,17 +46,14 @@
                     "index": "26",
                     "items": [
                         {
-                            "label": "Enabled",
-                            "value": "0"
+                            "label": "Enabled"
                         },
                         {
-                            "label": "Disabled",
-                            "value": "1"
+                            "label": "Disabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

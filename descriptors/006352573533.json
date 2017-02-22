@@ -10,17 +10,14 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON. Note: If you invert the switches and also install the product upside down, remember the load will now be controlled by the right, not the left switch.",
@@ -28,17 +25,14 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         }

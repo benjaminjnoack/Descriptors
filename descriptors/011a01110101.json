@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Power on, LED off",
-                            "value": "0"
+                            "label": "Power on, LED off"
                         },
                         {
-                            "label": "Power on, LED on",
-                            "value": "1"
+                            "label": "Power on, LED on"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "How often to send the energy report for the moment-in-time usage (METER_REPORT version) automatically in minutes. 0 = disabled.",
@@ -30,8 +27,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "How often to send the energy report for the moment-in-time usage (SENSOR_MULTILEVEL_REPORT version) automatically in minutes. 0 = disabled.",
@@ -41,8 +37,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "How often to send the energy report for the accumulated energy usage usage (METER_REPORT) automatically in minutes. 0 = disabled.",
@@ -52,8 +47,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "Enable automatic notifications when there is a change in wattage.",
@@ -61,25 +55,20 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "No report",
-                            "value": "0"
+                            "label": "No report"
                         },
                         {
-                            "label": "Send METER_REPORT only (default)",
-                            "value": "1"
+                            "label": "Send METER_REPORT only (default)"
                         },
                         {
-                            "label": "Send SENSOR_MULTILEVEL_REPORT only",
-                            "value": "2"
+                            "label": "Send SENSOR_MULTILEVEL_REPORT only"
                         },
                         {
-                            "label": "Send both reports (recommended)",
-                            "value": "3"
+                            "label": "Send both reports (recommended)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "How much the wattage needs to change by to trigger the wattage change notifications. Units are 1-10th of a watt; 0-255: 0.0-25.5W",
@@ -89,8 +78,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "0.1 watt",
-                    "value": "10"
+                    "units": "0.1 watt"
                 }
             ]
         },

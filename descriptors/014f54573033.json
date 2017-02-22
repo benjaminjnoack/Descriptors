@@ -10,29 +10,23 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "LED OFF when the load is on",
-                            "value": "0"
+                            "label": "LED OFF when the load is on"
                         },
                         {
-                            "label": "LED ON when the load is on",
-                            "value": "1"
+                            "label": "LED ON when the load is on"
                         },
                         {
-                            "label": "LED is always ON",
-                            "value": "2"
+                            "label": "LED is always ON"
                         },
                         {
-                            "label": "LED is always OFF",
-                            "value": "3"
+                            "label": "LED is always OFF"
                         },
                         {
-                            "label": "LED blinks during RF transmissions",
-                            "value": "4"
+                            "label": "LED blinks during RF transmissions"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
@@ -40,8 +34,7 @@
                     "index": "4",
                     "items": [],
                     "size": "1",
-                    "type": "bool",
-                    "value": "False"
+                    "type": "bool"
                 },
                 {
                     "help": "The associated dimmer will start dimming from its current level, ignoring any commanded start level.",
@@ -49,8 +42,7 @@
                     "index": "5",
                     "items": [],
                     "size": "1",
-                    "type": "bool",
-                    "value": "True"
+                    "type": "bool"
                 },
                 {
                     "help": "Dim Step can be set to a value of 1 to 99. This value indicates how many levels the dimmer will change each time the Dim Timer expires.",
@@ -60,8 +52,7 @@
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "3"
+                    "units": "%"
                 },
                 {
                     "help": "The Dim Timer (how fast the dim steps happen). It can be set to a value of 1 to 255. This value indicates in 10 millisecond resolution, how often the dim level will change.",
@@ -71,8 +62,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "10ms",
-                    "value": "10"
+                    "units": "10ms"
                 }
             ]
         }

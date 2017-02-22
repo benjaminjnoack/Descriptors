@@ -10,19 +10,16 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Water Alarm",
-                            "value": "0"
+                            "label": "Water Alarm"
                         },
                         {
-                            "label": "Water Level",
-                            "value": "255"
+                            "label": "Water Level"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -32,8 +29,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "60"
+                    "units": "minutes"
                 }
             ]
         }

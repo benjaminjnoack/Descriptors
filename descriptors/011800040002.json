@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Indicator Off",
-                            "value": "0"
+                            "label": "Indicator Off"
                         },
                         {
-                            "label": "Indicator On",
-                            "value": "1"
+                            "label": "Indicator On"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -28,17 +25,14 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "If the setting is configured for 1 hour (value=720), the TZ69E will report its instant power consumption every 1 hour.",
@@ -48,8 +42,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "5 sec",
-                    "value": "720"
+                    "units": "5 sec"
                 },
                 {
                     "help": "If the setting is configured for 1 hour (value=6), the TZ69E will report its accumulated power consumption (kWh) every 1 hour.",
@@ -59,8 +52,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "10 min",
-                    "value": "6"
+                    "units": "10 min"
                 },
                 {
                     "help": "",
@@ -70,8 +62,7 @@
                     "max": "10000",
                     "min": "1",
                     "type": "short",
-                    "units": "Kwh",
-                    "value": "10000"
+                    "units": "Kwh"
                 },
                 {
                     "help": "",
@@ -81,8 +72,7 @@
                     "max": "3000",
                     "min": "10",
                     "type": "short",
-                    "units": "Watt",
-                    "value": "3000"
+                    "units": "Watt"
                 }
             ]
         },

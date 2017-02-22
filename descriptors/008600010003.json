@@ -10,140 +10,112 @@
                     "index": "241",
                     "items": [
                         {
-                            "label": "Default Mode",
-                            "value": "0"
+                            "label": "Default Mode"
                         },
                         {
-                            "label": "Scene Mode",
-                            "value": "1"
+                            "label": "Scene Mode"
                         },
                         {
-                            "label": "Add Mode",
-                            "value": "2"
+                            "label": "Add Mode"
                         },
                         {
-                            "label": "Remove Mode",
-                            "value": "3"
+                            "label": "Remove Mode"
                         },
                         {
-                            "label": "Association Mode",
-                            "value": "4"
+                            "label": "Association Mode"
                         },
                         {
-                            "label": "Learn Mode",
-                            "value": "5"
+                            "label": "Learn Mode"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "label": "Button #2 Programmable",
                     "index": "242",
                     "items": [
                         {
-                            "label": "Default Mode",
-                            "value": "0"
+                            "label": "Default Mode"
                         },
                         {
-                            "label": "Scene Mode",
-                            "value": "1"
+                            "label": "Scene Mode"
                         },
                         {
-                            "label": "Add Mode",
-                            "value": "2"
+                            "label": "Add Mode"
                         },
                         {
-                            "label": "Remove Mode",
-                            "value": "3"
+                            "label": "Remove Mode"
                         },
                         {
-                            "label": "Association Mode",
-                            "value": "4"
+                            "label": "Association Mode"
                         },
                         {
-                            "label": "Learn Mode",
-                            "value": "5"
+                            "label": "Learn Mode"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "label": "Button #3 Programmable",
                     "index": "243",
                     "items": [
                         {
-                            "label": "Default Mode",
-                            "value": "0"
+                            "label": "Default Mode"
                         },
                         {
-                            "label": "Scene Mode",
-                            "value": "1"
+                            "label": "Scene Mode"
                         },
                         {
-                            "label": "Add Mode",
-                            "value": "2"
+                            "label": "Add Mode"
                         },
                         {
-                            "label": "Remove Mode",
-                            "value": "3"
+                            "label": "Remove Mode"
                         },
                         {
-                            "label": "Association Mode",
-                            "value": "4"
+                            "label": "Association Mode"
                         },
                         {
-                            "label": "Learn Mode",
-                            "value": "5"
+                            "label": "Learn Mode"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "label": "Button #4 Programmable",
                     "index": "244",
                     "items": [
                         {
-                            "label": "Default Mode",
-                            "value": "0"
+                            "label": "Default Mode"
                         },
                         {
-                            "label": "Scene Mode",
-                            "value": "1"
+                            "label": "Scene Mode"
                         },
                         {
-                            "label": "Add Mode",
-                            "value": "2"
+                            "label": "Add Mode"
                         },
                         {
-                            "label": "Remove Mode",
-                            "value": "3"
+                            "label": "Remove Mode"
                         },
                         {
-                            "label": "Association Mode",
-                            "value": "4"
+                            "label": "Association Mode"
                         },
                         {
-                            "label": "Learn Mode",
-                            "value": "5"
+                            "label": "Learn Mode"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n        Enable selective Group Mode or Scene Mode when Button is in Use.\n        NOTE: Minimote firmware 1.17 or higher is required, firmware 1.19 is highly recommended.",
@@ -151,20 +123,17 @@
                     "index": "250",
                     "items": [
                         {
-                            "label": "Group",
-                            "value": "0"
+                            "label": "Group"
                         },
                         {
-                            "label": "Scene",
-                            "value": "1"
+                            "label": "Scene"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

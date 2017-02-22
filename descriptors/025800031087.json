@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines interval time (in seconds) that Meter report data to main controller.",
@@ -31,8 +28,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
-                    "units": "second",
-                    "value": "300"
+                    "units": "second"
                 },
                 {
                     "help": "\n        This parameter defines maximum current (in Amperes) the plug can provide to load that be connected to plug. \n        If the current consumed by load is greater than maximum current, the plug will cut off power, and send NOTIFICATION_EVENT_POWER_MANAGEMENT_OVER_LOAD_DETECTED to associated devices in lifeline. Red Led will blink every seconds until current is normal (less than Parameter #3). \n        You must remove the loader and turn on the Plug (press the button once) to enable current monitor and clear NOTIFICATION ALARM. This parameter value must be great than #4. \n        If user set this parameter to default by Configure CC, the parameter #4 will be set to default value.\n      ",
@@ -43,8 +39,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "short",
-                    "units": "Ampere",
-                    "value": "13"
+                    "units": "Ampere"
                 },
                 {
                     "help": "\n        This parameter defines maximum current (in Amperes), if the current plug provide to load is great than this parameter, the plug will light yellow LED, but plug cannot cut-off power.This parameter value must be less than parameter #3. \n        If user set this parameter to default by Configure CC, the parameter #3 will be set to default value.\n    ",
@@ -55,8 +50,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "short",
-                    "units": "Ampere",
-                    "value": "12"
+                    "units": "Ampere"
                 },
                 {
                     "help": "\n        This parameter defines the LED indication Function ON/OFF. \n        If disabled, then LED indication Function and will always be turn-off, while enabled means LED Function is on.\n      ",
@@ -64,17 +58,14 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n        This parameter defines by how much current changed must change to be reported to the Z-Wave Controller or Z-Wave Gateway, in percents. \n        If the rate of power consumed change ratio is greater than this parameter, the plug will report the results, voltage, current, power and energy, that plug measure to Z-Wave Controller or Z-Wave Gateway.\n      ",
@@ -85,8 +76,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "short",
-                    "units": "Ampere",
-                    "value": "5"
+                    "units": "Ampere"
                 },
                 {
                     "help": "\n        This parameter defined the relay status if remember or not. \n        If remembered, the plug will restore the relay status last power off when the plug supply power next time.\n      ",
@@ -94,17 +84,14 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n        This parameter defines the timer function Enable/Disable. \n        If disabled, then time switch function is not available. \n        The time period will be defined in parameter #9. \n        If enabled, and when turn the plug relay on, the timer in plug start run with time period defined in parameter #9 and the plug will turn the relay off.\n      ",
@@ -112,17 +99,14 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n        This parameter defines the time period that plug time switch off. This parameter can be configured 1 - 65535(in minutes). \n        If Parameter #9 is enabled, and relay is turn-on, the relay will be turn-off after delay this parameter.\n      ",
@@ -133,8 +117,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
-                    "units": "minute",
-                    "value": "150"
+                    "units": "minute"
                 },
                 {
                     "help": "\n        This parameter defines the button on/off function is enabled or not on the top of the wall plug. \n        If enabled, users can turn on and off the wall plug by pressing the button on the top of the wall plug. \n        If disabled, the wall plug cannot be turned on and off by pressing the button.\n      ",
@@ -142,17 +125,14 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

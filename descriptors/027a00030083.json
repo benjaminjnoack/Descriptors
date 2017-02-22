@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "8",
                     "size": "1",
-                    "type": "byte",
-                    "value": "12"
+                    "type": "byte"
                 },
                 {
                     "help": "Set the duration you want the associated device to stay ON after being triggered by the sensor before it automatically turns OFF, in seconds.",
@@ -24,8 +23,7 @@
                     "min": "5",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "30"
+                    "units": "seconds"
                 },
                 {
                     "help": "Configure whether the Mini Sensor turns an associated device on or off when sending the BASIC_SET command.  0 is OFF, 255 is ON, and 1-99 is a percentage of light level.  Value of 100-254 is NOT valid.",
@@ -35,8 +33,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "Enable or Disable motion detection.",
@@ -44,19 +41,16 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "255"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Set light sensor as a secondary trigger for associated devices.  If light level in a room falls beyond the set point and motion is detected, the Mini Sensor will send BASIC_SET command to assocated devices to turn ON.",
@@ -67,8 +61,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "lux",
-                    "value": "100"
+                    "units": "lux"
                 },
                 {
                     "help": "Adjust the time when motion is reported again after initial trigger, in seconds.",
@@ -79,8 +72,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "8"
+                    "units": "seconds"
                 },
                 {
                     "help": "How often the Mini Sensor reports light level to the controller and associated devices, in seconds.",
@@ -91,8 +83,7 @@
                     "min": "60",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "180"
+                    "units": "seconds"
                 },
                 {
                     "help": "Enable/Disable the light sensor as secondary trigger.",
@@ -100,19 +91,16 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "255"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Change required to report to the controller, in lux.",
@@ -123,8 +111,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "lux",
-                    "value": "100"
+                    "units": "lux"
                 },
                 {
                     "help": "Enable or Disable LED Notification.",
@@ -132,19 +119,16 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

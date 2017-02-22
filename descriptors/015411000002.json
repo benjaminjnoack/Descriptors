@@ -10,20 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Operated by Indicator Command Class  (Default)",
-                            "value": "3"
+                            "label": "Operated by Indicator Command Class  (Default)"
                         },
                         {
-                            "label": "Show switch state",
-                            "value": "1"
+                            "label": "Show switch state"
                         },
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Night mode (inverted switch state)",
-                            "value": "2"
+                            "label": "Night mode (inverted switch state)"
                         }
                     ],
                     "size": "1",
@@ -37,8 +33,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the light off that would break logics; Switch on - to switch on the light on both On and Off paddle press on the remote and switch it off after some amount of time. Button off click will still work (if button operations are not disabled).",
@@ -46,20 +41,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Switch off (Default)",
-                            "value": "0"
+                            "label": "Switch off (Default)"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "1"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "Switch on",
-                            "value": "2"
+                            "label": "Switch on"
                         },
                         {
-                            "label": "Switch on if load is off else switch off",
-                            "value": "3"
+                            "label": "Switch on if load is off else switch off"
                         }
                     ],
                     "size": "1",
@@ -71,12 +62,10 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Yes (Default)",
-                            "value": "1"
+                            "label": "Yes (Default)"
                         },
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         }
                     ],
                     "size": "1",
@@ -90,8 +79,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "30"
+                    "type": "short"
                 },
                 {
                     "help": "Time to dim on button holds and Start Level Change command (if it has no duration specified). Unit in Seconds 1-255 (Default 3)",
@@ -101,8 +89,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "3"
+                    "type": "short"
                 },
                 {
                     "help": "Defines the dim level on command 'ON'. On default he dimmer restores last dim level. This parameter allows configuring the maximum level on second On command (if already On) or to always switch on to maximum level.",
@@ -110,16 +97,13 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "last dim level (Default)",
-                            "value": "0"
+                            "label": "last dim level (Default)"
                         },
                         {
-                            "label": "maximum dim level when already turned on",
-                            "value": "1"
+                            "label": "maximum dim level when already turned on"
                         },
                         {
-                            "label": "Always maximum dim level",
-                            "value": "2"
+                            "label": "Always maximum dim level"
                         }
                     ],
                     "size": "1",
@@ -133,8 +117,7 @@
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Target level on which to stop while executing Baby Dimming. Can be 0 to completely switch off the light. Unit in % 0-255 (0=Default)",
@@ -144,8 +127,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Typical time used to differentiate click, hold, double and triple clicks. in 10ms units (Default 50)",
@@ -155,8 +137,7 @@
                     "max": "100",
                     "min": "1",
                     "size": "1",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "Minimal level should be greater than maximal. 1-95 Level limit (Default 1)",
@@ -166,8 +147,7 @@
                     "max": "95",
                     "min": "1",
                     "size": "1",
-                    "type": "short",
-                    "value": "1"
+                    "type": "short"
                 },
                 {
                     "help": "Maximal level should be greater than minimal. 0=Work as switch: use off and maximal level 10-99 Level limit (Default 99)",
@@ -177,8 +157,7 @@
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "99"
+                    "type": "short"
                 },
                 {
                     "help": "Defines how the dimmer hall react on a simple ON Command. 0-99 0=Use previous light level (Default), 1 . 99 Define light level in %",
@@ -188,8 +167,7 @@
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 1. For other bulbs use default value. 5-60 (Default 28)",
@@ -199,8 +177,7 @@
                     "max": "60",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "28"
+                    "type": "short"
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 40. For other bulbs use default value. 5-60 (Default 28)",
@@ -210,8 +187,7 @@
                     "max": "60",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "28"
+                    "type": "short"
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 20. For other bulbs use default value. 3-20 (Default 10)",
@@ -221,8 +197,7 @@
                     "max": "20",
                     "min": "3",
                     "size": "1",
-                    "type": "short",
-                    "value": "10"
+                    "type": "short"
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! (Default 0)",
@@ -230,12 +205,10 @@
                     "index": "54",
                     "items": [
                         {
-                            "label": "Long pulse (Default)",
-                            "value": "0"
+                            "label": "Long pulse (Default)"
                         },
                         {
-                            "label": "Short pulse",
-                            "value": "1"
+                            "label": "Short pulse"
                         }
                     ],
                     "size": "1",

@@ -10,25 +10,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "ALL ON disabled/ ALL OFF disabled",
-                            "value": "0"
+                            "label": "ALL ON disabled/ ALL OFF disabled"
                         },
                         {
-                            "label": "ALL ON disabled/ ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON disabled/ ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF disabled",
-                            "value": "2"
+                            "label": "ALL ON active / ALL OFF disabled"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active / ALL OFF active"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Auto off relay after specified time, with the possibility of manual override - immediate Off after button push.\n      Default value: 0 Manual override disabled",
@@ -36,17 +31,14 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Manual override disabled",
-                            "value": "0"
+                            "label": "Manual override disabled"
                         },
                         {
-                            "label": "Manual override enabled",
-                            "value": "1"
+                            "label": "Manual override enabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n         Time period for auto off, in miliseconds (0,1 s to 6553,5 s)\n         0 - Auto off disabled\n         Default value: 0\n      ",
@@ -55,8 +47,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "\n         Time period for auto off, in milliseconds (0,1 s to 6553,5 s)\n         0 - Auto off disabled\n         Default value: 0\n      ",
@@ -65,8 +56,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Activate/Deactivate association sending for group 1 - Also see param #16",
@@ -74,21 +64,17 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Map status to all devices in group 1 (default)",
-                            "value": "0"
+                            "label": "Map status to all devices in group 1 (default)"
                         },
                         {
-                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to prev.value",
-                            "value": "1"
+                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to prev.value"
                         },
                         {
-                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%",
-                            "value": "2"
+                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Key no.2 is not represented by any physical device except of devices on association list. \n        This functionality prevents of lack of reaction on pressing key no.2 through polling devices \n        from association list one by one and checking their actual statuses.\n      ",
@@ -96,17 +82,14 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Device status is not checked",
-                            "value": "0"
+                            "label": "Device status is not checked"
                         },
                         {
-                            "label": "Device status is checked",
-                            "value": "1"
+                            "label": "Device status is checked"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "In case of bi-stable switches, define their behaviour (toggle or follow)",
@@ -114,17 +97,14 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "0"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Follow switch contact (closed=ON, open=OFF)",
-                            "value": "1"
+                            "label": "Follow switch contact (closed=ON, open=OFF)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Binary inputs type configuration",
@@ -132,17 +112,14 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Mono-stable input (button)",
-                            "value": "0"
+                            "label": "Mono-stable input (button)"
                         },
                         {
-                            "label": "Bi-stable input (switch)",
-                            "value": "1"
+                            "label": "Bi-stable input (switch)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Enable/Disable operation of dimmer or roller shutter devices associated to group 1.\n        Available only when using mono-stable inputs (buttons) - Hold button 1 or double-tap for operation",
@@ -150,17 +127,14 @@
                     "index": "15",
                     "items": [
                         {
-                            "label": "Disable Dimmer/Roller shutter control",
-                            "value": "0"
+                            "label": "Disable Dimmer/Roller shutter control"
                         },
                         {
-                            "label": "Enable Dimmer/Roller shutter control",
-                            "value": "1"
+                            "label": "Enable Dimmer/Roller shutter control"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Saving state before power failure",
@@ -168,17 +142,14 @@
                     "index": "16",
                     "items": [
                         {
-                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
-                            "value": "0"
+                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore"
                         },
                         {
-                            "label": "State saved at power failure, all outputs are set to previous state upon power restore",
-                            "value": "1"
+                            "label": "State saved at power failure, all outputs are set to previous state upon power restore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -186,25 +157,20 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -212,25 +178,20 @@
                     "index": "31",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -238,25 +199,20 @@
                     "index": "32",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -264,25 +220,20 @@
                     "index": "33",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Amount of time (ms) the device keeps on flashing after receipt of Alarm Frame",
@@ -290,8 +241,7 @@
                     "index": "39",
                     "items": [],
                     "size": "2",
-                    "type": "short",
-                    "value": "600"
+                    "type": "short"
                 },
                 {
                     "help": "",
@@ -299,25 +249,20 @@
                     "index": "40",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -325,25 +270,20 @@
                     "index": "41",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -351,25 +291,20 @@
                     "index": "42",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -377,25 +312,20 @@
                     "index": "43",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM RELAY ON - relay will turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - relay will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

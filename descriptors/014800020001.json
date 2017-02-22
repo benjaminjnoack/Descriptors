@@ -9,23 +9,19 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Heat",
-                            "value": "1"
+                            "label": "Heat"
                         },
                         {
-                            "label": "Heat Econ",
-                            "value": "11"
+                            "label": "Heat Econ"
                         }
                     ],
                     "max": "11",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },
@@ -37,16 +33,14 @@
                     "index": "1",
                     "items": [],
                     "type": "decimal",
-                    "units": "C",
-                    "value": "0"
+                    "units": "C"
                 },
                 {
                     "label": "Energy saving setpoint",
                     "index": "11",
                     "items": [],
                     "type": "decimal",
-                    "units": "C",
-                    "value": "0"
+                    "units": "C"
                 }
             ]
         }

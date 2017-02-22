@@ -22,19 +22,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This will enable or disable the vibration effects when you press or  touch the sensing area",
@@ -42,19 +39,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This will enable or disable control by sliding the button area",
@@ -62,19 +56,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "To configure which report will be sent when pressing the buttons",
@@ -82,23 +73,19 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Send nothing",
-                            "value": "0"
+                            "label": "Send nothing"
                         },
                         {
-                            "label": "Send Central Scene Command Notification",
-                            "value": "1"
+                            "label": "Send Central Scene Command Notification"
                         },
                         {
-                            "label": "Send Central Scene Command Notification and Configuration report",
-                            "value": "3"
+                            "label": "Send Central Scene Command Notification and Configuration report"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n                To configure which color will be displayed when the button is pressed.\n                Value 1: (msb) Red.\n                Value 2: Green.\n                Value 3: Blue.\n                Value 4: Reserved\n            ",
@@ -106,8 +93,7 @@
                     "index": "5",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "65280"
+                    "units": ""
                 },
                 {
                     "help": "\n                Get the LED Strip color value\n                Value 1: (msb) Red.\n                Value 2: Green.\n                Value 3: Blue.\n                Value 4: buzzer and vibrator. (1=ON, 0=OFF)\n            ",
@@ -115,8 +101,7 @@
                     "index": "33",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n                Set the low battery value.\n                Range: 10% - 50%.",
@@ -126,8 +111,7 @@
                     "max": "50",
                     "min": "10",
                     "type": "byte",
-                    "units": "%",
-                    "value": "20"
+                    "units": "%"
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -135,21 +119,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

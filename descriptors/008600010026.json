@@ -18,20 +18,17 @@
                     "index": "250",
                     "items": [
                         {
-                            "label": "Group",
-                            "value": "0"
+                            "label": "Group"
                         },
                         {
-                            "label": "Scene",
-                            "value": "1"
+                            "label": "Scene"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset configuration set up to default setting",
@@ -39,8 +36,7 @@
                     "index": "255",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

@@ -12,8 +12,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "50"
+                    "units": ""
                 },
                 {
                     "help": "\n        Shock sensor : 0=Maximum sensitivity ; 32=minimum sensitivity \n      ",
@@ -23,8 +22,7 @@
                     "max": "32",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "10"
+                    "units": ""
                 }
             ]
         },

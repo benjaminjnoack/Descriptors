@@ -23,8 +23,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Allows for deactivating the LED indicator and the acoustic alarm, in case of detecting an alarm of any type. This doesnt affect the communication with the Z-Wave network controller, i.e. the sensor will keep sending alarms, reports and all information to the associated devices. Modifying this parameter settings helps extending the battery life.",
@@ -32,27 +31,22 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Acoustic and visual alarms inactive",
-                            "value": "0"
+                            "label": "Acoustic and visual alarms inactive"
                         },
                         {
-                            "label": "Acoustic alarm inactive, visual alarm active",
-                            "value": "1"
+                            "label": "Acoustic alarm inactive, visual alarm active"
                         },
                         {
-                            "label": "Acoustic alarm active, visual alarm inactive",
-                            "value": "2"
+                            "label": "Acoustic alarm active, visual alarm inactive"
                         },
                         {
-                            "label": "Acoustic and visual alarms active",
-                            "value": "3"
+                            "label": "Acoustic and visual alarms active"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Type of alarm frame for association group 1, activated by smoke sensor. The parameter allows to specify the type of alarm frame or to force transmission of control commands (BASIC_SET)",
@@ -60,17 +54,14 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "ALARM SMOKE",
-                            "value": "0"
+                            "label": "ALARM SMOKE"
                         },
                         {
-                            "label": "BASIC_SET",
-                            "value": "255"
+                            "label": "BASIC_SET"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "The value of 255 allows for turning on a device. In case of Dimmer, the value of 255 means turning on the device with the last memorized state. E.g. Dimmer set to 30% and then turned off, and next turned on using the 255 command, will turn on with the last remembered status, i.e. 30%. In case of alarm frames, alarm priority is defined. Available settings: (1 - 99) or 255. Default setting: 255",
@@ -79,8 +70,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "Time interval between consecutive temperature reports. The parameter is relevant for the battery powering mode only. Longer time interval means less frequent communication and thus a longer battery life. Report is sent when new temperatue value is different from the one previously reported. Temperature reports can be also sent as a result of polling. Available settings: 1 to 17280, 0 (multiply by 5 seconds) [5s-24h]. 0 reports inactive. Default setting: 0 (Reports inactive)",
@@ -89,8 +79,7 @@
                     "items": [],
                     "max": "17280",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "The temperature report will only be sent if there is a difference in temperature value from the previous value reported, defined in this parameter (hysteresis). Temparature reports can be also sent as a result of polling. Available settings: 0 to 100 (in 0,1C steps). 0 temperature change reporting inactive. Default setting: 20 (2C)",
@@ -99,8 +88,7 @@
                     "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte",
-                    "value": "20"
+                    "type": "byte"
                 },
                 {
                     "help": "Transmitting the alarm or control frame in \"broadcast\" mode (i.e. to all devices within range), information sent in this mode is not repeated by the mesh network. NOTE: If the broadcast mode of information transmission is activated for a given channel, then transmission of information in singlecast mode to devices assigned to the association group of this channel is deactivated. ",
@@ -108,25 +96,20 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Broadcasts INACTIVE",
-                            "value": "0"
+                            "label": "Broadcasts INACTIVE"
                         },
                         {
-                            "label": "Smoke ACTIVE, tamper INACTIVE",
-                            "value": "1"
+                            "label": "Smoke ACTIVE, tamper INACTIVE"
                         },
                         {
-                            "label": "Smoke INACTIVE, tamper ACTIVE",
-                            "value": "2"
+                            "label": "Smoke INACTIVE, tamper ACTIVE"
                         },
                         {
-                            "label": "Smoke ACTIVE, tamper ACTIVE",
-                            "value": "3"
+                            "label": "Smoke ACTIVE, tamper ACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Parameter stores a temperature value to be added to or deducted from the current temperature measured by internal temperature sensor in order to compensate the difference between air temperature and temperature measured at the ceiling level. Available settings: -1000 -/+ 1000 (in 0,1C steps). Default setting: 0 (0C)",
@@ -136,8 +119,7 @@
                     "max": "1000",
                     "min": "-1000",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Time period between the consecutive Z-Wave network range tests. In battery powering mode, Z-Wave network range test is carried out at the wake up interval. The value of 0 turns off the Z-Wave range test, regardless of the powering mode chosen. Available settings: 0 to 144 (10min multiplier) [10min-24h]. 0 Z-Wave network range test inactive. Default setting: 1 (10min)",
@@ -147,8 +129,7 @@
                     "max": "144",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "Temperature value, measured by the built-in temperature sensor, above which the temperature alarm is sent. Available settings: 0,2 - 100. 0 temperature alarm inactive. 2 - 100 (2 - 100C). Default setting: 54 (54C)",
@@ -158,8 +139,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "54"
+                    "type": "byte"
                 },
                 {
                     "help": "There are 3 levels of sensitivity to smoke presence. Level 1 means the highest sensitivity.",
@@ -167,23 +147,19 @@
                     "index": "82",
                     "items": [
                         {
-                            "label": "High",
-                            "value": "1"
+                            "label": "High"
                         },
                         {
-                            "label": "Medium",
-                            "value": "2"
+                            "label": "Medium"
                         },
                         {
-                            "label": "Low",
-                            "value": "3"
+                            "label": "Low"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter allows for specifying the moment in which the Black Box starts recording data. After the specified smoke and temperature values will be exceeded, the Fibaro Smoke Sensor Black Box will record them.",
@@ -191,23 +167,19 @@
                     "index": "83",
                     "items": [
                         {
-                            "label": "High",
-                            "value": "1"
+                            "label": "High"
                         },
                         {
-                            "label": "Medium",
-                            "value": "2"
+                            "label": "Medium"
                         },
                         {
-                            "label": "Low",
-                            "value": "3"
+                            "label": "Low"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Time interval in which malfuntion alarm, if detected, is repeated using visual and acoustic alarms. Available settings: 1 - 255 (100 ms multiplier) [100ms-25,5s]. Default setting: 10 (1s)",
@@ -217,8 +189,7 @@
                     "max": "255",
                     "min": "1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "Time interval in which temperature alarm, if detected, is repeated using visual and acoustic alarms. Available settings: 1 - 255 (100 ms multiplier) [100ms-25,5s]. Default setting: 5 (500ms)",
@@ -228,8 +199,7 @@
                     "max": "255",
                     "min": "1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Time interval in which lack of the Z-Wave network alarm, if detected, is repeated using visual and acoustic alarms. Available settings: 1 - 17280 (5s multiplier) [5s-24h]. Default setting: 360 (30min)",
@@ -239,8 +209,7 @@
                     "max": "17280",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "360"
+                    "type": "short"
                 },
                 {
                     "help": "Time interval in which low battery alarm, if detected, is repeated using visual and acoustic alarms. Available settings: 1 - 17280 (5s multiplier) [5s-24h]. Default setting: 360 (30min)",
@@ -250,8 +219,7 @@
                     "max": "17280",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "360"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter allows for specifying the moment in which the Black Box starts recording data. After the specified smoke and temperature values will be exceeded, the Fibaro Smoke Sensor Black Box will record them.",
@@ -259,17 +227,14 @@
                     "index": "88",
                     "items": [
                         {
-                            "label": "Ignore temperature compensation",
-                            "value": "0"
+                            "label": "Ignore temperature compensation"
                         },
                         {
-                            "label": "Include temperature compensation",
-                            "value": "1"
+                            "label": "Include temperature compensation"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "default setting: tamper alarm active, with cancellation option available",
@@ -277,23 +242,19 @@
                     "index": "89",
                     "items": [
                         {
-                            "label": "tamper alarm inactive",
-                            "value": "0"
+                            "label": "tamper alarm inactive"
                         },
                         {
-                            "label": "tamper alarm active, with cancellation option available",
-                            "value": "1"
+                            "label": "tamper alarm active, with cancellation option available"
                         },
                         {
-                            "label": "tamper alarm active, without cancellation option",
-                            "value": "2"
+                            "label": "tamper alarm active, without cancellation option"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

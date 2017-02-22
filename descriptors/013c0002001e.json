@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "4"
+                    "type": "byte"
                 },
                 {
                     "help": "\n                The interval time for auto report the battery level.\n                30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)\n            ",
@@ -22,8 +21,7 @@
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min",
-                    "value": "12"
+                    "units": "30 min"
                 }
             ]
         },

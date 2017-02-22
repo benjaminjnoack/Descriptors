@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Mono-stable switch type (push button)",
-                            "value": "0"
+                            "label": "Mono-stable switch type (push button)"
                         },
                         {
-                            "label": "Bi-stable switch type",
-                            "value": "1"
+                            "label": "Bi-stable switch type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -30,19 +27,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Mono-stable switch type (push button)",
-                            "value": "0"
+                            "label": "Mono-stable switch type (push button)"
                         },
                         {
-                            "label": "Bi-stable switch type",
-                            "value": "1"
+                            "label": "Bi-stable switch type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Flush 2 relays module responds to commands ALL ON / ALL OFF that may be sent by the main controller or by other controller belonging to the system.",
@@ -50,27 +44,22 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "ALL ON active, ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active, ALL OFF active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF is not active",
-                            "value": "0"
+                            "label": "ALL ON is not active ALL OFF is not active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON is not active ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active ALL OFF is not active",
-                            "value": "2"
+                            "label": "ALL ON active ALL OFF is not active"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "0 - Auto OFF disabled. 1 - 65535 => 0,01 second - 655,35 seconds. Auto OFF enabled with define time, step is 10mseconds.\n\t\t\t\tDefault value 0",
@@ -79,8 +68,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "0 - Auto OFF disabled. 1 - 65535 => 0,01 second - 655,35 seconds. Auto OFF enabled with define time, step is 10 mseconds.\n\t\t\t\tDefault value 0",
@@ -89,8 +77,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "",
@@ -98,19 +85,16 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "Flush 2 relays module saves its state before power failure (it returns to the last position saved before a power failure)",
-                            "value": "0"
+                            "label": "Flush 2 relays module saves its state before power failure (it returns to the last position saved before a power failure)"
                         },
                         {
-                            "label": "Flush 2 relays module does not save the state after a power failure, it returns to off position.",
-                            "value": "1"
+                            "label": "Flush 2 relays module does not save the state after a power failure, it returns to off position."
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Set value from 0 - 100 (0%- 100%).\n\t\t\t\t0 - Reporting Disabled. 1 - 100 = 1% - 100% Reporting enabled.\n\t\t\t\tPower report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%.\n\t\t\t\tDefault value 1",
@@ -120,8 +104,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "Set value from 0 - 100 (0%- 100%).\n\t\t\t0 - Reporting Disabled. 1 - 100 = 1% - 100% Reporting enabled.\n\t\t\tPower report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%.\n\t\t\tDefault value 1",
@@ -131,8 +114,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "Set value means time interval (0 1 65535) in seconds, when power report is send.\n\t\t\t\t0 - Reporting Disabled. 1 - 65535 = 1 second - 65535 seconds.\n\t\t\t\tReporting enabled. Power report is send with time interval set by entered value.\n\t\t\t\tDefault value 300 (power report in Watts is send each 300s)",
@@ -141,8 +123,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "300"
+                    "type": "short"
                 },
                 {
                     "help": "Set value means time interval (0 1 65535) in seconds, when power report is send.\n\t\t\t\t0 - Reporting Disabled. 1 - 65535 = 1 second - 65535 seconds.\n\t\t\t\tReporting enabled. Power report is send with time interval set by entered value.\n\t\t\t\tDefault value 300 (power report in Watts is send each 300s)",
@@ -151,8 +132,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "300"
+                    "type": "short"
                 }
             ]
         },

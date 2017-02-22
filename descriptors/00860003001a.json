@@ -12,8 +12,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enables automatic notifications to associated devices whenever there is a state change.",
@@ -21,22 +20,18 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "None",
-                            "value": "0"
+                            "label": "None"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Turn external button mode",
@@ -44,26 +39,21 @@
                     "index": "120",
                     "items": [
                         {
-                            "label": "Momentary button",
-                            "value": "0"
+                            "label": "Momentary button"
                         },
                         {
-                            "label": "2 state switch",
-                            "value": "1"
+                            "label": "2 state switch"
                         },
                         {
-                            "label": "3 way switch",
-                            "value": "2"
+                            "label": "3 way switch"
                         },
                         {
-                            "label": "Unidentified",
-                            "value": "255"
+                            "label": "Unidentified"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "255"
+                    "units": ""
                 },
                 {
                     "help": "Partner ID",
@@ -71,20 +61,17 @@
                     "index": "200",
                     "items": [
                         {
-                            "label": "Aeon Labs Standard (Default)",
-                            "value": "0"
+                            "label": "Aeon Labs Standard (Default)"
                         },
                         {
-                            "label": "AT&T",
-                            "value": "1"
+                            "label": "AT&T"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
@@ -92,20 +79,17 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Device tag.",
@@ -115,8 +99,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to the default configuration.",
@@ -124,8 +107,7 @@
                     "index": "255",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

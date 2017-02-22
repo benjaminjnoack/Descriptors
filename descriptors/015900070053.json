@@ -20,8 +20,7 @@
                     "max": "8800",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "1000"
+                    "type": "short"
                 },
                 {
                     "help": "\n                If the Sensor Rain Rate is Higher than the Parameter Value, a device triggers an Association.\n                0 to 30000 = value from 0.00 mm/h to 300.00 mm/h.\n                Default value 200 (2,00 mm/h).\n            ",
@@ -31,8 +30,7 @@
                     "max": "30000",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "200"
+                    "type": "short"
                 },
                 {
                     "help": "If the Wind Gust is Higher than the Parameter No. 1 Value, then a Device sends Basic Set",
@@ -40,19 +38,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "0x00",
-                            "value": "0"
+                            "label": "0x00"
                         },
                         {
-                            "label": "0xFF",
-                            "value": "1"
+                            "label": "0xFF"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If the Rain amount is Higher than the Parameter No. 2 Value, then a Device sends Basic Set",
@@ -60,19 +55,16 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "0x00",
-                            "value": "0"
+                            "label": "0x00"
                         },
                         {
-                            "label": "0xFF",
-                            "value": "1"
+                            "label": "0xFF"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -80,19 +72,16 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -100,19 +89,16 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -120,19 +106,16 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -140,19 +123,16 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -160,19 +140,16 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -180,19 +157,16 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -200,19 +174,16 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -220,19 +191,16 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -240,19 +208,16 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "If you enable Unsolicited Reports on the End Points, the USB Key will send data to the controller every time it receives data from the 433MHz sensors, which are different from the precious data.",
@@ -260,19 +225,16 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n                If Random ID is disabled, the Weather Station USB Key can receive data from multiple 433 MHz Sensors on the same Channel.\n                If the Random ID is enabled, the USB Key can receive data from only one sensor on the same channel.\n                If the USB Key does not receive a data from a sensor on a specific channel for more than 2.5 hours, it clears the Random ID of the device and waits for a new ID.\n                If you replace the batteries in the modules, the Random ID will change.\n                If you want that the USB Key accept a module immediately, set the Parameter No. 15 to 0 and in the next step again to 1.\n            ",
@@ -280,19 +242,16 @@
                     "index": "15",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n                The Weather Station Key supports both, the secure and unsecure inclusion.\n                Even if the controller does not support security command classes, the Key could be included as unsecure and keep all the functionality.\n                By default, the Key includes as insecure. To include the Key as secure follow the procedure:\n                1. Include the Key into the controller.\n                2. Set the parameter 250 to the value 1.\n                3. Enable add/remove mode on main controller.\n                4. Hold service button S between 1.5 and 4 seconds to exclude the module.\n                5. If the exclusion of the module was successful, the LED on the module starts blinking.\n                6. Unplug the module out of the power supply.\n                7. enable add/remove mode on main controller.\n                8. Plug the module into the power supply to star auto-inclusion.\n                9. Now the module should be included as secure.\n                The same procedure is to include the module as unsecure.\n            ",
@@ -300,19 +259,16 @@
                     "index": "250",
                     "items": [
                         {
-                            "label": "Insecure Inclusion",
-                            "value": "0"
+                            "label": "Insecure Inclusion"
                         },
                         {
-                            "label": "Secure Inclusion",
-                            "value": "1"
+                            "label": "Secure Inclusion"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

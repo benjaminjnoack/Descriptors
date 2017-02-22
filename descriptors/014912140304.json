@@ -10,27 +10,22 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Toggle (default)",
-                            "value": "1"
+                            "label": "Toggle (default)"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Device status when ZWave command Basic Set is received",
@@ -38,27 +33,22 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "As Received (default)",
-                            "value": "1"
+                            "label": "As Received (default)"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "C VERSION. Sets the current level above which the time spent above that level is measured. For S VERSION. Sets to 1250 the default and max current level above which the time spent above that level is measured  (Hundredths of Amperes)",
@@ -69,8 +59,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "centiAmperes",
-                    "value": "4500"
+                    "units": "centiAmperes"
                 },
                 {
                     "help": "Sets the time beyond which, in the case of overcurrent at a level higher than that established in parameter 30, an OverCurrent event occurs (seconds)",
@@ -81,8 +70,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "10"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the next state of the device if an overcurrent event has occurred.",
@@ -90,27 +78,22 @@
                     "index": "32",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "1"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Toggle",
-                            "value": "4"
+                            "label": "Toggle"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Provides total operating time from last meter reset. When set to 0 it resets the cumulated values of energy and total operating time.",
@@ -120,8 +103,7 @@
                     "max": "4294967296",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "1"
+                    "type": "int"
                 },
                 {
                     "help": "Determines whether energy events are related to energy consumed or energy produced",
@@ -129,19 +111,16 @@
                     "index": "34",
                     "items": [
                         {
-                            "label": "Consumed",
-                            "value": "1"
+                            "label": "Consumed"
                         },
                         {
-                            "label": "Produced",
-                            "value": "2"
+                            "label": "Produced"
                         }
                     ],
                     "max": "2",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "C VERSION. Sets the level of instantaneous power in Watts beyond which time of permanence above this level is calculated. For S VERSION. Sets to 3000 the default and max level of instantaneous power in Watts beyond which time of permanence above this level is calculated.",
@@ -152,8 +131,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "Watts",
-                    "value": "11250"
+                    "units": "Watts"
                 },
                 {
                     "help": "Sets the time in seconds beyond which, if instantaneous power remains at levels exceeding threshold defined by parameter 35, a UP Power event occurs.",
@@ -164,8 +142,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "10"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the next state of the device if an overcurrent event has occurred.",
@@ -173,27 +150,22 @@
                     "index": "37",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Toggle",
-                            "value": "3"
+                            "label": "Toggle"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the status of associated devices in the presence of a UP Power event. From: 1 to 99 for dimming purpose. .0 (OFF) and -1(ON) for switching ON/OFF",
@@ -203,8 +175,7 @@
                     "max": "99",
                     "min": "-1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Sets the level of instantaneous power in Watts beyond which time of permanence below this level is calculated.",
@@ -215,8 +186,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "Watts",
-                    "value": "0"
+                    "units": "Watts"
                 },
                 {
                     "help": "Sets the time in seconds beyond which, if instantaneous power remains at levels below threshold defined by parameter 39, a DOWN Power event occurs.",
@@ -227,8 +197,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "10"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the next state of the device in the case of a DOWN Power event occurring.",
@@ -236,27 +205,22 @@
                     "index": "41",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Toggle",
-                            "value": "3"
+                            "label": "Toggle"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the status of associated devices in the presence of a DOWN Power event. From: 1 to 99 for dimming purpose.  0 (OFF) and -1(ON) for switching ON/OFF.",
@@ -266,8 +230,7 @@
                     "max": "99",
                     "min": "-1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "the energy level that once exceeded an Energy Limit event occurs. From 0 to 2.000.000 KWh   Default value: 2.000.000 KWh",
@@ -278,8 +241,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "kWh",
-                    "value": "2000000"
+                    "units": "kWh"
                 },
                 {
                     "help": "Defines the next state of the device in the case of an Energy Limit event occurs",
@@ -287,27 +249,22 @@
                     "index": "44",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Toggle",
-                            "value": "3"
+                            "label": "Toggle"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the percentage variation of instantaneous power determining the sending of the report.(Default: 10%)",
@@ -318,8 +275,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "Defines the maximum time in minutes since the previous report beyond which an Instantaneous Power Report will still be sent. (Default: 10 minutes)",
@@ -330,8 +286,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "10"
+                    "units": "minutes"
                 },
                 {
                     "help": "Defines the increase of total energy required to generate a report listing the level of total energy to the devices associated to the Energy Notification Group.",
@@ -339,31 +294,25 @@
                     "index": "47",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "thousandth of kWh",
-                            "value": "1"
+                            "label": "thousandth of kWh"
                         },
                         {
-                            "label": "hundredth of kWh",
-                            "value": "2"
+                            "label": "hundredth of kWh"
                         },
                         {
-                            "label": "tenth of kWh",
-                            "value": "3"
+                            "label": "tenth of kWh"
                         },
                         {
-                            "label": "kWh",
-                            "value": "4"
+                            "label": "kWh"
                         }
                     ],
                     "max": "4",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the nominal voltage value in tenths of volts. Together with parameter No. 49 this is used by the automatic notification system to send reports on variations of voltage.",
@@ -374,8 +323,7 @@
                     "min": "1100",
                     "size": "2",
                     "type": "short",
-                    "units": "deciVolts",
-                    "value": "2300"
+                    "units": "deciVolts"
                 },
                 {
                     "help": "Defines, as a percentage, the nominal value for permitted fall in maximum voltage.(default 10%)",
@@ -386,8 +334,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n                          Defines which electric parameters, other than power, will be subjected to automatic notification. The value to be set for this parameter must be calculated as the sum of values associated to the individual electric parameter indicated in the table.(default 30)\n                          Byte 1 : Bit 7: reserved;\n                                          Bit 6:reserved;\n                                          Bit 5: Multilevel Sensor: Power Report;\n                                          Bit 4: Power factor;\n                                          Bit 3: Current;\n                                          Bit 2: Voltage;\n                                          Bit 1: Energy;\n                                          Bit 0: Power;\n                        ",
@@ -397,8 +344,7 @@
                     "max": "62",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "30"
+                    "type": "byte"
                 },
                 {
                     "help": "Returns the value of voltage RMS at the time of the reading expressed in tenths of Volts..",
@@ -451,23 +397,19 @@
                     "index": "60",
                     "items": [
                         {
-                            "label": "ON",
-                            "value": "1"
+                            "label": "ON"
                         },
                         {
-                            "label": "OFF",
-                            "value": "2"
+                            "label": "OFF"
                         },
                         {
-                            "label": "Previous status",
-                            "value": "3"
+                            "label": "Previous status"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Defines which parameters should be reset to default values.(default 4)",
@@ -475,27 +417,22 @@
                     "index": "61",
                     "items": [
                         {
-                            "label": "Factory reset",
-                            "value": "0"
+                            "label": "Factory reset"
                         },
                         {
-                            "label": "Association reset",
-                            "value": "1"
+                            "label": "Association reset"
                         },
                         {
-                            "label": "Configuration reset",
-                            "value": "2"
+                            "label": "Configuration reset"
                         },
                         {
-                            "label": "ignore",
-                            "value": "4"
+                            "label": "ignore"
                         }
                     ],
                     "max": "4",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "4"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the type of external switch connected to the device.(default 4)",
@@ -503,27 +440,22 @@
                     "index": "62",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "button",
-                            "value": "1"
+                            "label": "button"
                         },
                         {
-                            "label": "switch",
-                            "value": "2"
+                            "label": "switch"
                         },
                         {
-                            "label": "Automatic recognition",
-                            "value": "4"
+                            "label": "Automatic recognition"
                         }
                     ],
                     "max": "4",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "4"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the load control mode.(default 1)",
@@ -531,27 +463,22 @@
                     "index": "63",
                     "items": [
                         {
-                            "label": "Direct control",
-                            "value": "1"
+                            "label": "Direct control"
                         },
                         {
-                            "label": "Contactor (normally open)",
-                            "value": "2"
+                            "label": "Contactor (normally open)"
                         },
                         {
-                            "label": "Contactor (normally closed)",
-                            "value": "3"
+                            "label": "Contactor (normally closed)"
                         },
                         {
-                            "label": "As external indicator",
-                            "value": "4"
+                            "label": "As external indicator"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

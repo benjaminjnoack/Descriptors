@@ -10,20 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Show switch state (Default)",
-                            "value": "1"
+                            "label": "Show switch state (Default)"
                         },
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Night mode (inverted switch state)",
-                            "value": "2"
+                            "label": "Night mode (inverted switch state)"
                         },
                         {
-                            "label": "Operated by Indicator Command Class",
-                            "value": "3"
+                            "label": "Operated by Indicator Command Class"
                         }
                     ],
                     "size": "1",
@@ -37,8 +33,7 @@
                     "max": "65535",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the light off that would break logics; Switch on - to switch on the light on both On and Off paddle press on the remote and switch it off after some amount of time. Button off click will still work (if button operations are not disabled).",
@@ -46,20 +41,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Switch off (Default)",
-                            "value": "0"
+                            "label": "Switch off (Default)"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "1"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "Switch on",
-                            "value": "2"
+                            "label": "Switch on"
                         },
                         {
-                            "label": "Switch on if load is off else switch off",
-                            "value": "3"
+                            "label": "Switch on if load is off else switch off"
                         }
                     ],
                     "size": "1",
@@ -71,12 +62,10 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Yes (Default)",
-                            "value": "1"
+                            "label": "Yes (Default)"
                         },
                         {
-                            "label": "No, turn off",
-                            "value": "0"
+                            "label": "No, turn off"
                         }
                     ],
                     "size": "1",

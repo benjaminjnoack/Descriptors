@@ -5,11 +5,8 @@
 
 const
   fs      = require('fs'),
-  path    = require('path'),
-  util    = require('util'),
+  h       = require('./h'),
   xml2js  = require('xml2js');
-
-const CONFIG_DIR = path.join(__dirname, '..', 'config');
 
 class File {
   constructor(path) {
@@ -27,7 +24,7 @@ class File {
     if (!file)
       return;
 
-    this._path = `${CONFIG_DIR}/${file}`;
+    this._path = `${h.CONFIG_DIR}/${file}`;
   }
 
   parse() {

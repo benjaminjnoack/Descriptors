@@ -9,20 +9,16 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Frost Protection",
-                            "value": "0"
+                            "label": "Frost Protection"
                         },
                         {
-                            "label": "Comfort",
-                            "value": "1"
+                            "label": "Comfort"
                         },
                         {
-                            "label": "Energy Saving",
-                            "value": "11"
+                            "label": "Energy Saving"
                         },
                         {
-                            "label": "Direct Valve Control",
-                            "value": "31"
+                            "label": "Direct Valve Control"
                         }
                     ],
                     "type": "list"

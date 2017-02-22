@@ -10,17 +10,14 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Night-light",
-                            "value": "1"
+                            "label": "Night-light"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
@@ -28,8 +25,7 @@
                     "index": "4",
                     "items": [],
                     "size": "1",
-                    "type": "bool",
-                    "value": "False"
+                    "type": "bool"
                 }
             ]
         }

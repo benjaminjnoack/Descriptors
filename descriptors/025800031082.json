@@ -13,8 +13,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "second",
-                    "value": "0"
+                    "units": "second"
                 },
                 {
                     "help": "Basic Set Command will be sent where contains a value when the door/window is opened or closed, the receiver will take it for consideration; for instance, if a lamp module is received the Basic Set Command of which value is decisive as to how bright of dim level of lamp module shall be.\r\n      ",
@@ -24,8 +23,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 }
             ]
         },

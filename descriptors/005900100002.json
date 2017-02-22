@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "255"
+                            "label": "Enabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Controls the temperature sensor scale",
@@ -28,17 +25,14 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Celsius",
-                            "value": "0"
+                            "label": "Celsius"
                         },
                         {
-                            "label": "Fahrenheit",
-                            "value": "255"
+                            "label": "Fahrenheit"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Time interval to trigger a temperature report (step 1s) (Default 0 = disabled)",
@@ -48,8 +42,7 @@
                     "max": "65534",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 0 = disabled)",
@@ -59,8 +52,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Temperature that when reached will cutt off the switch",
@@ -70,8 +62,7 @@
                     "max": "1000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 }
             ]
         },

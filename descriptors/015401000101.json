@@ -10,24 +10,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Separately",
-                            "value": "0"
+                            "label": "Separately"
                         },
                         {
-                            "label": "In pair without double clicks (Default)",
-                            "value": "1"
+                            "label": "In pair without double clicks (Default)"
                         },
                         {
-                            "label": "In pair with double clicks",
-                            "value": "2"
+                            "label": "In pair with double clicks"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "In separate mode button 2 works with control group B, button 4 with control group D. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button B/D are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group B, double click with group D.",
@@ -35,24 +31,20 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Separately",
-                            "value": "0"
+                            "label": "Separately"
                         },
                         {
-                            "label": "In pair without double clicks (Default)",
-                            "value": "1"
+                            "label": "In pair without double clicks (Default)"
                         },
                         {
-                            "label": "In pair with double clicks",
-                            "value": "2"
+                            "label": "In pair with double clicks"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group A when the related button is pressed",
@@ -60,44 +52,35 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control DoorLock",
-                            "value": "7"
+                            "label": "Control DoorLock"
                         },
                         {
-                            "label": "Central Scene to Gateway (Default)",
-                            "value": "8"
+                            "label": "Central Scene to Gateway (Default)"
                         }
                     ],
                     "max": "8",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "8"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group B when the related button is pressed",
@@ -105,44 +88,35 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control DoorLock",
-                            "value": "7"
+                            "label": "Control DoorLock"
                         },
                         {
-                            "label": "Central Scene to Gateway (Default)",
-                            "value": "8"
+                            "label": "Central Scene to Gateway (Default)"
                         }
                     ],
                     "max": "8",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "8"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group C when the related button is pressed",
@@ -150,44 +124,35 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control DoorLock",
-                            "value": "7"
+                            "label": "Control DoorLock"
                         },
                         {
-                            "label": "Central Scene to Gateway (Default)",
-                            "value": "8"
+                            "label": "Central Scene to Gateway (Default)"
                         }
                     ],
                     "max": "8",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "8"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group D when the related button is pressed",
@@ -195,60 +160,48 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control DoorLock",
-                            "value": "7"
+                            "label": "Control DoorLock"
                         },
                         {
-                            "label": "Central Scene to Gateway (Default)",
-                            "value": "8"
+                            "label": "Central Scene to Gateway (Default)"
                         }
                     ],
                     "max": "8",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "8"
+                    "units": ""
                 },
                 {
                     "label": "Send the following Switch All commands",
                     "index": "21",
                     "items": [
                         {
-                            "label": "Switch off only (Default)",
-                            "value": "1"
+                            "label": "Switch off only (Default)"
                         },
                         {
-                            "label": "Switch on only",
-                            "value": "2"
+                            "label": "Switch on only"
                         },
                         {
-                            "label": "Switch all on and off",
-                            "value": "255"
+                            "label": "Switch all on and off"
                         }
                     ],
                     "max": "255",
@@ -262,12 +215,10 @@
                     "index": "22",
                     "items": [
                         {
-                            "label": "No (default)",
-                            "value": "0"
+                            "label": "No (default)"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "max": "1",
@@ -282,44 +233,37 @@
                     "index": "25",
                     "items": [
                         {
-                            "label": "Wakeup is blocked",
-                            "value": "0"
+                            "label": "Wakeup is blocked"
                         },
                         {
-                            "label": "Wakeup is possible if configured accordingly. (Default)",
-                            "value": "1"
+                            "label": "Wakeup is possible if configured accordingly. (Default)"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "label": "Send unsolicited Battery Report on Wake Up",
                     "index": "30",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "To same node as wake up notification (Default)",
-                            "value": "1"
+                            "label": "To same node as wake up notification (Default)"
                         },
                         {
-                            "label": "Broadcast to neighbours",
-                            "value": "2"
+                            "label": "Broadcast to neighbours"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 }
             ]
         },

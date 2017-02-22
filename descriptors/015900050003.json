@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Mono-stable",
-                            "value": "0"
+                            "label": "Mono-stable"
                         },
                         {
-                            "label": "Bi-stable",
-                            "value": "1"
+                            "label": "Bi-stable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -30,19 +27,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Mono-stable",
-                            "value": "0"
+                            "label": "Mono-stable"
                         },
                         {
-                            "label": "Bi-stable",
-                            "value": "1"
+                            "label": "Bi-stable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -50,19 +44,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Mono-stable",
-                            "value": "0"
+                            "label": "Mono-stable"
                         },
                         {
-                            "label": "Bi-stable",
-                            "value": "1"
+                            "label": "Bi-stable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -70,19 +61,16 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "NO (normaly open) input type",
-                            "value": "0"
+                            "label": "NO (normaly open) input type"
                         },
                         {
-                            "label": "NC (normaly close) input type",
-                            "value": "1"
+                            "label": "NC (normaly close) input type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -90,19 +78,16 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "NO (normaly open) input type",
-                            "value": "0"
+                            "label": "NO (normaly open) input type"
                         },
                         {
-                            "label": "NC (normaly close) input type",
-                            "value": "1"
+                            "label": "NC (normaly close) input type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -110,19 +95,16 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "NO (normaly open) input type",
-                            "value": "0"
+                            "label": "NO (normaly open) input type"
                         },
                         {
-                            "label": "NC (normaly close) input type",
-                            "value": "1"
+                            "label": "NC (normaly close) input type"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "When I2 is pressed set point will be set according to the value of this parameter.",
@@ -130,27 +112,22 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "ALL ON active, ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active, ALL OFF active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF is not active",
-                            "value": "0"
+                            "label": "ALL ON is not active ALL OFF is not active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON is not active ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active ALL OFF is not active",
-                            "value": "2"
+                            "label": "ALL ON active ALL OFF is not active"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Default value 1\n\t\t\t\t65535 - input I1 does not influence on the heat/ cool process\n\t\t\t\t1 - input I1 changes the mode of the thermostat between Off and Auto. In this case function on flood sensor (if connected) is disabled.\n\t\t\t\t2 - input I1 influences on cooling and heating valves according to status of flood sensor. In this case function of Off and Auto selection by I1 is disabled",
@@ -158,23 +135,19 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Mode Off and Auto",
-                            "value": "1"
+                            "label": "Mode Off and Auto"
                         },
                         {
-                            "label": "Disabled Mode Off and Auto",
-                            "value": "2"
+                            "label": "Disabled Mode Off and Auto"
                         },
                         {
-                            "label": "No influence on the heat process",
-                            "value": "65535"
+                            "label": "No influence on the heat process"
                         }
                     ],
                     "max": "65535",
                     "min": "1",
                     "size": "2",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "default value 65535 | 65535 - input I2 does not influence on the heat/ cool process | From 0 to 990 - Temperature set point from 0.0 C to 99.0 C. When I2 is pressed, temperature set point is automatically set to value defined here. In this case function of condense sensor is disabled. | From 1001 to 1150 - Temperature set point from -0.1 C to -15.0\n\t\t\tC. When I2 is pressed, temperature setpoint is automatically set to value defined here. In this case function of condense sensor is disabled. | 2000 - Input I2 influences on the cooling valve according to status of condense sensor, In this case function of setpoint selection with I2 is disabled.",
@@ -184,8 +157,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "65535"
+                    "type": "short"
                 },
                 {
                     "help": "default value 65535 | 65535 - input I3 does not influence on the heat/ cool process | 1 - input I3 changes the mode of the thermostat between Heat and Cool. In this case function on window sensor is disabled. | 2 - input I3 influences on cooling and heating valves according to status of window sensor. In this case function of Heat and Cool selection by I3 is disabled",
@@ -195,8 +167,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "65535"
+                    "type": "short"
                 },
                 {
                     "help": "Set value from 0 - 100 (0% - 100%). 0 - Reporting Disabled. 1 - 100 = 1% - 100% Reporting enabled. Power report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%. Default value 0",
@@ -206,8 +177,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Set value means time interval (0 - 32767) in seconds, when power report is send. 0 - Reporting Disabled. 1 - 32767 = 1 second - 32767 seconds. Reporting enabled. Power report is send with time interval set by entered value. Default value 300 (power report in Watts is send each 300s)",
@@ -216,8 +186,7 @@
                     "items": [],
                     "max": "32767",
                     "min": "0",
-                    "type": "short",
-                    "value": "300"
+                    "type": "short"
                 },
                 {
                     "help": "Set value means at which temperature the heating will be turned on even if the thermostat was manually set to off. The parameter can be set from 0 to 255 where 0 to 128 means from 0.0 C to 12.8 C and from 129 to 255 means from - 0.0 C to -12.8 C.",
@@ -227,8 +196,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "50"
+                    "type": "byte"
                 },
                 {
                     "help": "default value 100 (Maximum PWM value) | 2-100 = 2%-100%, step is 1%. Max. PWM set by entered value. NOTE: The maximum level may not be lower than the minimum level! ",
@@ -238,8 +206,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "100"
+                    "type": "byte"
                 },
                 {
                     "help": "default value 0 (Minimum PWM value is 0%) | 1-99 = 1%-99%, step is 1%. Max. PWM set by entered value. NOTE: The Minimim level may not exceed Maximum level! ",
@@ -249,8 +216,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Default value 10 (Cycle duration set to 10s) | 1-127 = 1-127s, step is 1s. PWM cycle duration set by entered value. NOTE: PWM cycle duration define the summary of all ON plus OFF time periods. For example if Output is set to 70% with PWM cycle duration of 20s, output will be ON for 14s then OFF 6s, again 14s ON, etc\n\t\t\t",
@@ -260,8 +226,7 @@
                     "max": "127",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "When value is set to ZERO PID inside deadband is forced to zero. LASTVALUE means that PID remains on same level as was before entering into deadband",
@@ -269,19 +234,16 @@
                     "index": "53",
                     "items": [
                         {
-                            "label": "PID value equal ZERO",
-                            "value": "0"
+                            "label": "PID value equal ZERO"
                         },
                         {
-                            "label": "PID value set to LAST VALUE",
-                            "value": "1"
+                            "label": "PID value set to LAST VALUE"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "default value 5 (0,5 C) | 0-127 - 0.0 C to 12.7 C, step is 0,1C. NOTE: This parameter defines the zone where PID is not active. If the temperature difference between actual and setpoint is bigger than PID deadband, then the PID will start to regulate the system, otherwise the PID is zero or fixed",
@@ -291,8 +253,7 @@
                     "max": "127",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "default value 5 (0,5 C) | 0-127 - 0.0 C to 12.7 C, step is 0,1C. NOTE: Parameter defines the time between samples. On each sample the\n\t\t\tcontroller capture difference between SP-act",
@@ -302,8 +263,7 @@
                     "max": "127",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "default value 100 | 0 -1000 - P value, step is 1",
@@ -313,8 +273,7 @@
                     "max": "1000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "100"
+                    "type": "short"
                 },
                 {
                     "help": "default value 1 | 0 -1000 - I value, step is 1",
@@ -324,8 +283,7 @@
                     "max": "1000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "1"
+                    "type": "short"
                 },
                 {
                     "help": "default value 1 | 0 -1000 - D value, step is 1",
@@ -335,8 +293,7 @@
                     "max": "1000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "1"
+                    "type": "short"
                 },
                 {
                     "help": "default : Heat mode | Heat mode | Cool mode",
@@ -344,19 +301,16 @@
                     "index": "59",
                     "items": [
                         {
-                            "label": "Heat mode (0)",
-                            "value": "0"
+                            "label": "Heat mode (0)"
                         },
                         {
-                            "label": "Cool mode (1)",
-                            "value": "1"
+                            "label": "Cool mode (1)"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Default value 50 (Too low temperature limit is 5.0C) | 1 - 1000 = 0.1C - 100.0C, step is 0.1C. Too low temperature limit is set by entered value. In case measured temperature is below set value, module sends BasicSet value.",
@@ -366,8 +320,7 @@
                     "max": "1000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "Default value 700 (too high temperature limit is 70.0C) | 1 - 1000 = 0.1C - 100.0C, step is 0.1C. Too high temperature limit is set by entered value. In case measured temperature is higher than set value, module sends BasicSet value.",
@@ -377,8 +330,7 @@
                     "max": "1000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "700"
+                    "type": "short"
                 },
                 {
                     "help": "",
@@ -386,19 +338,16 @@
                     "index": "63",
                     "items": [
                         {
-                            "label": "(NC) - When system is turned off the output is 0V",
-                            "value": "0"
+                            "label": "(NC) - When system is turned off the output is 0V"
                         },
                         {
-                            "label": "(NO) - When system is turned off the output is 230V",
-                            "value": "1"
+                            "label": "(NO) - When system is turned off the output is 230V"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 11 must be set to 2! NOTE: Device status on UI change immediately ",
@@ -408,8 +357,7 @@
                     "max": "32000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 11 must be set to 2! NOTE: Device status on UI change immediately",
@@ -419,8 +367,7 @@
                     "max": "32000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 12 must be set to 2000!",
@@ -430,8 +377,7 @@
                     "max": "32000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 12 must be set to 2000!",
@@ -441,8 +387,7 @@
                     "max": "32000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 13 must be set to 2! NOTE: Device status on UI change immediately",
@@ -452,8 +397,7 @@
                     "max": "32000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "default value 0 | 1 - 32000 seconds. If the value of parameter is different to 0, means that the Influence of this input to heating or cooling will react after inserted time. Parameter 13 must be set to 2! NOTE: Device status on UI change immediately",
@@ -463,8 +407,7 @@
                     "max": "32000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 }
             ]
         },

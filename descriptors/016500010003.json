@@ -10,23 +10,19 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Channel output state OFF",
-                            "value": "0"
+                            "label": "Channel output state OFF"
                         },
                         {
-                            "label": "Channel output state ON",
-                            "value": "1"
+                            "label": "Channel output state ON"
                         },
                         {
-                            "label": "Channel output state remembers previous state",
-                            "value": "2"
+                            "label": "Channel output state remembers previous state"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "\n                This parameter allows Basic Set Commands to be sent when the channel output state changes (ON or OFF). Only the two least significant bits can be addressed.\n                Bit 0: Enable or disable Basic Set Commands sent to associated nodes of Group 2, when Channel Output State changes.\n                Bit 1: Enable or disable Basic Set Commands sent to associated nodes of Group 3, when Channel Output State changes.\n            ",
@@ -36,8 +32,7 @@
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "3"
+                    "type": "byte"
                 },
                 {
                     "help": "This parameter forces the channel output state to be always ON. It is not possible to turn OFF the channel output, which means that:\n                * All Switch OFF Command is rejected\n                * Basic Set OFF Command is rejected\n                * Binary Switch OFF Command is rejected\n                * Local Control does not toggle channel output state\n                * Product cannot be triggered by unsolicited Notification Report Command and enters in Alarm Mode",
@@ -45,19 +40,16 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Channel output state always ON disable",
-                            "value": "0"
+                            "label": "Channel output state always ON disable"
                         },
                         {
-                            "label": "Channel output state always ON enable",
-                            "value": "1"
+                            "label": "Channel output state always ON enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -67,16 +59,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 1 behavior",
                     "index": "6",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -86,16 +76,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 2 behavior",
                     "index": "8",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -105,16 +93,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 3 behavior",
                     "index": "10",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -124,16 +110,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 4 behavior",
                     "index": "12",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -143,16 +127,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 5 behavior",
                     "index": "14",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -162,16 +144,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 6 behavior",
                     "index": "16",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -181,16 +161,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 7 behavior",
                     "index": "18",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
@@ -200,16 +178,14 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Go to www.nodon.fr/support/msp3/alarm to configure alarm",
                     "label": "Parameter Alarm 8 behavior",
                     "index": "20",
                     "items": [],
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "0 is disabled. 1-100 sends report on x% variation",
@@ -219,8 +195,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "0 is disabled. 1-4000 sends report on x W overload",
@@ -230,8 +205,7 @@
                     "max": "4000",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "2000"
+                    "type": "short"
                 },
                 {
                     "help": "0 is disabled. 1-65535 sends report every x seconds",
@@ -241,8 +215,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "1000"
+                    "type": "short"
                 },
                 {
                     "help": "0 is disabled. 1-65535 sends report every x seconds",
@@ -252,8 +225,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "3600"
+                    "type": "short"
                 },
                 {
                     "help": "0 is disabled. 1-65535 x W",
@@ -263,8 +235,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "20"
+                    "type": "short"
                 },
                 {
                     "help": "0 is disabled. 1-65535 x W",
@@ -274,8 +245,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "5"
+                    "type": "short"
                 },
                 {
                     "help": "0 disbaled. 1 Send Off to group 4. 3 Send On to group 4. 4 Send Off to group 5. 12 Send On to group 5. Values can be summed",
@@ -285,8 +255,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "7"
+                    "type": "byte"
                 }
             ]
         },

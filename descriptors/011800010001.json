@@ -12,8 +12,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "byte",
-                    "units": "5 sec",
-                    "value": "1"
+                    "units": "5 sec"
                 },
                 {
                     "help": "If the setting is configured for 1 hour (value=6), the TZ88 will report its accumulated power consumption (kWh) every 1 hour.",
@@ -23,8 +22,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "byte",
-                    "units": "10 min",
-                    "value": "6"
+                    "units": "10 min"
                 }
             ]
         }

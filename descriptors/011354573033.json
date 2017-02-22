@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "In night-light mode the LED on the switch will turn ON when the switch is turned OFF.",
@@ -28,17 +25,14 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
@@ -46,17 +40,14 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This dimmer will start dimming from its current level.",
@@ -64,17 +55,14 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Flicker LED while transmitting.",
@@ -82,21 +70,17 @@
                     "index": "19",
                     "items": [
                         {
-                            "label": "No flicker",
-                            "value": "0"
+                            "label": "No flicker"
                         },
                         {
-                            "label": "Flicker whole transmission",
-                            "value": "1"
+                            "label": "Flicker whole transmission"
                         },
                         {
-                            "label": "Flicker 1 second",
-                            "value": "2"
+                            "label": "Flicker 1 second"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "How often to poll to keep synchronized with group.",
@@ -106,8 +90,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "2"
+                    "units": "minutes"
                 },
                 {
                     "help": "Poll only the first node in Group 1.",
@@ -115,17 +98,14 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

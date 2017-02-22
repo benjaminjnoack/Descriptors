@@ -13,31 +13,25 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "Heat",
-                            "value": "1"
+                            "label": "Heat"
                         },
                         {
-                            "label": "Cool",
-                            "value": "2"
+                            "label": "Cool"
                         },
                         {
-                            "label": "Auto",
-                            "value": "3"
+                            "label": "Auto"
                         },
                         {
-                            "label": "Aux Heat",
-                            "value": "4"
+                            "label": "Aux Heat"
                         }
                     ],
                     "max": "0",
                     "min": "0",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },
@@ -51,8 +45,7 @@
                     "max": "0",
                     "min": "0",
                     "type": "decimal",
-                    "units": "F",
-                    "value": "65"
+                    "units": "F"
                 },
                 {
                     "label": "Cooling 1",
@@ -61,8 +54,7 @@
                     "max": "0",
                     "min": "0",
                     "type": "decimal",
-                    "units": "F",
-                    "value": "80"
+                    "units": "F"
                 }
             ]
         }

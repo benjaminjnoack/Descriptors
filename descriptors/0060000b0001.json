@@ -12,8 +12,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "99"
+                    "units": "%"
                 }
             ]
         },

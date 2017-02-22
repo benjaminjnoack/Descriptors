@@ -9,32 +9,28 @@
                     "label": "Set to Default",
                     "index": "1",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the time the beep is automatically turned off in seconds. 0 means disabled. 255 is endless",
                     "label": "Feedback Time",
                     "index": "2",
                     "items": [],
-                    "type": "byte",
-                    "value": "16"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the timeout to wait for a WAKEUP_NO_MORE_INFORMATION before the error beep is automatically sound. The error beeps are fixed 8 beeps shortly after each other. 0 means disabled",
                     "label": "Feedback Timeout",
                     "index": "3",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the number of beeps per second. Every beep is fixed about 10ms.",
                     "label": "Feedback Beeps per Second",
                     "index": "4",
                     "items": [],
-                    "type": "byte",
-                    "value": "2"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the operating mode. If any mode other then 3, that value will be reported after a get but will be handled in SW as mode 1.",
@@ -42,17 +38,14 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Mode 1: Normal operating mode.",
-                            "value": "1"
+                            "label": "Mode 1: Normal operating mode."
                         },
                         {
-                            "label": "Mode 3: Z-Wave chip is always on to request e.g. version or manufacturer id.",
-                            "value": "3"
+                            "label": "Mode 3: Z-Wave chip is always on to request e.g. version or manufacturer id."
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

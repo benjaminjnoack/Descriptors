@@ -12,8 +12,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "99"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tTemperature level to trigger when a ON command is sent out. 99 will clear the value.\n\t\t\t",
@@ -23,8 +22,7 @@
                     "max": "99",
                     "min": "-20",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "30"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t\t\t\tTemperature level to trigger when an OFF command is sent out. 99 will clear the value.\n\t\t\t",
@@ -34,8 +32,7 @@
                     "max": "99",
                     "min": "-20",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "20"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t\t\t\tHumidity level to trigger when a ON command is sent out. 99 will clear the value.\n\t\t\t",
@@ -45,8 +42,7 @@
                     "max": "99",
                     "min": "20",
                     "type": "byte",
-                    "units": "%",
-                    "value": "50"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tHumidity level to trigger when a OFF command is sent out. 99 will clear the value.\n\t\t\t",
@@ -56,8 +52,7 @@
                     "max": "99",
                     "min": "20",
                     "type": "byte",
-                    "units": "%",
-                    "value": "40"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report time interval. 0 disables.\n\t\t\t",
@@ -67,8 +62,7 @@
                     "max": "1439",
                     "min": "0",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report temperature trigger interval. 0 disables.\n\t\t\t",
@@ -78,8 +72,7 @@
                     "max": "70",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "0"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report humidity trigger interval. 0 disables.\n\t\t\t",
@@ -89,8 +82,7 @@
                     "max": "70",
                     "min": "5",
                     "type": "byte",
-                    "units": "%",
-                    "value": "0"
+                    "units": "%"
                 }
             ]
         },

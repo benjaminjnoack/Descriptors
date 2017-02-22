@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Celsius",
-                            "value": "0"
+                            "label": "Celsius"
                         },
                         {
-                            "label": "Fahrenheit",
-                            "value": "1"
+                            "label": "Fahrenheit"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Threshold change in temperature to induce an automatic report.\n            1 to 50 ( Set up from 0.1C to 5C)\n            ",
@@ -31,8 +28,7 @@
                     "items": [],
                     "max": "50",
                     "min": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "Threshold change in humidity to induce an automatic report.\n            1 to 50 ( Set up from 1%-50%)\n            ",
@@ -42,8 +38,7 @@
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n                Threshold change in luminance to induce an automatic report.\n                0 is disabled.\n                5 to 50 ( Set up from 5%-50%)\n            ",
@@ -53,8 +48,7 @@
                     "max": "50",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 }
             ]
         },

@@ -10,19 +10,16 @@
                     "index": "81",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "1~10, other= ignore. \n\t\t\t\tA total of 10 levels, level 1 as the weak output power, and so on, 10 for most output power level",
@@ -30,51 +27,40 @@
                     "index": "220",
                     "items": [
                         {
-                            "label": "1",
-                            "value": "1"
+                            "label": "1"
                         },
                         {
-                            "label": "2",
-                            "value": "2"
+                            "label": "2"
                         },
                         {
-                            "label": "3",
-                            "value": "3"
+                            "label": "3"
                         },
                         {
-                            "label": "4",
-                            "value": "4"
+                            "label": "4"
                         },
                         {
-                            "label": "5",
-                            "value": "5"
+                            "label": "5"
                         },
                         {
-                            "label": "6",
-                            "value": "6"
+                            "label": "6"
                         },
                         {
-                            "label": "7",
-                            "value": "7"
+                            "label": "7"
                         },
                         {
-                            "label": "8",
-                            "value": "8"
+                            "label": "8"
                         },
                         {
-                            "label": "9",
-                            "value": "9"
+                            "label": "9"
                         },
                         {
-                            "label": "10",
-                            "value": "10"
+                            "label": "10"
                         }
                     ],
                     "max": "10",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "10"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -82,19 +68,16 @@
                     "index": "242",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -110,19 +93,16 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Reset to the default configuration",
@@ -130,8 +110,7 @@
                     "index": "255",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         }

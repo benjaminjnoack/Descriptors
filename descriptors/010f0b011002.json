@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "3600",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Acoustic and visual signals in case of flooding.",
@@ -20,25 +19,20 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "acoustic and visual alarms inactive",
-                            "value": "0"
+                            "label": "acoustic and visual alarms inactive"
                         },
                         {
-                            "label": "acoustic alarm inactive, visual alarm active",
-                            "value": "1"
+                            "label": "acoustic alarm inactive, visual alarm active"
                         },
                         {
-                            "label": "acoustic alarm active, visual alarm inactive",
-                            "value": "2"
+                            "label": "acoustic alarm active, visual alarm inactive"
                         },
                         {
-                            "label": "acoustic and visual alarms active",
-                            "value": "3"
+                            "label": "acoustic and visual alarms active"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Determines the requested \"on\" level to be sent to devices from 2nd association group upon flood event.",
@@ -47,8 +41,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "This setting decides whether device turn off commands and alarm cancellation notifications will be sent to devices in 2nd and 3rd association groups (respectively)",
@@ -56,17 +49,14 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "Alarm (flooding) cancellation INACTIVE",
-                            "value": "0"
+                            "label": "Alarm (flooding) cancellation INACTIVE"
                         },
                         {
-                            "label": "Alarm (flooding) cancellation ACTIVE",
-                            "value": "1"
+                            "label": "Alarm (flooding) cancellation ACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Interval between successive readings of temperature from all sensors connected to the device in seconds. Note: taking temperature readings from the sensor does not result in sending a temperature condition report to the central hub.",
@@ -75,8 +65,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "1",
-                    "type": "short",
-                    "value": "300"
+                    "type": "short"
                 },
                 {
                     "help": "Insensitiveness to temperature changes. This is the maximum acceptable difference between the last reported temperature and the current temperature taken from the sensor. If the temperatures differ by the set value or more, then a report with the current temperature value is sent to the device assigned to association group no. 3. Intervals between taking readings from sensors are specified by parameter no. 10.\n                Possible parameter settings:1 to 1000 [each 0.01oC] [0.01oC to 10.00oC].",
@@ -85,8 +74,7 @@
                     "items": [],
                     "max": "1000",
                     "min": "1",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "The parameter stores a temperature value, below which LED indicator blinks with a colour determined by Parameter 61 settings. By default the LED indicator blinks blue.\n                Possible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].",
@@ -95,8 +83,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "-10000",
-                    "type": "short",
-                    "value": "1500"
+                    "type": "short"
                 },
                 {
                     "help": "The parameter stores a temperature value, above which LED indicator blinks with a colour determined by Parameter 62 settings. By default the LED indicator blinks red.\n                Possible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].",
@@ -105,8 +92,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "-10000",
-                    "type": "short",
-                    "value": "3500"
+                    "type": "short"
                 },
                 {
                     "help": "The parameter stores RGB colour value.",
@@ -115,8 +101,7 @@
                     "items": [],
                     "max": "16777215",
                     "min": "0",
-                    "type": "int",
-                    "value": "255"
+                    "type": "int"
                 },
                 {
                     "help": "The parameter stores RGB colour value.",
@@ -125,8 +110,7 @@
                     "items": [],
                     "max": "16777215",
                     "min": "0",
-                    "type": "int",
-                    "value": "16711680"
+                    "type": "int"
                 },
                 {
                     "help": "Parameter determines LED indicator's operation. Set to 0 turns the indicator off, saving battery life.",
@@ -134,21 +118,17 @@
                     "index": "63",
                     "items": [
                         {
-                            "label": "LED doesn't indicate temperature",
-                            "value": "0"
+                            "label": "LED doesn't indicate temperature"
                         },
                         {
-                            "label": "LED indicates temperature (blink) every Temperature Measurement Interval (Parameter 10, constant power + battery) or Wake Up Interval (battery)",
-                            "value": "1"
+                            "label": "LED indicates temperature (blink) every Temperature Measurement Interval (Parameter 10, constant power + battery) or Wake Up Interval (battery)"
                         },
                         {
-                            "label": "LED indicates temperature constantly, only in constant power mode.",
-                            "value": "2"
+                            "label": "LED indicates temperature constantly, only in constant power mode."
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Parameter stores a temperature value to be added to or deducted from the current temperature measured by the internal temperature sensor in order to compensate the difference between air temperature and the temperature at floor level.\n                Possible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].",
@@ -157,8 +137,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "-10000",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "The device is able to report tamper alarms resulting from sensor tilt/movement or TMP button state change.",
@@ -166,25 +145,20 @@
                     "index": "74",
                     "items": [
                         {
-                            "label": "Tamper alarms INACTIVE",
-                            "value": "0"
+                            "label": "Tamper alarms INACTIVE"
                         },
                         {
-                            "label": "Button tamper alarm ACTIVE",
-                            "value": "1"
+                            "label": "Button tamper alarm ACTIVE"
                         },
                         {
-                            "label": "Movement tamper alarm ACTIVE",
-                            "value": "2"
+                            "label": "Movement tamper alarm ACTIVE"
                         },
                         {
-                            "label": "Button and movement tamper alarms ACTIVE",
-                            "value": "3"
+                            "label": "Button and movement tamper alarms ACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Parameter determines a time period after which alarm will become quiet - still active but the device will go into battery saving mode. Visual or acoustic alarm will be reactivated after time period specified in Parameter 76. When alarm status ceases, alarm will be turned off immediately.\n                Value of 0 means visual and acoustic alarms are active indefinitely. In battery power mode the device will never go to sleep which may shorten battery life significantly.",
@@ -193,8 +167,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Parameter determines a time period after which an alarm frame will be retransmitted.\n                Value of 0 cancels an alarm frame retransmission.",
@@ -203,8 +176,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Allows for turning off the internal flood sensor. Tamper and internal temperature sensors will remain active.",
@@ -212,17 +184,14 @@
                     "index": "77",
                     "items": [
                         {
-                            "label": "Default flood sensor operation (ACTIVE)",
-                            "value": "0"
+                            "label": "Default flood sensor operation (ACTIVE)"
                         },
                         {
-                            "label": "Flood sensor INACTIVE",
-                            "value": "1"
+                            "label": "Flood sensor INACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines how commands are sent in specified association groups: as secure or non-secure. Parameter is active only in Z-Wave network security mode. It does not apply to 1st Lifeline group.",
@@ -231,8 +200,7 @@
                     "items": [],
                     "max": "7",
                     "min": "0",
-                    "type": "byte",
-                    "value": "7"
+                    "type": "byte"
                 }
             ]
         },

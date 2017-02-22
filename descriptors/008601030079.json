@@ -10,23 +10,19 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "The last state before re-power on",
-                            "value": "0"
+                            "label": "The last state before re-power on"
                         },
                         {
-                            "label": "Always On",
-                            "value": "1"
+                            "label": "Always On"
                         },
                         {
-                            "label": "Always Off",
-                            "value": "2"
+                            "label": "Always Off"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Enable/disable to send out a report when the color is changed",
@@ -34,19 +30,16 @@
                     "index": "32",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Hail CC",
-                            "value": "1"
+                            "label": "Hail CC"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n                Get the LED Strip color value\n                Value 1: (msb) Reserved\n                Value 2: Red color value\n                Value 3: Green color value\n                Value 4: Blue color value\n            ",
@@ -54,8 +47,7 @@
                     "index": "33",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enable/disable to turn on the last brightness level of the LED Strip when using the Color Switch Set CC to change its color",
@@ -63,19 +55,16 @@
                     "index": "34",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Configure the display mode of Cold/Warm white",
@@ -83,19 +72,16 @@
                     "index": "35",
                     "items": [
                         {
-                            "label": "Arbitrary combination",
-                            "value": "0"
+                            "label": "Arbitrary combination"
                         },
                         {
-                            "label": "Complementary combination",
-                            "value": "1"
+                            "label": "Complementary combination"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Reboot/save/exit Colorful mode",
@@ -103,27 +89,22 @@
                     "index": "36",
                     "items": [
                         {
-                            "label": "Un-reboot",
-                            "value": "0"
+                            "label": "Un-reboot"
                         },
                         {
-                            "label": "Reboot",
-                            "value": "1"
+                            "label": "Reboot"
                         },
                         {
-                            "label": "Exit",
-                            "value": "2"
+                            "label": "Exit"
                         },
                         {
-                            "label": "Save and exit",
-                            "value": "3"
+                            "label": "Save and exit"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n                Will set the LED Strip into different modes.\n                See the table in documentation\n            ",
@@ -131,8 +112,7 @@
                     "index": "37",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "157483008"
+                    "units": ""
                 },
                 {
                     "help": "\n                Value 1: (msb) The speed from OFF to ON.\n                Value 2: The speed from ON to OFF.\n                Value 3: Pause time of ON.\n                Value 4: Pause time of OFF.\n            ",
@@ -140,8 +120,7 @@
                     "index": "38",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "50332416"
+                    "units": ""
                 },
                 {
                     "help": "\n                Can be used to set the 8 color index when the Bulb is in Multi color mode.\n                See the table in documentation\n            ",
@@ -149,8 +128,7 @@
                     "index": "39",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "805306368"
+                    "units": ""
                 },
                 {
                     "help": "Reboot/save/exit Colorful mode",
@@ -158,31 +136,25 @@
                     "index": "40",
                     "items": [
                         {
-                            "label": "Rainbow mode",
-                            "value": "1"
+                            "label": "Rainbow mode"
                         },
                         {
-                            "label": "Mutil color mode",
-                            "value": "2"
+                            "label": "Mutil color mode"
                         },
                         {
-                            "label": "Fade out and fade in (Red)",
-                            "value": "3"
+                            "label": "Fade out and fade in (Red)"
                         },
                         {
-                            "label": "Fade out and fade in (Green)",
-                            "value": "4"
+                            "label": "Fade out and fade in (Green)"
                         },
                         {
-                            "label": "Fade out and fade in (Blue)",
-                            "value": "5"
+                            "label": "Fade out and fade in (Blue)"
                         }
                     ],
                     "max": "5",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Enable to send notifications to associated devices (Group 1) when the state of LED Strip is changedd",
@@ -190,23 +162,19 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Hail CC",
-                            "value": "1"
+                            "label": "Hail CC"
                         },
                         {
-                            "label": "Basic CC report",
-                            "value": "2"
+                            "label": "Basic CC report"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -214,27 +182,22 @@
                     "index": "112",
                     "items": [
                         {
-                            "label": "Parabolic curve",
-                            "value": "0"
+                            "label": "Parabolic curve"
                         },
                         {
-                            "label": "Index curve",
-                            "value": "1"
+                            "label": "Index curve"
                         },
                         {
-                            "label": "(Parabolic + Index)/2",
-                            "value": "2"
+                            "label": "(Parabolic + Index)/2"
                         },
                         {
-                            "label": "Linear",
-                            "value": "3"
+                            "label": "Linear"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
@@ -242,20 +205,17 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -263,21 +223,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

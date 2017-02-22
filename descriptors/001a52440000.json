@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t\t  The amount of time in seconds the switch will turn off for when panic mode is triggered.  The configuration value is a signed single byte number. This value may represent a value with no units or may represent a value such as time. 0 to 127 (decimal) represents 0 to 127 seconds of time. -128 to -1 (negative decimal numbers) represents 128 to 255 seconds as calculated by this formula.  Config value = desired time in seconds (or desired value) -256 For an example of 172 seconds: config value = 172 - 256 = -84 (decimal) or 0xAC (hex) \n\t\t  ",
@@ -23,8 +22,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t\t    Power up state of the device\n\t\t  ",
@@ -32,24 +30,20 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "OFF",
-                            "value": "1"
+                            "label": "OFF"
                         },
                         {
-                            "label": "ON",
-                            "value": "2"
+                            "label": "ON"
                         },
                         {
-                            "label": "Last state",
-                            "value": "3"
+                            "label": "Last state"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "3"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t    Enables this device to participate in panic mode\n\t\t  ",
@@ -57,20 +51,17 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "OFF",
-                            "value": "0"
+                            "label": "OFF"
                         },
                         {
-                            "label": "ON",
-                            "value": "1"
+                            "label": "ON"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

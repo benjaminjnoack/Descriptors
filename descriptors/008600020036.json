@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "0, Open: FF, Close: 00; 1, Open: 00, Close: FF;\n              Default setting: 0\n            ",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "0, Disable, 1, Enable;\n              Default setting: 0\n            ",
@@ -31,8 +29,7 @@
                     "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "This parameter is available when the low battery checking\n                  function is activated or the device was waked up by other\n                  actions (i.e. the z-wave button trigger, magnet switch\n                  trigger and the Wake Up Interval Set timeout trigger).\n                  The Recessed Door Sensor will check the battery power\n                  when it was wake up as other ways. For example: the\n                  z-wave button trigger, magnet switch trigger and the\n                  Wake Up Interval Set timeout trigger.\n              Default setting: 86640\n            ",
@@ -41,8 +38,7 @@
                     "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "int",
-                    "value": "86640"
+                    "type": "int"
                 },
                 {
                     "help": "Bitsets:\n                4 -> Sensor Binary\n                8 -> Basic Set\n              Default setting: 0x00000100 (Basic Set)\n            ",
@@ -51,8 +47,7 @@
                     "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "int",
-                    "value": "256"
+                    "type": "int"
                 },
                 {
                     "help": "Device Tag",
@@ -62,16 +57,14 @@
                     "max": "255",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to factory defaults.",
                     "label": "Reset configuration settings to factory defaults",
                     "index": "255",
                     "items": [],
-                    "type": "button",
-                    "value": "0"
+                    "type": "button"
                 }
             ]
         },

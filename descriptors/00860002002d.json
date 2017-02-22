@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Inverse",
-                            "value": "1"
+                            "label": "Inverse"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Enable wake up 10 minutes when the power is switched on.",
@@ -30,19 +27,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Toggle the basic set value when the Water Sensor is Triggered",
@@ -50,19 +44,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Inverse",
-                            "value": "1"
+                            "label": "Inverse"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "To set which command will be sent to the associated nodes when the Water Sensor is triggered.\n\t            \tBitsets:\n\t         \t1 -> Battery\n\t                4 -> Sensor Binary\n\t                8 -> Basic Set\n\t                12 -> Alarm\n\t              \tDefault setting: 0x100 (Basic Set)\n              \t\tOZW Ideal Setting: 0x1011 (Battery, Sensor Binary Report, Alarm)\n            \t    ",
@@ -71,16 +62,14 @@
                     "items": [],
                     "max": "4369",
                     "min": "0",
-                    "type": "int",
-                    "value": "256"
+                    "type": "int"
                 },
                 {
                     "help": "Reset to factory defaults.",
                     "label": "Reset to default",
                     "index": "255",
                     "items": [],
-                    "type": "button",
-                    "value": "0"
+                    "type": "button"
                 }
             ]
         },

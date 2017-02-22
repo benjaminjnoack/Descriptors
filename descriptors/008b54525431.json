@@ -12,8 +12,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0 = Gas, 1 = Elec\n\t    ",
@@ -23,8 +22,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0 = w/Cool, 1 = w/Heat\n\t    ",
@@ -34,8 +32,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0 = C, 1 = F\n\t    ",
@@ -45,8 +42,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -56,8 +52,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0 = Unlocked, 1 = Locked\n\t    ",
@@ -67,8 +62,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      Sets the minimum off time before another heating/cooling cycle can begin to provide compressor short cycle protection.  The thermostat screen will display WAIT when minimum off time is being enforced.\n\t    ",
@@ -78,8 +72,7 @@
                     "max": "9",
                     "min": "5",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "5"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t      Sets the minimum run time before a heating/cooling cycle can turn off to prevent rapid cycling.  Thermostat screen will display \"Cool ON\" or \"Heat ON\" while the minimum run time is being enforced.\n\t    ",
@@ -89,8 +82,7 @@
                     "max": "9",
                     "min": "1",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "6"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 heating starts.\n\t    ",
@@ -100,8 +92,7 @@
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "1"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 heating stops. Stage 1 turns off at setpoint minus (-) Delta Stage 1.\n\t    ",
@@ -111,8 +102,7 @@
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "0"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 heating starts.\n\t    ",
@@ -122,8 +112,7 @@
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "2"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 heating stops. Stage 1 turns off at setpoint minus (-) Delta Stage 2.\n\t    ",
@@ -133,8 +122,7 @@
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "0"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 3 heating starts.\n\t\t\t",
@@ -144,8 +132,7 @@
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "3"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 3 heating stops. Stage 1 turns off at setpoint minus (-) Delta Stage 3.\n\t    ",
@@ -155,8 +142,7 @@
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "0"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 cooling starts.\n\t    ",
@@ -166,8 +152,7 @@
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "1"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 cooling stops. Stage 1 turns off at setpoint minus (-) Delta Stage 1.\n\t    ",
@@ -177,8 +162,7 @@
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "0"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 cooling starts.\n\t    ",
@@ -188,8 +172,7 @@
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "2"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 cooling stops. Stage 1 turns off at setpoint minus (-) Delta Stage 2.\n\t    ",
@@ -199,8 +182,7 @@
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "0"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t    ",
@@ -210,8 +192,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -221,8 +202,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      Sets the minimum separation between the heating and cooling setpoints.  Attempts to lower the cooling below the heating setpoint by this amount will PUSH the heating setpoint down to maintain this separation. Same for setting the heating setpoint above the cooling setpoint, it will PUSH the cooling setpoint up to maintain this separation. Settings in F.\n\t    ",
@@ -232,8 +212,7 @@
                     "max": "15",
                     "min": "3",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "3"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      0 = No Setback, 1 = Setback, 2 if ESM\n\t    ",
@@ -243,8 +222,7 @@
                     "max": "2",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -254,8 +232,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -265,8 +242,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -276,8 +252,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      Energy Saving Mode (ESM) Setpoints are the setpoints used when the Energy Saving Mode schedule is selected in the Schedule Mode screen (or via Z-Wave control). Setting in F.\n\t    ",
@@ -287,8 +262,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "65"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Energy Saving Mode (ESM) Setpoints are the setpoints used when the Energy Saving Mode schedule is selected in the Schedule Mode screen (or via Z-Wave control).\n\t    ",
@@ -298,8 +272,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "80"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t    ",
@@ -309,8 +282,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -320,8 +292,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -331,8 +302,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -342,8 +312,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "3"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -353,8 +322,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -364,8 +332,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -375,8 +342,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -386,8 +352,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -397,8 +362,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      The fan cycler function cycles the HVAC system fan for an ON period followed by an OFF period continuously. Used to provide minimum air ventilation requirements. When the Fan ON time is set to a value greater than 0, an additional Cycler Fan mode is present when pressing the FAN button on the thermostat.\n\t    ",
@@ -408,8 +372,7 @@
                     "max": "120",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t      The fan cycler function cycles the HVAC system fan for an ON period followed by an OFF period continuously. Used to provide minimum air ventilation requirements. When the Fan ON time is set to a value greater than 0, an additional Cycler Fan mode is present when pressing the FAN button on the thermostat.\n\t    ",
@@ -419,8 +382,7 @@
                     "max": "120",
                     "min": "10",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t      0 = no 2nd stage heat, 1 = 2nd stage heat.\n\t    ",
@@ -430,8 +392,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0 = no aux heat, 1 = aux heat enabled.\n\t    ",
@@ -441,8 +402,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0 = no 2nd stage cool, 1 = 2nd stage cool\n\t    ",
@@ -452,8 +412,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -463,8 +422,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -474,8 +432,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -485,8 +442,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "90"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -496,8 +452,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      Set to 1 if running schedule (RUN is displayed on the thermostat screen).\n\t    ",
@@ -507,8 +462,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -518,8 +472,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "13"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      Default:  \n\t      HOLD   80F / 26C\n\t      RUN    84F / xxC\n\t      ESM\n\t    ",
@@ -529,8 +482,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "80"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t    ",
@@ -540,8 +492,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      Heating 1 Setpoint (does this vary with ESM, etc. or is this for the \"Hold\" setting?\n\t      Default:\n\t      HOLD   55F / 13C\n\t      RUN    60F / xxC\n\t      ESM    64F / xxC (unless parameter xx has been changed)\n\t    ",
@@ -551,8 +502,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "60"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Backlight Timeout is the time (in seconds) from the last \n\t      button press to the backlight going out.  The time-out\n\t      can be set between 0 and 120\n\t      seconds.  When set to 0, the backlight will remain\n\t      always on.\n\t      Default:  30\n\t    ",
@@ -562,8 +512,7 @@
                     "max": "120",
                     "min": "0",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "30"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t      Sets the maximum heating setpoint value.  Will not ramp\n\t      or accept setpoints higher than this maximum.\n\t      Minimum:  55F / xxC\n\t      Maximum:  90F / xxC\n\t      Default:  90F / 32C\n\t    ",
@@ -573,8 +522,7 @@
                     "max": "90",
                     "min": "55",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "90"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t      Sets the minimum cooling setpoint value.  Will not ramp\n\t      or accept setpoints lower than this minimum.\n\t      Minimum:  60F / xxC\n\t      Maximum:  99F / xxC\n\t      Default:  60F / 15C\n\t    ",
@@ -584,8 +532,7 @@
                     "max": "99",
                     "min": "60",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "60"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t    ",
@@ -595,8 +542,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "10"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      This is the time before any screen reverts to the Minimized\n\t      Screen (temperature display only), after you stop pushing\n\t      buttons.  Minimized Screen feature is disabled by setting this\n\t      time to 0. \n\t      Default:  0 \n\t    ",
@@ -606,8 +552,7 @@
                     "max": "120",
                     "min": "0",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t    ",
@@ -617,8 +562,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      The internal temperature sensor can be calibrated to report\n\t      values different from its actual reading.  The offset can\n\t      range from -7 degrees to +7 degrees.\n\t      Default:  0\n\t    ",
@@ -628,8 +572,7 @@
                     "max": "+7",
                     "min": "-7",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "0"
+                    "units": "degrees"
                 },
                 {
                     "help": "\n\t    ",
@@ -639,8 +582,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -650,8 +592,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -661,8 +602,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -672,8 +612,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      The Screen Contrast sets the contrast level of the LCD display.\n\t      The contrast can be set between 0 and 20.  If the display \n\t      is too light, use a higher number.  If dark lines appear on \n\t      the screen, use a lower number.\n\t      Default:  10\n\t    ",
@@ -683,8 +622,7 @@
                     "max": "20",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "10"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -694,8 +632,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -705,8 +642,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "30"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -716,8 +652,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -727,8 +662,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -738,8 +672,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -749,8 +682,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "30"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -760,8 +692,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -771,8 +702,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0x2c after reset\n\t      0xf4 after reset\n\t    ",
@@ -802,8 +732,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -813,8 +742,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -824,8 +752,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -835,8 +762,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "44"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -846,8 +772,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -857,8 +782,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -868,8 +792,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -879,8 +802,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "44"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -890,8 +812,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -901,8 +822,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xb8 after reset\n\t      0xe4 after reset\n\t    ",
@@ -932,8 +852,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -943,8 +862,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -954,8 +872,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -965,8 +882,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -976,8 +892,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
@@ -987,8 +902,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -998,8 +912,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1009,8 +922,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
@@ -1020,8 +932,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1031,8 +942,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1042,8 +952,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
@@ -1053,8 +962,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1064,8 +972,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1075,8 +982,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
@@ -1086,8 +992,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1097,8 +1002,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1108,8 +1012,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
@@ -1119,8 +1022,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1130,8 +1032,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1141,8 +1042,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
@@ -1152,8 +1052,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1163,8 +1062,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1174,8 +1072,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
@@ -1185,8 +1082,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1196,8 +1092,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1207,8 +1102,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      Recovery enable?\n\t      Default:  1\n\t      0x00\n\t    ",
@@ -1218,8 +1112,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1229,8 +1122,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1240,8 +1132,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1251,8 +1142,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1262,8 +1152,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1273,8 +1162,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1284,8 +1172,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1295,8 +1182,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t    ",
@@ -1306,8 +1192,7 @@
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
@@ -1317,8 +1202,7 @@
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": "",
-                    "value": "100681283"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
@@ -1328,8 +1212,7 @@
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": "",
-                    "value": "134233685"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
@@ -1339,8 +1222,7 @@
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": "",
-                    "value": "302007886"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
@@ -1350,8 +1232,7 @@
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": "",
-                    "value": "369114706"
+                    "units": ""
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule\n\t      setpoints for Mondays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
@@ -1361,8 +1242,7 @@
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": "",
-                    "value": ""
+                    "units": ""
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule\n\t      setpoints for Mondays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",

@@ -10,20 +10,17 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tAutomatic report only when power is changed.\n      ",
@@ -31,20 +28,17 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (whole HEM).\n      ",
@@ -52,8 +46,7 @@
                     "index": "4",
                     "items": [],
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (Clamp 1).\n      ",
@@ -61,8 +54,7 @@
                     "index": "5",
                     "items": [],
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (Clamp 2).\n      ",
@@ -70,8 +62,7 @@
                     "index": "6",
                     "items": [],
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (Clamp 3).\n      ",
@@ -79,8 +70,7 @@
                     "index": "7",
                     "items": [],
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (whole HEM).\n      ",
@@ -88,8 +78,7 @@
                     "index": "8",
                     "items": [],
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (Clamp 1).\n      ",
@@ -97,8 +86,7 @@
                     "index": "9",
                     "items": [],
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (Clamp 2).\n      ",
@@ -106,8 +94,7 @@
                     "index": "10",
                     "items": [],
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (Clamp 3).\n      ",
@@ -115,8 +102,7 @@
                     "index": "11",
                     "items": [],
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\tReset to default parameters number 101-103. Any value other then 0 will initiate this reset.\n      ",
@@ -124,8 +110,7 @@
                     "index": "100",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tWhich reports need to send in group1. Format is as follows:\n\tByte 1 (msb): Reserved\n\tByte 2: Reserved\n\tByte 3: Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n                Bit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (Clamp 3)\n                Bit 1: Auto Send Meter Report (for watts) at the group time interval (Clamp 2)\n                Bit 0: Auto Send Meter Report (for watts) at the group time interval (Clamp 1)\n\tByte 4 (lsb): Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: reserved\n                Bit 4: reserved\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (whole HEM)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (whole HEM)\n                Bit 1: Auto Send Multilevel Sensor Report (for watts) at the group time interval (whole HEM)\n                Bit 0: Auto Send Battery Report at the group time interval (whole HEM)\n      ",
@@ -133,8 +118,7 @@
                     "index": "101",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tWhich reports need to send in group2. Format is as follows:\n\tByte 1 (msb): Reserved\n\tByte 2: Reserved\n\tByte 3: Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n                Bit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (Clamp 3)\n                Bit 1: Auto Send Meter Report (for watts) at the group time interval (Clamp 2)\n                Bit 0: Auto Send Meter Report (for watts) at the group time interval (Clamp 1)\n\tByte 4 (lsb): Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: reserved\n                Bit 4: reserved\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (whole HEM)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (whole HEM)\n                Bit 1: Auto Send Multilevel Sensor Report (for watts) at the group time interval (whole HEM)\n                Bit 0: Auto Send Battery Report at the group time interval (whole HEM)\n      ",
@@ -142,8 +126,7 @@
                     "index": "102",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tWhich reports need to send in group3. Format is as follows:\n\tByte 1 (msb): Reserved\n\tByte 2: Reserved\n\tByte 3: Bit 7: reserved\n\tBit 6: reserved\n                Bit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n                Bit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (Clamp 3)\n                Bit 1: Auto Send Meter Report (for watts) at the group time interval (Clamp 2)\n                Bit 0: Auto Send Meter Report (for watts) at the group time interval (Clamp 1)\n\tByte 4 (lsb): Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: reserved\n                Bit 4: reserved\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (whole HEM)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (whole HEM)\n                Bit 1: Auto Send Multilevel Sensor Report (for watts) at the group time interval (whole HEM)\n                Bit 0: Auto Send Battery Report at the group time interval (whole HEM)\n      ",
@@ -151,8 +134,7 @@
                     "index": "103",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tReset to default parameters number 111-113. Any value other then 0 will initiate this reset.\n      ",
@@ -160,8 +142,7 @@
                     "index": "110",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tThe interval of sending report group 1.\n      ",
@@ -169,8 +150,7 @@
                     "index": "111",
                     "items": [],
                     "type": "int",
-                    "units": "seconds",
-                    "value": "720"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\tThe interval of sending report group 2.\n      ",
@@ -178,8 +158,7 @@
                     "index": "112",
                     "items": [],
                     "type": "int",
-                    "units": "seconds",
-                    "value": "720"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\tThe interval of sending report group 3.\n      ",
@@ -187,28 +166,24 @@
                     "index": "113",
                     "items": [],
                     "type": "int",
-                    "units": "seconds",
-                    "value": "720"
+                    "units": "seconds"
                 },
                 {
                     "label": "Partner ID",
                     "index": "200",
                     "items": [
                         {
-                            "label": "Aeon Labs Standard Product",
-                            "value": "0"
+                            "label": "Aeon Labs Standard Product"
                         },
                         {
-                            "label": "AT&T",
-                            "value": "1"
+                            "label": "AT&T"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tDevice tag.\n      ",
@@ -216,8 +191,7 @@
                     "index": "254",
                     "items": [],
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tReset to the default configuration.\n      ",
@@ -225,8 +199,7 @@
                     "index": "255",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

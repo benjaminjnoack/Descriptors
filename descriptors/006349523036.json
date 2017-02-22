@@ -10,23 +10,19 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "LED on when light off",
-                            "value": "0"
+                            "label": "LED on when light off"
                         },
                         {
-                            "label": "LED on when light on",
-                            "value": "1"
+                            "label": "LED on when light on"
                         },
                         {
-                            "label": "LED always off",
-                            "value": "2"
+                            "label": "LED always off"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON, if the switch was installed upside down.",
@@ -34,19 +30,16 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

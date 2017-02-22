@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "1"
+                            "label": "Off"
                         },
                         {
-                            "label": "On",
-                            "value": "3"
+                            "label": "On"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -28,17 +25,14 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "On",
-                            "value": "0"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "255"
+                            "label": "Off"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "seconds; after successful code entry and unit unlocks, it will automatically re-lock after specified time (30 = default value)",
@@ -49,8 +43,7 @@
                     "min": "5",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "30"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t\t\tThe number of invalid code entries lock will accept before sending TAMPER Alarm. \n\t\t\tWhen number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)\n\t\t\t",
@@ -58,39 +51,31 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "1",
-                            "value": "1"
+                            "label": "1"
                         },
                         {
-                            "label": "2",
-                            "value": "2"
+                            "label": "2"
                         },
                         {
-                            "label": "3",
-                            "value": "3"
+                            "label": "3"
                         },
                         {
-                            "label": "4",
-                            "value": "4"
+                            "label": "4"
                         },
                         {
-                            "label": "5",
-                            "value": "5"
+                            "label": "5"
                         },
                         {
-                            "label": "6",
-                            "value": "6"
+                            "label": "6"
                         },
                         {
-                            "label": "7",
-                            "value": "7"
+                            "label": "7"
                         }
                     ],
                     "max": "7",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "5"
+                    "type": "list"
                 },
                 {
                     "help": "number of seconds unit will be inoperable after number of wrong code entries is exceeded (30 = default)",
@@ -101,8 +86,7 @@
                     "min": "5",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "30"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\t\t\tThe number of invalid code entries lock will accept before sending TAMPER Alarm. \n\t\t\tWhen number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)\n\t\t\t",
@@ -110,23 +94,19 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Vacation",
-                            "value": "1"
+                            "label": "Vacation"
                         },
                         {
-                            "label": "Privacy",
-                            "value": "2"
+                            "label": "Privacy"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

@@ -10,19 +10,16 @@
                     "index": "254",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Mono-stable",
-                            "value": "0"
+                            "label": "Mono-stable"
                         },
                         {
-                            "label": "Bi-stable",
-                            "value": "1"
+                            "label": "Bi-stable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -30,19 +27,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Mono-stable",
-                            "value": "0"
+                            "label": "Mono-stable"
                         },
                         {
-                            "label": "Bi-stable",
-                            "value": "1"
+                            "label": "Bi-stable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -50,19 +44,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Mono-stable",
-                            "value": "0"
+                            "label": "Mono-stable"
                         },
                         {
-                            "label": "Bi-stable",
-                            "value": "1"
+                            "label": "Bi-stable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -70,19 +61,16 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "NO (normaly open)",
-                            "value": "0"
+                            "label": "NO (normaly open)"
                         },
                         {
-                            "label": "NC (normaly close)",
-                            "value": "1"
+                            "label": "NC (normaly close)"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -90,19 +78,16 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "NO (normaly open)",
-                            "value": "0"
+                            "label": "NO (normaly open)"
                         },
                         {
-                            "label": "NC (normaly close)",
-                            "value": "1"
+                            "label": "NC (normaly close)"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -110,19 +95,16 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "NO (normaly open)",
-                            "value": "0"
+                            "label": "NO (normaly open)"
                         },
                         {
-                            "label": "NC (normaly close)",
-                            "value": "1"
+                            "label": "NC (normaly close)"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -130,39 +112,31 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "No modification with Input 1",
-                            "value": "0"
+                            "label": "No modification with Input 1"
                         },
                         {
-                            "label": "Confort",
-                            "value": "1"
+                            "label": "Confort"
                         },
                         {
-                            "label": "Confort -1",
-                            "value": "2"
+                            "label": "Confort -1"
                         },
                         {
-                            "label": "Confort -2",
-                            "value": "3"
+                            "label": "Confort -2"
                         },
                         {
-                            "label": "Eco",
-                            "value": "4"
+                            "label": "Eco"
                         },
                         {
-                            "label": "Hors-Gel",
-                            "value": "5"
+                            "label": "Hors-Gel"
                         },
                         {
-                            "label": "STOP",
-                            "value": "6"
+                            "label": "STOP"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -170,39 +144,31 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "No modification with Input 2",
-                            "value": "0"
+                            "label": "No modification with Input 2"
                         },
                         {
-                            "label": "Confort",
-                            "value": "1"
+                            "label": "Confort"
                         },
                         {
-                            "label": "Confort -1",
-                            "value": "2"
+                            "label": "Confort -1"
                         },
                         {
-                            "label": "Confort -2",
-                            "value": "3"
+                            "label": "Confort -2"
                         },
                         {
-                            "label": "Eco",
-                            "value": "4"
+                            "label": "Eco"
                         },
                         {
-                            "label": "Hors-Gel",
-                            "value": "5"
+                            "label": "Hors-Gel"
                         },
                         {
-                            "label": "STOP",
-                            "value": "6"
+                            "label": "STOP"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "4"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -210,39 +176,31 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "No modification with Input 3",
-                            "value": "0"
+                            "label": "No modification with Input 3"
                         },
                         {
-                            "label": "Confort",
-                            "value": "1"
+                            "label": "Confort"
                         },
                         {
-                            "label": "Confort -1",
-                            "value": "2"
+                            "label": "Confort -1"
                         },
                         {
-                            "label": "Confort -2",
-                            "value": "3"
+                            "label": "Confort -2"
                         },
                         {
-                            "label": "Eco",
-                            "value": "4"
+                            "label": "Eco"
                         },
                         {
-                            "label": "Hors-Gel",
-                            "value": "5"
+                            "label": "Hors-Gel"
                         },
                         {
-                            "label": "STOP",
-                            "value": "6"
+                            "label": "STOP"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "5"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -250,19 +208,16 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
-                            "value": "0"
+                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)"
                         },
                         {
-                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position",
-                            "value": "1"
+                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

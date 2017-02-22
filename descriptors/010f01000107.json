@@ -10,25 +10,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "ALL ON active / ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active / ALL OFF active"
                         },
                         {
-                            "label": "ALL ON disabled/ ALL OFF disabled",
-                            "value": "0"
+                            "label": "ALL ON disabled/ ALL OFF disabled"
                         },
                         {
-                            "label": "ALL ON disabled/ ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON disabled/ ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF disabled",
-                            "value": "2"
+                            "label": "ALL ON active / ALL OFF disabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Activate/Deactivate association sending for group 1 - Note: Parameter 15 must set to 1 to work properly. Default 0.",
@@ -36,21 +31,17 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Map status to all devices in group 1 (default)",
-                            "value": "0"
+                            "label": "Map status to all devices in group 1 (default)"
                         },
                         {
-                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to prev.value",
-                            "value": "1"
+                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to prev.value"
                         },
                         {
-                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%",
-                            "value": "2"
+                            "label": "Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Key no.2 is not represented by any physical device except of devices on association list. This functionality prevents of lack of reaction on pressing key no.2 through polling devices from association list one by one and checking their actual statuses. Default 1.",
@@ -58,17 +49,14 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Frame GET not send. Device status is not checked",
-                            "value": "0"
+                            "label": "Frame GET not send. Device status is not checked"
                         },
                         {
-                            "label": "Frame GET is send. Device status is checked before send",
-                            "value": "1"
+                            "label": "Frame GET is send. Device status is checked before send"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Options for changing parameter 1-99. Default 1.",
@@ -78,8 +66,7 @@
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "1"
+                    "units": "%"
                 },
                 {
                     "help": "Options for changing parameter 1-255 (10ms - 2,5s).\n      Default 5.",
@@ -88,8 +75,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Options for changing parameter 1-255 (10ms - 2,5s) - 0: this value disables the smooth change in light intensity. Default 1. ATTENTION: value 0 is required for inductive and capacitive devices unsuitable for dimming (e.g. fluorescent lamps, motors, etc...)",
@@ -99,8 +85,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "ms",
-                    "value": "1"
+                    "units": "ms"
                 },
                 {
                     "help": "Options for changing parameter 1-99. Default 1.",
@@ -110,8 +95,7 @@
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "1"
+                    "units": "%"
                 },
                 {
                     "help": "Options for changing parameter 2-99. Default 99.",
@@ -121,8 +105,7 @@
                     "max": "99",
                     "min": "2",
                     "type": "byte",
-                    "units": "%",
-                    "value": "99"
+                    "units": "%"
                 },
                 {
                     "help": "Options for changing parameter 1-98. Default 2.",
@@ -132,8 +115,7 @@
                     "max": "98",
                     "min": "1",
                     "type": "byte",
-                    "units": "5",
-                    "value": "2"
+                    "units": "5"
                 },
                 {
                     "help": "Binary inputs type configuration. Default 0.",
@@ -141,21 +123,17 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Mono-stable input (button)",
-                            "value": "0"
+                            "label": "Mono-stable input (button)"
                         },
                         {
-                            "label": "Bi-stable input (switch)",
-                            "value": "1"
+                            "label": "Bi-stable input (switch)"
                         },
                         {
-                            "label": "Role blind switch (UP / DOWN) - two switch keys operate the Dimmer",
-                            "value": "2"
+                            "label": "Role blind switch (UP / DOWN) - two switch keys operate the Dimmer"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Double-click set lighting at 100%. Default 1.",
@@ -163,17 +141,14 @@
                     "index": "15",
                     "items": [
                         {
-                            "label": "Disable double click",
-                            "value": "0"
+                            "label": "Disable double click"
                         },
                         {
-                            "label": "Enable double click",
-                            "value": "1"
+                            "label": "Enable double click"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Saving state before power failure. Default 1.",
@@ -181,17 +156,14 @@
                     "index": "16",
                     "items": [
                         {
-                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
-                            "value": "0"
+                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore"
                         },
                         {
-                            "label": "State saved at power failure, all outputs are set to previous state upon power restore",
-                            "value": "1"
+                            "label": "State saved at power failure, all outputs are set to previous state upon power restore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "The function of 3-way switch provides the option to double key no. 1. The dimmer may control two bi-stable push-buttons or an infinite number of mono-stable push-buttons. Default 0.",
@@ -199,17 +171,14 @@
                     "index": "17",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "The dimmer communicate the level to the associated devices. Default 0.",
@@ -217,17 +186,14 @@
                     "index": "18",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This function allow user to change [On-Off] bi-stable keys (parameter no. 14). Default 0.",
@@ -235,17 +201,14 @@
                     "index": "19",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This function will enable decreasing the minimum level of the Dimmer by extending the control impulse.[100 - 170]. By changing the minimum level, the user may completely dim LED bulbs. Not all LED bulbs available on the market have the dimmming option. WARNING: Wrong setting of the function may cause incorrect operation of the Dimmer. INFO: THIS PARAMETER IS NOT AVAILABLE IN DEVICE FGD211 v2.1-2.3",
@@ -254,8 +217,7 @@
                     "items": [],
                     "max": "170",
                     "min": "100",
-                    "type": "byte",
-                    "value": "110"
+                    "type": "byte"
                 },
                 {
                     "help": "Alarm of any type (general alarm, water flooding alarm, smoke alarm: CO, CO2, temperature alarm).\n      Default 3.",
@@ -263,25 +225,20 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "DEACTIVATION - no response to alarm frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
-                            "value": "1"
+                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
-                            "value": "2"
+                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame"
                         },
                         {
-                            "label": "ALARM FLASHING - device will turn ON and OFF periodically (see param.39)",
-                            "value": "3"
+                            "label": "ALARM FLASHING - device will turn ON and OFF periodically (see param.39)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Amount of time the device keeps on flashing after receipt of Alarm Frame (1ms-65535ms). Default 600.",
@@ -291,8 +248,7 @@
                     "max": "65535",
                     "min": "1",
                     "type": "short",
-                    "units": "s",
-                    "value": "600"
+                    "units": "s"
                 },
                 {
                     "help": "Available settings: from 1 to 99 Parameters value changes depending on the dimming level.",
@@ -301,8 +257,7 @@
                     "items": [],
                     "max": "99",
                     "min": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "The device offers the possibility of sending commands compatible with Command class scene activation. Information is sent to devices assigned to association group no. 3. Controllers such as Home Center 2 are able to interpret such commands and based on these commands they activate scenes, to which specific scene IDs have been assigned. The user may expand the functionality of the button connected to inputs S1 and S2 by distinguishing the actions of keys connected to those inputs. For example: double click would activate the scene goodnight and triple click would activate the scene morning. Default 0.",
@@ -310,17 +265,14 @@
                     "index": "41",
                     "items": [
                         {
-                            "label": "Functionality deactivated",
-                            "value": "0"
+                            "label": "Functionality deactivated"
                         },
                         {
-                            "label": "Functionality activated",
-                            "value": "1"
+                            "label": "Functionality activated"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

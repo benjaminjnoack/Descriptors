@@ -12,8 +12,7 @@
                     "max": "65535",
                     "min": "1",
                     "type": "short",
-                    "units": "pulses",
-                    "value": "1024"
+                    "units": "pulses"
                 },
                 {
                     "help": "Defines the type of sensor.",
@@ -21,20 +20,17 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Pulse Meter",
-                            "value": "1"
+                            "label": "Pulse Meter"
                         },
                         {
-                            "label": "Rotating Wheel",
-                            "value": "2"
+                            "label": "Rotating Wheel"
                         }
                     ],
                     "max": "2",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "Additional time for feedback measurement.Should always be 0.",
@@ -44,8 +40,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Adjusts transmit signal so received signal will in average be equal to this values. Auto calibration might select another value than this.",
@@ -55,8 +50,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "50"
+                    "units": ""
                 },
                 {
                     "help": "Wake device up this many times per second. This value also controls number of measurements per second on mechanical meters.",
@@ -66,8 +60,7 @@
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "20"
+                    "units": "seconds"
                 },
                 {
                     "help": "Do not use. Set this value using WAKE_UP_INTERVAL_SET instead.",
@@ -77,8 +70,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "900"
+                    "units": "seconds"
                 },
                 {
                     "help": "Current pulse count in device (pulse count / pulse factor = kWh).",
@@ -88,8 +80,7 @@
                     "max": "2147483647",
                     "min": "0",
                     "type": "int",
-                    "units": "pulses/kWh",
-                    "value": "0"
+                    "units": "pulses/kWh"
                 },
                 {
                     "help": "How many 'ticks' before going back to sleep in normal wakeup mode.",
@@ -99,8 +90,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "int",
-                    "units": "pulses/kWh",
-                    "value": "60"
+                    "units": "pulses/kWh"
                 },
                 {
                     "help": "Set this to enter real-time mode from remote. Contains seconds * poll frequency before going back to sleep. If you press the button once this value will be set.",
@@ -110,8 +100,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "int",
-                    "units": "pulses/kWh",
-                    "value": "0"
+                    "units": "pulses/kWh"
                 }
             ]
         }

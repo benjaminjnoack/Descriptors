@@ -10,25 +10,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "ALL ON disabled/ ALL OFF disable - Default",
-                            "value": "0"
+                            "label": "ALL ON disabled/ ALL OFF disable - Default"
                         },
                         {
-                            "label": "ALL ON disabled/ ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON disabled/ ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF disabled",
-                            "value": "2"
+                            "label": "ALL ON active / ALL OFF disabled"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active / ALL OFF active"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": " ",
@@ -36,17 +31,14 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Turning on the shutter positioning function - Default",
-                            "value": "0"
+                            "label": "Turning on the shutter positioning function - Default"
                         },
                         {
-                            "label": "Turning off the shutter positioning function",
-                            "value": "1"
+                            "label": "Turning off the shutter positioning function"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Binary inputs type configuration",
@@ -54,21 +46,17 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Mono-stable switch (button) - Default",
-                            "value": "0"
+                            "label": "Mono-stable switch (button) - Default"
                         },
                         {
-                            "label": "Bi-stable switch (switch)",
-                            "value": "1"
+                            "label": "Bi-stable switch (switch)"
                         },
                         {
-                            "label": "Single Mono-stable switch",
-                            "value": "2"
+                            "label": "Single Mono-stable switch"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Options for changing parameter 1-99, default 16",
@@ -76,8 +64,7 @@
                     "index": "20",
                     "items": [],
                     "size": "1",
-                    "type": "byte",
-                    "value": "16"
+                    "type": "byte"
                 },
                 {
                     "help": " ",
@@ -85,21 +72,17 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "DEACTIVATION - the device does not respond to alarm data frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - the device does not respond to alarm data frames"
                         },
                         {
-                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm",
-                            "value": "1"
+                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm"
                         },
                         {
-                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm - Default",
-                            "value": "2"
+                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm - Default"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": " ",
@@ -107,21 +90,17 @@
                     "index": "31",
                     "items": [
                         {
-                            "label": "DEACTIVATION - the device does not respond to alarm data frames - Default",
-                            "value": "0"
+                            "label": "DEACTIVATION - the device does not respond to alarm data frames - Default"
                         },
                         {
-                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm",
-                            "value": "1"
+                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm"
                         },
                         {
-                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm",
-                            "value": "2"
+                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": " ",
@@ -129,21 +108,17 @@
                     "index": "32",
                     "items": [
                         {
-                            "label": "DEACTIVATION - the device does not respond to alarm data frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - the device does not respond to alarm data frames"
                         },
                         {
-                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm - Default",
-                            "value": "1"
+                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm - Default"
                         },
                         {
-                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm",
-                            "value": "2"
+                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": " ",
@@ -151,21 +126,17 @@
                     "index": "33",
                     "items": [
                         {
-                            "label": "DEACTIVATION - the device does not respond to alarm data frames",
-                            "value": "0"
+                            "label": "DEACTIVATION - the device does not respond to alarm data frames"
                         },
                         {
-                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm - Default",
-                            "value": "1"
+                            "label": "OPEN SHUTTER ALARM - the device closes the roller shutter after detecting an alarm - Default"
                         },
                         {
-                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm",
-                            "value": "2"
+                            "label": "CLOSED SHUTTER ALARM - the device opens the roller shutter after detecting an alarm"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": " Only valid for the 1.9 version of FGR221. The device offers the possibility of sending commands compatible with Command class scene activation. Information is sent to devices assigned to association group no. 3. Controllers such as Home Center 2 are able to interpret such commands and based on these commands they activate scenes, to which specific scene IDs have been assigned. The user may expand the functionality of the button connected to inputs S1 and S2 by distinguishing the actions of keys connected to those inputs. For example: double click would activate the scene goodnight and triple click would activate the scene morning.\n      ",
@@ -173,17 +144,14 @@
                     "index": "41",
                     "items": [
                         {
-                            "label": "Deactivation of functionality - Default",
-                            "value": "0"
+                            "label": "Deactivation of functionality - Default"
                         },
                         {
-                            "label": "Activation of functionality",
-                            "value": "1"
+                            "label": "Activation of functionality"
                         }
                     ],
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 }
             ]
         },

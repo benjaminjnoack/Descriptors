@@ -10,35 +10,28 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Mono-stable switch",
-                            "value": "0"
+                            "label": "Mono-stable switch"
                         },
                         {
-                            "label": "Bi-stable switch",
-                            "value": "1"
+                            "label": "Bi-stable switch"
                         },
                         {
-                            "label": "Potentiometer",
-                            "value": "2"
+                            "label": "Potentiometer"
                         },
                         {
-                            "label": "Temperature sensor",
-                            "value": "3"
+                            "label": "Temperature sensor"
                         },
                         {
-                            "label": "Illumination sensor",
-                            "value": "4"
+                            "label": "Illumination sensor"
                         },
                         {
-                            "label": "General purpose sensor",
-                            "value": "5"
+                            "label": "General purpose sensor"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Responds to commands ALL ON / ALL OFF that may be sent by the main controller or by other controller belonging to the system.",
@@ -46,27 +39,22 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "ALL ON active, ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active, ALL OFF active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF is not active",
-                            "value": "0"
+                            "label": "ALL ON is not active ALL OFF is not active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON is not active ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active ALL OFF is not active",
-                            "value": "2"
+                            "label": "ALL ON active ALL OFF is not active"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "0 => Auto OFF disabled. 1 - 32535  => 1 second (0,01s) - 32535 seconds (325,35s). Auto OFF enabled with define time, step is 1s or 10ms according to parameter 15. Default value 0",
@@ -75,8 +63,7 @@
                     "items": [],
                     "max": "32535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "0 - Auto OFF disabled. 1 - 32535  => 1 second (0,01s) - 32535 seconds (325,35s). Auto ON enabled with define time, step is 1s or 10ms according to parameter 15. Default value 0",
@@ -85,8 +72,7 @@
                     "items": [],
                     "max": "32535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "",
@@ -94,19 +80,16 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -114,19 +97,16 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "Saves state before power failure",
-                            "value": "0"
+                            "label": "Saves state before power failure"
                         },
                         {
-                            "label": "After a power failure, it returns to off position",
-                            "value": "1"
+                            "label": "After a power failure, it returns to off position"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\tThis parameter is influencing on the software only when the value of parameter number 1 is set to value 3, 4 or 5.\n\t\t\tIn manual mode regulation (how the input influence on output) is disabled.\n\t\t\t",
@@ -134,19 +114,16 @@
                     "index": "52",
                     "items": [
                         {
-                            "label": "Manual",
-                            "value": "0"
+                            "label": "Manual"
                         },
                         {
-                            "label": "Auto",
-                            "value": "1"
+                            "label": "Auto"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\tNOTE: When ZERO PID inside deadband is forced to zero. \n\t\t\tLast value means that PID remains on same level as was before entering into deadband.\n\t\t\t",
@@ -154,19 +131,16 @@
                     "index": "53",
                     "items": [
                         {
-                            "label": "Zero",
-                            "value": "0"
+                            "label": "Zero"
                         },
                         {
-                            "label": "Last value",
-                            "value": "1"
+                            "label": "Last value"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t0 to 100 => 0 to 100%, step is 1%. \n\t\t\tDefault value 1.\n\t\t\tNOTE: This parameter defines the zone where PID is not active. If the temperature difference between actual and setpoint is bigger than PID deadband, then the PID will start to regulate the system, otherwise the PID is zero or fixed.\n\t\t\t",
@@ -177,8 +151,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "1"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t0 to 127 => 0 to 127s, step is 1s. \n\t\t\tDefault value 1.\n\t\t\tParameter defines the time between samples. On each sample the controller capture difference between SP-act.\n\t\t\t",
@@ -189,8 +162,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconde",
-                    "value": "5"
+                    "units": "seconde"
                 },
                 {
                     "help": "\n\t\t\t0 to 1000, step is 1. \n\t\t\tDefault value 100.\n\t\t\t",
@@ -199,8 +171,7 @@
                     "items": [],
                     "max": "1000",
                     "min": "0",
-                    "type": "short",
-                    "value": "100"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t0 to 1000, step is 1. \n\t\t\tDefault value 1.\n\t\t\t",
@@ -209,8 +180,7 @@
                     "items": [],
                     "max": "1000",
                     "min": "0",
-                    "type": "short",
-                    "value": "1"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t0 to 1000, step is 1. \n\t\t\tDefault value 1.\n\t\t\t",
@@ -219,8 +189,7 @@
                     "items": [],
                     "max": "1000",
                     "min": "0",
-                    "type": "short",
-                    "value": "1"
+                    "type": "short"
                 },
                 {
                     "help": "1 - 98 = 1% - 98%, step is 1%. Minimum dimming values is set by entered value.\n\t\t\tDefault value 1 (Minimum dimming value is 1%).",
@@ -229,8 +198,7 @@
                     "items": [],
                     "max": "98",
                     "min": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "2 - 99 = 2% - 99%, step is 1%. Maximum dimming values is set by entered value.\n\t\t\tDefault value 99 (Maximum dimming value is 99%).",
@@ -239,8 +207,7 @@
                     "items": [],
                     "max": "99",
                     "min": "2",
-                    "type": "byte",
-                    "value": "99"
+                    "type": "byte"
                 },
                 {
                     "help": "Set value means time of moving the Dimmer between min. and max. dimming values by short press of push button I1 or controlled through.\n\t\t\t1- 255 = 10mseconds - 2550mseconds (2,55s), step is 10mseconds.\n\t\t\tDefault value 100 (Dimming time between min. and max. dimming values is 1s).",
@@ -249,8 +216,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "100"
+                    "type": "short"
                 },
                 {
                     "help": "Time of moving the Dimmer between min. and max dimming values by continues hold of push button I1.\n\t\t\t1- 255 = 1 second - 255 seconds.\n\t\t\tDefault value 3 (Dimming time between min. and max. dimming values is 3s).",
@@ -259,8 +225,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "3"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter is used with association group 4.\n\t\t\t\tA receiving device SHOULD respect the start level if the Ignore Start Level bit is 0.\n\t\t\t\tA receiving device MUST ignore the start level if the Ignore Start Level bit is 1.\n\t\t\t\tDefault value 0.",
@@ -268,19 +233,16 @@
                     "index": "67",
                     "items": [
                         {
-                            "label": "respect start level",
-                            "value": "0"
+                            "label": "respect start level"
                         },
                         {
-                            "label": "ignore start level",
-                            "value": "1"
+                            "label": "ignore start level"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter is used with association group 3.\n\t\t\t\tThe Duration field MUST specify the time that the transition should take from the current value to the new target value.\n\t\t\t\tA supporting device SHOULD respect the specified Duration value.\n\t\t\t\tDefault value 0.",
@@ -288,19 +250,16 @@
                     "index": "68",
                     "items": [
                         {
-                            "label": "Respect start level",
-                            "value": "0"
+                            "label": "Respect start level"
                         },
                         {
-                            "label": "Ignore start level",
-                            "value": "1"
+                            "label": "Ignore start level"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n                From 1 to 100 - value from 0.1 C to 10.0 C is added to actual measured temperature.\n                From 1001 to 1100 - value from -0.1 C to -10.0 C is subtracted to actual measured temperature.\n            ",
@@ -309,8 +268,7 @@
                     "items": [],
                     "max": "1100",
                     "min": "1",
-                    "type": "short",
-                    "value": "32536"
+                    "type": "short"
                 },
                 {
                     "help": "If digital temperature sensor is connected, module reports measured temperature on temperature change defined by this parameter.\n                Available settings: 0 - Reporting disabled.\n                1 - 127 = 0,1C - 12,7C, step is 0,1C.\n            ",
@@ -319,8 +277,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\tIf analogue sensor is connected, module reports measured value on change defined by this parameter.\n\t\t\t0 - Reporting disabled.\n\t\t\t1 to 10000, step is 0.1. \t\t\t\n\t\t\tDefault value 5 => 0.5C.\n            ",
@@ -329,8 +286,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "0",
-                    "type": "short",
-                    "value": "5"
+                    "type": "short"
                 },
                 {
                     "help": "Parameter is associated with Association group No. 2.\n\t\t\tBelow this value, the Association No. 2 will report Basic Set 0xFF and above this value will report Basic Set 0xFF.\n\t\t\tBasic Set is reported only, when the input value changes for more than 10% (1V). \n\t\t\tDefault setting: 5 (0.5V)\n\t\t\t1 to 100 => (0,1 to 10V) \n            ",
@@ -339,8 +295,7 @@
                     "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\tValue that must correspond to minimum sensor range value.\n\t\t\tValid only if parameter 1 is set to values 3, 4 or 5).\n\t\t\tdefault value 0 = 0.0C / 0Lux / 0.0%rh\n\t\t\t0 to 10000 => value from 0 to 1000 (resolution 0,1)\n\t\t\t10001 to 20000 => value from -0,1 to -1000 (resolution 0,1)\n\t\t\tNOTE: Minimum value must not be higher than maximum value!\n            ",
@@ -349,8 +304,7 @@
                     "items": [],
                     "max": "20000",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\tValue that must correspond to maximum sensor range value.\n\t\t\tValid only if parameter 1 is set to values 3, 4 or 5).\n\t\t\tdefault value 1000 = 100.0C / 100Lux / 100.0%rh\n\t\t\t0 to 10000 => value from 0 to 1000 (resolution 0,1)\n\t\t\t10001 to 20000 => value from -0,1 to -1000 (resolution 0,1)\n\t\t\tNOTE: Maximum value must not be lower than minimum value!\n            ",
@@ -359,8 +313,7 @@
                     "items": [],
                     "max": "20000",
                     "min": "0",
-                    "type": "short",
-                    "value": "1000"
+                    "type": "short"
                 }
             ]
         },

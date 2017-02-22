@@ -9,8 +9,7 @@
                     "label": "Set to Default",
                     "index": "1",
                     "items": [],
-                    "type": "byte",
-                    "value": "-1"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the time the beep is automatically turned off in seconds.",
@@ -18,33 +17,28 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Endless",
-                            "value": "-1"
+                            "label": "Endless"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "To configure the timeout to wait for a WAKEUP_NO_MORE_INFORMATION before the error beep is automatically sound. The error beeps are fixed 8 beeps shortly after each other.",
                     "label": "Feedback Timeout",
                     "index": "3",
                     "items": [],
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the number of beeps per second. Every beep is fixed about 10ms.",
                     "label": "Feedback Beeps per Second",
                     "index": "4",
                     "items": [],
-                    "type": "byte",
-                    "value": "2"
+                    "type": "byte"
                 },
                 {
                     "help": "To configure the operating mode. If any mode other then 3, that value will be reported after a get but will be handled in SW as mode 1.",
@@ -52,24 +46,20 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Mode 1: Normal operating mode.",
-                            "value": "1"
+                            "label": "Mode 1: Normal operating mode."
                         },
                         {
-                            "label": "Mode 3: Z-Wave chip is always on to request e.g. version or manufacturer id.",
-                            "value": "3"
+                            "label": "Mode 3: Z-Wave chip is always on to request e.g. version or manufacturer id."
                         }
                     ],
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "The time (*10 ms) that the RFID circuit is started after home or away is pressed (default 100 = 100*10ms=1s)",
                     "label": "RFID circuit startup time",
                     "index": "6",
                     "items": [],
-                    "type": "byte",
-                    "value": "100"
+                    "type": "byte"
                 }
             ]
         },

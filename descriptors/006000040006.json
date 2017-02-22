@@ -13,8 +13,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "",
-                    "value": "255"
+                    "units": ""
                 },
                 {
                     "help": "\n                The delaying time to report to Group 1\n            ",
@@ -25,8 +24,7 @@
                     "min": "3",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "3"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n                Remember the last status on plug\n            ",
@@ -34,20 +32,17 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Do not remember",
-                            "value": "0"
+                            "label": "Do not remember"
                         },
                         {
-                            "label": "Remember",
-                            "value": "1"
+                            "label": "Remember"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Set the interval for wattage auto report (0 = disabled)",
@@ -58,8 +53,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "1"
+                    "units": "minutes"
                 },
                 {
                     "help": "Set the interval for kWh auto report (0 = disabled)",
@@ -70,8 +64,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "60"
+                    "units": "minutes"
                 },
                 {
                     "help": "Auto report is sent when load surpasses the set value of wattage (0 = disabled)",
@@ -82,8 +75,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts",
-                    "value": "0"
+                    "units": "watts"
                 },
                 {
                     "help": "Auto report is sent when the change of wattage surpasses the set percentage (0 = disabled)",
@@ -94,8 +86,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "%",
-                    "value": "0"
+                    "units": "%"
                 }
             ]
         },

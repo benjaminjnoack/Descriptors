@@ -12,8 +12,7 @@
                     "max": "32767",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "720"
+                    "type": "short"
                 },
                 {
                     "help": "If the setting is configured for 1 hour(set value=6), the device will report its Accumulated power consumption (KW/h) every hour to Z_Wave controller. Unit: 10 min, Min: 1, Max: 32767, Default: 6",
@@ -23,8 +22,7 @@
                     "max": "32767",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "6"
+                    "type": "short"
                 },
                 {
                     "help": "This is a warning when the wattage of load over the present threshold value, if the load wattage exceeds the setting value the device will send a warning alarm command to the controller. Min: 10, Max: 3000, Default: 3000",
@@ -34,8 +32,7 @@
                     "max": "3000",
                     "min": "10",
                     "size": "2",
-                    "type": "short",
-                    "value": "3000"
+                    "type": "short"
                 },
                 {
                     "help": "0 for Switch Off, 1 for Last Switch State (Default), 2 for Switch On",
@@ -45,8 +42,7 @@
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "short",
-                    "value": "1"
+                    "type": "short"
                 }
             ]
         },

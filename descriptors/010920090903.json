@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Defines the auto time out of the alarm indication: [0] 30 seconds, [1] 60 seconds, [2] 120 seconds, [3] Continuous (Default setting: 0)",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 }
             ]
         },

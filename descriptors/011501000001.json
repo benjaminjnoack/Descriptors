@@ -10,24 +10,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Separately",
-                            "value": "0"
+                            "label": "Separately"
                         },
                         {
-                            "label": "In pair without double clicks (default)",
-                            "value": "1"
+                            "label": "In pair without double clicks (default)"
                         },
                         {
-                            "label": "In pair with double clicks",
-                            "value": "2"
+                            "label": "In pair with double clicks"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "In separate mode button 2 works with group 2, button 4 with groups 4. Click is On, Hold is dimming Up, Double click is Off, Click-Hold is dimming Down. In pair button 2/4 are Up/Down correspondingly. Click is On/Off, Hold is dimming Up/Down. Single clicks works with group 2, double click with group 4.",
@@ -35,24 +31,20 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Separately",
-                            "value": "0"
+                            "label": "Separately"
                         },
                         {
-                            "label": "In pair without double clicks (default)",
-                            "value": "1"
+                            "label": "In pair without double clicks (default)"
                         },
                         {
-                            "label": "In pair with double clicks",
-                            "value": "2"
+                            "label": "In pair with double clicks"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "In Switch On/Off only mode On command is sent on Dim Up, Off on Dim Down. In Scenes mode the scene ID sent is (10 * group + ActionID), where ActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 = Dim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop",
@@ -60,40 +52,32 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene Activation",
-                            "value": "4"
+                            "label": "Send Scene Activation"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control devices in proximity",
-                            "value": "6"
+                            "label": "Control devices in proximity"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "In Switch On/Off only mode On command is sent on Dim Up, Off on Dim Down. In Scenes mode the scene ID sent is (10 * group + ActionID), where ActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 = Dim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop",
@@ -101,40 +85,32 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene Activation",
-                            "value": "4"
+                            "label": "Send Scene Activation"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control devices in proximity",
-                            "value": "6"
+                            "label": "Control devices in proximity"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "In Switch On/Off only mode On command is sent on Dim Up, Off on Dim Down. In Scenes mode the scene ID sent is (10 * group + ActionID), where ActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 = Dim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop",
@@ -142,40 +118,32 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene Activation",
-                            "value": "4"
+                            "label": "Send Scene Activation"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control devices in proximity",
-                            "value": "6"
+                            "label": "Control devices in proximity"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "In Switch On/Off only mode On command is sent on Dim Up, Off on Dim Down. In Scenes mode the scene ID sent is (10 * group + ActionID), where ActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 = Dim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop",
@@ -183,40 +151,32 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene Activation",
-                            "value": "4"
+                            "label": "Send Scene Activation"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         },
                         {
-                            "label": "Control devices in proximity",
-                            "value": "6"
+                            "label": "Control devices in proximity"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": " Typical time used to differentiate click, hold and double clicks 1-100 in 10 ms units (default is 50, that is equivalent to 500 ms)",
@@ -227,8 +187,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "ms",
-                    "value": "50"
+                    "units": "ms"
                 },
                 {
                     "help": "Send the following Switch All ON/OFF commands",
@@ -236,24 +195,20 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "Switch Off only (default)",
-                            "value": "1"
+                            "label": "Switch Off only (default)"
                         },
                         {
-                            "label": "Switch On only",
-                            "value": "2"
+                            "label": "Switch On only"
                         },
                         {
-                            "label": "Switch On and Off",
-                            "value": "255"
+                            "label": "Switch On and Off"
                         }
                     ],
                     "max": "255",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Invert meaning of On/Dim up and Off/Dim down in pairs of buttons. This applies only to pairs in grouped mode. Buttons 1 and 2 will become Off/Dim down, buttons 3 and 4 On/Dim up.",
@@ -261,20 +216,17 @@
                     "index": "22",
                     "items": [
                         {
-                            "label": "No (default)",
-                            "value": "0"
+                            "label": "No (default)"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "To save batteries LED confirmation can be disabled.",
@@ -282,24 +234,20 @@
                     "index": "24",
                     "items": [
                         {
-                            "label": "No confirmations",
-                            "value": "0"
+                            "label": "No confirmations"
                         },
                         {
-                            "label": "Confirm button press",
-                            "value": "1"
+                            "label": "Confirm button press"
                         },
                         {
-                            "label": "Confirm button press and delivery (default)",
-                            "value": "2"
+                            "label": "Confirm button press and delivery (default)"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "If the KFOB wakes up and there is no controller nearby, several unsuccessful communication attempts will drain battery",
@@ -307,20 +255,17 @@
                     "index": "25",
                     "items": [
                         {
-                            "label": "Wakeup is blocked (default)",
-                            "value": "0"
+                            "label": "Wakeup is blocked (default)"
                         },
                         {
-                            "label": "Wakeup is possible if configured accordingly.",
-                            "value": "1"
+                            "label": "Wakeup is possible if configured accordingly."
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "",
@@ -328,24 +273,20 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "No (default)",
-                            "value": "0"
+                            "label": "No (default)"
                         },
                         {
-                            "label": "To same node as wakeup notification",
-                            "value": "1"
+                            "label": "To same node as wakeup notification"
                         },
                         {
-                            "label": "Broadcast",
-                            "value": "2"
+                            "label": "Broadcast"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

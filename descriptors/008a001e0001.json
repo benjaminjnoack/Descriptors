@@ -9,24 +9,21 @@
                     "label": "Set to Default",
                     "index": "1",
                     "items": [],
-                    "type": "byte",
-                    "value": "-1"
+                    "type": "byte"
                 },
                 {
                     "help": "The mode in which a different Z-Wave message is sent.",
                     "label": "Mode",
                     "index": "10",
                     "items": [],
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "The time that a user has to activate the double button pressed scene, if time is passed then the single pressed button scene is notified. (value * 10 ms)",
                     "label": "Double press time",
                     "index": "11",
                     "items": [],
-                    "type": "byte",
-                    "value": "20"
+                    "type": "byte"
                 },
                 {
                     "help": "A signed integer to determine the offset of the temperature.",
@@ -34,8 +31,7 @@
                     "index": "12",
                     "items": [],
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 }
             ]
         },

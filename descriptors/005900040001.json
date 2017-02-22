@@ -18,17 +18,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Celsius",
-                            "value": "1"
+                            "label": "Celsius"
                         },
                         {
-                            "label": "Fahrenheit",
-                            "value": "128"
+                            "label": "Fahrenheit"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the minimum temperature. Steps are 1C",
@@ -37,8 +34,7 @@
                     "items": [],
                     "max": "30",
                     "min": "5",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Defines the maximum temperature. Steps are 1C",
@@ -47,8 +43,7 @@
                     "items": [],
                     "max": "30",
                     "min": "5",
-                    "type": "byte",
-                    "value": "30"
+                    "type": "byte"
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1)\n        1 to 50, 1 or 0.1 (Default 5 = 0,5C) -> (1C = 10)\n      ",
@@ -57,8 +52,7 @@
                     "items": [],
                     "max": "50",
                     "min": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 }
             ]
         },

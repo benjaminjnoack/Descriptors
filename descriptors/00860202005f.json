@@ -10,28 +10,23 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Report absolute value",
-                            "value": "0"
+                            "label": "Report absolute value"
                         },
                         {
-                            "label": "Report algebraic sum energy",
-                            "value": "1"
+                            "label": "Report algebraic sum energy"
                         },
                         {
-                            "label": "Report consuming electricity",
-                            "value": "2"
+                            "label": "Report consuming electricity"
                         },
                         {
-                            "label": "Report generating electricity",
-                            "value": "3"
+                            "label": "Report generating electricity"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tEnable selective reporting only when power change reaches a certain threshold or percentage set in 4-11 below. This is used to reduce network traffic.\n\t\t\t",
@@ -39,20 +34,17 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tThreshold change in wattage to induce a automatic report (whole HEM).\n\t\t\t",
@@ -62,8 +54,7 @@
                     "max": "60000",
                     "min": "0",
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\t\t\t\tThreshold change in wattage to induce a automatic report (Clamp 1).\n\t\t\t",
@@ -73,8 +64,7 @@
                     "max": "60000",
                     "min": "0",
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\t\t\t\tThreshold change in wattage to induce a automatic report (Clamp 2).\n\t\t\t",
@@ -84,8 +74,7 @@
                     "max": "60000",
                     "min": "0",
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\t\t\t\tThreshold change in wattage to induce a automatic report (Clamp 3).\n\t\t\t",
@@ -95,8 +84,7 @@
                     "max": "60000",
                     "min": "0",
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\t\t\t\tPercentage change in wattage to induce a automatic report (whole HEM).\n\t\t\t",
@@ -106,8 +94,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tPercentage change in wattage to induce a automatic report (Clamp 1).\n\t\t\t",
@@ -117,8 +104,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tPercentage change in wattage to induce a automatic report (Clamp 2).\n\t\t\t",
@@ -128,8 +114,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tPercentage change in wattage to induce a automatic report (Clamp 3).\n\t\t\t",
@@ -139,8 +124,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\t\t\t\tEnable /disable reporting CRC-16 Encapsulation Command.\n\t\t\t",
@@ -148,20 +132,17 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tReset to default parameters number 101-103. Any value other then 0 will initiate this reset.\n\t\t\t",
@@ -176,8 +157,7 @@
                     "index": "101",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tWhich reports need to send in group2. Format is as follows:\n\t\t\t\tByte 1 (msb):\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for kVar) at the group time interval (Clamp 3)\n\t\t\t\tBit 4: Auto Send Meter Report (for kVar) at the group time interval (Clamp 2)\n\t\t\t\tBit 3: Auto Send Meter Report (for kVar) at the group time interval (Clamp 1)\n\t\t\t\tBit 2: Auto Send Meter Report (for KVah) at the group time interval (Clamp 3)\n\t\t\t\tBit 1: Auto Send Meter Report (for KVah) at the group time interval (Clamp 2)\n\t\t\t\tBit 0: Auto Send Meter Report (for KVah) at the group time interval (Clamp 1)\n\t\t\t\tByte 2:\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for A) at the group time interval (Clamp 3)\n\t\t\t\tBit 4: Auto Send Meter Report (for A) at the group time interval (Clamp 2)\n\t\t\t\tBit 3: Auto Send Meter Report (for A) at the group time interval (Clamp 1)\n\t\t\t\tBit 2: Auto Send Meter Report (for V) at the group time interval (Clamp 3)\n\t\t\t\tBit 1: Auto Send Meter Report (for V) at the group time interval (Clamp 2)\n\t\t\t\tBit 0: Auto Send Meter Report (for V) at the group time interval (Clamp 1)\n\t\t\t\tByte 3:\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n\t\t\t\tBit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n\t\t\t\tBit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n\t\t\t\tBit 2: Auto Send Meter Report (for Watt) at the group time interval (Clamp 3)\n\t\t\t\tBit 1: Auto Send Meter Report (for Watt) at the group time interval (Clamp 2)\n\t\t\t\tBit 0: Auto Send Meter Report (for Watt) at the group time interval (Clamp 1)\n\t\t\t\tByte 4 (lsb):\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for kVar) at the group time interval (Whole HEM)\n\t\t\t\tBit 4: Auto Send Meter Report (for KVah) at the group time interval (Whole HEM)\n\t\t\t\tBit 3: Auto Send Meter Report (for A) at the group time interval (Whole HEM)\n\t\t\t\tBit 2: Auto Send Meter Report (for V) at the group time interval (Whole HEM)\n\t\t\t\tBit 1: Auto Send Meter Report (for Watt) at the group time interval (Whole HEM)\n\t\t\t\tBit 0: Auto Send Meter Report (for kWh) at the group time interval (Whole HEM)\n\t\t\t",
@@ -185,8 +165,7 @@
                     "index": "102",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tWhich reports need to send in group3. Format is as follows:\n\t\t\t\tByte 1 (msb):\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for kVar) at the group time interval (Clamp 3)\n\t\t\t\tBit 4: Auto Send Meter Report (for kVar) at the group time interval (Clamp 2)\n\t\t\t\tBit 3: Auto Send Meter Report (for kVar) at the group time interval (Clamp 1)\n\t\t\t\tBit 2: Auto Send Meter Report (for KVah) at the group time interval (Clamp 3)\n\t\t\t\tBit 1: Auto Send Meter Report (for KVah) at the group time interval (Clamp 2)\n\t\t\t\tBit 0: Auto Send Meter Report (for KVah) at the group time interval (Clamp 1)\n\t\t\t\tByte 2:\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for A) at the group time interval (Clamp 3)\n\t\t\t\tBit 4: Auto Send Meter Report (for A) at the group time interval (Clamp 2)\n\t\t\t\tBit 3: Auto Send Meter Report (for A) at the group time interval (Clamp 1)\n\t\t\t\tBit 2: Auto Send Meter Report (for V) at the group time interval (Clamp 3)\n\t\t\t\tBit 1: Auto Send Meter Report (for V) at the group time interval (Clamp 2)\n\t\t\t\tBit 0: Auto Send Meter Report (for V) at the group time interval (Clamp 1)\n\t\t\t\tByte 3:\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n\t\t\t\tBit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n\t\t\t\tBit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n\t\t\t\tBit 2: Auto Send Meter Report (for Watt) at the group time interval (Clamp 3)\n\t\t\t\tBit 1: Auto Send Meter Report (for Watt) at the group time interval (Clamp 2)\n\t\t\t\tBit 0: Auto Send Meter Report (for Watt) at the group time interval (Clamp 1)\n\t\t\t\tByte 4 (lsb):\n\t\t\t\tBit 7: Reserved\n\t\t\t\tBit 6: Reserved\n\t\t\t\tBit 5: Auto Send Meter Report (for kVar) at the group time interval (Whole HEM)\n\t\t\t\tBit 4: Auto Send Meter Report (for KVah) at the group time interval (Whole HEM)\n\t\t\t\tBit 3: Auto Send Meter Report (for A) at the group time interval (Whole HEM)\n\t\t\t\tBit 2: Auto Send Meter Report (for V) at the group time interval (Whole HEM)\n\t\t\t\tBit 1: Auto Send Meter Report (for Watt) at the group time interval (Whole HEM)\n\t\t\t\tBit 0: Auto Send Meter Report (for kWh) at the group time interval (Whole HEM)\n\t\t\t",
@@ -194,8 +173,7 @@
                     "index": "103",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to default parameters number 111-113",
@@ -203,8 +181,7 @@
                     "index": "110",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "The interval of sending report group 1.",
@@ -212,8 +189,7 @@
                     "index": "111",
                     "items": [],
                     "type": "int",
-                    "units": "seconds",
-                    "value": "5"
+                    "units": "seconds"
                 },
                 {
                     "help": "The interval of sending report group 2",
@@ -221,8 +197,7 @@
                     "index": "112",
                     "items": [],
                     "type": "int",
-                    "units": "seconds",
-                    "value": "120"
+                    "units": "seconds"
                 },
                 {
                     "help": "The interval of sending report group 3",
@@ -230,28 +205,24 @@
                     "index": "113",
                     "items": [],
                     "type": "int",
-                    "units": "seconds",
-                    "value": "120"
+                    "units": "seconds"
                 },
                 {
                     "label": "Partner ID",
                     "index": "200",
                     "items": [
                         {
-                            "label": "Aeon Labs Standard Product",
-                            "value": "0"
+                            "label": "Aeon Labs Standard Product"
                         },
                         {
-                            "label": "Other",
-                            "value": "1"
+                            "label": "Other"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Lock/ unlock all configuration parameters",
@@ -259,19 +230,16 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -279,21 +247,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\r\n\t\t\t\tSIG1 triggered/untriggered sets or clears Relay1. \r\n\t\t\t\tRefer to description in User Manual under section, Input to Relay Mapping. Note\r\n\t\t\t\tthat neither a Basic Report nor a Binary Switch Report is sent when relay is\r\n\t\t\t\tautomatically set or cleared by Trigger Mapping. Only applies to the Relay1 output.\r\n\t\t\t",
@@ -23,8 +22,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\r\n\t\t\t\tSIG1 high lower threshold. \r\n\t\t\t\tMust be less than Upper Threshold Low and greater than Lower Threshold Low.\r\n\t\t\t",
@@ -33,8 +31,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "187"
+                    "type": "byte"
                 },
                 {
                     "help": "\r\n\t\t\t\tSIG1 low lower threshold.\r\n\t\t\t",
@@ -43,8 +40,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "171"
+                    "type": "byte"
                 },
                 {
                     "help": "\r\n\t\t\t\tSIG1 high upper threshold.\r\n\t\t\t",
@@ -53,8 +49,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "\r\n\t\t\t\tSIG1 low upper threshold.\r\n\t\t\t\tMust be greater than Lower Threshold High and less than Upper Threshold High.\r\n\t\t\t",
@@ -63,8 +58,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "254"
+                    "type": "byte"
                 },
                 {
                     "help": "\r\n\t\t\t\tBits 7 - 2 are ignored and should be set to 0\r\n\r\n\t\t\t\tBit1 : Digital-Configuration flag\r\n\t\t\t\t\t1=Set Trigger levels for this channel to digital thresholds (approx. 1V); Default\r\n\t\t\t\t\t0=Set Trigger levels to analog thresholds (see parameters 4 through 7)\r\n\r\n\t\t\t\tBit0 : Trigger-Between-Thresholds flag (see below)\r\n\t\t\t\t\t1 = Set to triggered when input falls between thresholds; Default\r\n\t\t\t\t\t0 = Set to triggered when input falls outside of thresholds\r\n\t\t\t",
@@ -72,27 +66,22 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Trigger outside thresholds, analog trigger thresholds",
-                            "value": "0"
+                            "label": "Trigger outside thresholds, analog trigger thresholds"
                         },
                         {
-                            "label": "Trigger between thresholds, analog trigger thresholds",
-                            "value": "1"
+                            "label": "Trigger between thresholds, analog trigger thresholds"
                         },
                         {
-                            "label": "Trigger outside thresholds, digital trigger thresholds",
-                            "value": "2"
+                            "label": "Trigger outside thresholds, digital trigger thresholds"
                         },
                         {
-                            "label": "Trigger between thresholds, digital trigger thresholds",
-                            "value": "3"
+                            "label": "Trigger between thresholds, digital trigger thresholds"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "\r\n\t\t\t\tPeriodic send interval of Multilevel Sensor Reports (Association Group 2) and/or\r\n\t\t\t\tPulse Count Reports (Association Group 5) for SIG1. This parameter has a resolution\r\n\t\t\t\tof 10 seconds; for example, 1 = 10 seconds, 2 = 20 seconds, 3 = 30 seconds (Default),\r\n\t\t\t\t... 255 = 2550 seconds = 42.5 minutes. A value of 0 disables automatic reporting.\r\n\t\t\t",
@@ -102,8 +91,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "10 minutes",
-                    "value": "3"
+                    "units": "10 minutes"
                 },
                 {
                     "help": "\r\n\t\t\t\tMomentary Relay1 output enable/disable.\r\n\t\t\t\t1..255 = enable / value sets the approximate momentary on time in increments\r\n\t\t\t\tof 100msec.\r\n\t\t\t",
@@ -113,8 +101,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "100 msec",
-                    "value": "0"
+                    "units": "100 msec"
                 }
             ]
         },

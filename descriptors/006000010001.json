@@ -12,8 +12,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "99"
+                    "units": ""
                 },
                 {
                     "help": "\n\tThe Detecting function can be Disabled of Enabled.\n      ",
@@ -22,8 +21,7 @@
                     "items": [],
                     "max": "3",
                     "min": "0",
-                    "type": "bool",
-                    "value": "1"
+                    "type": "bool"
                 },
                 {
                     "help": "\n\t1 Means lowest sensitivity and 10 means highest.\n      ",
@@ -33,8 +31,7 @@
                     "max": "10",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "6"
+                    "units": ""
                 },
                 {
                     "help": "\n\tAdjust the interval of being re-triggered afer the detector has\tbeen triggered in seconds.\n      ",
@@ -44,8 +41,7 @@
                     "max": "3600",
                     "min": "5",
                     "type": "byte",
-                    "units": "Seconds",
-                    "value": "180"
+                    "units": "Seconds"
                 },
                 {
                     "help": "\n\tSets minimum Lux Level of ambient illumination neccesary for Motion Detector to trigger.\n      ",
@@ -55,8 +51,7 @@
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\tThe duration determines how long before the module sends an Off after being triggered.\n      ",
@@ -66,8 +61,7 @@
                     "max": "3600",
                     "min": "5",
                     "type": "byte",
-                    "units": "Seconds",
-                    "value": "15"
+                    "units": "Seconds"
                 }
             ]
         },

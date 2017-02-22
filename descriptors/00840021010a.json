@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "4"
+                    "units": "degrees"
                 },
                 {
                     "help": "",
@@ -23,8 +22,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees",
-                    "value": "70"
+                    "units": "degrees"
                 }
             ]
         },

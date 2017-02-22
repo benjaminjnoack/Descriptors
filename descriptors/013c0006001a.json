@@ -20,8 +20,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "5 sec",
-                    "value": "720"
+                    "units": "5 sec"
                 },
                 {
                     "help": "",
@@ -31,8 +30,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "5 sec",
-                    "value": "720"
+                    "units": "5 sec"
                 },
                 {
                     "help": "",
@@ -40,23 +38,19 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "CT1 and CT2",
-                            "value": "1"
+                            "label": "CT1 and CT2"
                         },
                         {
-                            "label": "CT1",
-                            "value": "2"
+                            "label": "CT1"
                         },
                         {
-                            "label": "CT2",
-                            "value": "3"
+                            "label": "CT2"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -66,8 +60,7 @@
                     "max": "750",
                     "min": "10",
                     "type": "short",
-                    "units": "0.01 Amp",
-                    "value": "750"
+                    "units": "0.01 Amp"
                 },
                 {
                     "help": "",
@@ -77,8 +70,7 @@
                     "max": "10000",
                     "min": "1",
                     "type": "short",
-                    "units": "KWh",
-                    "value": "10000"
+                    "units": "KWh"
                 }
             ]
         },

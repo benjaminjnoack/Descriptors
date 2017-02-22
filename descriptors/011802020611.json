@@ -10,17 +10,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Blue Indicator Off",
-                            "value": "0"
+                            "label": "Blue Indicator Off"
                         },
                         {
-                            "label": "Blue Indicator On",
-                            "value": "1"
+                            "label": "Blue Indicator On"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

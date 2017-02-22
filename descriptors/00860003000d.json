@@ -12,8 +12,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Load will be closed when the Current overruns (EU 16.2A) for more than 2 minutes",
@@ -21,20 +20,17 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Deactivate Overload Protection (Default)",
-                            "value": "0"
+                            "label": "Deactivate Overload Protection (Default)"
                         },
                         {
-                            "label": "Active Overload Protection",
-                            "value": "1"
+                            "label": "Active Overload Protection"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Defines the automated status notification of an associated device when status changes",
@@ -42,24 +38,20 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "Nothing",
-                            "value": "0"
+                            "label": "Nothing"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enable/disable Wattage threshold and percent.",
@@ -67,8 +59,7 @@
                     "index": "90",
                     "items": [],
                     "type": "bool",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "The value represents the minimum change in wattage for a Report to be sent (default 25 W)",
@@ -79,8 +70,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts",
-                    "value": "25"
+                    "units": "watts"
                 },
                 {
                     "help": "The value represents the minimum percentage change in wattage for a Report to be sent (Default 5)",
@@ -90,8 +80,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "5"
+                    "units": "%"
                 },
                 {
                     "help": "Set report types for groups 1, 2 and 3 to default.",
@@ -107,8 +96,7 @@
                     "index": "101",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "\n\tDefines the type of report sent for reporting group 2. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 lsb) \n\t        bits 7-4 reserved\n            bit 3 MRC(KWH)\n\t\t    bit 2 MRC(watt)\n\t\t    bit 1 MSRC\n\t\t    bit 0 reserved\n\n\tThe MRC(KWH) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(KWh) automatically.\n\n\tThe MRC(Watt) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(wattage) automatically.\n\n\tThe MSRC flag signals that Report Group 1 send(1) or don't send(0)\n\tMultilevel Sensor Report Command(wattage) automatically.\n      ",
@@ -116,8 +104,7 @@
                     "index": "102",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "\n\tDefines the type of report sent for reporting group 3. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) \n\t\t\tbits 7-4 reserved\n            bit 3 MRC(KWH)\n\t\t    bit 2 MRC(watt)\n\t\t    bit 1 MSRC\n\t\t    bit 0 reserved\n\n\tThe MRC(KWH) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(KWh) automatically.\n\n\tThe MRC(Watt) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(wattage) automatically.\n\n\tThe MSRC flag signals that Report Group 1 send(1) or don't send(0)\n\tMultilevel Sensor Report Command(wattage) automatically.\n      ",
@@ -125,8 +112,7 @@
                     "index": "103",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Set time interval for sending reports for groups 1, 2 and 3 to default.",
@@ -134,8 +120,7 @@
                     "index": "110",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 1 is sent.",
@@ -146,8 +131,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 2 is sent.",
@@ -158,8 +142,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 3 is sent.",
@@ -170,8 +153,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Set External Switch/Button Control mode",
@@ -179,20 +161,17 @@
                     "index": "120",
                     "items": [
                         {
-                            "label": "Momentary button mode",
-                            "value": "0"
+                            "label": "Momentary button mode"
                         },
                         {
-                            "label": "2 state switch mode",
-                            "value": "1"
+                            "label": "2 state switch mode"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Device tag.",
@@ -202,8 +181,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to the default configuration.",

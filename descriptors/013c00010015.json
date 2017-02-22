@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "32767",
                     "min": "1",
-                    "type": "short",
-                    "value": "720"
+                    "type": "short"
                 },
                 {
                     "help": "kWH Meter Report Period. Unit: 10 minutes.",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "32767",
                     "min": "1",
-                    "type": "short",
-                    "value": "6"
+                    "type": "short"
                 },
                 {
                     "help": "Threshold of Watt for Load Caution. Unit: 1 watt",
@@ -31,8 +29,7 @@
                     "items": [],
                     "max": "1100",
                     "min": "10",
-                    "type": "short",
-                    "value": "1100"
+                    "type": "short"
                 },
                 {
                     "help": "Threshold of kWH for Load Caution. Unit: 1 kWH",
@@ -41,8 +38,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "1",
-                    "type": "short",
-                    "value": "10000"
+                    "type": "short"
                 },
                 {
                     "help": "External switch type: 1-> One Push button, 2->Two Push button",
@@ -51,8 +47,7 @@
                     "items": [],
                     "max": "2",
                     "min": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "Level report mode: 1-> Report destination level in 5s, 2-> Report 10 percent level while running",
@@ -61,8 +56,7 @@
                     "items": [],
                     "max": "2",
                     "min": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 }
             ]
         },

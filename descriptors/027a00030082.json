@@ -13,8 +13,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "You can choose if your Contact Sensor turns an associated device on or off when sending the basic command set.  Value of 0 will set the associated device OFF and value 255 to turn it on.  Value between 1 and 99 will be a percentage of light.  Value between 100-254 are invalid.",
@@ -24,8 +23,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 }
             ]
         },

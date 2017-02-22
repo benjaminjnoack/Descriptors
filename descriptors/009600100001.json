@@ -16,8 +16,7 @@
                     "max": "655350",
                     "min": "1",
                     "type": "short",
-                    "units": "",
-                    "value": "10000"
+                    "units": ""
                 },
                 {
                     "help": "Defines the meter type on which the Power Reader is placed",
@@ -25,20 +24,17 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Magnetic contact meter",
-                            "value": "1"
+                            "label": "Magnetic contact meter"
                         },
                         {
-                            "label": "Silver spot meter",
-                            "value": "2"
+                            "label": "Silver spot meter"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "\n      \tAdditional time for feedback measurement.\n      \tShould always be 0.\n     ",
@@ -48,8 +44,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n      \tAdjusts transmit signal so received signal will in average be equal to this values. \n      \tAuto calibration might select another value than this.\n      ",
@@ -59,8 +54,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "50"
+                    "units": ""
                 },
                 {
                     "help": "\n      \tWake device up this many times per second. \n      \tThis value also controls number of measurements per second on mechanical meters.\n     ",
@@ -70,8 +64,7 @@
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "20"
+                    "units": "seconds"
                 },
                 {
                     "help": "In order for the Power Reader to report the proper total meter consumption the value for this registered has to be initialized with total_meter_consumption_stated_on_the_meter * impulse factor.",
@@ -82,8 +75,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "set to the number of seconds that it will take the controlling node to send a response / request to the wake up notification",
@@ -94,8 +86,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "second",
-                    "value": "3"
+                    "units": "second"
                 },
                 {
                     "help": "Set this to enter real-time mode from remote. Contains seconds * poll frequency before going back to sleep. If you press the button once this value will be set.",
@@ -106,8 +97,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "The serial numbers written on the Power Reader are in HEX",
@@ -115,8 +105,7 @@
                     "index": "12",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Debug Mode",
@@ -124,20 +113,17 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "LED blinks at pulse counting",
-                            "value": "1"
+                            "label": "LED blinks at pulse counting"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "The calibration progress is calculated as (value[1] - 65 + value[2] / value[3]) * 25\n\t\t\tThe calibration is finished successfully when value[0] = 2 and value[2] = value[3].\n\t\t\tThe calibration has failed if value[0] != 1 OR (value[0] = 2 AND value[2] != value[3])",
@@ -145,8 +131,7 @@
                     "index": "15",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 }
             ]
         }

@@ -5,11 +5,11 @@
 console.time('runtime');
 
 const
+  FILE = `manufacturer_specific.xml`,
   ManufacturerSpecific = require('./modules/ManufacturerSpecific');
 
-let file = `manufacturer_specific.xml`;
+let m = new ManufacturerSpecific(FILE);
 
-let m = new ManufacturerSpecific(file);
 m.parse()
   .then((results) => {
     console.log(`RESULTS: ${results.length}`);

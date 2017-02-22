@@ -10,21 +10,17 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Scenes and groups",
-                            "value": "0"
+                            "label": "Scenes and groups"
                         },
                         {
-                            "label": "Scenes",
-                            "value": "1"
+                            "label": "Scenes"
                         },
                         {
-                            "label": "Groups",
-                            "value": "2"
+                            "label": "Groups"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
@@ -32,8 +28,7 @@
                     "index": "4",
                     "items": [],
                     "size": "1",
-                    "type": "bool",
-                    "value": "False"
+                    "type": "bool"
                 }
             ]
         },

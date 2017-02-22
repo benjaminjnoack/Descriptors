@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "255"
+                    "units": ""
                 },
                 {
                     "help": "\n\tDelaying time to report to Group 1\n      ",
@@ -23,8 +22,7 @@
                     "max": "25",
                     "min": "3",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "3"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\tRemember the last status: 0 (do not remember) | 1 (remember)\n      ",
@@ -34,8 +32,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t0: Single Pole Double Throw (1: Toggle switch)\n      ",
@@ -45,8 +42,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tOutput mode setting: 0 (dimming) | 1 (on/off)\n      ",
@@ -56,8 +52,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

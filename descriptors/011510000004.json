@@ -12,20 +12,17 @@
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "x 10 milliseconds",
-                    "value": "50"
+                    "units": "x 10 milliseconds"
                 },
                 {
                     "label": "Invert buttons",
                     "index": "11",
                     "items": [
                         {
-                            "label": "No (default)",
-                            "value": "0"
+                            "label": "No (default)"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "max": "1",
@@ -40,28 +37,23 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On, Off and dim using Basic Set (default)",
-                            "value": "1"
+                            "label": "Switch On, Off and dim using Basic Set (default)"
                         },
                         {
-                            "label": "Switch All On/Off",
-                            "value": "2"
+                            "label": "Switch All On/Off"
                         },
                         {
-                            "label": "Scene Activation",
-                            "value": "3"
+                            "label": "Scene Activation"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Defines which command should be sent on button double press or press-hold. Basic commands are sent to Association group. Switch All commands are sent broadcast. If not disabled, the device will wait for a click timeout to see if the second click would be pressed. This will introduce a small delay for single click commands.",
@@ -69,52 +61,43 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Disabled (don't wait for double click, default)",
-                            "value": "0"
+                            "label": "Disabled (don't wait for double click, default)"
                         },
                         {
-                            "label": "Switch On, Off and dim using Basic Set",
-                            "value": "1"
+                            "label": "Switch On, Off and dim using Basic Set"
                         },
                         {
-                            "label": "Switch All On/Off",
-                            "value": "2"
+                            "label": "Switch All On/Off"
                         },
                         {
-                            "label": "Scene Activation",
-                            "value": "3"
+                            "label": "Scene Activation"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "label": "Send the following Switch All commands",
                     "index": "15",
                     "items": [
                         {
-                            "label": "Switch All Off only (default)",
-                            "value": "1"
+                            "label": "Switch All Off only (default)"
                         },
                         {
-                            "label": "Switch All On only",
-                            "value": "2"
+                            "label": "Switch All On only"
                         },
                         {
-                            "label": "Switch All On and Off",
-                            "value": "255"
+                            "label": "Switch All On and Off"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Send unsolicited battery report on wakeup.",
@@ -122,24 +105,20 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "No (default)",
-                            "value": "0"
+                            "label": "No (default)"
                         },
                         {
-                            "label": "To same node as wakeup notification",
-                            "value": "1"
+                            "label": "To same node as wakeup notification"
                         },
                         {
-                            "label": "Broadcast",
-                            "value": "2"
+                            "label": "Broadcast"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

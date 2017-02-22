@@ -10,29 +10,23 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "In Out",
-                            "value": "0"
+                            "label": "In Out"
                         },
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the status of the output O1/O2 when the switch connected to I1/I2 receives 2 Click",
@@ -40,25 +34,20 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n                Defines if the outputs are controlled individually, as a traditional device with two channels, or if its behaviour simulates a single pole double throw relay.\n                0 - SINGLE CHANNELS (Default Value) => Channel 1 and Channel 2 are controlled individually.\n                From 1 to 9 - SINGLE POLE DOUBLE THROW RELAY => The two channels are in opposite status. If the Channel 1 is close the Channel 2 is open, if the Channel 1 is open the Channel 2 is close. The value of the parameter defines the closing delay of the relay in tenth of seconds\n                From 10 to 19 - SEQUENCING RELAY => Channels are toggled in this way: both channels ON, only channel 1 ON, only channel 2 ON, both channels OFF. The value of the parameter, deducted of 9, defines the closing delay of the relay in tenth of seconds.\n                From 20 to 39 - SELECTOR => Both channels can be OFF but they can never be ON simultaneously. It can be used for fan coil control, roller shutters, and in general for two-speed systems. The value of the parameter, deducted of 19, defines the closing delay of the relay in tenth of seconds.\n            ",
@@ -66,8 +55,7 @@
                     "index": "3",
                     "items": [],
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "This parameter allows to choose operating for the 1st channel controlled by the S1 switch.",
@@ -75,17 +63,14 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "1 Click",
-                            "value": "1"
+                            "label": "1 Click"
                         },
                         {
-                            "label": "2 Clicks",
-                            "value": "2"
+                            "label": "2 Clicks"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "\n                0 - SWITCH_OFF The associated devices are switched OFF.\n                -1 - SWITCH_ON The associated devices are switched ON.\n                From 1 to 99 The associated devices (dimmer, roller shutters) are set to the indicated level (only for devices associated to group 3).\n                100 - RELAY_STATUS (Default Value) If the Relay 1 is ON/OFF, the associated devices are ON/OFF.\n                101 - RELAY_STATUS_BUT_IGNORE_IF_OFF If the Relay 1 is ON the associated devices are ON; if it is OFF no action is taken on the associated devices.\n                102 - RELAY_STATUS_BUT_IGNORE_IF_ON If the Relay 1 is OFF the associated devices are OFF; if it is ON no action is taken on the associated devices.\n                103 - RELAY_OPPOSITE_BUT_IGNORE_IF_OFF If the Relay 1 is ON the associated devices are OFF; if it is OFF no action is taken on the associated devices.\n                104 - RELAY_OPPOSITE_BUT_IGNORE_IF_ON If the Relay 1 is OFF the associated devices are ON; if it is ON no action is taken on the associated devices.\n                105 - RELAY_OPPOSITE If the Relay 1 is ON/OFF, the associated devices are OFF/ON.\n                106 - IGNORE No action is taken on the associated devices.\n            ",
@@ -93,8 +78,7 @@
                     "index": "5",
                     "items": [],
                     "size": "1",
-                    "type": "byte",
-                    "value": "100"
+                    "type": "byte"
                 },
                 {
                     "help": "\n                0 - SWITCH_OFF The associated devices are switched OFF.\n                -1 - SWITCH_ON The associated devices are switched ON.\n                From 1 to 99 The associated devices (dimmer, roller shutters) are set to the indicated level (only for devices associated to group 5).\n                100 - RELAY_STATUS (Default Value) If the Relay 2 is ON/OFF, the associated devices are ON/OFF.\n                101 - RELAY_STATUS_BUT_IGNORE_IF_OFF If the Relay 2 is ON the associated devices are ON; if it is OFF no action is taken on the associated devices.\n                102 - RELAY_STATUS_BUT_IGNORE_IF_ON If the Relay 2 is OFF the associated devices are OFF; if it is ON no action is taken on the associated devices.\n                103 - RELAY_OPPOSITE_BUT_IGNORE_IF_OFF If the Relay 2 is ON the associated devices are OFF; if it is OFF no action is taken on the associated devices.\n                104 - RELAY_OPPOSITE_BUT_IGNORE_IF_ON If the Relay 2 is OFF the associated devices are ON; if it is ON no action is taken on the associated devices.\n                105 - RELAY_OPPOSITE If the Relay 2 is ON/OFF, the associated devices are OFF/ON.\n                106 - IGNORE No action is taken on the associated devices.\n            ",
@@ -102,8 +86,7 @@
                     "index": "6",
                     "items": [],
                     "size": "1",
-                    "type": "byte",
-                    "value": "100"
+                    "type": "byte"
                 },
                 {
                     "help": "\n                Defines the time after which the Channel 1 is switched OFF.\n                0 (Default Value) Timer disabled.\n                From 1 to 32000 (seconds) After this time the relay of the Channel 1 is OFF.\n            ",
@@ -114,8 +97,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n                Defines the time after which the Channel 2 is switched OFF.\n                0 (Default Value) Timer disabled.\n                From 1 to 32000 (seconds) After this time the relay of the Channel 1 is OFF.\n            ",
@@ -126,8 +108,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n                Defines the time after which the Channel 1 is switched ON.\n                0 (Default Value) Timer disabled.\n                From 1 to 32000 (seconds) After this time the relay of the Channel 1 is ON.\n            ",
@@ -138,8 +119,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n                Defines the time after which the Channel 2 is switched ON.\n                0 (Default Value) Timer disabled.\n                From 1 to 32000 (seconds) After this time the relay of the Channel 1 is ON.\n            ",
@@ -150,8 +130,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 },
                 {
                     "help": "The two channels can be controlled individually by Z-Wave network.\n                The status of the channels upon receipt of a Multi-Channel Basic Set command is defined by the value set on the parameter.\n            ",
@@ -159,25 +138,20 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "As Received",
-                            "value": "1"
+                            "label": "As Received"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "The channels of the device can be controlled individually from all other Z-Wave devices that support the multichannel feature.\n                In order to support also the integration with no-multichannel systems, this parameter allows to define if the receipt of a no-multichannel command controls only the Channel 1 or both.\n            ",
@@ -185,17 +159,14 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "Channel 1",
-                            "value": "1"
+                            "label": "Channel 1"
                         },
                         {
-                            "label": "Both Channels",
-                            "value": "3"
+                            "label": "Both Channels"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the status of the device following a restart.",
@@ -203,29 +174,23 @@
                     "index": "60",
                     "items": [
                         {
-                            "label": "Off Off",
-                            "value": "0"
+                            "label": "Off Off"
                         },
                         {
-                            "label": "On Off",
-                            "value": "1"
+                            "label": "On Off"
                         },
                         {
-                            "label": "Off On",
-                            "value": "2"
+                            "label": "Off On"
                         },
                         {
-                            "label": "On On",
-                            "value": "3"
+                            "label": "On On"
                         },
                         {
-                            "label": "Previous status",
-                            "value": "4"
+                            "label": "Previous status"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "4"
+                    "type": "list"
                 },
                 {
                     "help": "Defines which parameters should be reset to default values.",
@@ -233,29 +198,23 @@
                     "index": "61",
                     "items": [
                         {
-                            "label": "Factory Reset",
-                            "value": "0"
+                            "label": "Factory Reset"
                         },
                         {
-                            "label": "Association Reset",
-                            "value": "1"
+                            "label": "Association Reset"
                         },
                         {
-                            "label": "Configuration Reset",
-                            "value": "2"
+                            "label": "Configuration Reset"
                         },
                         {
-                            "label": "Restart Device",
-                            "value": "3"
+                            "label": "Restart Device"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "4"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the type of external switch connected to the device.",
@@ -263,21 +222,17 @@
                     "index": "62",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "Momentary switch",
-                            "value": "1"
+                            "label": "Momentary switch"
                         },
                         {
-                            "label": "Toggle switch",
-                            "value": "2"
+                            "label": "Toggle switch"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

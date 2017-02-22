@@ -10,20 +10,17 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Full brightness",
-                            "value": "0"
+                            "label": "Full brightness"
                         },
                         {
-                            "label": "Last brightness setting",
-                            "value": "1"
+                            "label": "Last brightness setting"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t  You may change the dimming step level when you adjust the brightness by your controller/gateway.\n\t  When the value is low, dimming/brightening is gradual.\n\t  When the value is high, dimming/brightening is rapid.\n\t  ",
@@ -33,8 +30,7 @@
                     "max": "99",
                     "min": "1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t  You may change the dimming speed quicker or slower.\n\t  When the value is low, the step timing is quick.\n\t  When the value is high, the step timing is slow.\n\t  ",
@@ -44,8 +40,7 @@
                     "max": "10",
                     "min": "1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "3"
+                    "type": "byte"
                 }
             ]
         },

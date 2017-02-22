@@ -3,11 +3,10 @@
  */
 'use strict';
 
-const File          = require('./File'),
-      Manufacturer  = require('./Manufacturer');
-
-const MANUFACTURER_SPECIFIC_DATA  = 'ManufacturerSpecificData',
-      MANUFACTURER                = 'Manufacturer';
+const
+  File          = require('./File'),
+  h             = require('./h'),
+  Manufacturer  = require('./Manufacturer');
 
 class ManufacturerSpecific extends File {
   constructor(path) {
@@ -17,8 +16,8 @@ class ManufacturerSpecific extends File {
   parse() {
     return super.parse()
       .then((results) => {
-        results = results[MANUFACTURER_SPECIFIC_DATA];
-        results = results[MANUFACTURER];//An Array
+        results = results[h.MSD];
+        results = results[h.MANUFACTURER];//An Array
         return ManufacturerSpecific.buildManufacturers(results);
       });
   }

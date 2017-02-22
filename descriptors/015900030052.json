@@ -10,27 +10,22 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "ALL ON active, ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active, ALL OFF active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF is not active",
-                            "value": "0"
+                            "label": "ALL ON is not active ALL OFF is not active"
                         },
                         {
-                            "label": "ALL ON is not active ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON is not active ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active ALL OFF is not active",
-                            "value": "2"
+                            "label": "ALL ON active ALL OFF is not active"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Set value from 0 - 100 (0% - 100%). 0 - Reporting Disabled. 1 - 100 = 1% - 100% Reporting enabled. Power report is send (push) only when actual power (in Watts) in real time changes for more than set percentage comparing to previous actual power in Watts, step is 1%. Default value 1",
@@ -41,8 +36,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "1"
+                    "units": "%"
                 },
                 {
                     "help": "Set value means time interval (0 - 65535) in seconds, when power report is send. 0 - Reporting Disabled. 1 - 65535 = 1second - 65535 seconds. Reporting enabled. Power report is send with time interval set by entered value. Default value 300 (power report in Watts is send each 300s)",
@@ -52,8 +46,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "s",
-                    "value": "300"
+                    "units": "s"
                 },
                 {
                     "help": "This parameter defines selection between two available operating modes",
@@ -61,19 +54,16 @@
                     "index": "71",
                     "items": [
                         {
-                            "label": "Shutter mode",
-                            "value": "0"
+                            "label": "Shutter mode"
                         },
                         {
-                            "label": "Venetian mode (up/down and slate rotation)",
-                            "value": "1"
+                            "label": "Venetian mode (up/down and slate rotation)"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tThis parameter defines the time necessary for slats to make full turn (180 degrees)\n\t\t\t\tdefault value 150 = 1,5 seconds\n\t\t\t\t0 - Tilting time disabled\n\t\t\t\t1 - 32767 = 0,01seconds - 327,67 seconds\n\t\t\t\t",
@@ -83,8 +73,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "s",
-                    "value": "150"
+                    "units": "s"
                 },
                 {
                     "help": "This parameter defines slats position after up/down movement through Z-wave or push-buttons\n\t\t\t\tSlats return to previously set position only in case of\n\t\t\t\t",
@@ -92,19 +81,16 @@
                     "index": "73",
                     "items": [
                         {
-                            "label": "Z-wave control",
-                            "value": "0"
+                            "label": "Z-wave control"
                         },
                         {
-                            "label": "Z-wave control, push-button operation or when the lower limit switch is reached",
-                            "value": "1"
+                            "label": "Z-wave control, push-button operation or when the lower limit switch is reached"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines shutter motor moving time of complete opening or complete closing.\n\t\t\t\tDefault value 0\n\t\t\t\t0 - moving time disabled (working with limit switches).\n\t\t\t\t1 - 65535 = 0,1seconds - 6553,5seconds\n\t\t\t\tAfter that time motor is stopped (relay goes to off state)",
@@ -113,8 +99,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t\tPower threshold to be interpreted when motor reach the limit switch.\n\t\t\t\tdefault value 10 = 10W\n\t\t\t\t0 - 127 = 1-127 W. The value 0 means reaching a limit switch will not be detected.\n\t\t\t",
@@ -124,8 +109,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "w",
-                    "value": "10"
+                    "units": "w"
                 },
                 {
                     "help": "By modifying the parameters setting from 0 to 1 a Shutter enters the calibration mode",
@@ -133,19 +117,16 @@
                     "index": "78",
                     "items": [
                         {
-                            "label": "Default",
-                            "value": "0"
+                            "label": "Default"
                         },
                         {
-                            "label": "Start calibration process",
-                            "value": "1"
+                            "label": "Start calibration process"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tThis parameter defines the max time before motor power consumption is read after one of the relays is switched ON.\n\t\t\t\tIf there is no power consumption during this max time (motor not connected, damaged or requires higher time to start, motor in end position) the relay will switch OFF.\n\t\t\t\tTime is defined by entering it manually.\n\t\t\t\tdefault value 0 = time is set automatically\n\t\t\t\t3 - 50 = 0,3seconds - 5seconds (100ms resolution)\n\t\t\t\t",
@@ -155,8 +136,7 @@
                     "max": "50",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tThis parameter defines the minimum time delay between next motor movement (minimum time between switching motor off and on again).\n\t\t\t\tdefault value 5 = 500ms\n\t\t\t\t1 - 30 = 0,1seconds - 3seconds (100ms resolution)\n\t\t\t\t",
@@ -166,8 +146,7 @@
                     "max": "30",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tSet value is added or subtracted to actual measured value by sensor.\n\t\t\t\tdefault value 32536\n\t\t\t\t32536 - offset is 0.0C\n\t\t\t\tFrom 1 to 100 - value from 0.1 C to 10.0 C is added to actual measured temperature.\n\t\t\t\tFrom 1001 to 1100 - value from -0.1 C to -10.0 C is subtracted to actual measured temperature.\n\t\t\t",
@@ -176,8 +155,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "1",
-                    "type": "short",
-                    "value": "32536"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t\tIf digital temperature sensor is connected, module reports measured temperature on temperature change defined by this parameter\n\t\t\t\tdefault value 5 = 0,5C\n\t\t\t\t0 - Reporting disabled\n\t\t\t\t1-127 = 0,1C - 12,7C, step is 0,1C\n\t\t\t\t",
@@ -187,8 +165,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "5"
+                    "units": ""
                 }
             ]
         },

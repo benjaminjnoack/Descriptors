@@ -12,8 +12,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\r\n\t\t\t\tEnabling/Disabling Power Saving Function (for testing)\r\n\t\t\t\tWhen no movement has been detected for 10 seconds, the SP103 will enter the power saving mode.\r\n\t\t\t\tIt can be disabled or enabled power saving function by setting Configuration Parameter # 3.\r\n\t\t\t\tThis parameter can be configured with the value of 0 through 127, where 0 means power saving being enabled and others mean power saving being disabled.\r\n\t\t\t\tPS : As long as the batteries have been refitted, the Detector will enable the power saving function automatically.\r\n\t\t\t\tInformation reproduced from: http://www.techstyleuk.co.uk/index_files/sp103_manual.pdf\r\n\t\t\t",
@@ -23,8 +22,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 }
             ]
         },

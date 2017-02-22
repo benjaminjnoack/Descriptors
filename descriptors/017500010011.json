@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "32767",
                     "min": "1",
-                    "type": "short",
-                    "value": "720"
+                    "type": "short"
                 },
                 {
                     "help": "\n          If the setting is configured for 1hour (set value =6), the Home Control Metering Plug will report its Accumulated Power Consumption (KW/h) every 1 hour to Group1 node. The maximum interval to report its Accumulated Power Consumption (KW/h) is 227.55 days (10min*32767/1440=227.55 days).\n    ",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "32767",
                     "min": "1",
-                    "type": "short",
-                    "value": "6"
+                    "type": "short"
                 },
                 {
                     "help": "\n          This is a warning when the current of load over the preset threshold value, if the setting value is 1300, when the load current of Relay1 over this value, Home Control Metering Plug will send current meter report to warn the Group1 node, the Range of the setting value is from 10 to 1300,and the default value is 1300.\n    ",
@@ -31,8 +29,7 @@
                     "items": [],
                     "max": "1300",
                     "min": "10",
-                    "type": "short",
-                    "value": "1300"
+                    "type": "short"
                 },
                 {
                     "help": "\n          This is a warning when the current of load over the preset threshold value, if the setting value is 1300, when the load current of Relay1 over this value, Home Control Metering Plug will send current meter report to warn the Group1 node, the Range of the setting value is from 10 to 1300,and the default value is 1300.\n    ",
@@ -42,8 +39,7 @@
                     "max": "10000",
                     "min": "1",
                     "type": "short",
-                    "units": "KWh",
-                    "value": "1000"
+                    "units": "KWh"
                 },
                 {
                     "help": "\n          Whenever the AC power return from lost, Home Control Metering Plug will restore the switch state which could be SWITCH OFF, LAST SWITCH STATE, SWITCH ON. The default setting is LAST SWITCH STATE.\n      ",
@@ -51,24 +47,20 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Switch off",
-                            "value": "0"
+                            "label": "Switch off"
                         },
                         {
-                            "label": "Last switch state",
-                            "value": "1"
+                            "label": "Last switch state"
                         },
                         {
-                            "label": "Switch on",
-                            "value": "2"
+                            "label": "Switch on"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n            When the mode of switch On/Off is set to 0, any command of switch off will be disabled and the On/Off function of include button will be disabled. The default setting is enable mode.\n      ",
@@ -76,20 +68,17 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "disable",
-                            "value": "0"
+                            "label": "disable"
                         },
                         {
-                            "label": "enable",
-                            "value": "1"
+                            "label": "enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n          LED indication mode\n      ",
@@ -97,24 +86,20 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Show Switch State:When switch is on, LED is on. When switch is off, LED is off.",
-                            "value": "1"
+                            "label": "Show Switch State:When switch is on, LED is on. When switch is off, LED is off."
                         },
                         {
-                            "label": "When switch is on, LED is off. When switch is off, LED is on.",
-                            "value": "2"
+                            "label": "When switch is on, LED is off. When switch is off, LED is on."
                         },
                         {
-                            "label": "When the state of switch changes, LED will be on only one second, then LED keeps off.",
-                            "value": "3"
+                            "label": "When the state of switch changes, LED will be on only one second, then LED keeps off."
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n         Whenever Home Control Metering Plug switches to on, the auto off timer begin to count down. After the timer decrease to zero, it will switch to off automatically. However if Auto off timer is set as 0, the auto off function will be disabled. The default setting is 0.\n    ",
@@ -124,8 +109,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "short",
-                    "units": "s",
-                    "value": "0"
+                    "units": "s"
                 },
                 {
                     "help": "\n          Whenever a switch off command,BASIC_SET, BINARY_SWITCH_SET, SWITCH_ALL_OFF, is received, it could be interpreted as a variety of 4 commands.\n      ",
@@ -133,28 +117,23 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "It switches to OFF state.",
-                            "value": "0"
+                            "label": "It switches to OFF state."
                         },
                         {
-                            "label": "The switch off command will be ignored.",
-                            "value": "1"
+                            "label": "The switch off command will be ignored."
                         },
                         {
-                            "label": "It switches to the inverse of current state.",
-                            "value": "2"
+                            "label": "It switches to the inverse of current state."
                         },
                         {
-                            "label": "It switches to ON state.",
-                            "value": "3"
+                            "label": "It switches to ON state."
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

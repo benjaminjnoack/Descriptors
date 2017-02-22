@@ -10,23 +10,19 @@
                     "index": "0",
                     "items": [
                         {
-                            "label": "Strobe and Siren",
-                            "value": "0"
+                            "label": "Strobe and Siren"
                         },
                         {
-                            "label": "Siren Only",
-                            "value": "1"
+                            "label": "Siren Only"
                         },
                         {
-                            "label": "Strobe Only",
-                            "value": "2"
+                            "label": "Strobe Only"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Defines the auto time out of the alarm indication",
@@ -34,27 +30,22 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "30 seconds",
-                            "value": "0"
+                            "label": "30 seconds"
                         },
                         {
-                            "label": "60 seconds",
-                            "value": "1"
+                            "label": "60 seconds"
                         },
                         {
-                            "label": "120 seconds",
-                            "value": "2"
+                            "label": "120 seconds"
                         },
                         {
-                            "label": "Will Not Automatically Stop",
-                            "value": "3"
+                            "label": "Will Not Automatically Stop"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

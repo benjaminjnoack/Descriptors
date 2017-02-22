@@ -13,8 +13,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "ms",
-                    "value": "6"
+                    "units": "ms"
                 },
                 {
                     "help": "\n\t\t\tCrossing this parameter from night to day, association group 3 is informed. \n\t\t\tCrossing this parameter from day to night, association group 4 is informed.\n\t\t\tValid values: 0-100 %, where 0 means off.\n\t\t\tDefault: 37 (street lightning)\n\t\t\t",
@@ -25,8 +24,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "37"
+                    "units": "%"
                 }
             ]
         },

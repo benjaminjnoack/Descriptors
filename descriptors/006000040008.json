@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "255"
+                    "type": "short"
                 },
                 {
                     "help": "\n                The delaying time to report to Group 1\n            ",
@@ -23,8 +22,7 @@
                     "max": "25",
                     "min": "3",
                     "size": "1",
-                    "type": "short",
-                    "value": "3"
+                    "type": "short"
                 },
                 {
                     "help": "\n                Remember the last status on plug\n            ",
@@ -32,19 +30,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Do not remember",
-                            "value": "0"
+                            "label": "Do not remember"
                         },
                         {
-                            "label": "Remember",
-                            "value": "1"
+                            "label": "Remember"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n        0: Single Pole Double Throw (1: Toggle switch)\n      ",
@@ -54,8 +49,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

@@ -10,25 +10,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Basic",
-                            "value": "0"
+                            "label": "Basic"
                         },
                         {
-                            "label": "Switch Binary",
-                            "value": "1"
+                            "label": "Switch Binary"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "2"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Switch Multilevel",
-                            "value": "3"
+                            "label": "Switch Multilevel"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Possible parameter settings: (1 - 63) and 255. When setting 255 will automatically be set dimmer to the previous condition i.e 30% or what the last state was.",
@@ -37,8 +32,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "Type of commands to association group 2",
@@ -46,19 +40,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Inverted",
-                            "value": "1"
+                            "label": "Inverted"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Type of input no. 3, what the input 3 will report if no contact is made",
@@ -66,25 +57,20 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Basic",
-                            "value": "0"
+                            "label": "Basic"
                         },
                         {
-                            "label": "Switch Binary",
-                            "value": "1"
+                            "label": "Switch Binary"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "2"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Switch Multilevel",
-                            "value": "3"
+                            "label": "Switch Multilevel"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Possible parameter settings: (1 - 63) and 255. When setting 255 will automatically be set dimmer to the previous condition i.e 30% or what the last state was.",
@@ -93,8 +79,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "Type of commands to association group 3",
@@ -102,19 +87,16 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Inverted",
-                            "value": "1"
+                            "label": "Inverted"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Status change signalled by LED. Default setting: LED turned On",
@@ -122,19 +104,16 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "LED turned Off",
-                            "value": "0"
+                            "label": "LED turned Off"
                         },
                         {
-                            "label": "LED turned On",
-                            "value": "1"
+                            "label": "LED turned On"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Select the type of command to be sent in the Lifeline",
@@ -142,19 +121,16 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Notification",
-                            "value": "0"
+                            "label": "Notification"
                         },
                         {
-                            "label": "Sensor binary",
-                            "value": "1"
+                            "label": "Sensor binary"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

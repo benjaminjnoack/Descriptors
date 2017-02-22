@@ -10,21 +10,17 @@
                     "index": "17",
                     "items": [
                         {
-                            "label": "Lighting",
-                            "value": "0"
+                            "label": "Lighting"
                         },
                         {
-                            "label": "Alarm",
-                            "value": "1"
+                            "label": "Alarm"
                         },
                         {
-                            "label": "Sensor",
-                            "value": "2"
+                            "label": "Sensor"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tThe configuration parameter that can be used to adjust the amount of delay before the OFF or IDLE command is transmitted is Configuration Parameter # 18.\n\t\t\t\tThis parameter can be configured with the value of 0 through 255.\n\t\t\t\tWhere 0 means no delay and 255 means 255 minutes of delay.\n\t\t\t\tDefault appears to be 1 min.\n\t\t\t\tInformation reproduced from: http://www.pepper1.net/zwavedb/uploads/resources/bdf086a9388325a2fb8b8aa298e24e512faec65d.pdf\n\t\t\t",
@@ -34,8 +30,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "1"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n\t\t\t\tThe ZIR010 can be disabled from sending commands unsolicited without removing associated devices by\n\t\t\t\tsetting Configuration Parameter # 19 to 0 (when asked for number of bytes, select 1).\n\t\t\t\tSetting it back to 1 will re-enable the ZIR010.\n\t\t\t\tInformation reproduced from: http://www.pepper1.net/zwavedb/uploads/resources/bdf086a9388325a2fb8b8aa298e24e512faec65d.pdf\n\t\t\t",
@@ -43,17 +38,14 @@
                     "index": "19",
                     "items": [
                         {
-                            "label": "No",
-                            "value": "0"
+                            "label": "No"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tThe time the ZIR010 stays awake can be adjusted from 15 seconds to 45 seconds by sending a value of 15\n\t\t\t\tto 45 to the ZIR010 using Configuration Parameter # 22 (when asked for the number of bytes, select 1).\n\t\t\t\tThis awake time period starts over every time the ZIR010 receives a command or request.\n\t\t\t\tDefaults to 30 seconds.\n\t\t\t\tInformation reproduced from: http://www.pepper1.net/zwavedb/uploads/resources/bdf086a9388325a2fb8b8aa298e24e512faec65d.pdf\n\t\t\t",
@@ -63,8 +55,7 @@
                     "max": "45",
                     "min": "15",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "30"
+                    "units": "seconds"
                 }
             ]
         },

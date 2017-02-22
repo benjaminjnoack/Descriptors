@@ -3,30 +3,20 @@
  */
 'use strict';
 
-const CommandClass  = require('./CommandClass'),
-      File          = require('./File'),
-      fs            = require('fs'),
-      path          = require('path');
-
 const
-  COMMAND_CLASS = 'CommandClass',
-  CONFIG  = 'config',
-  DESCRIPTORS_DIR = path.join(__dirname, '..', 'descriptors'),
-  ID    = 'id',
-  NAME  = 'name',
-  PRODUCT = 'Product',
-  TYPE  = 'type';
-
-const util = require('util');
+  CommandClass  = require('./CommandClass'),
+  File          = require('./File'),
+  fs            = require('fs'),
+  h             = require('./h');
 
 class Product extends File {
   constructor(manufacturer_meta, product_meta) {
-    super(product_meta[CONFIG]);
+    super(product_meta[h.CONFIG]);
 
-    this.id = product_meta[ID];
+    this.id = product_meta[h.ID];
     this.manufacturer = manufacturer_meta;
-    this.name = product_meta[NAME];
-    this.type = product_meta[TYPE];
+    this.name = product_meta[h.NAME];
+    this.type = product_meta[h.TYPE];
 
     this._cc = [];
 
@@ -86,8 +76,8 @@ class Product extends File {
 
       return super.parse()
         .then((result) => {
-          result = result[PRODUCT];
-          result = result[COMMAND_CLASS];
+          result = result[h.PRODUCT];
+          result = result[h.COMMAND_CLASS];
 
           if (result) {
             result.forEach(cc => {
@@ -135,7 +125,7 @@ class Product extends File {
 
   static writeProductFile(manufacturer, product) {
     let file = Product.categoryProductId(manufacturer, product);
-    file = `${DESCRIPTORS_DIR}/${file}.json`;
+    file = `${h.DESCRIPTORS_DIR}/${file}.json`;
     fs.writeFileSync(file, Product.getTemplate(manufacturer, product));
   }
 }

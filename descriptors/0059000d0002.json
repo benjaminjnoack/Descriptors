@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 0 = disabled)",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 0 = disabled)",
@@ -31,8 +29,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 0 = disabled)",
@@ -41,8 +38,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 0 = disabled)",
@@ -51,8 +47,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Temperature reporting interval in minutes (Default 5 minutes)",
@@ -61,8 +56,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Temperature reporting interval in minutes (Default 5 minutes)",
@@ -71,8 +65,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Temperature reporting interval in minutes (Default 5 minutes)",
@@ -81,8 +74,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Temperature reporting interval in minutes (Default 5 minutes)",
@@ -91,8 +83,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Temperature reporting interval in minutes (Default 5 minutes)",
@@ -101,8 +92,7 @@
                     "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 }
             ]
         },

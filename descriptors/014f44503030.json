@@ -10,8 +10,7 @@
                     "index": "29",
                     "items": [],
                     "size": "1",
-                    "type": "bool",
-                    "value": "False"
+                    "type": "bool"
                 },
                 {
                     "help": "This dimmer will always start dimming from its current level, ignoring any commanded start level.",
@@ -19,8 +18,7 @@
                     "index": "5",
                     "items": [],
                     "size": "1",
-                    "type": "bool",
-                    "value": "True"
+                    "type": "bool"
                 }
             ]
         },
@@ -34,8 +32,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         }

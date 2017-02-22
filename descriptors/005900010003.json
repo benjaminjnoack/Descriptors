@@ -18,19 +18,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "255"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "",
@@ -38,27 +35,23 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Celsius",
-                            "value": "0"
+                            "label": "Celsius"
                         },
                         {
-                            "label": "Fahrenheit",
-                            "value": "255"
+                            "label": "Fahrenheit"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n        Delta T in steps of 0.1 degree.\n      ",
                     "label": "Temperature Delta T",
                     "index": "3",
                     "items": [],
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 }
             ]
         },

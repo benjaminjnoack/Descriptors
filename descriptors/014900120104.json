@@ -10,27 +10,22 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Device status when the external switch receives 2 clicks",
@@ -38,27 +33,22 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Device status when the external switch receives 3 clicks",
@@ -66,27 +56,22 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Device status when the external switch is held down",
@@ -94,27 +79,22 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "On",
-                            "value": "2"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "3"
+                            "label": "Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Action on the associated devices when the external switch receives 1 click\"",
@@ -122,35 +102,28 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Toggle associated",
-                            "value": "4"
+                            "label": "Toggle associated"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "5"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "6"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "6",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Action on the associated devices when the external switch receives 2 clicks",
@@ -158,35 +131,28 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Toggle associated",
-                            "value": "4"
+                            "label": "Toggle associated"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "5"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "6"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "6",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Action on the associated devices when the external switch receives 3 clicks",
@@ -194,35 +160,28 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Toggle associated",
-                            "value": "4"
+                            "label": "Toggle associated"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "5"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "6"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "6",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "6"
+                    "type": "list"
                 },
                 {
                     "help": "Action on the associated devices when the external switch is held down",
@@ -230,35 +189,28 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Toggle associated",
-                            "value": "4"
+                            "label": "Toggle associated"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "5"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "6"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "6",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Action performed on all network devices when the external switch receives 1 click",
@@ -266,31 +218,25 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "4"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "5"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "5",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "5"
+                    "type": "list"
                 },
                 {
                     "help": "Action performed on all network devices when the external switch receives 2 clicks",
@@ -298,31 +244,25 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "4"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "5"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "5",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "5"
+                    "type": "list"
                 },
                 {
                     "help": "Action performed on all network devices when the external switch receives 3 clicks",
@@ -330,31 +270,25 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "4"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "5"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "5",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "5"
+                    "type": "list"
                 },
                 {
                     "help": "Action performed on all network devices when the external switch is held down",
@@ -362,31 +296,25 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Toggle",
-                            "value": "1"
+                            "label": "Toggle"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Set as initial status value",
-                            "value": "4"
+                            "label": "Set as initial status value"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "5"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "5",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "5"
+                    "type": "list"
                 },
                 {
                     "help": "Device status upon receipt of a Basic Set",
@@ -394,27 +322,22 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "How received",
-                            "value": "1"
+                            "label": "How received"
                         },
                         {
-                            "label": "Ignore if On",
-                            "value": "2"
+                            "label": "Ignore if On"
                         },
                         {
-                            "label": "Ignore if Off",
-                            "value": "3"
+                            "label": "Ignore if Off"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "ON_LEVEL value used for devices belonging to Group 2 (1 Click association group). Set value from 0 to 255 (Default: 255)",
@@ -424,8 +347,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "OFF_LEVEL value used for devices belonging to Group 2 (1 Click association group). Set value from 0 to 255 (Default: 0)",
@@ -435,8 +357,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "ON_LEVEL value used for devices belonging to Group 3 (2 Click association group). Set value from 0 to 255 (Default: 255)",
@@ -446,8 +367,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "OFF_LEVEL value used for devices belonging to Group 3 (2 Click association group). Set value from 0 to 255 (Default: 0)",
@@ -457,8 +377,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "ON_LEVEL value used for devices belonging to Group 4 (3 Click association group). Set value from 0 to 255 (Default: 255)",
@@ -468,8 +387,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "OFF_LEVEL value used for devices belonging to Group 4 (3 Click association group). Set value from 0 to 255 (Default: 0)",
@@ -479,8 +397,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "ON_LEVEL value used for devices belonging to Group 5 (Hold association group). Set value from 0 to 255 (Default: 255)",
@@ -490,8 +407,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "OFF_LEVEL value used for devices belonging to Group 5 (Hold association group). Set value from 0 to 255 (Default: 0)",
@@ -501,8 +417,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Timer associated with the 1 click event on the external switch",
@@ -510,19 +425,16 @@
                     "index": "40",
                     "items": [
                         {
-                            "label": "Timer disabled",
-                            "value": "0"
+                            "label": "Timer disabled"
                         },
                         {
-                            "label": "Timer enabled",
-                            "value": "1"
+                            "label": "Timer enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Timer associated with the 2 click event on the external switch",
@@ -530,19 +442,16 @@
                     "index": "41",
                     "items": [
                         {
-                            "label": "Timer disabled",
-                            "value": "0"
+                            "label": "Timer disabled"
                         },
                         {
-                            "label": "Timer enabled",
-                            "value": "1"
+                            "label": "Timer enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Timer associated with the 3 click event on the external switch",
@@ -550,19 +459,16 @@
                     "index": "42",
                     "items": [
                         {
-                            "label": "Timer disabled",
-                            "value": "0"
+                            "label": "Timer disabled"
                         },
                         {
-                            "label": "Timer enabled",
-                            "value": "1"
+                            "label": "Timer enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Timer associated with the hold event on the external switch",
@@ -570,19 +476,16 @@
                     "index": "43",
                     "items": [
                         {
-                            "label": "Timer disabled",
-                            "value": "0"
+                            "label": "Timer disabled"
                         },
                         {
-                            "label": "Timer enabled",
-                            "value": "1"
+                            "label": "Timer enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Timer associated with the reception of a Basic Set command",
@@ -590,19 +493,16 @@
                     "index": "44",
                     "items": [
                         {
-                            "label": "Timer disabled",
-                            "value": "0"
+                            "label": "Timer disabled"
                         },
                         {
-                            "label": "Timer enabled",
-                            "value": "1"
+                            "label": "Timer enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Time in seconds (1 3600). Default: 600 (10 minutes)",
@@ -612,8 +512,7 @@
                     "max": "3600",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "600"
+                    "type": "short"
                 },
                 {
                     "help": "Switch-off timer validity",
@@ -621,19 +520,16 @@
                     "index": "46",
                     "items": [
                         {
-                            "label": "Cancel",
-                            "value": "0"
+                            "label": "Cancel"
                         },
                         {
-                            "label": "Mantain",
-                            "value": "1"
+                            "label": "Mantain"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Smoke Alarm, CO, CO2 Action",
@@ -641,27 +537,22 @@
                     "index": "50",
                     "items": [
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Heat Allarm",
@@ -669,27 +560,22 @@
                     "index": "51",
                     "items": [
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Water Allarm",
@@ -697,27 +583,22 @@
                     "index": "52",
                     "items": [
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Home Security",
@@ -725,27 +606,22 @@
                     "index": "53",
                     "items": [
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "ON time during flashing. Set value from 0 to 255 (Default: 5)",
@@ -755,8 +631,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "OFF time during flashing. Set value from 0 to 255 (Default: 5)",
@@ -766,8 +641,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "Duration of flashing phase. Set value from 0 to 255 (Default: 10)",
@@ -777,8 +651,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "Startup Status",
@@ -786,23 +659,19 @@
                     "index": "60",
                     "items": [
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         },
                         {
-                            "label": "Off",
-                            "value": "2"
+                            "label": "Off"
                         },
                         {
-                            "label": "Previous status",
-                            "value": "3"
+                            "label": "Previous status"
                         }
                     ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Configuration Reset",
@@ -810,27 +679,22 @@
                     "index": "61",
                     "items": [
                         {
-                            "label": "Factory reset",
-                            "value": "0"
+                            "label": "Factory reset"
                         },
                         {
-                            "label": "Reset associations",
-                            "value": "1"
+                            "label": "Reset associations"
                         },
                         {
-                            "label": "Reset configurations",
-                            "value": "2"
+                            "label": "Reset configurations"
                         },
                         {
-                            "label": "Ignore",
-                            "value": "4"
+                            "label": "Ignore"
                         }
                     ],
                     "max": "4",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "4"
+                    "type": "list"
                 },
                 {
                     "help": "Type of external switch",
@@ -838,31 +702,25 @@
                     "index": "62",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "Button",
-                            "value": "1"
+                            "label": "Button"
                         },
                         {
-                            "label": "Bistable switch",
-                            "value": "2"
+                            "label": "Bistable switch"
                         },
                         {
-                            "label": "AC sensing",
-                            "value": "3"
+                            "label": "AC sensing"
                         },
                         {
-                            "label": "Automatic recognition",
-                            "value": "4"
+                            "label": "Automatic recognition"
                         }
                     ],
                     "max": "4",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "4"
+                    "type": "list"
                 },
                 {
                     "help": "Sensitivity. Set value from 0 to 255 (Default: 9)",
@@ -872,8 +730,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "9"
+                    "type": "byte"
                 },
                 {
                     "help": "Load protection. Time in seconds (3600). Default: 0",
@@ -883,8 +740,7 @@
                     "max": "3600",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Learn Mode",
@@ -892,27 +748,22 @@
                     "index": "65",
                     "items": [
                         {
-                            "label": "Ignore",
-                            "value": "0"
+                            "label": "Ignore"
                         },
                         {
-                            "label": "1 Click",
-                            "value": "1"
+                            "label": "1 Click"
                         },
                         {
-                            "label": "2 Clicks",
-                            "value": "2"
+                            "label": "2 Clicks"
                         },
                         {
-                            "label": "3 Clicks",
-                            "value": "3"
+                            "label": "3 Clicks"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

@@ -13,8 +13,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "minutes",
-                    "value": "0"
+                    "units": "minutes"
                 },
                 {
                     "help": "\n                Define how the plug will react after the power supply is back on.\n            ",
@@ -22,23 +21,19 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Always off",
-                            "value": "0"
+                            "label": "Always off"
                         },
                         {
-                            "label": "Remember status",
-                            "value": "1"
+                            "label": "Remember status"
                         },
                         {
-                            "label": "Always on",
-                            "value": "2"
+                            "label": "Always on"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n                Set the intensity of the LED indicator (0-100).\n            ",
@@ -49,8 +44,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "100"
+                    "units": "%"
                 }
             ]
         },

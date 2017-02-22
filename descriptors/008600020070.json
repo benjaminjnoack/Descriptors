@@ -14,19 +14,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Open: 0xFF, Close: 0x00",
-                            "value": "0"
+                            "label": "Open: 0xFF, Close: 0x00"
                         },
                         {
-                            "label": "Open: 0x00, Close: 0xFF",
-                            "value": "1"
+                            "label": "Open: 0x00, Close: 0xFF"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "10% to 50%",
@@ -36,8 +33,7 @@
                     "max": "50",
                     "min": "10",
                     "size": "1",
-                    "type": "byte",
-                    "value": "20"
+                    "type": "byte"
                 },
                 {
                     "help": "Enable/disable the low battery checking",
@@ -45,19 +41,16 @@
                     "index": "101",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tThe minimum interval is 4 minutes\n\t\t\t",
@@ -67,8 +60,7 @@
                     "max": "2147483647",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "86640"
+                    "type": "int"
                 },
                 {
                     "help": "\n                Configure which sensor report will be sent when the door is Opened/Closed\n            ",
@@ -76,27 +68,22 @@
                     "index": "121",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Basic Set",
-                            "value": "1"
+                            "label": "Basic Set"
                         },
                         {
-                            "label": "Sensor Binary Report",
-                            "value": "2"
+                            "label": "Sensor Binary Report"
                         },
                         {
-                            "label": "Basic Set and Sensor Binary Report",
-                            "value": "3"
+                            "label": "Basic Set and Sensor Binary Report"
                         }
                     ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Lock/ unlock all configuration parameters",
@@ -104,19 +91,16 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -124,21 +108,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

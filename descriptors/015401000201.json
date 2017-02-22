@@ -12,8 +12,7 @@
                     "max": "129",
                     "min": "3",
                     "size": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "The additional siren is creating a different acoustic signal differentiate from the smoke alarm. This sound is partly on and partly off. This parameter defines the total length of the sound versus silence within this interval.",
@@ -23,8 +22,7 @@
                     "max": "129",
                     "min": "3",
                     "size": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "Value of On-Command",
@@ -34,8 +32,7 @@
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "99"
+                    "type": "byte"
                 },
                 {
                     "help": "Value of Off-Command",
@@ -45,8 +42,7 @@
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "99"
+                    "type": "byte"
                 },
                 {
                     "help": "This smoke detector can automatically inform other smoke detectors of same type about smoke alarms. They will then also turn on the siren. This function is a requirement of wireless networked smoke detectors.",
@@ -54,17 +50,14 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Inactive",
-                            "value": "0"
+                            "label": "Inactive"
                         },
                         {
-                            "label": "Active (default)",
-                            "value": "1"
+                            "label": "Active (default)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This smoke detector can automatically inform other smoke detectors of same type about battery alarms. They will then also turn on the siren. This function is a requirement of wireless networked smoke detectors.",
@@ -72,17 +65,14 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Inactive",
-                            "value": "0"
+                            "label": "Inactive"
                         },
                         {
-                            "label": "Active (default)",
-                            "value": "1"
+                            "label": "Active (default)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

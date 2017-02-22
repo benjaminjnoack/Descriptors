@@ -12,8 +12,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "\n                Set the default doorbell ringtone.\n                Value=1-100, Specify the ringtone as default.\n            ",
@@ -23,8 +22,7 @@
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n                Select a ringtone to play.\n                Value=0, stop playing.\n                Value=1-100, play the specified ringtone.\n                Value=255, play the default ringtone.\n                Value=other, ignore.\n            ",
@@ -34,8 +32,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Playback Control",
@@ -43,30 +40,24 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Play",
-                            "value": "1"
+                            "label": "Play"
                         },
                         {
-                            "label": "Stop",
-                            "value": "2"
+                            "label": "Stop"
                         },
                         {
-                            "label": "Pause",
-                            "value": "3"
+                            "label": "Pause"
                         },
                         {
-                            "label": "Next",
-                            "value": "4"
+                            "label": "Next"
                         },
                         {
-                            "label": "Previous",
-                            "value": "5"
+                            "label": "Previous"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "Set the volume of ringtone",
@@ -76,8 +67,7 @@
                     "max": "10",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "10"
+                    "units": ""
                 },
                 {
                     "help": "\n                Define functions of \"Button -\" and \"Button+\".\n                Button - is previous, Button+ is next.\n            ",
@@ -85,20 +75,17 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Standard",
-                            "value": "0"
+                            "label": "Standard"
                         },
                         {
-                            "label": "Reversed",
-                            "value": "1"
+                            "label": "Reversed"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n                Define functions of \"Button -\" and \"Button+\" when short\n                pressing and long pressing it.\n            ",
@@ -106,20 +93,17 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Short Press - Volume, Long Press - RingTone",
-                            "value": "0"
+                            "label": "Short Press - Volume, Long Press - RingTone"
                         },
                         {
-                            "label": "Short Press - RingTone, Long Press - Volume",
-                            "value": "1"
+                            "label": "Short Press - RingTone, Long Press - Volume"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Get Wireless Button Battery Status",
@@ -127,18 +111,15 @@
                     "index": "42",
                     "items": [
                         {
-                            "label": "Normal Battery Level",
-                            "value": "0"
+                            "label": "Normal Battery Level"
                         },
                         {
-                            "label": "Low Battery Level",
-                            "value": "255"
+                            "label": "Low Battery Level"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Defines the automated status notification of an associated device when status changes",
@@ -146,24 +127,20 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "Nothing",
-                            "value": "0"
+                            "label": "Nothing"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "Defines the automated status notification of an associated device when the wireless button battery level changes",
@@ -171,20 +148,17 @@
                     "index": "81",
                     "items": [
                         {
-                            "label": "Nothing",
-                            "value": "0"
+                            "label": "Nothing"
                         },
                         {
-                            "label": "Configuration Paramater 42",
-                            "value": "1"
+                            "label": "Configuration Paramater 42"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n                Pair the Wireless Button with Doorbell.\n                Value=0x55555555, Start the Wireless Button pairing mode and\n                the blue Led will blink slowly, short press the Wireless Button\n                once, if the blue Led change to be solid, which means the pairing\n                is successful. Otherwise, repeat the steps.\n                It will automatically exit the pairing mode after 8s if there is no\n                pressing action of the Wireless Button.\n                Note:\n                You can send this configuration Get CC to ask the pairing result:\n                If configuration report value=0x00000000, which means the\n                pairing is failed.\n                If configuration report value =0xFFFFFFFF, which means the\n                pairing is successful.\n            ",
@@ -192,18 +166,15 @@
                     "index": "241",
                     "items": [
                         {
-                            "label": "Start Pairing/Paired",
-                            "value": "0xFFFFFFFF"
+                            "label": "Start Pairing/Paired"
                         },
                         {
-                            "label": "Not Pairing/Unpaired",
-                            "value": "0"
+                            "label": "Not Pairing/Unpaired"
                         }
                     ],
                     "size": "4",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
@@ -211,20 +182,17 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -232,21 +200,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

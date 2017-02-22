@@ -5,18 +5,14 @@
 
 const Product = require('./Product');
 
-const
-  ID    = 'id',
-  META  = '$',
-  NAME  = 'name',
-  PRODUCT  = 'Product';
+const h = require('./h');
 
 class Manufacturer {
   constructor(manufacturer) {
-    this.meta = manufacturer[META];
+    this.meta = manufacturer[h.META];
 
-    if (manufacturer[PRODUCT])
-      this.products = manufacturer[PRODUCT];
+    if (manufacturer[h.PRODUCT])
+      this.products = manufacturer[h.PRODUCT];
 
     this.log();
   }
@@ -45,8 +41,8 @@ class Manufacturer {
   }
 
   set meta(meta) {
-    this.id = meta[ID];
-    this.name = meta[NAME];
+    this.id = meta[h.ID];
+    this.name = meta[h.NAME];
   }
 
   get products() {
@@ -55,7 +51,7 @@ class Manufacturer {
 
   set products(products) {
     this._products = products.map((product) => {
-      return new Product(this.meta, product[META]);
+      return new Product(this.meta, product[h.META]);
     });
   }
 

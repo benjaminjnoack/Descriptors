@@ -13,8 +13,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "3"
+                    "units": "seconds"
                 },
                 {
                     "help": "0 - 99 (Default 0)",
@@ -24,8 +23,7 @@
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "0 - 99 (Default 99)",
@@ -35,8 +33,7 @@
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "99"
+                    "type": "byte"
                 }
             ]
         },

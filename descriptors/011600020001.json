@@ -12,8 +12,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "99"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t\t\tThe Configuration parameter that can be used to adjust the amount of delay\n\t\t\t\tbefore the OFF command is transmitted as Configuration Parameter #2.\n\t\t\t\tThis parameter can be configured with the value of 0 through 127, where 0\n\t\t\t\tmeans send OFF command immediately and 127 means 127 seconds of\n\t\t\t\tdelay\n\t\t\t",
@@ -23,8 +22,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": "seconds",
-                    "value": "0"
+                    "units": "seconds"
                 }
             ]
         },
@@ -39,8 +37,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "bool",
-                    "units": "",
-                    "value": ""
+                    "units": ""
                 }
             ]
         },
@@ -52,24 +49,21 @@
                     "label": "Power Applied",
                     "index": "0",
                     "items": [],
-                    "type": "byte",
-                    "value": "2"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\t\tWhen HSM02 automatically wakes up, it will check the battery usage. When\n\t\t\t\tlow battery is detected, Alarm Report Command will be sent to Nodes in\n\t\t\t\tGrouping 1, afterward, LED will light up for 1 sec to remind user when HSM02 is\n\t\t\t\ttriggered due to open or close incidents.\n\t\t\t",
                     "label": "low battery",
                     "index": "1",
                     "items": [],
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\t\tGrouping 1, afterward, LED will light up for 1 sec to remind user when HSM02 is\n\t\t\t\ttriggered due to open or close incidents.\n\t\t\t",
                     "label": "Tamper event",
                     "index": "0",
                     "items": [],
-                    "type": "byte",
-                    "value": "17"
+                    "type": "byte"
                 }
             ]
         },
@@ -84,8 +78,7 @@
                     "max": "100",
                     "min": "20",
                     "type": "byte",
-                    "units": "%",
-                    "value": ""
+                    "units": "%"
                 }
             ]
         },
@@ -99,8 +92,7 @@
                     "max": "1005696000",
                     "min": "60",
                     "type": "int",
-                    "units": "Seconds",
-                    "value": ""
+                    "units": "Seconds"
                 }
             ]
         },

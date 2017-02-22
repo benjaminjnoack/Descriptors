@@ -14,17 +14,14 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "255"
+                            "label": "Enabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Controls the temperature sensor scale",
@@ -32,17 +29,14 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Celsius",
-                            "value": "0"
+                            "label": "Celsius"
                         },
                         {
-                            "label": "Fahrenheit",
-                            "value": "255"
+                            "label": "Fahrenheit"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 10 = 1C)",
@@ -51,8 +45,7 @@
                     "items": [],
                     "max": "100",
                     "min": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 }
             ]
         },

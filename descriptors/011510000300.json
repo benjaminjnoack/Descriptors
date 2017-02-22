@@ -10,36 +10,29 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group No2 when the related button is pressed (association group 3)",
@@ -47,36 +40,29 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group No3 when the related button is pressed (association group 4)",
@@ -84,36 +70,29 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group No4 when the related button is pressed (association group 5)",
@@ -121,36 +100,29 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group No5 when the related button is pressed (association group 6)",
@@ -158,36 +130,29 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group No6 when the related button is pressed (association group 7)",
@@ -195,36 +160,29 @@
                     "index": "15",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group No7 when the related button is pressed (association group 8)",
@@ -232,36 +190,29 @@
                     "index": "16",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control scene group No1 when the related button is pressed (association group 9)",
@@ -269,36 +220,29 @@
                     "index": "17",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene (default)",
-                            "value": "4"
+                            "label": "Send Scene (default)"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "4"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control scene group No2 when the related button is pressed (association group 10)",
@@ -306,36 +250,29 @@
                     "index": "18",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene (default)",
-                            "value": "4"
+                            "label": "Send Scene (default)"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "4"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control scene group No3 when the related button is pressed (association group 11)",
@@ -343,36 +280,29 @@
                     "index": "19",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scene (default)",
-                            "value": "4"
+                            "label": "Send Scene (default)"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "4"
+                    "units": ""
                 },
                 {
                     "help": "This parameter defines the command to be sent to devices of control group All On/Off when the related button is pressed (association group 12)",
@@ -380,36 +310,29 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All (default)",
-                            "value": "3"
+                            "label": "Switch All (default)"
                         },
                         {
-                            "label": "Send Scene",
-                            "value": "4"
+                            "label": "Send Scene"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "3"
+                    "units": ""
                 },
                 {
                     "help": "Send the following Switch All ON/OFF commands",
@@ -417,24 +340,20 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "Switch Off only (default)",
-                            "value": "1"
+                            "label": "Switch Off only (default)"
                         },
                         {
-                            "label": "Switch On only",
-                            "value": "2"
+                            "label": "Switch On only"
                         },
                         {
-                            "label": "Switch On and Off",
-                            "value": "255"
+                            "label": "Switch On and Off"
                         }
                     ],
                     "max": "255",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 }
             ]
         },

@@ -3,17 +3,14 @@
  */
 'use strict';
 
-const Value = require('./Value');
-
 const
-  ID    = 'id',
-  META  = '$',
-  VALUE = 'Value';
+  h     = require('./h'),
+  Value = require('./Value');
 
 class CommandClass {
   constructor(cc) {
-    this.id = cc[META];
-    this.values = cc[VALUE];
+    this.id = cc[h.META];
+    this.values = cc[h.VALUE];
   }
 
   get id() {
@@ -21,7 +18,7 @@ class CommandClass {
   }
 
   set id(meta) {
-    this._id = parseInt(meta[ID]);
+    this._id = parseInt(meta[h.ID]);
   }
 
   get values() {

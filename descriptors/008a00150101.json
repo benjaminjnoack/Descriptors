@@ -10,8 +10,7 @@
                     "index": "1",
                     "items": [],
                     "size": "1",
-                    "type": "button",
-                    "value": "0"
+                    "type": "button"
                 },
                 {
                     "help": "\n                The time that the panic pushbutton must be pressed before a (panic) message is sent out to the controller.\n                0: send directly the panic message when pressed.\n                1-255: send a panic message after you keep holding the button pressed for this value x 10ms.\n            ",
@@ -21,8 +20,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "100"
+                    "type": "byte"
                 },
                 {
                     "help": "\n                Minimum time that led feedback is shown after a panic message.\n                0: led only stays on during the send time.\n                1-255: led stays on during send time + this value*10ms.\n            ",
@@ -32,8 +30,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "100"
+                    "type": "byte"
                 },
                 {
                     "help": "\n                With this config parameter you can map the buttons to send different Z-Wave messages.\n                0: SOS button sends an ALARM_REPORT to nodes group 1.\n                1-255: SOS button sends an BASIC_SET, 0xFF to nodes group 1.\n            ",
@@ -43,8 +40,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 }
             ]
         },

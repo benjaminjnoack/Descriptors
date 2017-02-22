@@ -12,8 +12,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "To change the top of the switch to OFF and the bottom of the switch to ON, set parameter to 1.",
@@ -23,8 +22,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         }

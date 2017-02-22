@@ -12,8 +12,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "To change the top of the switch to OFF and the bottom of the switch to ON, set parameter to 1.",
@@ -23,8 +22,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Set this parameter to 0 to disable load sense. Set this parameter to 1 to enable load sense",
@@ -34,8 +32,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 }
             ]
         }

@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "No (default)",
-                            "value": "0"
+                            "label": "No (default)"
                         },
                         {
-                            "label": "Yes (recommended)",
-                            "value": "1"
+                            "label": "Yes (recommended)"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

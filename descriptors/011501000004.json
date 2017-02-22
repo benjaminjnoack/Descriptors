@@ -10,24 +10,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Separately",
-                            "value": "0"
+                            "label": "Separately"
                         },
                         {
-                            "label": "In Pair without Double Click (default)",
-                            "value": "1"
+                            "label": "In Pair without Double Click (default)"
                         },
                         {
-                            "label": "In Pair with Double Click",
-                            "value": "2"
+                            "label": "In Pair with Double Click"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Button 2 and 4 pair mode (Parameter Number 2,\r\n\t\t\tParameter Size 1) In separate mode button 2 works\r\n\t\t\twith group 2, button 4 with groups 4. Click is On, Hold\r\n\t\t\tis dimming Up, Double click is Off, Click-Hold is\r\n\t\t\tdimming\tDown. In pair button 2/4 are Up/Down\r\n\t\t\tcorrespondingly. Click is On/Off, Hold is dimming\r\n\t\t\tUp/Down. Single clicks works with group 2, double click with group 4.\r\n\t\t\t",
@@ -35,24 +31,20 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Separately",
-                            "value": "0"
+                            "label": "Separately"
                         },
                         {
-                            "label": "In Pair without Double Click (default)",
-                            "value": "1"
+                            "label": "In Pair without Double Click (default)"
                         },
                         {
-                            "label": "In Pair with Double Click",
-                            "value": "2"
+                            "label": "In Pair with Double Click"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Action on group 1 (Parameter Number 11,\r\n\t\t\tParameter Size 1) In Switch On/Off only mode On\r\n\t\t\tcommand is sent on Dim Up, Off on Dim Down. In Scenes mode the\r\n\t\t\tscene ID sent is (10 * group + ActionID), where\r\n\t\t\tActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 =\r\n\t\t\tDim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop\r\n\t\t\t",
@@ -60,35 +52,28 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Action on group 2 (Parameter Number 12,\r\n\t\t\tParameter Size 1) In Switch On/Off only mode On\r\n\t\t\tcommand is sent on Dim Up, Off on Dim Down. In Scenes mode the\r\n\t\t\tscene ID sent is (10 * group + ActionID), where\r\n\t\t\tActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 =\r\n\t\t\tDim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop\r\n\t\t\t",
@@ -96,35 +81,28 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Action on group 3 (Parameter Number 13,\r\n\t\t\tParameter Size 1) In Switch On/Off only mode On\r\n\t\t\tcommand is sent on Dim Up, Off on Dim Down. In Scenes mode the\r\n\t\t\tscene ID sent is (10 * group + ActionID), where\r\n\t\t\tActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 =\r\n\t\t\tDim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop\r\n\t\t\t",
@@ -132,35 +110,28 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Action on group 4 (Parameter Number 14,\r\n\t\t\tParameter Size 1) In Switch On/Off only mode On\r\n\t\t\tcommand is sent on Dim Up, Off on Dim Down. In Scenes mode the\r\n\t\t\tscene ID sent is (10 * group + ActionID), where\r\n\t\t\tActionID is: 1 = On, 2 = Off, 3 = Dim Up Start, 4 =\r\n\t\t\tDim Down Start, 5 = Dim Up Stop, 6 = Dim Down Stop\r\n\t\t\t",
@@ -168,35 +139,28 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)",
-                            "value": "1"
+                            "label": "Switch On/Off and Dimm (send Basic Set and Switch Multilevel) (Default)"
                         },
                         {
-                            "label": "Switch On/Off only (send Basic Set)",
-                            "value": "2"
+                            "label": "Switch On/Off only (send Basic Set)"
                         },
                         {
-                            "label": "Switch All",
-                            "value": "3"
+                            "label": "Switch All"
                         },
                         {
-                            "label": "Send Scenes",
-                            "value": "4"
+                            "label": "Send Scenes"
                         },
                         {
-                            "label": "Send Preconfigured Scenes",
-                            "value": "5"
+                            "label": "Send Preconfigured Scenes"
                         }
                     ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Typical time used to differenciate click, hold and double clicks",
@@ -206,50 +170,42 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "x 10 milliseconds",
-                    "value": "50"
+                    "units": "x 10 milliseconds"
                 },
                 {
                     "label": "Switch All Command",
                     "index": "21",
                     "items": [
                         {
-                            "label": "Switch Off Only (Default)",
-                            "value": "1"
+                            "label": "Switch Off Only (Default)"
                         },
                         {
-                            "label": "Switch On Only",
-                            "value": "2"
+                            "label": "Switch On Only"
                         },
                         {
-                            "label": "Switch all on and off",
-                            "value": "255"
+                            "label": "Switch all on and off"
                         }
                     ],
                     "max": "255",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "label": "Invert Buttons",
                     "index": "22",
                     "items": [
                         {
-                            "label": "No (Default)",
-                            "value": "0"
+                            "label": "No (Default)"
                         },
                         {
-                            "label": "Yes",
-                            "value": "1"
+                            "label": "Yes"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This allows to save battery",
@@ -257,46 +213,38 @@
                     "index": "24",
                     "items": [
                         {
-                            "label": "No Confirmations",
-                            "value": "0"
+                            "label": "No Confirmations"
                         },
                         {
-                            "label": "Confirm Button Press",
-                            "value": "1"
+                            "label": "Confirm Button Press"
                         },
                         {
-                            "label": "Confirm Button Press and delivery (Default)",
-                            "value": "2"
+                            "label": "Confirm Button Press and delivery (Default)"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "label": "Send Unsolicited Battery Report on Wakeup",
                     "index": "30",
                     "items": [
                         {
-                            "label": "No (default)",
-                            "value": "0"
+                            "label": "No (default)"
                         },
                         {
-                            "label": "To same node as wake up notification",
-                            "value": "1"
+                            "label": "To same node as wake up notification"
                         },
                         {
-                            "label": "Broadcast to neighbours",
-                            "value": "2"
+                            "label": "Broadcast to neighbours"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

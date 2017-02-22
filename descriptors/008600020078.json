@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Open: 0xFF, Close: 0x00",
-                            "value": "0"
+                            "label": "Open: 0xFF, Close: 0x00"
                         },
                         {
-                            "label": "Open: 0x00, Close: 0xFF",
-                            "value": "1"
+                            "label": "Open: 0x00, Close: 0xFF"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Default setting: Disable",
@@ -30,19 +27,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Which value of the Basic Set will be sent when the door is Opened/Closed",
@@ -50,19 +44,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Open: 0xFF, Close: 0x00",
-                            "value": "0"
+                            "label": "Open: 0xFF, Close: 0x00"
                         },
                         {
-                            "label": "Open: 0x00, Close: 0xFF",
-                            "value": "1"
+                            "label": "Open: 0x00, Close: 0xFF"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "10% to 50%",
@@ -72,8 +63,7 @@
                     "max": "50",
                     "min": "10",
                     "size": "1",
-                    "type": "byte",
-                    "value": "10"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\t\tSet the interval time of battery report.\n\t\t\t\tValue=0, disable the battery report for a interval time.\n\t\t\t\tValue=1 to 0x7FFFFFFF, the interval time of battery report is set.\n\t\t\t\tNote:\n\t\t\t\t1, if the value is less than 10, the time unit is second.\n\t\t\t\tIf the value is more than 10, the time unit is 4 minutes, which means if the value is more than 10 and less than 240, the interval time is 4 minutes. \n\t\t\t\tIf the value is more than 240 and less than 480, the interval is 8 minutes.\n\t\t\t\t2, if the current battery report falls below the low battery value (configurable parameter 39), it will send battery report=0xFF.\n\t\t\t",
@@ -83,8 +73,7 @@
                     "max": "2147483647",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "\n\t\t\t\tTo configure which sensor report will be sent when the Sensor is triggered Opened/Closed.\n\t\t\t\tBitsets: 0->Battery report, 4->Sensor Binary, 8->Basic Set, Default setting: 0x00000100 (Basic Set).\n\t\t\t\tIdeal Setting for OZW is 17 (Sensor Binary and Battery Report).\n\t\t\t",
@@ -94,8 +83,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "4",
-                    "type": "int",
-                    "value": "256"
+                    "type": "int"
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -103,21 +91,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

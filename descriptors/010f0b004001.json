@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "3600",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Acoustic and visual signals in case of flooding.",
@@ -20,25 +19,20 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Signals INACTIVE",
-                            "value": "0"
+                            "label": "Signals INACTIVE"
                         },
                         {
-                            "label": "Acoustic INACTIVE, visual ACTIVE",
-                            "value": "1"
+                            "label": "Acoustic INACTIVE, visual ACTIVE"
                         },
                         {
-                            "label": "Acoustic ACTIVE, visual INACTIVE",
-                            "value": "2"
+                            "label": "Acoustic ACTIVE, visual INACTIVE"
                         },
                         {
-                            "label": "Acoustic ACTIVE, visual ACTIVE",
-                            "value": "3"
+                            "label": "Acoustic ACTIVE, visual ACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "Type of alarm frame for association group 1, activated by flood sensor. The parameter allows to specify the type of alarm frame or to force transmission of control commands (BASIC_SET)",
@@ -46,17 +40,14 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "ALARM WATER",
-                            "value": "0"
+                            "label": "ALARM WATER"
                         },
                         {
-                            "label": "BASIC_SET",
-                            "value": "255"
+                            "label": "BASIC_SET"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Value of the parameter specifying the forced level of dimming / opening sun blinds when comes \"switch on\" / \"open\" command to devices from association group no. 1.\nIn the case of alarm frames the alarm priority is specified. Possible parameter settings: (1 to 99) and 255. Value of 255 makes it possible to activate the device when using the Dimmer module it means activating the device and setting it to the previous stored condition, e.g. when Dimmer is set to 30%, then deactivated, and then reactivated using command 255, it will automatically be set to the previous condition, i.e. 30%.",
@@ -65,8 +56,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "255"
+                    "type": "byte"
                 },
                 {
                     "help": "Deactivating transmission of the frame cancelling the alarm or the control frame deactivating the device (Basic). It allows for disabling the deactivation function or the alarm cancellation function for devices associated with the appropriate input of the Fibaro Sensor. NOTE: Information concerning alarm violation or activation commands for devices from association groups are always sent.",
@@ -74,17 +64,14 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "Alarm (flooding) cancellation INACTIVE",
-                            "value": "0"
+                            "label": "Alarm (flooding) cancellation INACTIVE"
                         },
                         {
-                            "label": "Alarm (flooding) cancellation ACTIVE",
-                            "value": "1"
+                            "label": "Alarm (flooding) cancellation ACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Interval between successive readings of temperature from all sensors connected to the device in seconds. Note: taking temperature readings from the sensor does not result in sending a temperature condition report to the central hub.",
@@ -93,8 +80,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "1",
-                    "type": "short",
-                    "value": "300"
+                    "type": "short"
                 },
                 {
                     "help": "Insensitiveness to temperature changes. This is the maximum acceptable difference between the last reported temperature and the current temperature taken from the sensor. If the temperatures differ by the set value or more, then a report with the current temperature value is sent to the device assigned to association group no. 3. Intervals between taking readings from sensors are specified by parameter no. 10.\nPossible parameter settings:1 to 1000 [each 0.01oC] [0.01oC to 10.00oC].",
@@ -103,8 +89,7 @@
                     "items": [],
                     "max": "1000",
                     "min": "1",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "Transmitting the alarm or control frame in \"broadcast\" mode (i.e. to all devices within range), information sent in this mode is not repeated by the mesh network. NOTE: If the broadcast mode of information transmission is activated for a given channel, then transmission of information in singlecast mode to devices assigned to the association group of this channel is deactivated.",
@@ -112,25 +97,20 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Broadcasts INACTIVE",
-                            "value": "0"
+                            "label": "Broadcasts INACTIVE"
                         },
                         {
-                            "label": "Flood ACTIVE, tamper INACTIVE",
-                            "value": "1"
+                            "label": "Flood ACTIVE, tamper INACTIVE"
                         },
                         {
-                            "label": "Flood INACTIVE, tamper ACTIVE",
-                            "value": "2"
+                            "label": "Flood INACTIVE, tamper ACTIVE"
                         },
                         {
-                            "label": "Flood ACTIVE, tamper ACTIVE",
-                            "value": "3"
+                            "label": "Flood ACTIVE, tamper ACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "The parameter stores a temperature value, below which LED indicator blinks with a colour determined by Parameter 61 settings. By default the LED indicator blinks blue. \nPossible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].",
@@ -139,8 +119,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "-10000",
-                    "type": "short",
-                    "value": "1500"
+                    "type": "short"
                 },
                 {
                     "help": "The parameter stores a temperature value, above which LED indicator blinks with a colour determined by Parameter 62 settings. By default the LED indicator blinks red. \nPossible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].",
@@ -149,8 +128,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "-10000",
-                    "type": "short",
-                    "value": "3500"
+                    "type": "short"
                 },
                 {
                     "help": "The parameter stores RGB colour value.",
@@ -159,8 +137,7 @@
                     "items": [],
                     "max": "16777215",
                     "min": "0",
-                    "type": "int",
-                    "value": "255"
+                    "type": "int"
                 },
                 {
                     "help": "The parameter stores RGB colour value.",
@@ -169,8 +146,7 @@
                     "items": [],
                     "max": "16777215",
                     "min": "0",
-                    "type": "int",
-                    "value": "16711680"
+                    "type": "int"
                 },
                 {
                     "help": "Parameter determines LED indicator's operation. Set to 0 turns the indicator off, saving battery life.",
@@ -178,21 +154,17 @@
                     "index": "63",
                     "items": [
                         {
-                            "label": "LED doesn't indicate temperature",
-                            "value": "0"
+                            "label": "LED doesn't indicate temperature"
                         },
                         {
-                            "label": "LED indicates temperature (blink) every Temperature Measurement Interval (Parameter 10, constant power + battery) or Wake Up Interval (battery)",
-                            "value": "1"
+                            "label": "LED indicates temperature (blink) every Temperature Measurement Interval (Parameter 10, constant power + battery) or Wake Up Interval (battery)"
                         },
                         {
-                            "label": "LED indicates temperature constantly, only in constant power mode.",
-                            "value": "2"
+                            "label": "LED indicates temperature constantly, only in constant power mode."
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Parameter stores a temperature value to be added to or deducted from the current temperature measured by the internal temperature sensor in order to compensate the difference between air temperature and the temperature at floor level.\nPossible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].",
@@ -201,8 +173,7 @@
                     "items": [],
                     "max": "10000",
                     "min": "-10000",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "The device is able to turn on alarms resulting from sensors vibrations, e.g. when the sensor is moved, or the TMP button is released. Group 2 association alarms are not cancelled.",
@@ -210,25 +181,20 @@
                     "index": "74",
                     "items": [
                         {
-                            "label": "Tamper alarms INACTIVE",
-                            "value": "0"
+                            "label": "Tamper alarms INACTIVE"
                         },
                         {
-                            "label": "Button tamper alarm ACTIVE",
-                            "value": "1"
+                            "label": "Button tamper alarm ACTIVE"
                         },
                         {
-                            "label": "Movement tamper alarm ACTIVE",
-                            "value": "2"
+                            "label": "Movement tamper alarm ACTIVE"
                         },
                         {
-                            "label": "Button and movement tamper alarms ACTIVE",
-                            "value": "3"
+                            "label": "Button and movement tamper alarms ACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Parameter determines a time period after which alarm will become 'quiet' - still active but the device will go into battery saving mode. Visual or acoustic alarm will be reactivated after time period specified in Parameter 76. When alarm status ceases, alarm will be turned off immediately.\nValue of 0 means visual and acoustic alarms are active indefinitely. In battery power mode the device will never go to sleep which may shorten battery life significantly.",
@@ -237,8 +203,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Parameter determines a time period after which an alarm frame will be retransmitted.\nValue of 0 cancels an alarm frame retransmission.",
@@ -247,8 +212,7 @@
                     "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Allows for turning off the internal flood sensor. Tamper and internal temperature sensors will remain active.",
@@ -256,17 +220,14 @@
                     "index": "77",
                     "items": [
                         {
-                            "label": "Default flood sensor operation (ACTIVE)",
-                            "value": "0"
+                            "label": "Default flood sensor operation (ACTIVE)"
                         },
                         {
-                            "label": "Flood sensor INACTIVE",
-                            "value": "1"
+                            "label": "Flood sensor INACTIVE"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

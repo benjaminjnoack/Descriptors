@@ -12,8 +12,7 @@
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "After how many minutes the GreenWave device should start flashing if the controller didn't communicate with this device",
@@ -22,8 +21,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte",
-                    "value": "2"
+                    "type": "byte"
                 },
                 {
                     "help": "The room color (Corner wheel color) on the GreenWave device",
@@ -31,44 +29,34 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Black (empty)",
-                            "value": "128"
+                            "label": "Black (empty)"
                         },
                         {
-                            "label": "Green (1)",
-                            "value": "129"
+                            "label": "Green (1)"
                         },
                         {
-                            "label": "Dark Blue (2)",
-                            "value": "130"
+                            "label": "Dark Blue (2)"
                         },
                         {
-                            "label": "Red (3)",
-                            "value": "131"
+                            "label": "Red (3)"
                         },
                         {
-                            "label": "Yellow (4)",
-                            "value": "132"
+                            "label": "Yellow (4)"
                         },
                         {
-                            "label": "Purple (5)",
-                            "value": "133"
+                            "label": "Purple (5)"
                         },
                         {
-                            "label": "Orange (6)",
-                            "value": "134"
+                            "label": "Orange (6)"
                         },
                         {
-                            "label": "Light Blue (7)",
-                            "value": "135"
+                            "label": "Light Blue (7)"
                         },
                         {
-                            "label": "Pink (8)",
-                            "value": "136"
+                            "label": "Pink (8)"
                         },
                         {
-                            "label": "Locked",
-                            "value": "137"
+                            "label": "Locked"
                         }
                     ],
                     "size": "1",
@@ -80,23 +68,19 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "All OFF",
-                            "value": "0"
+                            "label": "All OFF"
                         },
                         {
-                            "label": "Remember last state",
-                            "value": "1"
+                            "label": "Remember last state"
                         },
                         {
-                            "label": "All ON",
-                            "value": "2"
+                            "label": "All ON"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Enable/Disable the LED on network error",
@@ -104,19 +88,16 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

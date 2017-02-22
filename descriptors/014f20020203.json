@@ -13,8 +13,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "minutes",
-                    "value": "3"
+                    "units": "minutes"
                 }
             ]
         },

@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Power",
-                            "value": "0"
+                            "label": "Power"
                         },
                         {
-                            "label": "Voltage",
-                            "value": "1"
+                            "label": "Voltage"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t  Configuration Value 1 is to Specify the time that SEI need blink (0-255), the unit is second;\n\t  Configuration Value 2 is to Specify the Cycle of on/off (0-255), the unit of it is 0.1 second.",
@@ -32,8 +29,7 @@
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "Set report types for groups 1, 2 and 3 to default.",
@@ -49,8 +45,7 @@
                     "index": "101",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "\n\tDefines the type of report sent for reporting group 2. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 lsb) \n\t        bits 7-4 reserved\n            bit 3 MRC(KWH)\n\t\t    bit 2 MRC(watt)\n\t\t    bit 1 MSRC\n\t\t    bit 0 reserved\n\n\tThe MRC(KWH) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(KWh) automatically.\n\n\tThe MRC(Watt) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(wattage) automatically.\n\n\tThe MSRC flag signals that Report Group 1 send(1) or don't send(0)\n\tMultilevel Sensor Report Command(wattage) automatically.\n      ",
@@ -58,8 +53,7 @@
                     "index": "102",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "\n\tDefines the type of report sent for reporting group 3. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) \n\t\t\tbits 7-4 reserved\n            bit 3 MRC(KWH)\n\t\t    bit 2 MRC(watt)\n\t\t    bit 1 MSRC\n\t\t    bit 0 reserved\n\n\tThe MRC(KWH) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(KWh) automatically.\n\n\tThe MRC(Watt) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(wattage) automatically.\n\n\tThe MSRC flag signals that Report Group 1 send(1) or don't send(0)\n\tMultilevel Sensor Report Command(wattage) automatically.\n      ",
@@ -67,8 +61,7 @@
                     "index": "103",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "0"
+                    "type": "int"
                 },
                 {
                     "help": "Set time interval for sending reports for groups 1, 2 and 3 to default.",
@@ -76,8 +69,7 @@
                     "index": "110",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 1 is sent.",
@@ -88,8 +80,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 2 is sent.",
@@ -100,8 +91,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Defines the time interval when the defined report for group 3 is sent.",
@@ -112,8 +102,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Device tag.",
@@ -123,8 +112,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to the default configuration.",

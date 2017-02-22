@@ -12,8 +12,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t    indicates the number of levels the lighting will change when the timer runs out\n\t\t  ",
@@ -23,8 +22,7 @@
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "\n\t\t    indicates the time duration of each level.  The resolution is 10 miliseconds.  for example, a default value of 3 means the timer runs out every 30 milliseconds.\n\t\t  ",
@@ -34,8 +32,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "10 ms",
-                    "value": "3"
+                    "units": "10 ms"
                 }
             ]
         },

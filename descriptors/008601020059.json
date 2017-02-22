@@ -14,19 +14,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Inverse",
-                            "value": "1"
+                            "label": "Inverse"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Which value of the Basic Set will be sent when the magnet \n            switch to open/close.\n            ",
@@ -34,19 +31,16 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Inverse",
-                            "value": "1"
+                            "label": "Inverse"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Enable/disable the function of low battery checking, when \n            the current voltage is less than the warning voltage, it will \n            send the Battery Low Warning Report. \n            ",
@@ -54,19 +48,16 @@
                     "index": "101",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter is available when the low battery checking\n                  function is activated or the device was waked up by other\n                  actions (i.e. the z-wave button trigger, magnet switch\n                  trigger and the Wake Up Interval Set timeout trigger).\n                  The Recessed Door Sensor will check the battery power\n                  when it was wake up as other ways. For example: the\n                  z-wave button trigger, magnet switch trigger and the\n                  Wake Up Interval Set timeout trigger.\n              Default setting: 86640\n            ",
@@ -75,8 +66,7 @@
                     "items": [],
                     "max": "4294967295",
                     "min": "0",
-                    "type": "int",
-                    "value": "86640"
+                    "type": "int"
                 },
                 {
                     "help": "Configure which sensor report will be sent when the sensor is Opened/Closed",
@@ -84,25 +74,20 @@
                     "index": "121",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Basic Set",
-                            "value": "256"
+                            "label": "Basic Set"
                         },
                         {
-                            "label": "Sensor Binary Report",
-                            "value": "16"
+                            "label": "Sensor Binary Report"
                         },
                         {
-                            "label": "Basic Set and Sensor Binary Report",
-                            "value": "272"
+                            "label": "Basic Set and Sensor Binary Report"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "256"
+                    "type": "list"
                 },
                 {
                     "help": "Lock/ unlock all configuration parameters",
@@ -110,19 +95,16 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Device Tag",
@@ -132,16 +114,14 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to factory defaults.",
                     "label": "Reset To Factory Defaults",
                     "index": "255",
                     "items": [],
-                    "type": "button",
-                    "value": "0"
+                    "type": "button"
                 }
             ]
         },

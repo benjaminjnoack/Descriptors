@@ -10,19 +10,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "0: LED is on when switch is off",
-                            "value": "0"
+                            "label": "0: LED is on when switch is off"
                         },
                         {
-                            "label": "1: LED is on when switch is on",
-                            "value": "1"
+                            "label": "1: LED is on when switch is on"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Set to 1 for \"up\" to turn the load off.",
@@ -30,19 +27,16 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "0: Load is on when switch is up",
-                            "value": "0"
+                            "label": "0: Load is on when switch is up"
                         },
                         {
-                            "label": "1: Load is on when switch is down",
-                            "value": "1"
+                            "label": "1: Load is on when switch is down"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 }
             ]
         },

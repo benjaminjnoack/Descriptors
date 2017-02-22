@@ -14,19 +14,16 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Clockwise",
-                            "value": "0"
+                            "label": "Clockwise"
                         },
                         {
-                            "label": "Counterclockwise",
-                            "value": "1"
+                            "label": "Counterclockwise"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Speed (Torque)",
@@ -34,31 +31,25 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Slowest",
-                            "value": "1"
+                            "label": "Slowest"
                         },
                         {
-                            "label": "Slow",
-                            "value": "2"
+                            "label": "Slow"
                         },
                         {
-                            "label": "Normal",
-                            "value": "3"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Fast",
-                            "value": "4"
+                            "label": "Fast"
                         },
                         {
-                            "label": "Fastest",
-                            "value": "5"
+                            "label": "Fastest"
                         }
                     ],
                     "max": "5",
                     "min": "1",
                     "size": "1",
-                    "type": "list",
-                    "value": "5"
+                    "type": "list"
                 },
                 {
                     "help": "0=Stepper motor mode wave drive (Power Saving); 1=Stepper motor mode full drive(Normal)",
@@ -66,23 +57,19 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Wave drive",
-                            "value": "0"
+                            "label": "Wave drive"
                         },
                         {
-                            "label": "Full drive",
-                            "value": "1"
+                            "label": "Full drive"
                         },
                         {
-                            "label": "Relay mode",
-                            "value": "2"
+                            "label": "Relay mode"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Factor 10 turn degree( 1 = degrees, 9 = 90 degres, etc. )",
@@ -91,8 +78,7 @@
                     "items": [],
                     "max": "100",
                     "min": "1",
-                    "type": "byte",
-                    "value": "9"
+                    "type": "byte"
                 },
                 {
                     "help": "How many seconds from the lock has been unlatched to it automatically close again. If 0 then it's disabled",
@@ -101,8 +87,7 @@
                     "items": [],
                     "max": "60",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Disable or enable the beep sound from latch or unlatch operations(",
@@ -110,19 +95,16 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Set the type of battery that powers the device. This affect the returned battery state.",
@@ -130,19 +112,16 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "3.6V",
-                            "value": "0"
+                            "label": "3.6V"
                         },
                         {
-                            "label": "3.0V",
-                            "value": "1"
+                            "label": "3.0V"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "When the battery level is equal to, or under this value, the device will notify with a beep sound after latch or unlatch",
@@ -151,8 +130,7 @@
                     "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "Used if the lock is using a optional rotation sensor. Latch and Go on will turn automatically when manual turn is detected.",
@@ -160,19 +138,16 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t0 = Disabled. \n\t\t\t1-15 Seconds to brake. \n\t\t\tWhen used the lock will brake for x amount of seconds and then turn 75 degrees back. \n\t\t\tMade for special doors without door lever.(Only when unlatching).",
@@ -181,8 +156,7 @@
                     "items": [],
                     "max": "15",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\tUsed if the lock is using an optional rotation sensor. \n\t\t\tWhen async is enabled the lock will auto calibrate if already unlatched and asked to Unlatch again (used for special door locks where the key turn is asynced from the inside nob.)\n\t\t\t",
@@ -190,19 +164,16 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Off",
-                            "value": "0"
+                            "label": "Off"
                         },
                         {
-                            "label": "On",
-                            "value": "1"
+                            "label": "On"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t0 = Simple supported by all controllers that support door locks. \n\t\t\t1 = Advanced, more specific reports through notification Command Class. \n\t\t\t2 = No Door lock operation reports are sent unsolicited.\n\t\t\t",
@@ -210,23 +181,19 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Simple",
-                            "value": "0"
+                            "label": "Simple"
                         },
                         {
-                            "label": "Advanced",
-                            "value": "1"
+                            "label": "Advanced"
                         },
                         {
-                            "label": "Nothing",
-                            "value": "2"
+                            "label": "Nothing"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

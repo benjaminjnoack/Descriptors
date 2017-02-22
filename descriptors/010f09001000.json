@@ -17,8 +17,7 @@
                     "index": "0",
                     "items": [],
                     "type": "string",
-                    "units": "#RRGGBBWW",
-                    "value": "#00000000"
+                    "units": "#RRGGBBWW"
                 }
             ]
         },
@@ -35,25 +34,20 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "ALL ON disabled/ ALL OFF disabled",
-                            "value": "0"
+                            "label": "ALL ON disabled/ ALL OFF disabled"
                         },
                         {
-                            "label": "ALL ON disabled/ ALL OFF active",
-                            "value": "1"
+                            "label": "ALL ON disabled/ ALL OFF active"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF disabled",
-                            "value": "2"
+                            "label": "ALL ON active / ALL OFF disabled"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF active",
-                            "value": "255"
+                            "label": "ALL ON active / ALL OFF active"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "255"
+                    "type": "list"
                 },
                 {
                     "help": "Choose which command classes are sent to associated devices.",
@@ -61,29 +55,23 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Normal (Dimmer) - BASIC SET/SWITCH_MULTILEVEL_START/STOP",
-                            "value": "0"
+                            "label": "Normal (Dimmer) - BASIC SET/SWITCH_MULTILEVEL_START/STOP"
                         },
                         {
-                            "label": "Normal (RGBW) - COLOR_CONTROL_SET/START/STOP_STATE_CHANGE",
-                            "value": "1"
+                            "label": "Normal (RGBW) - COLOR_CONTROL_SET/START/STOP_STATE_CHANGE"
                         },
                         {
-                            "label": "Normal (RGBW) - COLOR_CONTROL_SET",
-                            "value": "2"
+                            "label": "Normal (RGBW) - COLOR_CONTROL_SET"
                         },
                         {
-                            "label": "Brightness - BASIC SET/SWITCH_MULTILEVEL_START/STOP",
-                            "value": "3"
+                            "label": "Brightness - BASIC SET/SWITCH_MULTILEVEL_START/STOP"
                         },
                         {
-                            "label": "Rainbow (RGBW) - COLOR_CONTROL_SET",
-                            "value": "4"
+                            "label": "Rainbow (RGBW) - COLOR_CONTROL_SET"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Choose the behaviour of transitions between different levels.",
@@ -91,17 +79,14 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "MODE 1 - Constant Speed (speed is defined by parameters 9 and 10)",
-                            "value": "0"
+                            "label": "MODE 1 - Constant Speed (speed is defined by parameters 9 and 10)"
                         },
                         {
-                            "label": "MODE 2 - Constant Time (RGB/RBGW only. Time is defined by parameter 11)",
-                            "value": "1"
+                            "label": "MODE 2 - Constant Time (RGB/RBGW only. Time is defined by parameter 11)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Size of the step for each change in level during the transition.",
@@ -111,8 +96,7 @@
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Time between each step in a transition between levels.  Setting this to zero means an instantaneous change.",
@@ -122,8 +106,7 @@
                     "max": "60000",
                     "min": "0",
                     "type": "short",
-                    "units": "ms",
-                    "value": "10"
+                    "units": "ms"
                 },
                 {
                     "help": "0 - immediate change; 1->63: 20ms->126ms (value*20ms); 65->127: 1s->63s (value-64)*1s; 129->191: 10s->630s (value-128)*10s; 193->255: 1min->63min (value-192)*1min.  Default setting: 67 (3s)",
@@ -133,8 +116,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "",
-                    "value": "67"
+                    "units": ""
                 },
                 {
                     "help": "Maximum brightness level for the dimmer",
@@ -144,8 +126,7 @@
                     "max": "255",
                     "min": "3",
                     "type": "byte",
-                    "units": "",
-                    "value": "255"
+                    "units": ""
                 },
                 {
                     "help": "Minimum brightness level for the dimmer",
@@ -155,16 +136,14 @@
                     "max": "255",
                     "min": "2",
                     "type": "byte",
-                    "units": "",
-                    "value": "2"
+                    "units": ""
                 },
                 {
                     "help": "This is too complex to describe here, since this value is built up from 4-bits for each of the 4 channels.  Refer to the table in the product manual.  Default value is 4369 (1111 in hex).",
                     "label": "Inputs / Outputs configuration",
                     "index": "14",
                     "items": [],
-                    "type": "short",
-                    "value": "4369"
+                    "type": "short"
                 },
                 {
                     "help": "Option double click (lighting set at 100%). 0 - Double click disabled, 1 - Double click enabled. Default setting 1",
@@ -172,17 +151,14 @@
                     "index": "15",
                     "items": [
                         {
-                            "label": "Double click disabled",
-                            "value": "0"
+                            "label": "Double click disabled"
                         },
                         {
-                            "label": "Double click enabled",
-                            "value": "1"
+                            "label": "Double click enabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Saving state before power failure",
@@ -190,17 +166,14 @@
                     "index": "16",
                     "items": [
                         {
-                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
-                            "value": "0"
+                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore"
                         },
                         {
-                            "label": "State saved at power failure, all outputs are set to previous state upon power restore",
-                            "value": "1"
+                            "label": "State saved at power failure, all outputs are set to previous state upon power restore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Alarm of any type (general alarm, water flooding alarm, smoke alarm: CO, CO2, temperature alarm).  Default setting 0 (Inactive)",
@@ -208,25 +181,20 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "INACTIVE - no response to alarm frames",
-                            "value": "0"
+                            "label": "INACTIVE - no response to alarm frames"
                         },
                         {
-                            "label": "ALARM ON - the device turns on once alarm is detected (all channels set to 99%)",
-                            "value": "1"
+                            "label": "ALARM ON - the device turns on once alarm is detected (all channels set to 99%)"
                         },
                         {
-                            "label": "ALARM OFF - the device turns off once alarm is detected (all channels set to 0%)",
-                            "value": "2"
+                            "label": "ALARM OFF - the device turns off once alarm is detected (all channels set to 0%)"
                         },
                         {
-                            "label": "ALARM PROGRAM - alarm sequence turns on (program selected in parameter 38)",
-                            "value": "3"
+                            "label": "ALARM PROGRAM - alarm sequence turns on (program selected in parameter 38)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Program number selected from the 10 available.",
@@ -236,8 +204,7 @@
                     "max": "10",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "10"
+                    "units": ""
                 },
                 {
                     "help": "In ALARM PROGRAM mode (see parameter 30), this defines the time in seconds the program lasts (1s->65534s)",
@@ -247,8 +214,7 @@
                     "max": "65534",
                     "min": "1",
                     "type": "short",
-                    "units": "s",
-                    "value": "600"
+                    "units": "s"
                 },
                 {
                     "help": "Specify which command class is used to report output status changes",
@@ -256,21 +222,17 @@
                     "index": "42",
                     "items": [
                         {
-                            "label": "Reporting as a result of inputs and controllers actions (SWITCH MULTILEVEL)",
-                            "value": "0"
+                            "label": "Reporting as a result of inputs and controllers actions (SWITCH MULTILEVEL)"
                         },
                         {
-                            "label": "Reporting as a result inputs actions (SWITCH MULTILEVEL)",
-                            "value": "1"
+                            "label": "Reporting as a result inputs actions (SWITCH MULTILEVEL)"
                         },
                         {
-                            "label": "Reporting as a result inputs actions (COLOUR_CONTROL)",
-                            "value": "2"
+                            "label": "Reporting as a result inputs actions (COLOUR_CONTROL)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Parameter defines a value by which input voltage must change in order to be reported to the main controller. New value is calculated based on last reported value: Default setting: 5 (0.5V).  Range: 1->100 - (0.1V->10V).",
@@ -280,8 +242,7 @@
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "*0.1V",
-                    "value": "5"
+                    "units": "*0.1V"
                 },
                 {
                     "help": "Sent if last reported value differs from the current value. Reports will also be sent in case of polling. Default setting: 30 (30s).  Range: 1->65534 (1s->65534s) - interval between reports.  Zero means reports are only sent in the case of polling, or at turning OFF the device",
@@ -291,8 +252,7 @@
                     "max": "65534",
                     "min": "1",
                     "type": "short",
-                    "units": "s",
-                    "value": "30"
+                    "units": "s"
                 },
                 {
                     "help": "Interval between energy consumption reports (in kWh). New reported energy consumption value is calculated based on last reported value. 1->254 (0.01kWh->2.54kWh).  Zero means changes in consumed energy will not be reported, except in case of polling.",
@@ -302,8 +262,7 @@
                     "max": "254",
                     "min": "1",
                     "type": "byte",
-                    "units": "*0.01kWh",
-                    "value": "10"
+                    "units": "*0.01kWh"
                 },
                 {
                     "help": "Set whether to remember the previous RGB mix after the brightness has fallen to zero (black)",
@@ -311,17 +270,14 @@
                     "index": "71",
                     "items": [
                         {
-                            "label": "Illumination colour set to white (all channels controlled together)",
-                            "value": "0"
+                            "label": "Illumination colour set to white (all channels controlled together)"
                         },
                         {
-                            "label": "Last set colour is memorized",
-                            "value": "1"
+                            "label": "Last set colour is memorized"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "First predefined program to use when device is set to work in RGB/RGBW mode (parameter 14)",
@@ -331,8 +287,7 @@
                     "max": "10",
                     "min": "1",
                     "type": "byte",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Behaviour when an input is triple-clicked",
@@ -340,17 +295,14 @@
                     "index": "73",
                     "items": [
                         {
-                            "label": "NODE INFO control frame is sent",
-                            "value": "0"
+                            "label": "NODE INFO control frame is sent"
                         },
                         {
-                            "label": "Start favourite program",
-                            "value": "1"
+                            "label": "Start favourite program"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

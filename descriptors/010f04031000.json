@@ -14,17 +14,14 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
-                            "value": "0"
+                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore"
                         },
                         {
-                            "label": "State saved at power failure, all outputs are set to previous state upon power restore",
-                            "value": "1"
+                            "label": "State saved at power failure, all outputs are set to previous state upon power restore"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter allows to choose operating for the 1st channel controlled by the S1 switch.",
@@ -32,33 +29,26 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Standard operation",
-                            "value": "0"
+                            "label": "Standard operation"
                         },
                         {
-                            "label": "Delay On",
-                            "value": "1"
+                            "label": "Delay On"
                         },
                         {
-                            "label": "Delay Off",
-                            "value": "2"
+                            "label": "Delay Off"
                         },
                         {
-                            "label": "Auto On",
-                            "value": "3"
+                            "label": "Auto On"
                         },
                         {
-                            "label": "Auto Off",
-                            "value": "4"
+                            "label": "Auto Off"
                         },
                         {
-                            "label": "Flashing Mode",
-                            "value": "5"
+                            "label": "Flashing Mode"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter determines how the device in timed mode reacts to pushing the switch connected to the S1 terminal.",
@@ -66,21 +56,17 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Cancel mode and set target state",
-                            "value": "0"
+                            "label": "Cancel mode and set target state"
                         },
                         {
-                            "label": "No reaction to switch - mode runs until it ends",
-                            "value": "1"
+                            "label": "No reaction to switch - mode runs until it ends"
                         },
                         {
-                            "label": "Reset timer - start counting from the beginning",
-                            "value": "2"
+                            "label": "Reset timer - start counting from the beginning"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter allows to set time parameter used in timed modes. (s)",
@@ -90,8 +76,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter allows to set time of switching to opposite state in flashing mode.\n        1-32000 (0.1-3200.0s, 0.1s step)\n      ",
@@ -101,8 +86,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "5"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter allows to choose operating for the 2st channel controlled by the S2 switch.",
@@ -110,33 +94,26 @@
                     "index": "15",
                     "items": [
                         {
-                            "label": "Standard operation",
-                            "value": "0"
+                            "label": "Standard operation"
                         },
                         {
-                            "label": "Delay On",
-                            "value": "1"
+                            "label": "Delay On"
                         },
                         {
-                            "label": "Delay Off",
-                            "value": "2"
+                            "label": "Delay Off"
                         },
                         {
-                            "label": "Auto On",
-                            "value": "3"
+                            "label": "Auto On"
                         },
                         {
-                            "label": "Auto Off",
-                            "value": "4"
+                            "label": "Auto Off"
                         },
                         {
-                            "label": "Flashing Mode",
-                            "value": "5"
+                            "label": "Flashing Mode"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter determines how the device in timed mode reacts to pushing the switch connected to the S2 terminal.",
@@ -144,21 +121,17 @@
                     "index": "16",
                     "items": [
                         {
-                            "label": "Cancel mode and set target state",
-                            "value": "0"
+                            "label": "Cancel mode and set target state"
                         },
                         {
-                            "label": "No reaction to switch - mode runs until it ends",
-                            "value": "1"
+                            "label": "No reaction to switch - mode runs until it ends"
                         },
                         {
-                            "label": "Reset timer - start counting from the beginning",
-                            "value": "2"
+                            "label": "Reset timer - start counting from the beginning"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter allows to set time parameter used in timed modes. (s)",
@@ -168,8 +141,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "50"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter allows to set time of switching to opposite state in flashing mode.\n        1-32000 (0.1-3200.0s, 0.1s step)\n      ",
@@ -179,8 +151,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "5"
+                    "type": "short"
                 },
                 {
                     "help": "Inputs type configuration",
@@ -188,21 +159,17 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "Momentary switch",
-                            "value": "0"
+                            "label": "Momentary switch"
                         },
                         {
-                            "label": "Toggle switch (contact closed - On, contact opened - OFF)",
-                            "value": "1"
+                            "label": "Toggle switch (contact closed - On, contact opened - OFF)"
                         },
                         {
-                            "label": "Toggle switch (device changes status when switch changes status)",
-                            "value": "2"
+                            "label": "Toggle switch (device changes status when switch changes status)"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "Enabled / Disabled reports on Flashing mode",
@@ -210,17 +177,14 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "Disabled",
-                            "value": "0"
+                            "label": "Disabled"
                         },
                         {
-                            "label": "Enabled",
-                            "value": "1"
+                            "label": "Enabled"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n        This parameter defines how commands are sent to specified association groups: as secure or non-secure.\n        Parameter is active only in Z-Wave network security mode.\n        This parameter does not apply to 1st lifeline group.\n        1 - 2nd group sent as secure.\n        2 - 3rd group sent as secure.\n        4 - 4th group sent as secure.\n        8 - 5th group sent as secure.\n        Default setting: 15 (all)\n      ",
@@ -230,8 +194,7 @@
                     "max": "15",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "15"
+                    "type": "byte"
                 },
                 {
                     "help": "\n        This parameter determines which actions result in sending scene IDs assigned to them.\n        1 - Key pressed 1 time.\n        2 - Key pressed 2 times.\n        4 - Key pressed 3 times.\n        8 - Key Hold Down and Key Released.\n        Default setting: 0 (none)\n      ",
@@ -241,8 +204,7 @@
                     "max": "15",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n        This parameter determines which actions result in sending scene IDs assigned to them.\n        1 - Key pressed 1 time.\n        2 - Key pressed 2 times.\n        4 - Key pressed 3 times.\n        8 - Key Hold Down and Key Released.\n        Default setting: 0 (none)\n      ",
@@ -252,8 +214,7 @@
                     "max": "15",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n        This parameter determines which actions are ignored when sending commands to devices associated in 2nd and 3rd association group.\n        All actions are active by default.\n        1 - ignore turning On with 1 click of the switch.\n        2 - ignore turning OFF with 1 click of the switch.\n        4 - ignore holding and releasing the switch.\n        8 - ignore double click of the switch.\n        Default setting: 0\n      ",
@@ -263,8 +224,7 @@
                     "max": "15",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n        This parameter determines value sent with Switch On command to devices associated in 2nd and 3rd association group.\n      ",
@@ -274,8 +234,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "255"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines value sent with Switch Off command to devices associated in 2nd and 3rd association group.\n      ",
@@ -285,8 +244,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines value sent with Double Click command to de- vices associated in 2nd and 3rd association group.\n      ",
@@ -296,8 +254,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "99"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines which actions are ignored when sending commands to devices associated in 4th and 5th association group.\n        All actions are active by default.\n        1 - ignore turning On with 1 click of the switch.\n        2 - ignore turning OFF with 1 click of the switch.\n        4 - ignore holding and releasing the switch.\n        8 - ignore double click of the switch.\n        Default setting: 0\n      ",
@@ -307,8 +264,7 @@
                     "max": "15",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n        This parameter determines value sent with Switch On command to devices associated in 4th and 5th association group.\n      ",
@@ -318,8 +274,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "255"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines value sent with Switch Off command to devices associated in 4th and 5th association group.\n      ",
@@ -329,8 +284,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines value sent with Double Click command to de- vices associated in 4th and 5th association group.\n      ",
@@ -340,8 +294,7 @@
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "99"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter determines how the device will react to General Alarm frame.",
@@ -349,25 +302,20 @@
                     "index": "40",
                     "items": [
                         {
-                            "label": "Ignored",
-                            "value": "0"
+                            "label": "Ignored"
                         },
                         {
-                            "label": "Turn On",
-                            "value": "1"
+                            "label": "Turn On"
                         },
                         {
-                            "label": "Turn OFF",
-                            "value": "2"
+                            "label": "Turn OFF"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter determines how the device will react to Flood Alarm frame.",
@@ -375,25 +323,20 @@
                     "index": "41",
                     "items": [
                         {
-                            "label": "Ignored",
-                            "value": "0"
+                            "label": "Ignored"
                         },
                         {
-                            "label": "Turn On",
-                            "value": "1"
+                            "label": "Turn On"
                         },
                         {
-                            "label": "Turn OFF",
-                            "value": "2"
+                            "label": "Turn OFF"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter determines how the device will react to CO/CO2/Smoke Alarm frame.",
@@ -401,25 +344,20 @@
                     "index": "42",
                     "items": [
                         {
-                            "label": "Ignored",
-                            "value": "0"
+                            "label": "Ignored"
                         },
                         {
-                            "label": "Turn On",
-                            "value": "1"
+                            "label": "Turn On"
                         },
                         {
-                            "label": "Turn OFF",
-                            "value": "2"
+                            "label": "Turn OFF"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter determines how the device will react to Heat alarm frame.",
@@ -427,25 +365,20 @@
                     "index": "43",
                     "items": [
                         {
-                            "label": "Ignored",
-                            "value": "0"
+                            "label": "Ignored"
                         },
                         {
-                            "label": "Turn On",
-                            "value": "1"
+                            "label": "Turn On"
                         },
                         {
-                            "label": "Turn OFF",
-                            "value": "2"
+                            "label": "Turn OFF"
                         },
                         {
-                            "label": "Flash",
-                            "value": "3"
+                            "label": "Flash"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n        This parameter allows to set duration of flashing alarm mode.\n        1-32000 (0.1-32000s, 1s step) Default: 600 (10min)\n      ",
@@ -455,8 +388,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "600"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines the minimum change in consumed power\n        that will result in sending new power report to the main controller.\n        1-100 (%) Default 20 (20%)\n      ",
@@ -466,8 +398,7 @@
                     "max": "100",
                     "min": "1",
                     "size": "1",
-                    "type": "short",
-                    "value": "20"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines minimum time that has to elapse before\n        sending new power report to the main controller.\n        1-120 (s) Default 10 (10s)\n      ",
@@ -477,8 +408,7 @@
                     "max": "120",
                     "min": "1",
                     "size": "1",
-                    "type": "short",
-                    "value": "10"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines the minimum change in consumed energy\n        that will result in sending new energy report to the main controller.\n        1-32000 (0.01-320 kWh) Default 100 (1kWh)\n      ",
@@ -488,8 +418,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "100"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines in what time interval the periodic\n        power reports are sent to the main controller.\n        1-32000 (s) Default 3600 (1h)\n      ",
@@ -499,8 +428,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "3600"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines in what time interval the periodic\n        power reports are sent to the main controller.\n        1-32000 (s) Default 3600 (1h)\n      ",
@@ -510,8 +438,7 @@
                     "max": "32000",
                     "min": "1",
                     "size": "2",
-                    "type": "short",
-                    "value": "3600"
+                    "type": "short"
                 },
                 {
                     "help": "\n        This parameter determines whether energy metering should include\n        the amount of energy consumed by the device itself. Results are\n        being added to energy reports for first endpoint.\n      ",
@@ -519,17 +446,14 @@
                     "index": "60",
                     "items": [
                         {
-                            "label": "function inactive",
-                            "value": "0"
+                            "label": "function inactive"
                         },
                         {
-                            "label": "function active",
-                            "value": "1"
+                            "label": "function active"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

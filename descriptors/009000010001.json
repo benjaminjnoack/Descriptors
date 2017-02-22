@@ -10,27 +10,22 @@
                     "index": "1",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -38,27 +33,22 @@
                     "index": "2",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -66,27 +56,22 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -94,27 +79,22 @@
                     "index": "4",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -122,27 +102,22 @@
                     "index": "5",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -150,27 +125,22 @@
                     "index": "6",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -178,27 +148,22 @@
                     "index": "7",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -206,27 +171,22 @@
                     "index": "8",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -234,27 +194,22 @@
                     "index": "9",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -262,27 +217,22 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -290,27 +240,22 @@
                     "index": "11",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -318,27 +263,22 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -346,27 +286,22 @@
                     "index": "13",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -374,27 +309,22 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -402,27 +332,22 @@
                     "index": "15",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -430,27 +355,22 @@
                     "index": "16",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -458,27 +378,22 @@
                     "index": "17",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -486,27 +401,22 @@
                     "index": "18",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -514,27 +424,22 @@
                     "index": "19",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -542,27 +447,22 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -570,27 +470,22 @@
                     "index": "21",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -598,27 +493,22 @@
                     "index": "22",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -626,27 +516,22 @@
                     "index": "23",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -654,27 +539,22 @@
                     "index": "24",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -682,27 +562,22 @@
                     "index": "25",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -710,27 +585,22 @@
                     "index": "26",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -738,27 +608,22 @@
                     "index": "27",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -766,27 +631,22 @@
                     "index": "28",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -794,27 +654,22 @@
                     "index": "29",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t set the User Code Type for their corresponding user codes.\n\t\t\t",
@@ -822,27 +677,22 @@
                     "index": "30",
                     "items": [
                         {
-                            "label": "Owner",
-                            "value": "1"
+                            "label": "Owner"
                         },
                         {
-                            "label": "Guest (Required for Year Day Schedules)",
-                            "value": "3"
+                            "label": "Guest (Required for Year Day Schedules)"
                         },
                         {
-                            "label": "Worker (Required for Week Day Schedules)",
-                            "value": "4"
+                            "label": "Worker (Required for Week Day Schedules)"
                         },
                         {
-                            "label": "No corresponding user code",
-                            "value": "255"
+                            "label": "No corresponding user code"
                         }
                     ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "Bit mask field that returns the state of the user accessible Dipswitches on the door look.\n\t\t\tBit 0 Lock LED Status (1: enable)\n\t\t\tBit 1 Auto lock (1: enable)\n\t\t\tBit 2 Auto Buzzer (1: enable)\n\t\t\tBit 3 Secure Screen (1: enable) *Only for MB 916\n\t\t\t",
@@ -885,17 +735,14 @@
                     "index": "40",
                     "items": [
                         {
-                            "label": "Do reset",
-                            "value": "1"
+                            "label": "Do reset"
                         },
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 }
             ]
         },

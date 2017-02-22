@@ -12,8 +12,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Current Overload Protection",
@@ -21,18 +20,15 @@
                     "index": "3",
                     "items": [
                         {
-                            "label": "Disable",
-                            "value": "0"
+                            "label": "Disable"
                         },
                         {
-                            "label": "Enable",
-                            "value": "1"
+                            "label": "Enable"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tEnables automatic notifications to associated devices whenever there is a state change.\n      ",
@@ -40,22 +36,18 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "None",
-                            "value": "0"
+                            "label": "None"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Basic",
-                            "value": "2"
+                            "label": "Basic"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tEnable/disable Wattage threshold and percent.\n      ",
@@ -63,8 +55,7 @@
                     "index": "90",
                     "items": [],
                     "type": "bool",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tThe minimum change in wattage for a report to be sent.\n      ",
@@ -74,8 +65,7 @@
                     "max": "32000",
                     "min": "0",
                     "type": "short",
-                    "units": "watts",
-                    "value": "50"
+                    "units": "watts"
                 },
                 {
                     "help": "\n\tMinimum change in percent of wattage to send a report.\n      ",
@@ -85,8 +75,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%",
-                    "value": "10"
+                    "units": "%"
                 },
                 {
                     "help": "\n\tSet report types for groups 1, 2 and 3 to default. Reverts to 0\n\tafter set.\n      ",
@@ -94,8 +83,7 @@
                     "index": "100",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tDefines the type of report sent for reporting group 1. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n                     bit 3 MRC(KWH)\n\t\t     bit 2 MRC(watt)\n\t\t     bit 1 MSRC\n\t\t     bit 0 reserved\n\n\tThe MRC(KWH) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(KWh) automatically.\n\n\tThe MRC(Watt) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(wattage) automatically.\n\n\tThe MSRC flag signals that Report Group 1 send(1) or don't send(0)\n\tMultilevel Sensor Report Command(wattage) automatically.\n      ",
@@ -103,8 +91,7 @@
                     "index": "101",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tDefines the type of report sent for reporting group 2. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n                     bit 3 MRC(KWH)\n\t\t     bit 2 MRC(watt)\n\t\t     bit 1 MSRC\n\t\t     bit 0 reserved\n\n\tThe MRC(KWH) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(KWh) automatically.\n\n\tThe MRC(Watt) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(wattage) automatically.\n\n\tThe MSRC flag signals that Report Group 1 send(1) or don't send(0)\n\tMultilevel Sensor Report Command(wattage) automatically.\n      ",
@@ -112,8 +99,7 @@
                     "index": "102",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tDefines the type of report sent for reporting group 3. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 Reserved\n\t Value 4 (lsb) bits 7-4 reserved\n                     bit 3 MRC(KWH)\n\t\t     bit 2 MRC(watt)\n\t\t     bit 1 MSRC\n\t\t     bit 0 reserved\n\n\tThe MRC(KWH) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(KWh) automatically.\n\n\tThe MRC(Watt) flag signals that Report Group 1 send(1) or don't send(0)\n\tMeter Report Command(wattage) automatically.\n\n\tThe MSRC flag signals that Report Group 1 send(1) or don't send(0)\n\tMultilevel Sensor Report Command(wattage) automatically.\n      ",
@@ -121,8 +107,7 @@
                     "index": "103",
                     "items": [],
                     "type": "int",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tSet time interval for sending reports for groups 1, 2 and 3 to default.\n      ",
@@ -130,8 +115,7 @@
                     "index": "110",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "\n\tDefines the time interval when the defined report for group 1 is sent.\n      ",
@@ -141,8 +125,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\tDefines the time interval when the defined report for group 2 is sent.\n      ",
@@ -152,8 +135,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "\n\tDefines the time interval when the defined report for group 3 is sent.\n      ",
@@ -163,8 +145,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds",
-                    "value": "600"
+                    "units": "seconds"
                 },
                 {
                     "help": "Set External Switch/Button Control mode",
@@ -172,18 +153,15 @@
                     "index": "120",
                     "items": [
                         {
-                            "label": "Momentary button",
-                            "value": "0"
+                            "label": "Momentary button"
                         },
                         {
-                            "label": "2 state switch",
-                            "value": "1"
+                            "label": "2 state switch"
                         }
                     ],
                     "size": "1",
                     "type": "list",
-                    "units": "",
-                    "value": "1"
+                    "units": ""
                 },
                 {
                     "help": "Device tag.",
@@ -193,8 +171,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 },
                 {
                     "help": "Reset to the default configuration.",
@@ -202,8 +179,7 @@
                     "index": "255",
                     "items": [],
                     "type": "button",
-                    "units": "",
-                    "value": "0"
+                    "units": ""
                 }
             ]
         },

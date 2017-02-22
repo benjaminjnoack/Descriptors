@@ -20,8 +20,7 @@
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\tCalibration Steps:\n\t\t\t1. Let the garage door move to full close position.\n\t\t\t2. Send this parameter (0x22) with value=1 to Garage Door Controller.\n\t\t\t3. Let the garage door move to full open position.\n\t\t\t4. Let the garage door move to full close position after the step 3 is completed.\n\t\t\tAfter the step 4 is completed, all calibration steps are complete.\n\t\t\tNote: This process should be implemented when the Garage Door Controller just only has one Sensor is installed on the garage door.\n\t\t\t",
@@ -29,19 +28,16 @@
                     "index": "34",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Do calibration",
-                            "value": "1"
+                            "label": "Do calibration"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Set the timeout of all calibration steps for the Sensor",
@@ -50,8 +46,7 @@
                     "items": [],
                     "max": "65000",
                     "min": "0",
-                    "type": "short",
-                    "value": "30"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\t\tGet the numbers of alarm music. (not support Set CC)\n\t\t\t",
@@ -59,8 +54,7 @@
                     "index": "36",
                     "items": [],
                     "size": "1",
-                    "type": "byte",
-                    "value": "5"
+                    "type": "byte"
                 },
                 {
                     "help": "\n                1, Value1: configure the frequency of blinking for the Alarm LEd, there are 10 levels that 1 to10 level, the minimum frequency is level 1 and the max frequency is level 10.\n\t\t\t\t2, Value2: configure the alarm sound (there are 4 types sound saved in EEPROM and user also can update it).\n\t\t\t\t3, Value3: configure the volume of alarm sound (there are 10 levels, the min volume is 1 level and the max volume is 10 levels).\n\t\t\t\t4, Value4=0, disable the alarm prompt. Value4=1, enable the alarm prompt.\n                value is sum:\n                16777216 x led_frequency\n                + 65536 x alarm_sound\n                + 256 x volume\n                + 1 x alarm_mode\n            ",
@@ -68,8 +62,7 @@
                     "index": "37",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "167905281"
+                    "type": "int"
                 },
                 {
                     "help": "\n                1, Value1: configure the frequency of blinking for the Alarm LED, there are 10 levels that 1 to10 level, the minimum frequency is level 1 and the max frequency is level 10.\n\t\t\t\t2, Value2: configure the alarm sound (there are 4 types sound saved in EEPROM and user also can update it).\n\t\t\t\t3, Value3: configure the volume of alarm sound (there are 10 levels, the min volume is 1 level and the max volume is 10 levels).\n\t\t\t\t4, Value4=0, disable the alarm prompt. Value4=1, enable the alarm prompt.\n                value is sum:\n                16777216 x led_frequency\n                + 65536 x alarm_sound\n                + 256 x volume\n                + 1 x alarm_mode\n            ",
@@ -77,8 +70,7 @@
                     "index": "38",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "134416385"
+                    "type": "int"
                 },
                 {
                     "help": "\n                1, Value1: configure the frequency of blinking for the Alarm LED, there are 10 levels that 1 to10 level, the minimum frequency is level 1 and the max frequency is level 10.\n\t\t\t\t2, Value2: configure the alarm sound (there are 4 types sound saved in EEPROM and user also can update it).\n\t\t\t\t3, Value3: configure the volume of alarm sound (there are 10 levels, the min volume is 1 level and the max volume is 10 levels).\n\t\t\t\t4, Value4=0, disable the alarm prompt. Value4=1, enable the alarm prompt.\n                value is sum:\n                16777216 x led_frequency\n                + 65536 x alarm_sound\n                + 256 x volume\n                + 1 x alarm_mode\n            ",
@@ -86,8 +78,7 @@
                     "index": "39",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "100927488"
+                    "type": "int"
                 },
                 {
                     "help": "\n                1, Value1: configure the frequency of blinking for the Alarm LED, there are 10 levels that 1 to10 level, the minimum frequency is level 1 and the max frequency is level 10.\n\t\t\t\t2, Value2: configure the alarm sound (there are 4 types sound saved in EEPROM and user also can update it).\n\t\t\t\t3, Value3: configure the volume of alarm sound (there are 10 levels, the min volume is 1 level and the max volume is 10 levels).\n\t\t\t\t4, Value4=0, disable the alarm prompt. Value4=1, enable the alarm prompt.\n                value is sum:\n                16777216 x led_frequency\n\t\t\t\t+ 65536 x alarm_sound\n\t\t\t\t+ 256 x volume\n\t\t\t\t+ 1 x alarm_mode\n            ",
@@ -95,8 +86,7 @@
                     "index": "40",
                     "items": [],
                     "size": "4",
-                    "type": "int",
-                    "value": "33883392"
+                    "type": "int"
                 },
                 {
                     "help": "\n\t\t\tNote:\n\t\t\t1. The Garage Door Controller will send this configuration report to gateway controller or associated nodes automatically if the Sensor is removed.\n\t\t\t2. You can send the value=0x55555555 of this parameter to controller to relieve the alarm state.\n\t\t\t",
@@ -104,21 +94,17 @@
                     "index": "41",
                     "items": [
                         {
-                            "label": "Sensor is not removed",
-                            "value": "0"
+                            "label": "Sensor is not removed"
                         },
                         {
-                            "label": "Sensor is removed",
-                            "value": "15"
+                            "label": "Sensor is removed"
                         },
                         {
-                            "label": "Relieve the alarm state",
-                            "value": "1431655765"
+                            "label": "Relieve the alarm state"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "It will report the battery power state to associated nodes automatically when the battery power is in low battery.",
@@ -126,19 +112,16 @@
                     "index": "42",
                     "items": [
                         {
-                            "label": "Battery power is much more",
-                            "value": "0"
+                            "label": "Battery power is much more"
                         },
                         {
-                            "label": "Battery power of Sensor is in low battery",
-                            "value": "15"
+                            "label": "Battery power of Sensor is in low battery"
                         }
                     ],
                     "max": "15",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\tValue=0xff, stop playing ringtone.\n\t\t\tValue=1 to 100, start playing the ringtone that you selected.\n\t\t\t",
@@ -147,8 +130,7 @@
                     "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte",
-                    "value": "0"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\t\tValue=1 to value=10, which map to the volume level 1 to level 10\n\t\t\t",
@@ -158,8 +140,7 @@
                     "max": "10",
                     "min": "1",
                     "size": "1",
-                    "type": "byte",
-                    "value": "1"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\t\tThe temperature value contains one decimal point.\n\t\t\t\tE.g. If the report value=252(0x00FC), the temperature is 25.2.\n\t\t\t\tRang is 0 to 500 (0 to 50.0).\n\t\t\t",
@@ -169,8 +150,7 @@
                     "max": "500",
                     "min": "0",
                     "size": "2",
-                    "type": "short",
-                    "value": "0"
+                    "type": "short"
                 },
                 {
                     "help": "\n\t\t\tValue=0, short pressing the Button +/- will be used to adjust the volume of sound. Long pressing the Button +/- will be used to switch the sound to the next.\n\t\t\tValue=1, short pressing the Button +/- will be used to switch the sound to the next. Long pressing the Button +/- will be used to adjust the volume of sound.\n\t\t\t",
@@ -178,19 +158,16 @@
                     "index": "47",
                     "items": [
                         {
-                            "label": "Volume",
-                            "value": "0"
+                            "label": "Volume"
                         },
                         {
-                            "label": "Sound",
-                            "value": "1"
+                            "label": "Sound"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "It will send the Hail CC/configuration report CC when the state of garage door is changed",
@@ -198,23 +175,19 @@
                     "index": "80",
                     "items": [
                         {
-                            "label": "Reserved",
-                            "value": "0"
+                            "label": "Reserved"
                         },
                         {
-                            "label": "Hail",
-                            "value": "1"
+                            "label": "Hail"
                         },
                         {
-                            "label": "Barrier operator",
-                            "value": "2"
+                            "label": "Barrier operator"
                         }
                     ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "2"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\tValue=0x55555501, which will trigger to start the pairing of Sensor (installed on the top of the garage door), at this time, the Network LED on the Garage Door Controller will blink slowly and then short press Temper Switch back of the Sensor.\n\t\t\tIf pairing is successful, the Network LED will stop blinking and the Garage Door Controller will send the configuration report with value=0x01FF to primary controller/gateway. Otherwise, repeat the operation.\n\t\t\tNote:\n\t\t\t1. If you do not press the Temper Switch when starting the pairing mode, the pairing status will keep for 8 second and then exit the pairing status automatically.\n\t\t\t2. The Sensor has been paired with the Garage Door Controller after factory.",
@@ -222,21 +195,17 @@
                     "index": "241",
                     "items": [
                         {
-                            "label": "Normal",
-                            "value": "0"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Start the pairing of Sensor",
-                            "value": "1431655681"
+                            "label": "Start the pairing of Sensor"
                         },
                         {
-                            "label": "Pairing is successful",
-                            "value": "511"
+                            "label": "Pairing is successful"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Lock/ unlock all configuration parameters",
@@ -244,19 +213,16 @@
                     "index": "252",
                     "items": [
                         {
-                            "label": "Unlock",
-                            "value": "0"
+                            "label": "Unlock"
                         },
                         {
-                            "label": "Lock",
-                            "value": "1"
+                            "label": "Lock"
                         }
                     ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "Reset to factory defaults",
@@ -264,21 +230,17 @@
                     "index": "255",
                     "items": [
                         {
-                            "label": "Reset to factory default setting",
-                            "value": "0"
+                            "label": "Reset to factory default setting"
                         },
                         {
-                            "label": "Normal",
-                            "value": "1"
+                            "label": "Normal"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network",
-                            "value": "1431655765"
+                            "label": "Reset to factory default setting and removed from the z-wave network"
                         }
                     ],
                     "size": "4",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 }
             ]
         },

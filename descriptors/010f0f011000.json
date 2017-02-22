@@ -11,8 +11,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "127"
+                    "type": "byte"
                 },
                 {
                     "help": "\n\t\t\t\tThis parameter defines how commands are sent in specified association groups: as secure or non-secure.\n\t\t\t\tParameter is active only in Z-Wave network security mode. It does not apply to 1st Lifeline group.\n\t\t\t\t1 - 2nd group sent as secure.\n\t\t\t\t2 - 3rd group sent as secure.\n\t\t\t\t4 - 4th group sent as secure.\n\t\t\t\tDefault: 3 All.\n\t\t\t",
@@ -21,8 +20,7 @@
                     "items": [],
                     "max": "7",
                     "min": "0",
-                    "type": "byte",
-                    "value": "7"
+                    "type": "byte"
                 },
                 {
                     "help": "This parameter defines commands sent to devices associated in 2nd association group after a single click",
@@ -30,25 +28,20 @@
                     "index": "10",
                     "items": [
                         {
-                            "label": "No action",
-                            "value": "0"
+                            "label": "No action"
                         },
                         {
-                            "label": "Switch ON",
-                            "value": "1"
+                            "label": "Switch ON"
                         },
                         {
-                            "label": "Switch OFF",
-                            "value": "2"
+                            "label": "Switch OFF"
                         },
                         {
-                            "label": "Switch ON/OFF - alternately",
-                            "value": "3"
+                            "label": "Switch ON/OFF - alternately"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines value of SWITCH ON command sent to devices in 2nd association group after a single click.",
@@ -57,8 +50,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "255"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter defines commands sent to devices associated in 2nd association group after a double click",
@@ -66,25 +58,20 @@
                     "index": "12",
                     "items": [
                         {
-                            "label": "No action",
-                            "value": "0"
+                            "label": "No action"
                         },
                         {
-                            "label": "Switch ON",
-                            "value": "1"
+                            "label": "Switch ON"
                         },
                         {
-                            "label": "Switch OFF",
-                            "value": "2"
+                            "label": "Switch OFF"
                         },
                         {
-                            "label": "Switch ON/OFF - alternately",
-                            "value": "3"
+                            "label": "Switch ON/OFF - alternately"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines value of SWITCH ON command sent to devices in 2nd association group after a double click.",
@@ -93,8 +80,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "99"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter defines commands sent to devices associated in 2nd association group after a triple click",
@@ -102,25 +88,20 @@
                     "index": "14",
                     "items": [
                         {
-                            "label": "No action",
-                            "value": "0"
+                            "label": "No action"
                         },
                         {
-                            "label": "Switch ON",
-                            "value": "1"
+                            "label": "Switch ON"
                         },
                         {
-                            "label": "Switch OFF",
-                            "value": "2"
+                            "label": "Switch OFF"
                         },
                         {
-                            "label": "Switch ON/OFF - alternately",
-                            "value": "3"
+                            "label": "Switch ON/OFF - alternately"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines value of SWITCH ON command sent to devices in 2nd association group after a triple click.",
@@ -129,8 +110,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "255"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter defines commands sent to devices associated in 2nd association group after a single click",
@@ -138,25 +118,20 @@
                     "index": "20",
                     "items": [
                         {
-                            "label": "No action",
-                            "value": "0"
+                            "label": "No action"
                         },
                         {
-                            "label": "Switch ON",
-                            "value": "1"
+                            "label": "Switch ON"
                         },
                         {
-                            "label": "Switch OFF",
-                            "value": "2"
+                            "label": "Switch OFF"
                         },
                         {
-                            "label": "Switch ON/OFF - alternately",
-                            "value": "3"
+                            "label": "Switch ON/OFF - alternately"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines value of SWITCH ON command sent to devices in 3rd association group after a single click.",
@@ -165,8 +140,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "255"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter defines commands sent to devices associated in 3rd association group after a double click",
@@ -174,25 +148,20 @@
                     "index": "22",
                     "items": [
                         {
-                            "label": "No action",
-                            "value": "0"
+                            "label": "No action"
                         },
                         {
-                            "label": "Switch ON",
-                            "value": "1"
+                            "label": "Switch ON"
                         },
                         {
-                            "label": "Switch OFF",
-                            "value": "2"
+                            "label": "Switch OFF"
                         },
                         {
-                            "label": "Switch ON/OFF - alternately",
-                            "value": "3"
+                            "label": "Switch ON/OFF - alternately"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "1"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines value of SWITCH ON command sent to devices in 3rd association group after a double click.",
@@ -201,8 +170,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "99"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter defines commands sent to devices associated in 3rd association group after a triple click",
@@ -210,25 +178,20 @@
                     "index": "24",
                     "items": [
                         {
-                            "label": "No action",
-                            "value": "0"
+                            "label": "No action"
                         },
                         {
-                            "label": "Switch ON",
-                            "value": "1"
+                            "label": "Switch ON"
                         },
                         {
-                            "label": "Switch OFF",
-                            "value": "2"
+                            "label": "Switch OFF"
                         },
                         {
-                            "label": "Switch ON/OFF - alternately",
-                            "value": "3"
+                            "label": "Switch ON/OFF - alternately"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "0"
+                    "type": "list"
                 },
                 {
                     "help": "This parameter defines value of SWITCH ON command sent to devices in 3rd association group after a triple click.",
@@ -237,8 +200,7 @@
                     "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "short",
-                    "value": "255"
+                    "type": "short"
                 },
                 {
                     "help": "This parameter defines commands sent to devices associated in 3rd association group after holding the button down.",
@@ -246,25 +208,20 @@
                     "index": "29",
                     "items": [
                         {
-                            "label": "No action",
-                            "value": "0"
+                            "label": "No action"
                         },
                         {
-                            "label": "Brightening",
-                            "value": "1"
+                            "label": "Brightening"
                         },
                         {
-                            "label": "Dimming",
-                            "value": "2"
+                            "label": "Dimming"
                         },
                         {
-                            "label": "Brightening/Dimming - alternately",
-                            "value": "3"
+                            "label": "Brightening/Dimming - alternately"
                         }
                     ],
                     "size": "1",
-                    "type": "list",
-                    "value": "3"
+                    "type": "list"
                 },
                 {
                     "help": "\n\t\t\t\tParameter determines which actions result in sending alarm frames to 4th association group.\n\t\t\t\t1 - Key Pressed 1 time.\n\t\t\t\t2 - Key Pressed 2 times.\n\t\t\t\t4 - Key Pressed 3 times.\n\t\t\t\t8 - Key Pressed 4 times.\n\t\t\t\t16 - Key Pressed 5 times.\n\t\t\t\t32 - Key Held Down.\n\t\t\t\t64 - Key Released.\n\t\t\t\tDefault: 127 All.\n\t\t\t",
@@ -273,8 +230,7 @@
                     "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte",
-                    "value": "127"
+                    "type": "byte"
                 }
             ]
         },
