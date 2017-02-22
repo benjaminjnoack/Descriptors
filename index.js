@@ -8,9 +8,8 @@ const
   FILE = `manufacturer_specific.xml`,
   ManufacturerSpecific = require('./modules/ManufacturerSpecific');
 
-let m = new ManufacturerSpecific(FILE);
-
-m.parse()
+new ManufacturerSpecific(FILE)
+  .parse()
   .then((results) => {
     console.log(`RESULTS: ${results.length}`);
     console.timeEnd('runtime');
