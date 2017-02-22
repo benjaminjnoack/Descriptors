@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "index": "3",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -38,6 +40,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "None",
@@ -59,6 +62,7 @@
                     "index": "90",
                     "type": "bool",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -69,6 +73,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -79,6 +84,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -87,6 +93,7 @@
                     "index": "100",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -95,6 +102,7 @@
                     "index": "101",
                     "type": "int",
                     "units": "",
+                    "value": "8",
                     "items": []
                 },
                 {
@@ -103,6 +111,7 @@
                     "index": "102",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -111,6 +120,7 @@
                     "index": "103",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -119,6 +129,7 @@
                     "index": "110",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -129,6 +140,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -139,6 +151,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -149,6 +162,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -157,6 +171,7 @@
                     "index": "120",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "Momentary Button",
@@ -184,6 +199,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -192,6 +208,7 @@
                     "index": "255",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 }
             ]

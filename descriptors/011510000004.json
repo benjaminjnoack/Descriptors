@@ -12,6 +12,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "x 10 milliseconds",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -42,6 +43,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -70,6 +72,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled (don't wait for double click, default)",
@@ -97,6 +100,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch All Off only (default)",
@@ -121,6 +125,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No (default)",

@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -33,6 +34,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -50,6 +52,7 @@
                     "index": "20",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "The last status before the power outage",
@@ -72,6 +75,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "3",
                     "items": [
                         {
                             "label": "None",
@@ -102,6 +106,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "None",
@@ -120,6 +125,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "None",
@@ -136,6 +142,7 @@
                     "label": "State appointment 1",
                     "index": "85",
                     "type": "int",
+                    "value": "2566920192",
                     "items": []
                 },
                 {
@@ -143,6 +150,7 @@
                     "label": "State appointment 2",
                     "index": "86",
                     "type": "int",
+                    "value": "8960",
                     "items": []
                 },
                 {
@@ -152,6 +160,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -172,6 +181,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "watts",
+                    "value": "25",
                     "items": []
                 },
                 {
@@ -182,6 +192,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -198,6 +209,7 @@
                     "index": "101",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -206,6 +218,7 @@
                     "index": "102",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -214,6 +227,7 @@
                     "index": "103",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -222,6 +236,7 @@
                     "index": "110",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -232,6 +247,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -242,6 +258,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -252,6 +269,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -263,6 +281,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Enter automatic identification mode",
@@ -291,6 +310,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Enter automatic identification mode",
@@ -319,6 +339,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Not connected",
@@ -339,6 +360,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Output loads of itself",
@@ -363,6 +385,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Output loads of itself",
@@ -386,6 +409,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -397,6 +421,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Unknown",
@@ -421,6 +446,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Trailing edge mode",
@@ -441,6 +467,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Unknown",
@@ -468,6 +495,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -478,6 +506,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "95",
                     "items": []
                 },
                 {
@@ -489,6 +518,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Never recognize the load when power on",
@@ -513,6 +543,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -530,6 +561,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

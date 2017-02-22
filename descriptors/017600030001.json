@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -23,6 +24,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Always off",
@@ -47,6 +49,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "100",
                     "items": []
                 }
             ]

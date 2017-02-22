@@ -9,6 +9,7 @@
                     "label": "Switching additional CONNECT radio receivers",
                     "index": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -16,6 +17,7 @@
                     "label": "Changeover delay (motor protection)",
                     "index": "176",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -23,6 +25,7 @@
                     "label": "Raising time input 1",
                     "index": "177",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -30,6 +33,7 @@
                     "label": "Raising time input 2",
                     "index": "178",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -37,6 +41,7 @@
                     "label": "Lowering time input 1",
                     "index": "179",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -44,6 +49,7 @@
                     "label": "Lowering time input 2",
                     "index": "180",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -52,6 +58,7 @@
                     "index": "181",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0 - Auto",
@@ -72,6 +79,7 @@
                     "label": "Brightness threshold for light sensor",
                     "index": "182",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -79,6 +87,7 @@
                     "label": "Sensor raising reaction threshold input 1",
                     "index": "183",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -86,6 +95,7 @@
                     "label": "Sensor raising reaction threshold input 1",
                     "index": "184",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -93,6 +103,7 @@
                     "label": "Sensor lowering reaction threshold input 1",
                     "index": "185",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -100,6 +111,7 @@
                     "label": "Sensor lowering reaction threshold input 1",
                     "index": "186",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 }
             ]

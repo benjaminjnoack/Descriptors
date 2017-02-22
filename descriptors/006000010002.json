@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -23,6 +24,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -43,6 +45,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "6",
                     "items": [
                         {
                             "label": "1",
@@ -94,6 +97,7 @@
                     "min": "5",
                     "type": "short",
                     "units": "Seconds",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -104,6 +108,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -114,6 +119,7 @@
                     "min": "5",
                     "type": "short",
                     "units": "Seconds",
+                    "value": "5",
                     "items": []
                 }
             ]

@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Inactive",
@@ -27,6 +28,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Wall Plug does not memorize its state after a power failure",
@@ -46,6 +48,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -56,6 +59,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "80",
                     "items": []
                 },
                 {
@@ -66,6 +70,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -76,6 +81,7 @@
                     "min": "5",
                     "size": "2",
                     "type": "short",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -86,6 +92,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -96,6 +103,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -104,6 +112,7 @@
                     "index": "15",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Inactive",
@@ -121,6 +130,7 @@
                     "index": "20",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Control as the wallplug",
@@ -140,6 +150,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -150,6 +161,7 @@
                     "min": "100",
                     "size": "2",
                     "type": "short",
+                    "value": "500",
                     "items": []
                 },
                 {
@@ -158,6 +170,7 @@
                     "index": "23",
                     "size": "1",
                     "type": "list",
+                    "value": "6",
                     "items": [
                         {
                             "label": "Turn the associated devices on,Power below DOWN",
@@ -193,6 +206,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -203,6 +217,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "63",
                     "items": [
                         {
                             "label": "General alarm",
@@ -242,6 +257,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -252,6 +268,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -262,6 +279,7 @@
                     "min": "1000",
                     "size": "2",
                     "type": "short",
+                    "value": "25000",
                     "items": []
                 },
                 {
@@ -270,6 +288,7 @@
                     "index": "41",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "illumination turned off completely",
@@ -319,6 +338,7 @@
                     "index": "42",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "illumination turned off completely",
@@ -364,6 +384,7 @@
                     "index": "43",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "illumination turned off completely",
@@ -413,6 +434,7 @@
                     "index": "50",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "none of the groups sent as secure",

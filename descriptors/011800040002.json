@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Indicator Off",
@@ -27,6 +28,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -46,6 +48,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "5 sec",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -56,6 +59,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "10 min",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -66,6 +70,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "Kwh",
+                    "value": "10000",
                     "items": []
                 },
                 {
@@ -76,6 +81,7 @@
                     "min": "10",
                     "type": "short",
                     "units": "Watt",
+                    "value": "3000",
                     "items": []
                 }
             ]

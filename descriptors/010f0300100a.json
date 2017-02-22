@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "ALL ON disabled/ ALL OFF disable - Default",
@@ -35,6 +36,7 @@
                     "index": "10",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Turning on the shutter positioning function - Default",
@@ -52,6 +54,7 @@
                     "index": "14",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Mono-stable switch (button) - Default",
@@ -73,6 +76,7 @@
                     "index": "20",
                     "size": "1",
                     "type": "byte",
+                    "value": "16",
                     "items": []
                 },
                 {
@@ -81,6 +85,7 @@
                     "index": "30",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "DEACTIVATION - the device does not respond to alarm data frames",
@@ -102,6 +107,7 @@
                     "index": "31",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "DEACTIVATION - the device does not respond to alarm data frames - Default",
@@ -123,6 +129,7 @@
                     "index": "32",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "DEACTIVATION - the device does not respond to alarm data frames",
@@ -144,6 +151,7 @@
                     "index": "33",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "DEACTIVATION - the device does not respond to alarm data frames",
@@ -165,6 +173,7 @@
                     "index": "41",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Deactivation of functionality - Default",

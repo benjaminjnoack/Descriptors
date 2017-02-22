@@ -17,6 +17,7 @@
                     "index": "0",
                     "type": "string",
                     "units": "#RRGGBBWW",
+                    "value": "#00000000",
                     "items": []
                 }
             ]
@@ -34,6 +35,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON disabled/ ALL OFF disabled",
@@ -59,6 +61,7 @@
                     "index": "6",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal (Dimmer) - BASIC SET/SWITCH_MULTILEVEL_START/STOP",
@@ -88,6 +91,7 @@
                     "index": "8",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "MODE 1 - Constant Speed (speed is defined by parameters 9 and 10)",
@@ -107,6 +111,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -117,6 +122,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "ms",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -127,6 +133,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "67",
                     "items": []
                 },
                 {
@@ -137,6 +144,7 @@
                     "min": "3",
                     "type": "byte",
                     "units": "",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -147,6 +155,7 @@
                     "min": "2",
                     "type": "byte",
                     "units": "",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -154,6 +163,7 @@
                     "label": "Inputs / Outputs configuration",
                     "index": "14",
                     "type": "short",
+                    "value": "4369",
                     "items": []
                 },
                 {
@@ -162,6 +172,7 @@
                     "index": "15",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Double click disabled",
@@ -179,6 +190,7 @@
                     "index": "16",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
@@ -196,6 +208,7 @@
                     "index": "30",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "INACTIVE - no response to alarm frames",
@@ -223,6 +236,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -233,6 +247,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "s",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -241,6 +256,7 @@
                     "index": "42",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Reporting as a result of inputs and controllers actions (SWITCH MULTILEVEL)",
@@ -264,6 +280,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "*0.1V",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -274,6 +291,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "s",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -284,6 +302,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "*0.01kWh",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -292,6 +311,7 @@
                     "index": "71",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Illumination colour set to white (all channels controlled together)",
@@ -311,6 +331,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -319,6 +340,7 @@
                     "index": "73",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NODE INFO control frame is sent",

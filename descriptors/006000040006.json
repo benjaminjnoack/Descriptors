@@ -13,6 +13,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -24,6 +25,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -35,6 +37,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Do not remember",
@@ -55,6 +58,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "minutes",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -66,6 +70,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "minutes",
+                    "value": "60",
                     "items": []
                 },
                 {
@@ -77,6 +82,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "watts",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -88,6 +94,7 @@
                     "size": "2",
                     "type": "byte",
                     "units": "%",
+                    "value": "0",
                     "items": []
                 }
             ]

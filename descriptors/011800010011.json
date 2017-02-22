@@ -12,6 +12,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "5 sec",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "10 min",
+                    "value": "6",
                     "items": []
                 }
             ]

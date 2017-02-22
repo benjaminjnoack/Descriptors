@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Open: 0xFF, Close: 0x00",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Open: 0xFF, Close: 0x00",
@@ -69,6 +72,7 @@
                     "min": "10",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -79,6 +83,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -89,6 +94,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "list",
+                    "value": "256",
                     "items": [
                         {
                             "label": "Disabled",
@@ -114,6 +120,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

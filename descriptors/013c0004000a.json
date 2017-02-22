@@ -10,6 +10,7 @@
                     "index": "7",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Using Notification Report",
@@ -27,6 +28,7 @@
                     "index": "29",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Enable Alarm",
@@ -45,6 +47,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "6",
                     "items": []
                 }
             ]
@@ -64,6 +67,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Stop",

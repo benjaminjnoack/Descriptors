@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "degrees",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "degrees",
+                    "value": "70",
                     "items": []
                 }
             ]

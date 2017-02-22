@@ -21,6 +21,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Group",
@@ -38,6 +39,7 @@
                     "index": "255",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 }
             ]

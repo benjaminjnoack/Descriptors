@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -21,6 +22,7 @@
                     "max": "3",
                     "min": "0",
                     "type": "bool",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -31,6 +33,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -41,6 +44,7 @@
                     "min": "5",
                     "type": "byte",
                     "units": "Seconds",
+                    "value": "180",
                     "items": []
                 },
                 {
@@ -51,6 +55,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -61,6 +66,7 @@
                     "min": "5",
                     "type": "byte",
                     "units": "Seconds",
+                    "value": "15",
                     "items": []
                 }
             ]

@@ -20,6 +20,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -30,6 +31,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -48,6 +50,7 @@
                     "max": "65000",
                     "min": "0",
                     "type": "short",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -56,6 +59,7 @@
                     "index": "36",
                     "size": "1",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -64,6 +68,7 @@
                     "index": "37",
                     "size": "4",
                     "type": "int",
+                    "value": "167905281",
                     "items": []
                 },
                 {
@@ -72,6 +77,7 @@
                     "index": "38",
                     "size": "4",
                     "type": "int",
+                    "value": "134416385",
                     "items": []
                 },
                 {
@@ -80,6 +86,7 @@
                     "index": "39",
                     "size": "4",
                     "type": "int",
+                    "value": "100927488",
                     "items": []
                 },
                 {
@@ -88,6 +95,7 @@
                     "index": "40",
                     "size": "4",
                     "type": "int",
+                    "value": "33883392",
                     "items": []
                 },
                 {
@@ -96,6 +104,7 @@
                     "index": "41",
                     "size": "4",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Sensor is not removed",
@@ -119,6 +128,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Battery power is much more",
@@ -137,6 +147,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -147,6 +158,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -157,6 +169,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -167,6 +180,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Volume",
@@ -186,6 +200,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Reserved",
@@ -207,6 +222,7 @@
                     "index": "241",
                     "size": "4",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -230,6 +246,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Unlock",
@@ -247,6 +264,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

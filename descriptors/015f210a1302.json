@@ -10,6 +10,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -21,6 +22,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "second",
+                    "value": "600",
                     "items": []
                 }
             ]

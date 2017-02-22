@@ -12,6 +12,7 @@
                     "min": "6",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "8",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 }
             ]

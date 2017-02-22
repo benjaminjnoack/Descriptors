@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "Disabled",

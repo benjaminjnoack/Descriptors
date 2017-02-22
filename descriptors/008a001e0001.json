@@ -9,6 +9,7 @@
                     "label": "Set to Default",
                     "index": "1",
                     "type": "byte",
+                    "value": "-1",
                     "items": []
                 },
                 {
@@ -16,6 +17,7 @@
                     "label": "Mode",
                     "index": "10",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -23,6 +25,7 @@
                     "label": "Double press time",
                     "index": "11",
                     "type": "byte",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -31,6 +34,7 @@
                     "index": "12",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 }
             ]

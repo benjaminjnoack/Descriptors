@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No (default)",

@@ -9,6 +9,7 @@
                     "label": "Set to Default",
                     "index": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -16,6 +17,7 @@
                     "label": "Feedback Time",
                     "index": "2",
                     "type": "byte",
+                    "value": "16",
                     "items": []
                 },
                 {
@@ -23,6 +25,7 @@
                     "label": "Feedback Timeout",
                     "index": "3",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -30,6 +33,7 @@
                     "label": "Feedback Beeps per Second",
                     "index": "4",
                     "type": "byte",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -38,6 +42,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mode 1: Normal operating mode.",

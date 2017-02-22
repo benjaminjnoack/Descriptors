@@ -12,6 +12,7 @@
                     "min": "3",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "3",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -50,6 +54,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Inactive",
@@ -67,6 +72,7 @@
                     "index": "6",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Inactive",

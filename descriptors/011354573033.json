@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",
@@ -27,6 +28,7 @@
                     "index": "3",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",
@@ -44,6 +46,7 @@
                     "index": "4",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No",
@@ -61,6 +64,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",
@@ -78,6 +82,7 @@
                     "index": "19",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "No flicker",
@@ -101,6 +106,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -109,6 +115,7 @@
                     "index": "21",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No",

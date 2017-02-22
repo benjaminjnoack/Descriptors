@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Separate mode (toggle mode)",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Separate mode (toggle mode)",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
@@ -93,6 +96,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
@@ -136,6 +140,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
@@ -179,6 +184,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "LED indication is disabled (LED can be controlled by Indicator Command Class Set commands)",
@@ -221,6 +227,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -230,6 +237,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -239,6 +247,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -248,6 +257,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -257,6 +267,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "00",
                     "items": []
                 },
                 {
@@ -266,6 +277,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "00",
                     "items": []
                 },
                 {
@@ -275,6 +287,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "00",
                     "items": []
                 },
                 {
@@ -284,6 +297,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "00",
                     "items": []
                 },
                 {
@@ -294,6 +308,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Relay is disabled",
@@ -329,6 +344,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Indicator Set level values are only used to control the LED",
@@ -347,6 +363,7 @@
                     "max": "201",
                     "min": "0",
                     "type": "byte",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Scene notifications are turned off",
@@ -366,6 +383,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Enabled",
@@ -383,6 +401,7 @@
                     "index": "19",
                     "size": "4",
                     "type": "int",
+                    "value": "33488896",
                     "items": []
                 },
                 {
@@ -391,6 +410,7 @@
                     "index": "20",
                     "size": "4",
                     "type": "int",
+                    "value": "33488896",
                     "items": []
                 },
                 {
@@ -399,6 +419,7 @@
                     "index": "21",
                     "size": "4",
                     "type": "int",
+                    "value": "33488896",
                     "items": []
                 },
                 {
@@ -407,6 +428,7 @@
                     "index": "22",
                     "size": "4",
                     "type": "int",
+                    "value": "33488896",
                     "items": []
                 },
                 {
@@ -417,6 +439,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "When commands are received by device 1, nodes in the association groups will not be switched, button activations will still send switch values.",
@@ -436,6 +459,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "When commands are received by device 2, nodes in the association groups will not be switched, button activations will still send switch values.",
@@ -455,6 +479,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "When commands are received by device 3, nodes in the association groups will not be switched, button activations will still send switch values.",
@@ -474,6 +499,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "When commands are received by device 4, nodes in the association groups will not be switched, button activations will still send switch values.",

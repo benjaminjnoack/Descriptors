@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "ms",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -24,6 +25,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "37",
                     "items": []
                 }
             ]

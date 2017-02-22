@@ -11,6 +11,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 }
             ]

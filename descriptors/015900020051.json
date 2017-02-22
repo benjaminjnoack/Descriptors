@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable switch type (push button)",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable switch type (push button)",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -76,6 +79,7 @@
                     "max": "32535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -85,6 +89,7 @@
                     "max": "32535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -94,6 +99,7 @@
                     "max": "32535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -103,6 +109,7 @@
                     "max": "32535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -113,6 +120,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "1 Second",
@@ -132,6 +140,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Flush 2 relays module saves its state before power failure (it returns to the last position saved before a power failure)",
@@ -151,6 +160,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -161,6 +171,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -170,6 +181,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -179,6 +191,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -189,6 +202,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "When the switch is turned off the output is 0V (NC)",
@@ -208,6 +222,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "When the switch is turned off the output is 0V (NC)",
@@ -226,6 +241,7 @@
                     "max": "32535",
                     "min": "0",
                     "type": "short",
+                    "value": "32535",
                     "items": []
                 },
                 {
@@ -235,6 +251,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 }
             ]

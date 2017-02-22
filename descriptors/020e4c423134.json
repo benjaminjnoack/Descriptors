@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Full brightness (Default)",
@@ -32,6 +33,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -42,6 +44,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "3",
                     "items": []
                 }
             ]

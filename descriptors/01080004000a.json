@@ -11,6 +11,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Enable Alarm",
@@ -41,6 +43,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "30 sec",
+                    "value": "6",
                     "items": []
                 }
             ]

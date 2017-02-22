@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Mono-stable switch",
@@ -47,6 +48,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -73,6 +75,7 @@
                     "max": "32535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -82,6 +85,7 @@
                     "max": "32535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -92,6 +96,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -111,6 +116,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Saves state before power failure",
@@ -130,6 +136,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Manual",
@@ -149,6 +156,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Zero",
@@ -169,6 +177,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -180,6 +189,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "seconde",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -189,6 +199,7 @@
                     "max": "1000",
                     "min": "0",
                     "type": "short",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -198,6 +209,7 @@
                     "max": "1000",
                     "min": "0",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -207,6 +219,7 @@
                     "max": "1000",
                     "min": "0",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -216,6 +229,7 @@
                     "max": "98",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -225,6 +239,7 @@
                     "max": "99",
                     "min": "2",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -234,6 +249,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "short",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -243,6 +259,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "short",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -253,6 +270,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "respect start level",
@@ -272,6 +290,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Respect start level",
@@ -290,6 +309,7 @@
                     "max": "1100",
                     "min": "1",
                     "type": "short",
+                    "value": "32536",
                     "items": []
                 },
                 {
@@ -299,6 +319,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -308,6 +329,7 @@
                     "max": "10000",
                     "min": "0",
                     "type": "short",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -317,6 +339,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -326,6 +349,7 @@
                     "max": "20000",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -335,6 +359,7 @@
                     "max": "20000",
                     "min": "0",
                     "type": "short",
+                    "value": "1000",
                     "items": []
                 }
             ]

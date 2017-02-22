@@ -16,6 +16,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "On for 2 seconds",
@@ -36,6 +37,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Aeon Labs Standard (Default)",
@@ -56,6 +58,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -75,6 +78,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -83,6 +87,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

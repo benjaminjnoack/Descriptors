@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "100ms",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "10s",
+                    "value": "3",
                     "items": []
                 }
             ]

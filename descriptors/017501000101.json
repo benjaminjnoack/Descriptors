@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Separately",
@@ -37,6 +38,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Separately",
@@ -61,6 +63,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -105,6 +108,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -149,6 +153,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -193,6 +198,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -279,6 +285,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Wakeup is blocked",
@@ -298,6 +305,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",

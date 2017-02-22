@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "button",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -30,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -40,6 +43,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 }
             ]

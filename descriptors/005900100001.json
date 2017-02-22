@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -27,6 +28,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Celsius",
@@ -46,6 +48,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -56,6 +59,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -66,6 +70,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 }
             ]

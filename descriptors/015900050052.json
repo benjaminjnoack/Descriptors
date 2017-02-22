@@ -16,6 +16,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable",
@@ -35,6 +36,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Mono-stable",
@@ -54,6 +56,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normally open) input type",
@@ -73,6 +76,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normally open) input type",
@@ -92,6 +96,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -119,6 +124,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -129,6 +135,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "32767",
                     "items": []
                 },
                 {
@@ -139,6 +146,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -148,6 +156,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -158,6 +167,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "1010",
                     "items": []
                 },
                 {
@@ -168,6 +178,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -178,6 +189,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -188,6 +200,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "1002",
                     "items": []
                 },
                 {
@@ -198,6 +211,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -208,6 +222,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -218,6 +233,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "700",
                     "items": []
                 },
                 {
@@ -228,6 +244,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0V",
@@ -247,6 +264,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0V",
@@ -266,6 +284,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -276,6 +295,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -286,6 +306,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -296,6 +317,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -306,6 +328,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -349,6 +372,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -392,6 +416,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "32536",
                     "items": []
                 },
                 {
@@ -401,6 +426,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -411,6 +437,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "internal digital temperature sensor is mounted, setpoint is set by controller",
@@ -445,6 +472,7 @@
                     "max": "254",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 }
             ]

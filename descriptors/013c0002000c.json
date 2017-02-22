@@ -12,6 +12,7 @@
                     "min": "-1",
                     "size": "1",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "80",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -52,6 +56,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -61,6 +66,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -72,6 +78,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "8 sec",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -83,6 +90,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "8 sec",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -94,6 +102,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "30 min",
+                    "value": "12",
                     "items": []
                 },
                 {
@@ -105,6 +114,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "30 min",
+                    "value": "12",
                     "items": []
                 },
                 {
@@ -116,6 +126,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "30 min",
+                    "value": "12",
                     "items": []
                 },
                 {
@@ -127,6 +138,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "30 min",
+                    "value": "12",
                     "items": []
                 },
                 {
@@ -136,6 +148,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -145,6 +158,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -154,6 +168,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 }
             ]

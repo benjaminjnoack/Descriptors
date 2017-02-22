@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Aeon Labs Standard (Default)",
@@ -30,6 +31,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -37,6 +39,7 @@
                     "label": "Reset configuration settings to factory defaults",
                     "index": "255",
                     "type": "button",
+                    "value": "0",
                     "items": []
                 }
             ]

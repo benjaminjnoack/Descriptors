@@ -9,6 +9,7 @@
                     "index": "0",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -16,6 +17,7 @@
                     "index": "1",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -23,6 +25,7 @@
                     "index": "2",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -30,6 +33,7 @@
                     "index": "3",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -37,6 +41,7 @@
                     "index": "4",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -44,6 +49,7 @@
                     "index": "20",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -51,6 +57,7 @@
                     "index": "21",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -58,6 +65,7 @@
                     "index": "22",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -65,6 +73,7 @@
                     "index": "23",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -72,6 +81,7 @@
                     "index": "24",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -79,6 +89,7 @@
                     "index": "40",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -86,6 +97,7 @@
                     "index": "41",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -93,6 +105,7 @@
                     "index": "42",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -100,6 +113,7 @@
                     "index": "43",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -107,6 +121,7 @@
                     "index": "44",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -114,6 +129,7 @@
                     "index": "60",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -121,6 +137,7 @@
                     "index": "61",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -128,6 +145,7 @@
                     "index": "62",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -135,6 +153,7 @@
                     "index": "63",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -142,6 +161,7 @@
                     "index": "64",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -149,6 +169,7 @@
                     "index": "80",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -156,6 +177,7 @@
                     "index": "81",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -163,6 +185,7 @@
                     "index": "82",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -170,6 +193,7 @@
                     "index": "83",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -177,6 +201,7 @@
                     "index": "84",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -184,6 +209,7 @@
                     "index": "100",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -191,6 +217,7 @@
                     "index": "101",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -198,6 +225,7 @@
                     "index": "102",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -205,6 +233,7 @@
                     "index": "103",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -212,6 +241,7 @@
                     "index": "104",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -219,6 +249,7 @@
                     "index": "120",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -226,6 +257,7 @@
                     "index": "121",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -233,6 +265,7 @@
                     "index": "122",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -240,6 +273,7 @@
                     "index": "123",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -247,6 +281,7 @@
                     "index": "124",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -254,6 +289,7 @@
                     "index": "140",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -261,6 +297,7 @@
                     "index": "141",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -268,6 +305,7 @@
                     "index": "142",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -275,6 +313,7 @@
                     "index": "143",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -282,6 +321,7 @@
                     "index": "144",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -291,6 +331,7 @@
                     "min": "0",
                     "type": "bool",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -300,6 +341,7 @@
                     "min": "0",
                     "type": "bool",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -309,6 +351,7 @@
                     "min": "0",
                     "type": "bool",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -318,6 +361,7 @@
                     "min": "0",
                     "type": "bool",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -329,6 +373,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Group",
@@ -346,6 +391,7 @@
                     "index": "255",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 }
             ]

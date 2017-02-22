@@ -13,6 +13,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "",
+                    "value": "3850",
                     "items": []
                 },
                 {
@@ -24,6 +25,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Deactivate Overload Protection (Default)",
@@ -44,6 +46,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Last status (Default)",
@@ -68,6 +71,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Nothing",
@@ -89,6 +93,7 @@
                     "index": "90",
                     "type": "bool",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -100,6 +105,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "watts",
+                    "value": "25",
                     "items": []
                 },
                 {
@@ -110,6 +116,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -126,6 +133,7 @@
                     "index": "101",
                     "type": "int",
                     "units": "",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -134,6 +142,7 @@
                     "index": "102",
                     "type": "int",
                     "units": "",
+                    "value": "8",
                     "items": []
                 },
                 {
@@ -142,6 +151,7 @@
                     "index": "103",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -150,6 +160,7 @@
                     "index": "110",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -160,6 +171,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -170,6 +182,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -180,6 +193,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -191,6 +205,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Aeon Labs Standard (Default)",
@@ -211,6 +226,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -230,6 +246,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {

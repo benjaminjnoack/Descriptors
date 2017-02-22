@@ -11,6 +11,7 @@
                     "max": "32000",
                     "min": "1",
                     "type": "short",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "32000",
                     "min": "1",
                     "type": "short",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -29,6 +31,7 @@
                     "max": "3",
                     "min": "0",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -38,6 +41,7 @@
                     "max": "3",
                     "min": "0",
                     "type": "byte",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Edge Mode",
@@ -60,6 +64,7 @@
                     "max": "1500",
                     "min": "10",
                     "type": "short",
+                    "value": "1500",
                     "items": []
                 },
                 {
@@ -69,6 +74,7 @@
                     "max": "10000",
                     "min": "0",
                     "type": "short",
+                    "value": "10000",
                     "items": []
                 }
             ]

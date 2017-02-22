@@ -12,6 +12,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Low",
@@ -35,6 +36,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Off",
@@ -67,6 +69,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "minute",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -77,6 +80,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Low",
@@ -100,6 +104,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "10",
                     "items": [
                         {
                             "label": "1",
@@ -151,6 +156,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "9",
                     "items": [
                         {
                             "label": "1",
@@ -202,6 +208,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Alarm music",
@@ -221,6 +228,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -240,6 +248,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",

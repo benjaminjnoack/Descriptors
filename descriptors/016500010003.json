@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Channel output state OFF",
@@ -35,6 +36,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -45,6 +47,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Channel output state always ON disable",
@@ -64,6 +67,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -71,6 +75,7 @@
                     "label": "Parameter Alarm 1 behavior",
                     "index": "6",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -81,6 +86,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -88,6 +94,7 @@
                     "label": "Parameter Alarm 2 behavior",
                     "index": "8",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -98,6 +105,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -105,6 +113,7 @@
                     "label": "Parameter Alarm 3 behavior",
                     "index": "10",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -115,6 +124,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -122,6 +132,7 @@
                     "label": "Parameter Alarm 4 behavior",
                     "index": "12",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -132,6 +143,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -139,6 +151,7 @@
                     "label": "Parameter Alarm 5 behavior",
                     "index": "14",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -149,6 +162,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -156,6 +170,7 @@
                     "label": "Parameter Alarm 6 behavior",
                     "index": "16",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -166,6 +181,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -173,6 +189,7 @@
                     "label": "Parameter Alarm 7 behavior",
                     "index": "18",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -183,6 +200,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -190,6 +208,7 @@
                     "label": "Parameter Alarm 8 behavior",
                     "index": "20",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -200,6 +219,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -210,6 +230,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "2000",
                     "items": []
                 },
                 {
@@ -220,6 +241,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "1000",
                     "items": []
                 },
                 {
@@ -230,6 +252,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -240,6 +263,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -250,6 +274,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -260,6 +285,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "7",
                     "items": []
                 }
             ]

@@ -10,6 +10,7 @@
                     "index": "17",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Lighting",
@@ -33,6 +34,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -41,6 +43,7 @@
                     "index": "19",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",
@@ -60,6 +63,7 @@
                     "min": "15",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "30",
                     "items": []
                 }
             ]

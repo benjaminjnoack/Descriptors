@@ -22,6 +22,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "function activated",
@@ -39,6 +40,7 @@
                     "index": "16",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Wall Plug does not memorize its state after a power failure",
@@ -58,6 +60,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "63",
                     "items": [
                         {
                             "label": "ALARM GENERIC",
@@ -95,6 +98,7 @@
                     "index": "35",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No reaction",
@@ -122,6 +126,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -132,6 +137,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "80",
                     "items": []
                 },
                 {
@@ -142,6 +148,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -152,6 +159,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -162,6 +170,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -170,6 +179,7 @@
                     "index": "47",
                     "size": "2",
                     "type": "short",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -178,6 +188,7 @@
                     "index": "49",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "function inactive",
@@ -197,6 +208,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -207,6 +219,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "500",
                     "items": []
                 },
                 {
@@ -215,6 +228,7 @@
                     "index": "52",
                     "size": "1",
                     "type": "list",
+                    "value": "6",
                     "items": [
                         {
                             "label": "Function inactive",
@@ -254,6 +268,7 @@
                     "min": "1000",
                     "size": "2",
                     "type": "short",
+                    "value": "25000",
                     "items": []
                 },
                 {
@@ -262,6 +277,7 @@
                     "index": "61",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Depending on power consumption changes",
@@ -311,6 +327,7 @@
                     "index": "62",
                     "size": "1",
                     "type": "list",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Depending on the last measured power",
@@ -356,6 +373,7 @@
                     "index": "63",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No change in colour",
@@ -405,6 +423,7 @@
                     "index": "70",
                     "size": "2",
                     "type": "short",
+                    "value": "65535",
                     "items": []
                 }
             ]

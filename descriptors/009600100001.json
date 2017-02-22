@@ -16,6 +16,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "",
+                    "value": "10000",
                     "items": []
                 },
                 {
@@ -27,6 +28,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Magnetic contact meter",
@@ -46,6 +48,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -56,6 +59,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -66,6 +70,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -77,6 +82,7 @@
                     "size": "4",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -88,6 +94,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "second",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -99,6 +106,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -107,6 +115,7 @@
                     "index": "12",
                     "size": "4",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -118,6 +127,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Off",
@@ -135,6 +145,7 @@
                     "index": "15",
                     "size": "4",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 }
             ]

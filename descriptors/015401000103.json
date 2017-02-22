@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Separately",
@@ -37,6 +38,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Separately",
@@ -61,6 +63,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -109,6 +112,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -157,6 +161,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -205,6 +210,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "8",
                     "items": [
                         {
                             "label": "Disabled",
@@ -253,6 +259,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch Off only (default)",
@@ -277,6 +284,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No (default)",
@@ -297,6 +305,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Wakeup is blocked (default)",
@@ -317,6 +326,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",

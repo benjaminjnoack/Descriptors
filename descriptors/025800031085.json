@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "minute",
+                    "value": "120",
                     "items": []
                 },
                 {
@@ -24,6 +25,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "minute",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -35,6 +37,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "second",
+                    "value": "60",
                     "items": []
                 },
                 {
@@ -46,6 +49,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "second",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -54,6 +58,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -71,6 +76,7 @@
                     "index": "6",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -90,6 +96,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 }
             ]

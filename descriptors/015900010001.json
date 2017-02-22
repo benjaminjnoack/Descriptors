@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Mono-stable switch type (push button)",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",
@@ -69,6 +72,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -96,6 +100,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
@@ -115,6 +120,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -124,6 +130,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -133,6 +140,7 @@
                     "max": "98",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -142,6 +150,7 @@
                     "max": "99",
                     "min": "2",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -151,6 +160,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -160,6 +170,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "3",
                     "items": []
                 }
             ]

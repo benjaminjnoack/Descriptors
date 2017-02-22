@@ -50,14 +50,7 @@ class Value extends Element {
   }
 
   set meta(meta) {
-    this[h.INDEX] = meta[h.INDEX];
-    this[h.LABEL] = meta[h.LABEL];
-    this[h.MAX] = meta[h.MAX];
-    this[h.MIN] = meta[h.MIN];
-    this[h.SIZE] = meta[h.SIZE];
-    this[h.TYPE] = meta[h.TYPE];
-    this[h.UNITS] = meta[h.UNITS];
-    this[h.VALUE] = meta[h.VALUE];
+    super.meta = meta;
   }
 
   parse() {

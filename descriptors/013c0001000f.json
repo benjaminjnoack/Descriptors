@@ -11,6 +11,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -29,6 +31,7 @@
                     "max": "1100",
                     "min": "10",
                     "type": "short",
+                    "value": "1100",
                     "items": []
                 },
                 {
@@ -38,6 +41,7 @@
                     "max": "10000",
                     "min": "10",
                     "type": "short",
+                    "value": "10000",
                     "items": []
                 },
                 {
@@ -48,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "SWITCH OFF",
@@ -70,6 +75,7 @@
                     "max": "1",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -79,6 +85,7 @@
                     "max": "3",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -88,6 +95,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -97,6 +105,7 @@
                     "max": "3",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -106,6 +115,7 @@
                     "max": "3",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 }
             ]

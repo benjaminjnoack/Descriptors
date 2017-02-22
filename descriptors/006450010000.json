@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -49,6 +50,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -85,6 +87,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -121,6 +124,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -157,6 +161,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -193,6 +198,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -229,6 +235,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -265,6 +272,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Disabled",
@@ -301,6 +309,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Disabled",
@@ -337,6 +346,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Disabled",
@@ -373,6 +383,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Disabled",
@@ -409,6 +420,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch Off only (default)",

@@ -20,6 +20,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "900",
                     "items": []
                 },
                 {
@@ -31,6 +32,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "2700",
                     "items": []
                 },
                 {
@@ -41,6 +43,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "80",
                     "items": []
                 },
                 {
@@ -49,6 +52,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "no detection possible. Battery save mode",
@@ -72,6 +76,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -82,6 +87,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "17",
                     "items": []
                 },
                 {
@@ -92,6 +98,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "38",
                     "items": []
                 },
                 {
@@ -102,6 +109,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "85",
                     "items": []
                 },
                 {
@@ -112,6 +120,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "186",
                     "items": []
                 },
                 {
@@ -122,6 +131,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "407",
                     "items": []
                 },
                 {
@@ -132,6 +142,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "891",
                     "items": []
                 },
                 {
@@ -142,6 +153,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "1949",
                     "items": []
                 },
                 {
@@ -152,6 +164,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "4265",
                     "items": []
                 },
                 {
@@ -162,6 +175,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "9332",
                     "items": []
                 },
                 {
@@ -172,6 +186,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "20417",
                     "items": []
                 }
             ]

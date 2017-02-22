@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Separately",
@@ -37,6 +38,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Separately",
@@ -60,6 +62,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -95,6 +98,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -130,6 +134,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -165,6 +170,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -200,6 +206,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "x 10 milliseconds",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -209,6 +216,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch Off Only (Default)",
@@ -231,6 +239,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No (Default)",
@@ -250,6 +259,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "No Confirmations",
@@ -272,6 +282,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No (default)",

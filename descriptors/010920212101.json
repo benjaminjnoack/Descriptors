@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Celsius",
@@ -30,6 +31,7 @@
                     "max": "50",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -40,6 +42,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -50,6 +53,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -60,6 +64,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "min",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -70,6 +75,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -80,6 +86,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "3",
                     "items": []
                 }
             ]

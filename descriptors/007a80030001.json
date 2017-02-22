@@ -9,6 +9,7 @@
                     "label": "Changeover delay (motor protection)",
                     "index": "176",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -16,6 +17,7 @@
                     "label": "Raising time input 1",
                     "index": "177",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -23,6 +25,7 @@
                     "label": "Raising time input 2",
                     "index": "178",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -30,6 +33,7 @@
                     "label": "Lowering time input 1",
                     "index": "179",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -37,6 +41,7 @@
                     "label": "Lowering time input 2",
                     "index": "180",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 }
             ]

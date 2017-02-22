@@ -11,6 +11,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "99",
                     "min": "0",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -29,6 +31,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "12",
                     "items": []
                 },
                 {
@@ -38,6 +41,7 @@
                     "max": "3",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -46,6 +50,7 @@
                     "index": "26",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Enabled",

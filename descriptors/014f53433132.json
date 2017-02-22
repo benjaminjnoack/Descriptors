@@ -10,6 +10,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Scenes and groups",
@@ -31,6 +32,7 @@
                     "index": "4",
                     "size": "1",
                     "type": "bool",
+                    "value": "False",
                     "items": []
                 }
             ]

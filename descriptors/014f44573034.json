@@ -10,6 +10,7 @@
                     "index": "3",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -27,6 +28,7 @@
                     "index": "4",
                     "size": "1",
                     "type": "bool",
+                    "value": "False",
                     "items": []
                 },
                 {
@@ -35,6 +37,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "bool",
+                    "value": "True",
                     "items": []
                 }
             ]
@@ -48,6 +51,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 }
             ]

@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Basic",
@@ -36,6 +37,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -46,6 +48,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -63,6 +66,7 @@
                     "index": "4",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Basic",
@@ -89,6 +93,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -99,6 +104,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -118,6 +124,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "LED turned Off",
@@ -137,6 +144,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Notification",

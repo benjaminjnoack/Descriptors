@@ -16,6 +16,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -35,6 +36,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -54,6 +56,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -72,6 +75,7 @@
                     "max": "4294967295",
                     "min": "0",
                     "type": "int",
+                    "value": "86640",
                     "items": []
                 },
                 {
@@ -80,6 +84,7 @@
                     "index": "121",
                     "size": "4",
                     "type": "list",
+                    "value": "256",
                     "items": [
                         {
                             "label": "Disabled",
@@ -107,6 +112,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Unlock",
@@ -126,6 +132,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -133,6 +140,7 @@
                     "label": "Reset To Factory Defaults",
                     "index": "255",
                     "type": "button",
+                    "value": "0",
                     "items": []
                 }
             ]

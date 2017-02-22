@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "The Siren triggers automatically when it's removed from the holder. Must be turned off, using the button or from the controller (Default)",
@@ -33,6 +34,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -43,6 +45,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -53,6 +56,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -61,6 +65,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Siren only",
@@ -85,6 +90,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "5",
                     "items": []
                 }
             ]

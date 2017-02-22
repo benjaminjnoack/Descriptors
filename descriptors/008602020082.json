@@ -24,6 +24,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -43,6 +44,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -62,6 +64,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -81,6 +84,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Send nothing",
@@ -102,6 +106,7 @@
                     "index": "5",
                     "type": "int",
                     "units": "",
+                    "value": "65280",
                     "items": []
                 },
                 {
@@ -110,6 +115,7 @@
                     "index": "33",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -120,6 +126,7 @@
                     "min": "10",
                     "type": "byte",
                     "units": "%",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -128,6 +135,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

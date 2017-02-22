@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Silent",
@@ -31,6 +32,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Off",
@@ -51,6 +53,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -61,6 +64,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "5",
                     "items": [
                         {
                             "label": "1",
@@ -100,6 +104,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "English",
@@ -124,6 +129,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -134,6 +140,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Normal",

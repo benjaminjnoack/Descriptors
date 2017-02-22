@@ -11,6 +11,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -21,6 +22,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "LED turned Off",
@@ -38,6 +40,7 @@
                     "index": "3",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "NO (Normal Open)",
@@ -63,6 +66,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALARM GENERIC",
@@ -101,6 +105,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -109,6 +114,7 @@
                     "index": "9",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Groups 1 and 2 sent",
@@ -131,6 +137,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -140,6 +147,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "200",
                     "items": []
                 },
                 {
@@ -149,6 +157,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "8",
                     "items": []
                 },
                 {
@@ -157,6 +166,7 @@
                     "index": "13",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "IN1 and IN2 Broadcast inactive",
@@ -182,6 +192,7 @@
                     "index": "14",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Scenes disabled",

@@ -12,6 +12,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Toggle (default)",
@@ -39,6 +40,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "As Received (default)",
@@ -67,6 +69,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "centiAmperes",
+                    "value": "4500",
                     "items": []
                 },
                 {
@@ -78,6 +81,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -88,6 +92,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Ignore",
@@ -115,6 +120,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -125,6 +131,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Consumed",
@@ -145,6 +152,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "Watts",
+                    "value": "11250",
                     "items": []
                 },
                 {
@@ -156,6 +164,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -166,6 +175,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Ignore",
@@ -193,6 +203,7 @@
                     "min": "-1",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -204,6 +215,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "Watts",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -215,6 +227,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -225,6 +238,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Ignore",
@@ -252,6 +266,7 @@
                     "min": "-1",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -263,6 +278,7 @@
                     "size": "4",
                     "type": "int",
                     "units": "kWh",
+                    "value": "2000000",
                     "items": []
                 },
                 {
@@ -273,6 +289,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Ignore",
@@ -301,6 +318,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -312,6 +330,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -322,6 +341,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Ignore",
@@ -354,6 +374,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "deciVolts",
+                    "value": "2300",
                     "items": []
                 },
                 {
@@ -365,6 +386,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -375,6 +397,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -430,6 +453,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "ON",
@@ -453,6 +477,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Factory reset",
@@ -480,6 +505,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Ignore",
@@ -507,6 +533,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Direct control",

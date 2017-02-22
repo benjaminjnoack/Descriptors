@@ -11,6 +11,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -29,6 +31,7 @@
                     "max": "1100",
                     "min": "10",
                     "type": "short",
+                    "value": "1100",
                     "items": []
                 },
                 {
@@ -38,6 +41,7 @@
                     "max": "10000",
                     "min": "1",
                     "type": "short",
+                    "value": "10000",
                     "items": []
                 },
                 {
@@ -47,6 +51,7 @@
                     "max": "2",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -56,6 +61,7 @@
                     "max": "2",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 }
             ]

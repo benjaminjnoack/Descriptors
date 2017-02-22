@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 }
             ]
@@ -37,6 +39,7 @@
                     "min": "0",
                     "type": "bool",
                     "units": "",
+                    "value": "",
                     "items": []
                 }
             ]
@@ -49,6 +52,7 @@
                     "label": "Power Applied",
                     "index": "0",
                     "type": "byte",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -56,6 +60,7 @@
                     "label": "low battery",
                     "index": "1",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -63,6 +68,7 @@
                     "label": "Tamper event",
                     "index": "0",
                     "type": "byte",
+                    "value": "17",
                     "items": []
                 }
             ]
@@ -78,6 +84,7 @@
                     "min": "20",
                     "type": "byte",
                     "units": "%",
+                    "value": "",
                     "items": []
                 }
             ]
@@ -92,6 +99,7 @@
                     "min": "60",
                     "type": "int",
                     "units": "Seconds",
+                    "value": "",
                     "items": []
                 }
             ]

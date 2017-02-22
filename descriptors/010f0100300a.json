@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active / ALL OFF active",
@@ -35,6 +36,7 @@
                     "index": "6",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Map status to all devices in group 1 (default)",
@@ -56,6 +58,7 @@
                     "index": "7",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Frame GET not send. Device status is not checked",
@@ -75,6 +78,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -84,6 +88,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -94,6 +99,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "ms",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -104,6 +110,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -114,6 +121,7 @@
                     "min": "2",
                     "type": "byte",
                     "units": "%",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -124,6 +132,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "5",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -132,6 +141,7 @@
                     "index": "14",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Mono-stable input (button)",
@@ -153,6 +163,7 @@
                     "index": "15",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable double click",
@@ -170,6 +181,7 @@
                     "index": "16",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
@@ -187,6 +199,7 @@
                     "index": "17",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -204,6 +217,7 @@
                     "index": "18",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -221,6 +235,7 @@
                     "index": "19",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -239,6 +254,7 @@
                     "max": "170",
                     "min": "100",
                     "type": "byte",
+                    "value": "110",
                     "items": []
                 },
                 {
@@ -247,6 +263,7 @@
                     "index": "30",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "DEACTIVATION - no response to alarm frames",
@@ -274,6 +291,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "s",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -283,6 +301,7 @@
                     "max": "99",
                     "min": "1",
                     "type": "byte",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -291,6 +310,7 @@
                     "index": "41",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Functionality deactivated",

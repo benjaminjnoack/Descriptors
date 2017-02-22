@@ -11,6 +11,7 @@
                     "min": "0",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Off",
@@ -42,6 +43,7 @@
                     "min": "0",
                     "type": "decimal",
                     "units": "C",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -51,6 +53,7 @@
                     "min": "0",
                     "type": "decimal",
                     "units": "C",
+                    "value": "16",
                     "items": []
                 }
             ]
@@ -62,6 +65,7 @@
                     "label": "Operation mode",
                     "index": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Off",
@@ -85,6 +89,7 @@
                     "label": "Temperature sensor",
                     "index": "2",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "F  - Floor mode",
@@ -116,6 +121,7 @@
                     "label": "Floor sensor type",
                     "index": "3",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "10k ntc",
@@ -151,6 +157,7 @@
                     "min": "3",
                     "size": "1",
                     "type": "short",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -161,6 +168,7 @@
                     "min": "50",
                     "size": "1",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -171,6 +179,7 @@
                     "min": "50",
                     "size": "1",
                     "type": "short",
+                    "value": "400",
                     "items": []
                 },
                 {
@@ -181,6 +190,7 @@
                     "min": "50",
                     "size": "1",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -191,6 +201,7 @@
                     "min": "50",
                     "size": "1",
                     "type": "short",
+                    "value": "400",
                     "items": []
                 },
                 {
@@ -201,6 +212,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -211,6 +223,7 @@
                     "min": "50",
                     "size": "1",
                     "type": "short",
+                    "value": "210",
                     "items": []
                 },
                 {
@@ -221,6 +234,7 @@
                     "min": "50",
                     "size": "1",
                     "type": "short",
+                    "value": "180",
                     "items": []
                 },
                 {
@@ -231,6 +245,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "short",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -241,6 +256,7 @@
                     "min": "50",
                     "size": "1",
                     "type": "short",
+                    "value": "180",
                     "items": []
                 }
             ]

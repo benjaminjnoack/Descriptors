@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable switch type (push button)",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable switch type (push button)",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable switch type (push button)",
@@ -69,6 +72,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normally open) input type",
@@ -88,6 +92,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normally open) input type",
@@ -107,6 +112,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normally open) input type",
@@ -126,6 +132,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Nothing",
@@ -165,6 +172,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Nothing",
@@ -204,6 +212,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "5",
                     "items": [
                         {
                             "label": "Nothing",
@@ -243,6 +252,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",

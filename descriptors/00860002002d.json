@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normal",
@@ -68,6 +71,7 @@
                     "max": "4369",
                     "min": "0",
                     "type": "int",
+                    "value": "256",
                     "items": []
                 },
                 {
@@ -75,6 +79,7 @@
                     "label": "Reset to default",
                     "index": "255",
                     "type": "button",
+                    "value": "0",
                     "items": []
                 }
             ]

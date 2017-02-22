@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No",
@@ -31,6 +32,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "seconds",
+                    "value": "240",
                     "items": []
                 },
                 {
@@ -41,6 +43,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "5",
                     "items": [
                         {
                             "label": "Disabled",
@@ -76,6 +79,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Basic Set (default) ",
@@ -95,6 +99,7 @@
                     "min": "8",
                     "size": "1",
                     "type": "byte",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -102,6 +107,7 @@
                     "label": "Current power mode",
                     "index": "9",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -112,6 +118,7 @@
                     "min": "10",
                     "size": "1",
                     "type": "byte",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -122,6 +129,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -142,6 +150,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "%",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -153,6 +162,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -164,6 +174,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "LUX",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -175,6 +186,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -185,6 +197,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -195,6 +208,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -214,6 +228,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -221,6 +236,7 @@
                     "label": "Set the upper limit value of temperature sensor",
                     "index": "49",
                     "type": "int",
+                    "value": "71681",
                     "items": []
                 },
                 {
@@ -228,6 +244,7 @@
                     "label": "Set the lower limit value of temperature sensor",
                     "index": "50",
                     "type": "int",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -238,6 +255,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "60",
                     "items": []
                 },
                 {
@@ -248,6 +266,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -258,6 +277,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "lux",
+                    "value": "1000",
                     "items": []
                 },
                 {
@@ -268,6 +288,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "lux",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -278,6 +299,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "UV",
+                    "value": "8",
                     "items": []
                 },
                 {
@@ -288,6 +310,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "UV",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -295,6 +318,7 @@
                     "label": "Set the recover limit value of temperature sensor",
                     "index": "57",
                     "type": "short",
+                    "value": "5121",
                     "items": []
                 },
                 {
@@ -305,6 +329,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -315,6 +340,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "lux",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -325,6 +351,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "UV",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -335,6 +362,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -345,6 +373,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Celsius",
@@ -364,6 +393,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Enable",
@@ -387,6 +417,7 @@
                     "label": "Group 1 Reports",
                     "index": "101",
                     "type": "int",
+                    "value": "241",
                     "items": []
                 },
                 {
@@ -394,6 +425,7 @@
                     "label": "Group 2 Reports",
                     "index": "102",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -401,6 +433,7 @@
                     "label": "Group 3 Reports",
                     "index": "103",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -418,6 +451,7 @@
                     "min": "1",
                     "type": "int",
                     "units": "seconds",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -428,6 +462,7 @@
                     "min": "1",
                     "type": "int",
                     "units": "seconds",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -438,6 +473,7 @@
                     "min": "1",
                     "type": "int",
                     "units": "seconds",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -445,6 +481,7 @@
                     "label": "Temperature Calibration",
                     "index": "201",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -454,6 +491,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -463,6 +501,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -472,6 +511,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -483,6 +523,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -499,6 +540,7 @@
                     "label": "Reset to default",
                     "index": "255",
                     "type": "button",
+                    "value": "0",
                     "items": []
                 }
             ]

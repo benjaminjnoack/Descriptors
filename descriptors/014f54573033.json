@@ -10,6 +10,7 @@
                     "index": "3",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "LED OFF when the load is on",
@@ -39,6 +40,7 @@
                     "index": "4",
                     "size": "1",
                     "type": "bool",
+                    "value": "False",
                     "items": []
                 },
                 {
@@ -47,6 +49,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "bool",
+                    "value": "True",
                     "items": []
                 },
                 {
@@ -57,6 +60,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -67,6 +71,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "10ms",
+                    "value": "10",
                     "items": []
                 }
             ]

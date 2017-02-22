@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -23,6 +24,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -33,6 +35,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "99",
                     "items": []
                 }
             ]

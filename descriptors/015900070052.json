@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Disabled",
@@ -43,6 +44,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -70,6 +72,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -80,6 +83,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -90,6 +94,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -100,6 +105,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -110,6 +116,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -119,6 +126,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -129,6 +137,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No function",
@@ -160,6 +169,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Endpoints IR external relay and External relay disabled",

@@ -11,6 +11,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "32767",
                     "min": "1",
                     "type": "short",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -29,6 +31,7 @@
                     "max": "1300",
                     "min": "10",
                     "type": "short",
+                    "value": "1300",
                     "items": []
                 },
                 {
@@ -39,6 +42,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "KWh",
+                    "value": "1000",
                     "items": []
                 },
                 {
@@ -50,6 +54,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch off",
@@ -74,6 +79,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "disable",
@@ -94,6 +100,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Show Switch State:When switch is on, LED is on. When switch is off, LED is off.",
@@ -117,6 +124,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "s",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -128,6 +136,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "It switches to OFF state.",

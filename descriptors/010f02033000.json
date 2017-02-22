@@ -14,6 +14,7 @@
                     "index": "9",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
@@ -31,6 +32,7 @@
                     "index": "10",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Standard operation",
@@ -64,6 +66,7 @@
                     "index": "11",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Cancel mode and set target state",
@@ -87,6 +90,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -97,6 +101,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -105,6 +110,7 @@
                     "index": "15",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Standard operation",
@@ -138,6 +144,7 @@
                     "index": "16",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Cancel mode and set target state",
@@ -161,6 +168,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -171,6 +179,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -179,6 +188,7 @@
                     "index": "20",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Momentary switch",
@@ -200,6 +210,7 @@
                     "index": "21",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -219,6 +230,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -229,6 +241,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -239,6 +252,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -249,6 +263,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -259,6 +274,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -269,6 +285,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -279,6 +296,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -289,6 +307,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -299,6 +318,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -309,6 +329,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -319,6 +340,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -327,6 +349,7 @@
                     "index": "40",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Ignored",
@@ -352,6 +375,7 @@
                     "index": "41",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Ignored",
@@ -377,6 +401,7 @@
                     "index": "42",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Ignored",
@@ -402,6 +427,7 @@
                     "index": "43",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Ignored",
@@ -429,6 +455,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -439,6 +466,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "short",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -449,6 +477,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "short",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -459,6 +488,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -469,6 +499,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "short",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -479,6 +510,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "short",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -489,6 +521,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -499,6 +532,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -509,6 +543,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -517,6 +552,7 @@
                     "index": "60",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "function inactive",

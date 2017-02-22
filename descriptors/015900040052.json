@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Normally Open",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No modification with Input 1",
@@ -89,6 +92,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "4",
                     "items": [
                         {
                             "label": "No modification with Input 1",
@@ -128,6 +132,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Returns to the last position saved before a power failure",

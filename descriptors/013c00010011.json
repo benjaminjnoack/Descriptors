@@ -13,6 +13,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -24,6 +25,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "minutes",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -35,6 +37,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "ampere",
+                    "value": "1300",
                     "items": []
                 },
                 {
@@ -46,6 +49,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "KWh",
+                    "value": "10000",
                     "items": []
                 },
                 {
@@ -56,6 +60,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch Off",
@@ -79,6 +84,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -98,6 +104,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch state",
@@ -122,6 +129,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -132,6 +140,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Switch off",

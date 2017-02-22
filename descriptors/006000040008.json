@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "3",
                     "size": "1",
                     "type": "short",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Do not remember",
@@ -51,6 +54,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 }
             ]

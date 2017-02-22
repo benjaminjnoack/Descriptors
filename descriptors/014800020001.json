@@ -11,6 +11,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Off",
@@ -36,6 +37,7 @@
                     "index": "1",
                     "type": "decimal",
                     "units": "C",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -43,6 +45,7 @@
                     "index": "11",
                     "type": "decimal",
                     "units": "C",
+                    "value": "0",
                     "items": []
                 }
             ]

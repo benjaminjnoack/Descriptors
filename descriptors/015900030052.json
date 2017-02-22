@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -40,6 +41,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -50,6 +52,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "s",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -60,6 +63,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Shutter mode",
@@ -79,6 +83,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "s",
+                    "value": "150",
                     "items": []
                 },
                 {
@@ -89,6 +94,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Z-wave control",
@@ -107,6 +113,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -117,6 +124,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "w",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -127,6 +135,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Default",
@@ -146,6 +155,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -156,6 +166,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -165,6 +176,7 @@
                     "max": "65535",
                     "min": "1",
                     "type": "short",
+                    "value": "32536",
                     "items": []
                 },
                 {
@@ -175,6 +187,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "5",
                     "items": []
                 }
             ]

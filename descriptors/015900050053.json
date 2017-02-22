@@ -20,6 +20,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable",
@@ -39,6 +40,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable",
@@ -58,6 +60,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable",
@@ -77,6 +80,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",
@@ -96,6 +100,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",
@@ -115,6 +120,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",
@@ -134,6 +140,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -161,6 +168,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mode Off and Auto",
@@ -184,6 +192,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "32767",
                     "items": []
                 },
                 {
@@ -194,6 +203,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "32767",
                     "items": []
                 },
                 {
@@ -204,6 +214,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -213,6 +224,7 @@
                     "max": "32767",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -223,6 +235,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -233,6 +246,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -243,6 +257,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -253,6 +268,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -263,6 +279,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "PID value equal ZERO",
@@ -282,6 +299,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -292,6 +310,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -302,6 +321,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -312,6 +332,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -322,6 +343,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -332,6 +354,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Heat mode (0)",
@@ -351,6 +374,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -361,6 +385,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "700",
                     "items": []
                 },
                 {
@@ -371,6 +396,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "(NC) - When system is turned off the output is 0V",
@@ -390,6 +416,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -400,6 +427,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -410,6 +438,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -420,6 +449,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -430,6 +460,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -440,6 +471,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -450,6 +482,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -493,6 +526,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -536,6 +570,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -579,6 +614,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "32536",
                     "items": []
                 },
                 {
@@ -588,6 +624,7 @@
                     "max": "127",
                     "min": "0",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 }
             ]

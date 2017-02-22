@@ -12,6 +12,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "6",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "10",
                     "size": "2",
                     "type": "short",
+                    "value": "3000",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 }
             ]

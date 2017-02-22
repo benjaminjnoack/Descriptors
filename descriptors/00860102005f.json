@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Report absolute value",
@@ -41,6 +42,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -60,6 +62,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -70,6 +73,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -80,6 +84,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -90,6 +95,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -100,6 +106,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -110,6 +117,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -120,6 +128,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -130,6 +139,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -141,6 +151,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -165,6 +176,7 @@
                     "index": "101",
                     "type": "int",
                     "units": "",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -173,6 +185,7 @@
                     "index": "102",
                     "type": "int",
                     "units": "",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -181,6 +194,7 @@
                     "index": "103",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -189,6 +203,7 @@
                     "index": "110",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -197,6 +212,7 @@
                     "index": "111",
                     "type": "int",
                     "units": "seconds",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -205,6 +221,7 @@
                     "index": "112",
                     "type": "int",
                     "units": "seconds",
+                    "value": "120",
                     "items": []
                 },
                 {
@@ -213,6 +230,7 @@
                     "index": "113",
                     "type": "int",
                     "units": "seconds",
+                    "value": "120",
                     "items": []
                 },
                 {
@@ -223,6 +241,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Aeon Labs Standard Product",
@@ -242,6 +261,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Unlock",
@@ -259,6 +279,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

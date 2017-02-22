@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No protection. Roller Shutter responds to push buttons",
@@ -31,6 +32,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No protection. Roller Shutter responds to command frames",
@@ -52,6 +54,7 @@
                     "index": "3",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Blind position reports sent to the main controller using Z-Wave Command Class",
@@ -69,6 +72,7 @@
                     "index": "10",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0 - Roller Blind Mode, without positioning",
@@ -99,6 +103,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "150",
                     "items": []
                 },
                 {
@@ -107,6 +112,7 @@
                     "index": "13",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "0 - Lamellas return to previously set position only in case of the main controller operation",
@@ -128,6 +134,7 @@
                     "index": "14",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Momentary switches",
@@ -150,6 +157,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -159,6 +167,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -168,6 +177,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "240",
                     "items": []
                 },
                 {
@@ -176,6 +186,7 @@
                     "index": "29",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Default",
@@ -193,6 +204,7 @@
                     "index": "30",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "No reaction",
@@ -214,6 +226,7 @@
                     "index": "31",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No reaction",
@@ -235,6 +248,7 @@
                     "index": "32",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction",
@@ -256,6 +270,7 @@
                     "index": "33",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction",
@@ -277,6 +292,7 @@
                     "index": "35",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Do not change lamellas position - lamellas return to the last set position",
@@ -295,6 +311,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -304,6 +321,7 @@
                     "max": "65534",
                     "min": "1",
                     "type": "short",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -313,6 +331,7 @@
                     "max": "254",
                     "min": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -321,6 +340,7 @@
                     "index": "44",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Self-measurement inactive",
@@ -338,6 +358,7 @@
                     "index": "50",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Associations activation",

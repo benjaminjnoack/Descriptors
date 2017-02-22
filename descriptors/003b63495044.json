@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "Disable Beeper",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable Vacation Mode",
@@ -51,6 +53,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "255",
                     "items": [
                         {
                             "label": "Disable Lock & Leave",
@@ -87,6 +90,7 @@
                     "index": "15",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable auto lock",
@@ -105,6 +109,7 @@
                     "max": "8",
                     "min": "4",
                     "type": "byte",
+                    "value": "4",
                     "items": []
                 },
                 {

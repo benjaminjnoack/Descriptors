@@ -20,6 +20,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -39,6 +40,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Celsius",
@@ -55,6 +57,7 @@
                     "label": "Temperature Delta T",
                     "index": "3",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 }
             ]

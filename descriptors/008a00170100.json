@@ -13,6 +13,7 @@
                     "label": "Set to Default",
                     "index": "1",
                     "type": "byte",
+                    "value": "-1",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "label": "Double press time",
                     "index": "16",
                     "type": "byte",
+                    "value": "20",
                     "items": []
                 }
             ]

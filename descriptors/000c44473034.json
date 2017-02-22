@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No",
@@ -31,6 +32,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -42,6 +44,7 @@
                     "size": "2",
                     "type": "list",
                     "units": "ms",
+                    "value": "22",
                     "items": [
                         {
                             "label": "10",

@@ -16,6 +16,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -26,6 +27,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -35,6 +37,7 @@
                     "max": "4000",
                     "min": "500",
                     "type": "short",
+                    "value": "500",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "label": "Report filter counter",
                     "index": "4",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -52,6 +56,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Celsius",
@@ -71,6 +76,7 @@
                     "min": "3",
                     "size": "1",
                     "type": "byte",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -78,6 +84,7 @@
                     "label": "Upper limit of heat set point",
                     "index": "6",
                     "type": "short",
+                    "value": "950",
                     "items": []
                 },
                 {
@@ -85,6 +92,7 @@
                     "label": "Lower limit of cool set point",
                     "index": "7",
                     "type": "short",
+                    "value": "440",
                     "items": []
                 },
                 {
@@ -95,6 +103,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Off",
@@ -114,6 +123,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "24 hour",
@@ -131,6 +141,7 @@
                     "index": "10",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -141,6 +152,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -151,6 +163,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -161,6 +174,7 @@
                     "min": "-10",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 }
             ]

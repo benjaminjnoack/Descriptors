@@ -12,6 +12,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "2",
                     "type": "byte",
                     "units": "%",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -43,6 +46,7 @@
                     "size": "2",
                     "type": "byte",
                     "units": "sec",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -53,6 +57,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -64,6 +69,7 @@
                     "size": "2",
                     "type": "byte",
                     "units": "sec",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -74,6 +80,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -85,6 +92,7 @@
                     "size": "2",
                     "type": "byte",
                     "units": "sec",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -93,6 +101,7 @@
                     "index": "9",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
@@ -113,6 +122,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "sec",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -121,6 +131,7 @@
                     "index": "11",
                     "size": "2",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active / ALL OFF active",
@@ -146,6 +157,7 @@
                     "index": "13",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "idle",
@@ -167,6 +179,7 @@
                     "index": "14",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "calibration procedure not performed or Dimmer operates on manual settings",
@@ -186,6 +199,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -197,6 +211,7 @@
                     "size": "2",
                     "type": "byte",
                     "units": "%",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -207,6 +222,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -215,6 +231,7 @@
                     "index": "20",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Mono-stable input (button)",
@@ -236,6 +253,7 @@
                     "index": "21",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0xFF value is sent, which will set associated devices to their last saved state.",
@@ -252,6 +270,7 @@
                     "index": "22",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Device changes status on switch status change",
@@ -269,6 +288,7 @@
                     "index": "23",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable double click",
@@ -286,6 +306,7 @@
                     "index": "24",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -294,6 +315,7 @@
                     "index": "25",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -302,6 +324,7 @@
                     "index": "26",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "3-way switch function for S2 disabled",
@@ -319,6 +342,7 @@
                     "index": "27",
                     "size": "1",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -327,6 +351,7 @@
                     "index": "28",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Functionality deactivated",
@@ -343,6 +368,7 @@
                     "index": "29",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "standard mode",
@@ -360,6 +386,7 @@
                     "index": "30",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "forced leading edge control",
@@ -381,6 +408,7 @@
                     "index": "31",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "leading edge",
@@ -398,6 +426,7 @@
                     "index": "32",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "on/off mode disabled (dimming is possible)",
@@ -419,6 +448,7 @@
                     "index": "33",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Load recognized as dimmable",
@@ -436,6 +466,7 @@
                     "index": "34",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "no soft-start",
@@ -457,6 +488,7 @@
                     "index": "35",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No auto-calibration of the load after power on",
@@ -486,6 +518,7 @@
                     "index": "37",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "device permanently disabled until re-enabling by comand or external switch",
@@ -504,6 +537,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "short",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -514,6 +548,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "Watt",
+                    "value": "250",
                     "items": []
                 },
                 {
@@ -522,6 +557,7 @@
                     "index": "40",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "No reaction - no response to alarm frames",
@@ -547,6 +583,7 @@
                     "index": "41",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "No reaction - no response to alarm frames",
@@ -572,6 +609,7 @@
                     "index": "42",
                     "size": "1",
                     "type": "list",
+                    "value": "3",
                     "items": [
                         {
                             "label": "No reaction - no response to alarm frames",
@@ -597,6 +635,7 @@
                     "index": "43",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction - no response to alarm frames",
@@ -625,6 +664,7 @@
                     "size": "2",
                     "type": "byte",
                     "units": "sec",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -633,6 +673,7 @@
                     "index": "45",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction",
@@ -650,6 +691,7 @@
                     "index": "46",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction",
@@ -667,6 +709,7 @@
                     "index": "47",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction",
@@ -684,6 +727,7 @@
                     "index": "48",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction",
@@ -701,6 +745,7 @@
                     "index": "49",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No reaction",
@@ -720,6 +765,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -731,6 +777,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "sec",
+                    "value": "3600",
                     "items": []
                 },
                 {
@@ -742,6 +789,7 @@
                     "size": "2",
                     "type": "byte",
                     "units": "kWh",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -750,6 +798,7 @@
                     "index": "54",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Self-measurement inactive",
@@ -767,6 +816,7 @@
                     "index": "58",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "power measurement based on the standard algorithm",
@@ -791,6 +841,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "Watt",
+                    "value": "0",
                     "items": []
                 }
             ]

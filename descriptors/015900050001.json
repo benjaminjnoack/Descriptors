@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Mono-stable",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",
@@ -50,6 +52,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",
@@ -69,6 +72,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "255",
                     "items": [
                         {
                             "label": "ALL ON active, ALL OFF active",
@@ -96,6 +100,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "65535",
                     "items": []
                 },
                 {
@@ -106,6 +111,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "65535",
                     "items": []
                 },
                 {
@@ -116,6 +122,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Module saves its state before power failure (it returns to the last position saved before a power failure)",
@@ -135,6 +142,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -144,6 +152,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -154,6 +163,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "132",
                     "items": []
                 },
                 {
@@ -164,6 +174,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "132",
                     "items": []
                 },
                 {
@@ -174,6 +185,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -184,6 +196,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -194,6 +207,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "700",
                     "items": []
                 },
                 {
@@ -204,6 +218,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "NO (normaly open) input type",

@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "0",
                     "type": "bool",
                     "units": "second",
+                    "value": "1",
                     "items": []
                 }
             ]

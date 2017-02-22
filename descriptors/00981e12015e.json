@@ -17,6 +17,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -49,6 +50,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -60,6 +62,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -80,6 +83,7 @@
                     "size": "1",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -91,6 +95,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -119,6 +124,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -139,6 +145,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0.05F",
@@ -163,6 +170,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "2.0F",
@@ -187,6 +195,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Fast",
@@ -207,6 +216,7 @@
                     "size": "1",
                     "type": "short",
                     "units": "F",
+                    "value": "124",
                     "items": []
                 }
             ]

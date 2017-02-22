@@ -11,6 +11,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "15",
                     "min": "0",
                     "type": "byte",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -30,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "1 pulse",
@@ -57,6 +60,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "4 seconds",
@@ -84,6 +88,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "seconds",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -94,6 +99,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "PIR sensor always active",
@@ -117,6 +123,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "lux",
+                    "value": "200",
                     "items": []
                 },
                 {
@@ -127,6 +134,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "BASIC On and OFF",
@@ -150,6 +158,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -160,6 +169,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -170,6 +180,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -179,6 +190,7 @@
                     "max": "121",
                     "min": "0",
                     "type": "byte",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -189,6 +201,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "seconds",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -199,6 +212,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Tamper only",
@@ -222,6 +236,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Do not send tamper cancellation report",
@@ -241,6 +256,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Tamper alarm sent to 3rd association group",
@@ -260,6 +276,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Backward compatible tamper alarm sent to 5th association group",
@@ -279,6 +296,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "lux",
+                    "value": "200",
                     "items": []
                 },
                 {
@@ -289,6 +307,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -298,6 +317,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "short",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -308,6 +328,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "seconds",
+                    "value": "900",
                     "items": []
                 },
                 {
@@ -318,6 +339,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -327,6 +349,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -337,6 +360,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "10",
                     "items": [
                         {
                             "label": "LED inactive.",
@@ -456,6 +480,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -466,6 +491,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "lux",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -476,6 +502,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "lux",
+                    "value": "1000",
                     "items": []
                 },
                 {
@@ -486,6 +513,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "Celsius",
+                    "value": "18",
                     "items": []
                 },
                 {
@@ -496,6 +524,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "Celsius",
+                    "value": "28",
                     "items": []
                 },
                 {
@@ -506,6 +535,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Tamper alarm is not indicated",

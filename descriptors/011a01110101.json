@@ -10,6 +10,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Power on, LED off",
@@ -29,6 +30,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -39,6 +41,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -49,6 +52,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "minutes",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -57,6 +61,7 @@
                     "index": "11",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No report",
@@ -84,6 +89,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "0.1 watt",
+                    "value": "10",
                     "items": []
                 }
             ]

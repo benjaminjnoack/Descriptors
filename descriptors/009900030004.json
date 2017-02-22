@@ -12,6 +12,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -21,6 +22,7 @@
                     "max": "255",
                     "min": "1",
                     "type": "byte",
+                    "value": "2",
                     "items": []
                 },
                 {
@@ -80,6 +82,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "All OFF",
@@ -103,6 +106,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",

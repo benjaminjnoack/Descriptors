@@ -16,6 +16,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Open: 0xFF, Close: 0x00",
@@ -35,6 +36,7 @@
                     "min": "10",
                     "size": "1",
                     "type": "byte",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -45,6 +47,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -64,6 +67,7 @@
                     "min": "0",
                     "size": "4",
                     "type": "int",
+                    "value": "86640",
                     "items": []
                 },
                 {
@@ -74,6 +78,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -101,6 +106,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Unlock",
@@ -118,6 +124,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

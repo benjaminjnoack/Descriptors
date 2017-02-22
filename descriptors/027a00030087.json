@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -32,6 +33,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "seconds",
+                    "value": "300",
                     "items": []
                 },
                 {
@@ -43,6 +45,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -54,6 +57,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "Amperes",
+                    "value": "13",
                     "items": []
                 },
                 {
@@ -65,6 +69,7 @@
                     "size": "1",
                     "type": "byte",
                     "units": "Amperes",
+                    "value": "12",
                     "items": []
                 },
                 {
@@ -75,6 +80,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -94,6 +100,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Off",
@@ -113,6 +120,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -133,6 +141,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "minutes",
+                    "value": "150",
                     "items": []
                 },
                 {
@@ -143,6 +152,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",

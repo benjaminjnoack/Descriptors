@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0: LED is on when switch is off",
@@ -31,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": [
                         {
                             "label": "0: Load is on when switch is up",

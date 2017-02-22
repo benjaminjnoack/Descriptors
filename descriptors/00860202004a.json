@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No",
@@ -31,6 +32,7 @@
                     "min": "1",
                     "type": "short",
                     "units": "seconds",
+                    "value": "240",
                     "items": []
                 },
                 {
@@ -41,6 +43,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disabled",
@@ -60,6 +63,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Basic Set (default) ",
@@ -79,6 +83,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -99,6 +104,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "%",
+                    "value": "256",
                     "items": []
                 },
                 {
@@ -110,6 +116,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "%",
+                    "value": "1280",
                     "items": []
                 },
                 {
@@ -121,6 +128,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "LUX",
+                    "value": "25600",
                     "items": []
                 },
                 {
@@ -132,6 +140,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "%",
+                    "value": "1280",
                     "items": []
                 },
                 {
@@ -142,6 +151,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled",
@@ -158,6 +168,7 @@
                     "label": "Group 1 Reports",
                     "index": "101",
                     "type": "int",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -165,6 +176,7 @@
                     "label": "Group 2 Reports",
                     "index": "102",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -172,6 +184,7 @@
                     "label": "Group 3 Reports",
                     "index": "103",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -182,6 +195,7 @@
                     "min": "1",
                     "type": "int",
                     "units": "seconds",
+                    "value": "1800",
                     "items": []
                 },
                 {
@@ -192,6 +206,7 @@
                     "min": "1",
                     "type": "int",
                     "units": "seconds",
+                    "value": "1800",
                     "items": []
                 },
                 {
@@ -202,6 +217,7 @@
                     "min": "1",
                     "type": "int",
                     "units": "seconds",
+                    "value": "1800",
                     "items": []
                 },
                 {
@@ -213,6 +229,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -229,6 +246,7 @@
                     "label": "Reset to default",
                     "index": "255",
                     "type": "button",
+                    "value": "0",
                     "items": []
                 }
             ]

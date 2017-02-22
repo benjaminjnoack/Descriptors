@@ -13,6 +13,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "second",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -23,6 +24,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 }
             ]

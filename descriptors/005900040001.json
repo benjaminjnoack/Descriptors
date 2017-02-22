@@ -18,6 +18,7 @@
                     "index": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Celsius",
@@ -36,6 +37,7 @@
                     "max": "30",
                     "min": "5",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -45,6 +47,7 @@
                     "max": "30",
                     "min": "5",
                     "type": "byte",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -54,6 +57,7 @@
                     "max": "50",
                     "min": "1",
                     "type": "byte",
+                    "value": "5",
                     "items": []
                 }
             ]

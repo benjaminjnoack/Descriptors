@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -53,6 +57,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "3",
                     "items": [
                         {
                             "label": "OFF",
@@ -77,6 +82,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "OFF",
@@ -96,6 +102,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -107,6 +114,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "disable",
@@ -126,6 +134,7 @@
                     "min": "4",
                     "type": "byte",
                     "units": "",
+                    "value": "4",
                     "items": []
                 },
                 {
@@ -136,6 +145,7 @@
                     "min": "4",
                     "type": "byte",
                     "units": "",
+                    "value": "99",
                     "items": []
                 }
             ]

@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "volts",
+                    "value": "120",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -30,6 +32,7 @@
                     "index": "4",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -38,6 +41,7 @@
                     "index": "5",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -46,6 +50,7 @@
                     "index": "6",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -54,6 +59,7 @@
                     "index": "7",
                     "type": "short",
                     "units": "watts",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -62,6 +68,7 @@
                     "index": "8",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -70,6 +77,7 @@
                     "index": "9",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -78,6 +86,7 @@
                     "index": "10",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -86,6 +95,7 @@
                     "index": "11",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -96,6 +106,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -106,6 +117,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -114,6 +126,7 @@
                     "index": "100",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -122,6 +135,7 @@
                     "index": "101",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -130,6 +144,7 @@
                     "index": "102",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -138,6 +153,7 @@
                     "index": "103",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -146,6 +162,7 @@
                     "index": "110",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -154,6 +171,7 @@
                     "index": "111",
                     "type": "int",
                     "units": "seconds",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -162,6 +180,7 @@
                     "index": "112",
                     "type": "int",
                     "units": "seconds",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -170,6 +189,7 @@
                     "index": "113",
                     "type": "int",
                     "units": "seconds",
+                    "value": "720",
                     "items": []
                 },
                 {
@@ -178,6 +198,7 @@
                     "index": "253",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -186,6 +207,7 @@
                     "index": "254",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -194,6 +216,7 @@
                     "index": "255",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 }
             ]

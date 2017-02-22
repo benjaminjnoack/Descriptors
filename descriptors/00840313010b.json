@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 }
             ]

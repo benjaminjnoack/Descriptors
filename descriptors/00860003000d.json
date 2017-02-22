@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "2",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -23,6 +24,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Deactivate Overload Protection (Default)",
@@ -43,6 +45,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Nothing",
@@ -64,6 +67,7 @@
                     "index": "90",
                     "type": "bool",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -75,6 +79,7 @@
                     "size": "2",
                     "type": "short",
                     "units": "watts",
+                    "value": "25",
                     "items": []
                 },
                 {
@@ -85,6 +90,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "5",
                     "items": []
                 },
                 {
@@ -101,6 +107,7 @@
                     "index": "101",
                     "size": "4",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -109,6 +116,7 @@
                     "index": "102",
                     "size": "4",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -117,6 +125,7 @@
                     "index": "103",
                     "size": "4",
                     "type": "int",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -125,6 +134,7 @@
                     "index": "110",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -136,6 +146,7 @@
                     "size": "4",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -147,6 +158,7 @@
                     "size": "4",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -158,6 +170,7 @@
                     "size": "4",
                     "type": "int",
                     "units": "seconds",
+                    "value": "600",
                     "items": []
                 },
                 {
@@ -169,6 +182,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Momentary button mode",
@@ -188,6 +202,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {

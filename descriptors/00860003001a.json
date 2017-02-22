@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -21,6 +22,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "None",
@@ -43,6 +45,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "255",
                     "items": [
                         {
                             "label": "Momentary button",
@@ -71,6 +74,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Aeon Labs Standard (Default)",
@@ -91,6 +95,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -110,6 +115,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -118,6 +124,7 @@
                     "index": "255",
                     "type": "button",
                     "units": "",
+                    "value": "0",
                     "items": []
                 }
             ]

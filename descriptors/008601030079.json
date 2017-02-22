@@ -12,6 +12,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "The last state before re-power on",
@@ -35,6 +36,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -52,6 +54,7 @@
                     "index": "33",
                     "type": "int",
                     "units": "",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -62,6 +65,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -81,6 +85,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Arbitrary combination",
@@ -100,6 +105,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Un-reboot",
@@ -125,6 +131,7 @@
                     "index": "37",
                     "type": "int",
                     "units": "",
+                    "value": "157483008",
                     "items": []
                 },
                 {
@@ -133,6 +140,7 @@
                     "index": "38",
                     "type": "int",
                     "units": "",
+                    "value": "50332416",
                     "items": []
                 },
                 {
@@ -141,6 +149,7 @@
                     "index": "39",
                     "type": "int",
                     "units": "",
+                    "value": "805306368",
                     "items": []
                 },
                 {
@@ -151,6 +160,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Rainbow mode",
@@ -182,6 +192,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Disable",
@@ -205,6 +216,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "Parabolic curve",
@@ -233,6 +245,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disable",
@@ -250,6 +263,7 @@
                     "index": "255",
                     "size": "4",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Reset to factory default setting",

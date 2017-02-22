@@ -12,6 +12,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Disabled",
@@ -43,6 +44,7 @@
                     "min": "0",
                     "type": "int",
                     "units": "seconds",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -51,6 +53,7 @@
                     "index": "3",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Switch off (default)",
@@ -76,6 +79,7 @@
                     "index": "4",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",
@@ -93,6 +97,7 @@
                     "index": "5",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No, turn OFF",
@@ -112,6 +117,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "x 10 milliseconds",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -119,6 +125,7 @@
                     "index": "11",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "No default)",
@@ -136,6 +143,7 @@
                     "index": "12",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "No",
@@ -157,6 +165,7 @@
                     "index": "13",
                     "size": "1",
                     "type": "list",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Disabled",
@@ -190,6 +199,7 @@
                     "index": "14",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Disabled (don't wait for double click,default)",
@@ -222,6 +232,7 @@
                     "index": "15",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Switch All Off only (default)",
@@ -242,6 +253,7 @@
                     "index": "16",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Switch off (Default)",

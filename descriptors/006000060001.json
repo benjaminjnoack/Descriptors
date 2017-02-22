@@ -12,6 +12,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "%",
+                    "value": "99",
                     "items": []
                 },
                 {
@@ -22,6 +23,7 @@
                     "min": "-20",
                     "type": "byte",
                     "units": "degrees",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -32,6 +34,7 @@
                     "min": "-20",
                     "type": "byte",
                     "units": "degrees",
+                    "value": "20",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "min": "20",
                     "type": "byte",
                     "units": "%",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -52,6 +56,7 @@
                     "min": "20",
                     "type": "byte",
                     "units": "%",
+                    "value": "40",
                     "items": []
                 },
                 {
@@ -62,6 +67,7 @@
                     "min": "0",
                     "type": "short",
                     "units": "minutes",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -72,6 +78,7 @@
                     "min": "0",
                     "type": "byte",
                     "units": "degrees",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -82,6 +89,7 @@
                     "min": "5",
                     "type": "byte",
                     "units": "%",
+                    "value": "0",
                     "items": []
                 }
             ]

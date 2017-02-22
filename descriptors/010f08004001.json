@@ -11,6 +11,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -20,6 +21,7 @@
                     "max": "15",
                     "min": "0",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -30,6 +32,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "1 pulse",
@@ -57,6 +60,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "4 seconds",
@@ -83,6 +87,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -93,6 +98,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "PIR sensor always active",
@@ -115,6 +121,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "200",
                     "items": []
                 },
                 {
@@ -125,6 +132,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "BASIC ON and BASIC OFF command frames sent in Basic Command Class.",
@@ -147,6 +155,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -156,6 +165,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -165,6 +175,7 @@
                     "max": "122",
                     "min": "0",
                     "type": "byte",
+                    "value": "15",
                     "items": []
                 },
                 {
@@ -174,6 +185,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "30",
                     "items": []
                 },
                 {
@@ -184,6 +196,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Tamper",
@@ -215,6 +228,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Tamper alarm is not sent in broadcast mode.",
@@ -233,6 +247,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "200",
                     "items": []
                 },
                 {
@@ -242,6 +257,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -251,6 +267,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -260,6 +277,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "900",
                     "items": []
                 },
                 {
@@ -269,6 +287,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -278,6 +297,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -288,6 +308,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "10",
                     "items": [
                         {
                             "label": "LED inactive.",
@@ -406,6 +427,7 @@
                     "max": "100",
                     "min": "0",
                     "type": "byte",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -415,6 +437,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "100",
                     "items": []
                 },
                 {
@@ -424,6 +447,7 @@
                     "max": "65535",
                     "min": "0",
                     "type": "short",
+                    "value": "1000",
                     "items": []
                 },
                 {
@@ -433,6 +457,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "18",
                     "items": []
                 },
                 {
@@ -442,6 +467,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "28",
                     "items": []
                 },
                 {
@@ -452,6 +478,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "LED does not indicate tamper alarm.",

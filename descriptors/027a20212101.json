@@ -13,6 +13,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Celsius",
@@ -32,6 +33,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "0.1 degree",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -42,6 +44,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -52,6 +55,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "%",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -62,6 +66,7 @@
                     "min": "1",
                     "type": "byte",
                     "units": "minute",
+                    "value": "3",
                     "items": []
                 },
                 {
@@ -73,6 +78,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "4",
                     "items": [
                         {
                             "label": "Very High",
@@ -113,6 +119,7 @@
                     "size": "1",
                     "type": "list",
                     "units": "",
+                    "value": "3",
                     "items": [
                         {
                             "label": "Off",

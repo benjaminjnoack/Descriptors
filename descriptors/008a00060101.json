@@ -9,6 +9,7 @@
                     "label": "Set to Default",
                     "index": "1",
                     "type": "byte",
+                    "value": "-1",
                     "items": []
                 },
                 {
@@ -17,6 +18,7 @@
                     "index": "2",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Off",
@@ -34,6 +36,7 @@
                     "index": "9",
                     "type": "byte",
                     "units": "ms",
+                    "value": "50",
                     "items": []
                 },
                 {
@@ -42,6 +45,7 @@
                     "index": "10",
                     "size": "1",
                     "type": "list",
+                    "value": "1",
                     "items": [
                         {
                             "label": "Led off",

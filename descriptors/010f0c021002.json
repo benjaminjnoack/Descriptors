@@ -12,6 +12,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "list",
+                    "value": "2",
                     "items": [
                         {
                             "label": "HIGH Sensitivity",
@@ -35,6 +36,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "all notifications disabled",
@@ -62,6 +64,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "all notifications disabled",
@@ -105,6 +108,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "all notifications disabled",
@@ -148,6 +152,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "BASIC ON - BASIC OFF enabled",
@@ -170,6 +175,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "255",
                     "items": []
                 },
                 {
@@ -179,6 +185,7 @@
                     "max": "255",
                     "min": "0",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -189,6 +196,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "list",
+                    "value": "0",
                     "items": [
                         {
                             "label": "Broadcasts INACTIVE",
@@ -216,6 +224,7 @@
                     "min": "0",
                     "size": "1",
                     "type": "byte",
+                    "value": "0",
                     "items": []
                 },
                 {
@@ -225,6 +234,7 @@
                     "max": "8640",
                     "min": "0",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -235,6 +245,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "10",
                     "items": []
                 },
                 {
@@ -245,6 +256,7 @@
                     "min": "1",
                     "size": "1",
                     "type": "byte",
+                    "value": "55",
                     "items": []
                 },
                 {
@@ -255,6 +267,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "1",
                     "items": []
                 },
                 {
@@ -265,6 +278,7 @@
                     "min": "1",
                     "size": "2",
                     "type": "short",
+                    "value": "180",
                     "items": []
                 }
             ]
