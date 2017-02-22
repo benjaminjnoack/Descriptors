@@ -17,11 +17,11 @@ class CommandClass {
   }
 
   get id() {
-    return parseInt(this._id);//TODO Hex radix?
+    return this._id;
   }
 
   set id(meta) {
-    this._id = meta[ID];
+    this._id = parseInt(meta[ID]);
   }
 
   get values() {

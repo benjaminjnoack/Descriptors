@@ -22,11 +22,11 @@ class Manufacturer {
   }
 
   get id() {
-    return parseInt(this._id, 16);
+    return this._id;
   }
 
   set id(id) {
-    this._id = id;
+    this._id = parseInt(id, 16);
   }
 
   get name() {

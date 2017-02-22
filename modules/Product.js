@@ -42,11 +42,11 @@ class Product extends File {
   }
 
   get id() {
-    return parseInt(this._id, 16);
+    return this._id;
   }
 
   set id(id) {
-    this._id = id;
+    this._id = parseInt(id, 16);
   }
 
   get manufacturer() {
@@ -66,11 +66,11 @@ class Product extends File {
   }
 
   get type() {
-    return parseInt(this._type, 16);
+    return this._type;
   }
 
   set type(type) {
-    this._type = type;
+    this._type = parseInt(type, 16);
   }
 
   log() {
