@@ -10,11 +10,11 @@ class Element {
 
     this.meta = meta;
   }
-
+  //return this._meta created from this
   get meta() {
-    return this._meta;
+    return this;//TODO
   }
-
+  //TODO set this._meta to an enumeration of properties from the meta arg
   set meta(meta) {
     Object.assign(this, meta);
   }

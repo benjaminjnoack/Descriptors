@@ -11,16 +11,10 @@ const
 
 class Product extends File {
   constructor(manufacturer_meta, product_meta) {
-    super(product_meta[h.CONFIG]);
+    super(product_meta, product_meta[h.CONFIG]);
 
-    this.id = product_meta[h.ID];
     this.manufacturer = manufacturer_meta;
-    this.name = product_meta[h.NAME];
-    this.type = product_meta[h.TYPE];
-
     this._cc = [];
-
-    this.log();
   }
 
   get command_classes() {
@@ -91,6 +85,7 @@ class Product extends File {
 
     result = result.then(() => {
       Product.writeProductFile(this.manufacturer, this);
+      this.log();
     });
 
     return result;

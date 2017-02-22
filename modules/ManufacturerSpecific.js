@@ -10,7 +10,7 @@ const
 
 class ManufacturerSpecific extends File {
   constructor(path) {
-    super(path);
+    super({}, path);
   }
 
   parse() {

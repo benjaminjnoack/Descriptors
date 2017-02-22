@@ -4,12 +4,15 @@
 'use strict';
 
 const
+  Element = require('./Element'),
   fs      = require('fs'),
   h       = require('./h'),
   xml2js  = require('xml2js');
 
-class File {
-  constructor(path) {
+class File extends Element {
+  constructor(meta, path) {
+    super(meta);
+
     if (new.target === File)
       throw `File may not be instantiated directly`;
 
