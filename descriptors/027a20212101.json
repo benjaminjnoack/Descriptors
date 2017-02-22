@@ -8,116 +8,129 @@
                     "help": "\n                Temperature scale (Celsius or Fahrenheit (default)).\n            ",
                     "label": "Temperature Scale",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Celsius"
-                        },
-                        {
-                            "label": "Fahrenheit"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Celsius",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Fahrenheit",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n                Minimum temperature change that will trigger a report to the controller, in 0.1 degrees. 10 = 1.0 degrees (default).\n            ",
                     "label": "Temperature Change Notif",
                     "index": "2",
-                    "items": [],
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "0.1 degree"
+                    "units": "0.1 degree",
+                    "items": []
                 },
                 {
                     "help": "\n                Minimum humidity change (%) that will trigger a report to the controller. 10 = 10% (default).\n            ",
                     "label": "Humidity Change Notif",
                     "index": "3",
-                    "items": [],
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n                Minimum light sensor change (%) that will trigger a report to the controller. 10 = 10% (default).\n            ",
                     "label": "Light Change Notif",
                     "index": "4",
-                    "items": [],
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n                After initial motion, sensor will wait this long before reporting again. 1 = 1 minute; 3 = 3 minutes (default); 255 = 255 minutes.\n            ",
                     "label": "Motion Sensor Trigger Interval",
                     "index": "5",
-                    "items": [],
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "minute"
+                    "units": "minute",
+                    "items": []
                 },
                 {
                     "help": "\n                Motion sensor sensitivity.\n            ",
                     "label": "Motion Sensor Sensitivity",
                     "index": "6",
-                    "items": [
-                        {
-                            "label": "Very High"
-                        },
-                        {
-                            "label": "High"
-                        },
-                        {
-                            "label": "Somewhat High"
-                        },
-                        {
-                            "label": "Normal"
-                        },
-                        {
-                            "label": "Somewhat Low"
-                        },
-                        {
-                            "label": "Low"
-                        },
-                        {
-                            "label": "Very Low"
-                        }
-                    ],
                     "max": "7",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Very High",
+                            "value": "1"
+                        },
+                        {
+                            "label": "High",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Somewhat High",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Normal",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Somewhat Low",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Low",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Very Low",
+                            "value": "7"
+                        }
+                    ]
                 },
                 {
                     "help": "\n                Color LED behavior. 1 = LED off; 2 = pulsing light for temperature, flashing light for motion (high battery drain); 3 = flashing light for temperature and motion (default); 4 = flashing light for motion.\n            ",
                     "label": "LED indicator mode",
                     "index": "7",
-                    "items": [
-                        {
-                            "label": "Off"
-                        },
-                        {
-                            "label": "Pulse Temp/Flash Motion"
-                        },
-                        {
-                            "label": "Flash Temp & Motion"
-                        },
-                        {
-                            "label": "Flash Motion"
-                        }
-                    ],
                     "max": "4",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Pulse Temp/Flash Motion",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Flash Temp & Motion",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Flash Motion",
+                            "value": "4"
+                        }
+                    ]
                 }
             ]
         },

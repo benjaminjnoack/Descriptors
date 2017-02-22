@@ -8,37 +8,41 @@
                     "help": "Debug mode to apply channels, associations and power mode changes on the fly without exclusion-inclusion sequence. Use for debugging only!",
                     "label": "Debug mode",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Blink with service LED during operation",
                     "label": "Blink Service LED",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         },

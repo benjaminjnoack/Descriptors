@@ -8,216 +8,251 @@
                     "help": "",
                     "label": "Input 1 switch type",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Mono-stable"
-                        },
-                        {
-                            "label": "Bi-stable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Mono-stable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 2 switch type",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Mono-stable"
-                        },
-                        {
-                            "label": "Bi-stable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Mono-stable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 3 switch type",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "Mono-stable"
-                        },
-                        {
-                            "label": "Bi-stable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Mono-stable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 1 contact type",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "NO (normaly open)"
-                        },
-                        {
-                            "label": "NC (normaly close)"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "NO (normaly open)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly close)",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 2 contact type",
                     "index": "5",
-                    "items": [
-                        {
-                            "label": "NO (normaly open)"
-                        },
-                        {
-                            "label": "NC (normaly close)"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "NO (normaly open)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly close)",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 3 contact type",
                     "index": "6",
-                    "items": [
-                        {
-                            "label": "NO (normaly open)"
-                        },
-                        {
-                            "label": "NC (normaly close)"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "NO (normaly open)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly close)",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 1 Functionality selection",
                     "index": "11",
-                    "items": [
-                        {
-                            "label": "No modification with Input 1"
-                        },
-                        {
-                            "label": "Confort"
-                        },
-                        {
-                            "label": "Confort -1"
-                        },
-                        {
-                            "label": "Confort -2"
-                        },
-                        {
-                            "label": "Eco"
-                        },
-                        {
-                            "label": "Hors-Gel"
-                        },
-                        {
-                            "label": "STOP"
-                        }
-                    ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "No modification with Input 1",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Hors-Gel",
+                            "value": "5"
+                        },
+                        {
+                            "label": "STOP",
+                            "value": "6"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 2 Functionality selection",
                     "index": "12",
-                    "items": [
-                        {
-                            "label": "No modification with Input 2"
-                        },
-                        {
-                            "label": "Confort"
-                        },
-                        {
-                            "label": "Confort -1"
-                        },
-                        {
-                            "label": "Confort -2"
-                        },
-                        {
-                            "label": "Eco"
-                        },
-                        {
-                            "label": "Hors-Gel"
-                        },
-                        {
-                            "label": "STOP"
-                        }
-                    ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "No modification with Input 2",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Hors-Gel",
+                            "value": "5"
+                        },
+                        {
+                            "label": "STOP",
+                            "value": "6"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Input 3 Functionality selection",
                     "index": "13",
-                    "items": [
-                        {
-                            "label": "No modification with Input 3"
-                        },
-                        {
-                            "label": "Confort"
-                        },
-                        {
-                            "label": "Confort -1"
-                        },
-                        {
-                            "label": "Confort -2"
-                        },
-                        {
-                            "label": "Eco"
-                        },
-                        {
-                            "label": "Hors-Gel"
-                        },
-                        {
-                            "label": "STOP"
-                        }
-                    ],
                     "max": "6",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "No modification with Input 3",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Confort",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Confort -1",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Confort -2",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Eco",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Hors-Gel",
+                            "value": "5"
+                        },
+                        {
+                            "label": "STOP",
+                            "value": "6"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Saving the state of the relay after a power failure",
                     "index": "30",
-                    "items": [
-                        {
-                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)"
-                        },
-                        {
-                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         },

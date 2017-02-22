@@ -12,106 +12,106 @@
                     "help": "Set all configuration values to default values (factory settings)",
                     "label": "Set to Default",
                     "index": "1",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Enables an internal routine that periodically checks the Z-Wave device in assocication group 2",
                     "label": "Destination routine enabled",
                     "index": "2",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Configure the time that the AlarmSound sends a new frame when previous frame was send successful",
                     "label": "Destination routine success time",
                     "index": "3",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Configure the time that the AlarmSound sends a few frame when previous frame was send not successful",
                     "label": "Destination routine failed time",
                     "index": "4",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "A (signed) offset to calibrate the onboard temperature sensor",
                     "label": "Temperature calibration offset (byte 1)",
                     "index": "5",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "A (signed) offset to calibrate the onboard temperature sensor",
                     "label": "Temperature calibration offset (byte 2)",
                     "index": "6",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The index of the sound mode when a switch binary/basic set frame is received",
                     "label": "Select index sound/light mode",
                     "index": "7",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The index of the sound mode when the AlarmSound will start when it is unplugged",
                     "label": "Power offline sound/light mode",
                     "index": "8",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The index of the sound mode when the AlarmSound will play when it is unable to reach the device in association group 2",
                     "label": "Error sound/light mode",
                     "index": "9",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Params 10 until 27 are the values to configure the sound and light thtat are played when index 1 is selected",
                     "label": "Sound/Light index 1",
                     "index": "10",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Params 28 until 45 are the values to configure the sound and light thtat are played when index 2 is selected",
                     "label": "Sound/Light index 2",
                     "index": "28",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Params 46 until 63 are the values to configure the sound and light thtat are played when index 3 is selected",
                     "label": "Sound/Light index 3",
                     "index": "46",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Params 64 until 81 are the values to configure the sound and light thtat are played when index 4 is selected",
                     "label": "Sound/Light index 4",
                     "index": "64",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Params 82 until 99 are the values to configure the sound and light thtat are played when index 5 is selected",
                     "label": "Sound/Light index 5",
                     "index": "82",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Params 100 until 117 are the values to configure the sound and light thtat are played when index 6 is selected",
                     "label": "Sound/Light index 6",
                     "index": "100",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

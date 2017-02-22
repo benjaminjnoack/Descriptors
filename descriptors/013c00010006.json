@@ -8,55 +8,55 @@
                     "help": "Watt Meter Report Period. Unit: 5 seconds.",
                     "label": "Watt meter report period",
                     "index": "1",
-                    "items": [],
                     "max": "32767",
                     "min": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "kWH Meter Report Period. Unit: 10 minutes.",
                     "label": "kWh meter report period",
                     "index": "2",
-                    "items": [],
                     "max": "32767",
                     "min": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Threshold of Watt for Load Caution. Unit: 1 watt",
                     "label": "Threshold of Watt for Load Caution",
                     "index": "3",
-                    "items": [],
                     "max": "1100",
                     "min": "10",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Threshold of kWH for Load Caution. Unit: 1 kWH",
                     "label": "Threshold of kWh for Load Caution",
                     "index": "4",
-                    "items": [],
                     "max": "10000",
                     "min": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "External switch type: 1-> One Push button, 2->Two Push button",
                     "label": "External switch type",
                     "index": "5",
-                    "items": [],
                     "max": "2",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Level report mode: 1-> Report destination level in 5s, 2-> Report 10 percent level while running",
                     "label": "Level report mode",
                     "index": "6",
-                    "items": [],
                     "max": "2",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

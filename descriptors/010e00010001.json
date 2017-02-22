@@ -12,61 +12,66 @@
                     "help": "0=The motor goes clockwise when unlatched; 1= The motor goes counterclockwise when unlatched",
                     "label": "Invert Lock Direction",
                     "index": "0",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Motor/relay run time LOCK in sec 1-15",
                     "label": "Run time Lock",
                     "index": "1",
-                    "items": [],
                     "max": "15",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Motor/relay run time UNLOCK in sec 1-15",
                     "label": "Run time UnLock",
                     "index": "2",
-                    "items": [],
                     "max": "15",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Value 0-15/0=fastest 15=slowest",
                     "label": "Motor speed",
                     "index": "3",
-                    "items": [],
                     "max": "15",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "How the motor will turn according to torque and speed",
                     "label": "Step Motor drive mode",
                     "index": "4",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "(Step motor) Wave drive mode.(Less torque, min. power usage, full rotation speed.)"
+                            "label": "(Step motor) Wave drive mode.(Less torque, min. power usage, full rotation speed.)",
+                            "value": "0"
                         },
                         {
-                            "label": "(Step motor) Full drive mode.  (Medium torque, max. power usage, full rotation speed.)"
+                            "label": "(Step motor) Full drive mode.  (Medium torque, max. power usage, full rotation speed.)",
+                            "value": "1"
                         },
                         {
-                            "label": "(Step motor) HalfFstep drive mode. (Max. torque, max. power usage, half rotation speed.)"
+                            "label": "(Step motor) HalfFstep drive mode. (Max. torque, max. power usage, half rotation speed.)",
+                            "value": "2"
                         },
                         {
-                            "label": "(Relay) Puts DC on connector pin 1 & 2 for the duration of parameter #2 or #3. The polarity of pin 1 & 2 are reversed with respect to  open / close command. A close command would set p1+ and p2F, open is p1F and   p2+"
+                            "label": "(Relay) Puts DC on connector pin 1 & 2 for the duration of parameter #2 or #3. The polarity of pin 1 & 2 are reversed with respect to  open / close command. A close command would set p1+ and p2F, open is p1F and   p2+",
+                            "value": "3"
                         },
                         {
-                            "label": "(Relay) Lock open sets p1+, p2F, p3z, p4z for parameter #3 seconds. Lock close sets p1z, p2z, p3+, p4F."
+                            "label": "(Relay) Lock open sets p1+, p2F, p3z, p4z for parameter #3 seconds. Lock close sets p1z, p2z, p3+, p4F.",
+                            "value": "4"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

@@ -7,18 +7,20 @@
                 {
                     "label": "Mode",
                     "index": "0",
-                    "items": [
-                        {
-                            "label": "Heat"
-                        },
-                        {
-                            "label": "Energy Heat"
-                        }
-                    ],
                     "max": "0",
                     "min": "0",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Heat",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Energy Heat",
+                            "value": "11"
+                        }
+                    ]
                 }
             ]
         },
@@ -28,20 +30,20 @@
                 {
                     "label": "Heating",
                     "index": "1",
-                    "items": [],
                     "max": "0",
                     "min": "0",
                     "type": "decimal",
-                    "units": "C"
+                    "units": "C",
+                    "items": []
                 },
                 {
                     "label": "Energy Heat",
                     "index": "11",
-                    "items": [],
                     "max": "0",
                     "min": "0",
                     "type": "decimal",
-                    "units": "C"
+                    "units": "C",
+                    "items": []
                 }
             ]
         },
@@ -52,96 +54,105 @@
                     "help": "0xFF: Set all configuration values to default values (factory settings).\n        CONFIGURATION_REPORT\n        0x55: Configuration settings of the device are altered.\n        0xAA: Configuration of the device is untouched.\n        Note that this value will not change to 0x55 upon modifying the wake up interval and that re-setting the value to 0xAA will always reset the wake up interval.\n      ",
                     "label": "Reset to Default",
                     "index": "1",
-                    "items": [],
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The interval that data is requested (and therefore updated) from the thermostat and boiler. Value in seconds. ",
                     "label": "Data request interval",
                     "index": "2",
-                    "items": [],
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The value that the room temperature must differ (compared to his previous send value) before an unsolicited room temperature report is send to the associated node. Value in 0.1C. ",
                     "label": "T room update difference",
                     "index": "3",
-                    "items": [],
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The value that the temperature setpoint must differ (compared to his previous send value) before an unsolicited temperature setpoint report is send to the associated node. Value in 0.1C .",
                     "label": "T setpoint update difference",
                     "index": "4",
-                    "items": [],
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "TConfigure if the unsolicited reports are send with the CRC-16 encapsulation. Not that the receiving node should support this encapsulation to parse the Z-Wave frame!",
                     "label": "Unsolicited CRC",
                     "index": "5",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Type of 'special' thermostat: NOTE: when remeha Celcia 20 support is set then any other thermostat can not be set (!) NOTE2: when Remeha Celcia 20 gives 'Fout 203' send cfg value again",
                     "label": "Type of 'special' thermostat",
                     "index": "6",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No special"
+                            "label": "No special",
+                            "value": "0"
                         },
                         {
-                            "label": "Remeha Celcia 20"
+                            "label": "Remeha Celcia 20",
+                            "value": "1"
                         },
                         {
-                            "label": "Honeywell (rounded temperatures)"
+                            "label": "Honeywell (rounded temperatures)",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Status auto report boiler/thermostat report",
                     "label": "Status auto report",
                     "index": "7",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Enable/Disable thermostat schedule inside the heating controller.",
                     "label": "Thermostat schedule",
                     "index": "9",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disable"
+                            "label": "Disable",
+                            "value": "0"
                         },
                         {
-                            "label": "Enable"
+                            "label": "Enable",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

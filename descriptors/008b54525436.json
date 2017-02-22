@@ -8,1471 +8,1471 @@
                     "help": "\n\t      0 = Gas/Elec, 1 = HeatPump\n\t    ",
                     "label": "System Type",
                     "index": "1",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = Gas, 1 = Elec\n\t    ",
                     "label": "Fan Type",
                     "index": "2",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = w/Cool, 1 = w/Heat\n\t    ",
                     "label": "Change Over Type",
                     "index": "3",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = C, 1 = F\n\t    ",
                     "label": "F/C Units",
                     "index": "4",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-5",
                     "index": "5",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = Unlocked, 1 = Locked\n\t    ",
                     "label": "Display Lock",
                     "index": "9",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the minimum off time before another heating/cooling cycle can begin to provide compressor short cycle protection.  The thermostat screen will display WAIT when minimum off time is being enforced.\n\t    ",
                     "label": "Minimum Off Time",
                     "index": "10",
-                    "items": [],
                     "max": "9",
                     "min": "5",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the minimum run time before a heating/cooling cycle can turn off to prevent rapid cycling.  Thermostat screen will display \"Cool ON\" or \"Heat ON\" while the minimum run time is being enforced.\n\t    ",
                     "label": "Minimum Run Time",
                     "index": "11",
-                    "items": [],
                     "max": "9",
                     "min": "1",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 heating starts.\n\t    ",
                     "label": "Heating Delta Stage 1 ON",
                     "index": "12",
-                    "items": [],
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 heating stops. Stage 1 turns off at setpoint minus (-) Delta Stage 1.\n\t    ",
                     "label": "Heating Delta Stage 1 OFF",
                     "index": "13",
-                    "items": [],
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 heating starts.\n\t    ",
                     "label": "Heating Delta Stage 2 ON",
                     "index": "14",
-                    "items": [],
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 heating stops. Stage 1 turns off at setpoint minus (-) Delta Stage 2.\n\t    ",
                     "label": "Heating Delta Stage 2 OFF",
                     "index": "15",
-                    "items": [],
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 3 heating starts.\n\t\t\t",
                     "label": "Heating Delta Stage 3 ON",
                     "index": "16",
-                    "items": [],
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 3 heating stops. Stage 1 turns off at setpoint minus (-) Delta Stage 3.\n\t    ",
                     "label": "Heating Delta Stage 3 OFF",
                     "index": "17",
-                    "items": [],
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 cooling starts.\n\t    ",
                     "label": "Cooling Delta Stage 1 ON",
                     "index": "18",
-                    "items": [],
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 1 cooling stops. Stage 1 turns off at setpoint minus (-) Delta Stage 1.\n\t    ",
                     "label": "Cooling Delta Stage 1 OFF",
                     "index": "19",
-                    "items": [],
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 cooling starts.\n\t    ",
                     "label": "Cooling Delta Stage 2 ON",
                     "index": "20",
-                    "items": [],
                     "max": "8",
                     "min": "1",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the delta from setpoint that stage 2 cooling stops. Stage 1 turns off at setpoint minus (-) Delta Stage 2.\n\t    ",
                     "label": "Cooling Delta Stage 2 OFF",
                     "index": "21",
-                    "items": [],
                     "max": "8",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-22",
                     "index": "22",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-23",
                     "index": "23",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the minimum separation between the heating and cooling setpoints.  Attempts to lower the cooling below the heating setpoint by this amount will PUSH the heating setpoint down to maintain this separation. Same for setting the heating setpoint above the cooling setpoint, it will PUSH the cooling setpoint up to maintain this separation. Settings in F.\n\t    ",
                     "label": "H/C Delta",
                     "index": "24",
-                    "items": [],
                     "max": "15",
                     "min": "3",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = No Setback, 1 = Setback, 2 if ESM\n\t    ",
                     "label": "SetBack Mode",
                     "index": "25",
-                    "items": [],
                     "max": "2",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-26",
                     "index": "26",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-27",
                     "index": "27",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-28",
                     "index": "28",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Energy Saving Mode (ESM) Setpoints are the setpoints used when the Energy Saving Mode schedule is selected in the Schedule Mode screen (or via Z-Wave control). Setting in F.\n\t    ",
                     "label": "ESM Setpoint--Heating",
                     "index": "29",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Energy Saving Mode (ESM) Setpoints are the setpoints used when the Energy Saving Mode schedule is selected in the Schedule Mode screen (or via Z-Wave control).\n\t    ",
                     "label": "ESM Setpoint--Cooling",
                     "index": "30",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-31",
                     "index": "31",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-32",
                     "index": "32",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-33",
                     "index": "33",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-34",
                     "index": "34",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-35",
                     "index": "35",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-36",
                     "index": "36",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-37",
                     "index": "37",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-69",
                     "index": "69",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-74",
                     "index": "74",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      The fan cycler function cycles the HVAC system fan for an ON period followed by an OFF period continuously. Used to provide minimum air ventilation requirements. When the Fan ON time is set to a value greater than 0, an additional Cycler Fan mode is present when pressing the FAN button on the thermostat.\n\t    ",
                     "label": "Fan ON Time",
                     "index": "75",
-                    "items": [],
                     "max": "120",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "\n\t      The fan cycler function cycles the HVAC system fan for an ON period followed by an OFF period continuously. Used to provide minimum air ventilation requirements. When the Fan ON time is set to a value greater than 0, an additional Cycler Fan mode is present when pressing the FAN button on the thermostat.\n\t    ",
                     "label": "Fan OFF Time",
                     "index": "76",
-                    "items": [],
                     "max": "120",
                     "min": "10",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = no 2nd stage heat, 1 = 2nd stage heat.\n\t    ",
                     "label": "2nd Stage Heat Enable",
                     "index": "77",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = no aux heat, 1 = aux heat enabled.\n\t    ",
                     "label": "Aux Heat Enable",
                     "index": "78",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0 = no 2nd stage cool, 1 = 2nd stage cool\n\t    ",
                     "label": "2nd Stage Cool Enable",
                     "index": "79",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-128",
                     "index": "128",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-129",
                     "index": "129",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-130",
                     "index": "130",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-131",
                     "index": "131",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Set to 1 if running schedule (RUN is displayed on the thermostat screen).\n\t    ",
                     "label": "Run Schedule",
                     "index": "132",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-133",
                     "index": "133",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Default:  \n\t      HOLD   80F / 26C\n\t      RUN    84F / xxC\n\t      ESM\n\t    ",
                     "label": "Cooling 1 Setpoint",
                     "index": "134",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-135",
                     "index": "135",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Heating 1 Setpoint (does this vary with ESM, etc. or is this for the \"Hold\" setting?\n\t      Default:\n\t      HOLD   55F / 13C\n\t      RUN    60F / xxC\n\t      ESM    64F / xxC (unless parameter xx has been changed)\n\t    ",
                     "label": "Heating 1 Setpoint",
                     "index": "136",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Backlight Timeout is the time (in seconds) from the last \n\t      button press to the backlight going out.  The time-out\n\t      can be set between 0 and 120\n\t      seconds.  When set to 0, the backlight will remain\n\t      always on.\n\t      Default:  30\n\t    ",
                     "label": "Backlight Timeout",
                     "index": "137",
-                    "items": [],
                     "max": "120",
                     "min": "0",
                     "type": "byte",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the maximum heating setpoint value.  Will not ramp\n\t      or accept setpoints higher than this maximum.\n\t      Minimum:  55F / xxC\n\t      Maximum:  90F / xxC\n\t      Default:  90F / 32C\n\t    ",
                     "label": "Max Heat Setpoint",
                     "index": "138",
-                    "items": [],
                     "max": "90",
                     "min": "55",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Sets the minimum cooling setpoint value.  Will not ramp\n\t      or accept setpoints lower than this minimum.\n\t      Minimum:  60F / xxC\n\t      Maximum:  99F / xxC\n\t      Default:  60F / 15C\n\t    ",
                     "label": "Min Cool Setpoint",
                     "index": "139",
-                    "items": [],
                     "max": "99",
                     "min": "60",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-140",
                     "index": "140",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This is the time before any screen reverts to the Minimized\n\t      Screen (temperature display only), after you stop pushing\n\t      buttons.  Minimized Screen feature is disabled by setting this\n\t      time to 0. \n\t      Default:  0 \n\t    ",
                     "label": "Screen Timeout",
                     "index": "141",
-                    "items": [],
                     "max": "120",
                     "min": "0",
                     "type": "byte",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-142",
                     "index": "142",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      The internal temperature sensor can be calibrated to report\n\t      values different from its actual reading.  The offset can\n\t      range from -7 degrees to +7 degrees.\n\t      Default:  0\n\t    ",
                     "label": "Sensor (Internal) Offset",
                     "index": "143",
-                    "items": [],
                     "max": "+7",
                     "min": "-7",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-144",
                     "index": "144",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-145",
                     "index": "145",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-146",
                     "index": "146",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-147",
                     "index": "147",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      The Screen Contrast sets the contrast level of the LCD display.\n\t      The contrast can be set between 0 and 20.  If the display \n\t      is too light, use a higher number.  If dark lines appear on \n\t      the screen, use a lower number.\n\t      Default:  10\n\t    ",
                     "label": "Screen Contrast",
                     "index": "148",
-                    "items": [],
                     "max": "20",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-161",
                     "index": "161",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-162",
                     "index": "162",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-163",
                     "index": "163",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-166",
                     "index": "166",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-167",
                     "index": "167",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-162",
                     "index": "162",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-169",
                     "index": "169",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-170",
                     "index": "170",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0x2c after reset\n\t      0xf4 after reset\n\t    ",
                     "label": "Unknown-171",
                     "index": "171",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0x2c after reset\n\t      0xf4 after reset\n\t    ",
                     "label": "Unknown-172",
                     "index": "172",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-173",
                     "index": "173",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-174",
                     "index": "174",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-175",
                     "index": "175",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-176",
                     "index": "176",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-177",
                     "index": "177",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-178",
                     "index": "178",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-179",
                     "index": "179",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-180",
                     "index": "180",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-181",
                     "index": "181",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-182",
                     "index": "182",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xb8 after reset\n\t      0xe4 after reset\n\t    ",
                     "label": "Unknown-183",
                     "index": "183",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xb8 after reset\n\t      0xe4 after reset\n\t    ",
                     "label": "Unknown-184",
                     "index": "184",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      When enabled (set to 1), the local thermostat's scheduler \n\t      function is enabled.\n\t      Default:  0\n\t    ",
                     "label": "Schedule Enable",
                     "index": "185",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-186",
                     "index": "186",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-187",
                     "index": "187",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-190",
                     "index": "190",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-191",
                     "index": "191",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
                     "label": "Unknown-192",
                     "index": "192",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-193",
                     "index": "193",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-194",
                     "index": "194",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
                     "label": "Unknown-195",
                     "index": "195",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-196",
                     "index": "196",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-197",
                     "index": "197",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
                     "label": "Unknown-198",
                     "index": "198",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-199",
                     "index": "199",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-200",
                     "index": "200",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
                     "label": "Unknown-201",
                     "index": "201",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-202",
                     "index": "202",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-203",
                     "index": "203",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
                     "label": "Unknown-204",
                     "index": "204",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-205",
                     "index": "205",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-206",
                     "index": "206",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
                     "label": "Unknown-207",
                     "index": "207",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-208",
                     "index": "208",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-209",
                     "index": "209",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      0xff after reset\n\t    ",
                     "label": "Unknown-210",
                     "index": "210",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-211",
                     "index": "211",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-212",
                     "index": "212",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      Recovery enable?\n\t      Default:  1\n\t      0x00\n\t    ",
                     "label": "Unknown-213",
                     "index": "213",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-214",
                     "index": "214",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-215",
                     "index": "215",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-216",
                     "index": "216",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-217",
                     "index": "217",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-218",
                     "index": "218",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-219",
                     "index": "219",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-220",
                     "index": "220",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t    ",
                     "label": "Unknown-221",
                     "index": "221",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
                     "label": "Schedule Sun-1",
                     "index": "228",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
                     "label": "Schedule Sun-2",
                     "index": "229",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
                     "label": "Schedule Sun-3",
                     "index": "230",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule\n\t      setpoints for Sundays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
                     "label": "Schedule Sun-4",
                     "index": "231",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule\n\t      setpoints for Mondays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
                     "label": "Schedule Mon-1",
                     "index": "232",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule\n\t      setpoints for Mondays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
                     "label": "Schedule Mon-2",
                     "index": "233",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule\n\t      setpoints for Mondays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
                     "label": "Schedule Mon-3",
                     "index": "234",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule\n\t      setpoints for Mondays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
                     "label": "Schedule Mon-4",
                     "index": "235",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule\n\t      setpoints for Tuesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
                     "label": "Schedule Tue-1",
                     "index": "236",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule\n\t      setpoints for Tuesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
                     "label": "Schedule Tue-2",
                     "index": "237",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule\n\t      setpoints for Tuesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
                     "label": "Schedule Tue-3",
                     "index": "238",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule\n\t      setpoints for Tuesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
                     "label": "Schedule Tue-4",
                     "index": "239",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule\n\t      setpoints for Wednesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
                     "label": "Schedule Wed-1",
                     "index": "240",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule setpoints for Wednesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
                     "label": "Schedule Wed-2",
                     "index": "241",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule setpoints for Wednesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
                     "label": "Schedule Wed-3",
                     "index": "242",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule setpoints for Wednesdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
                     "label": "Schedule Wed-4",
                     "index": "243",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule setpoints for Thursdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
                     "label": "Schedule Thu-1",
                     "index": "244",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule setpoints for Thursdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
                     "label": "Schedule Thu-2",
                     "index": "245",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule setpoints for Thursdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
                     "label": "Schedule Thu-3",
                     "index": "246",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule setpoints for Thursdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
                     "label": "Schedule Thu-4",
                     "index": "247",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule setpoints for Fridays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
                     "label": "Schedule Fri-1",
                     "index": "248",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule setpoints for Fridays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
                     "label": "Schedule Fri-2",
                     "index": "249",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule setpoints for Fridays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
                     "label": "Schedule Fri-3",
                     "index": "250",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule setpoints for Fridays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
                     "label": "Schedule Fri-4",
                     "index": "251",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the first schedule setpoints for Saturdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x06004643 06:00AM 70F / 67F\n\t      0x06001519 06:00AM 21C / 25C\n\t    ",
                     "label": "Schedule Sat-1",
                     "index": "252",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the second schedule setpoints for Saturdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x08003e55 08:00AM 62F / 85F\n\t      0x0800101d 08:00AM 16C / 29C\n\t    ",
                     "label": "Schedule Sat-2",
                     "index": "253",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the third schedule setpoints for Saturdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x1200464e 06:00PM 70F / 78F\n\t      0x12001519 06:00PM 21C / 25C\n\t    ",
                     "label": "Schedule Sat-3",
                     "index": "254",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t      This value holds information about the fourth schedule setpoints for Saturdays.\n\t      \n\t      Byte 1: Hour   (0-23)\n\t      Byte 2: Minute (0-59)\n\t      Byte 3: Heat Setpoint (degrees)\n\t      Byte 4: Cool Setpoint (degrees)\n\t      \n\t      Default:  0x16003e52 10:00PM 62F / 82F\n\t      0x1600101b 10:00PM 16C / 27C\n\t    ",
                     "label": "Schedule Sat-4",
                     "index": "255",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

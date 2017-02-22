@@ -8,104 +8,117 @@
                     "help": "Dimmers controlled by this switch will start dimming from their current level.",
                     "label": "Ignore Start-Level (Transmitting)",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "In night-light mode the LED on the switch will turn ON when the switch is turned OFF.",
                     "label": "Night Light",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
                     "label": "Invert Switch",
                     "index": "4",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This dimmer will start dimming from its current level.",
                     "label": "Ignore Start-Level (Receiving)",
                     "index": "5",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Flicker LED while transmitting.",
                     "label": "LED transmission indication",
                     "index": "19",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No flicker"
+                            "label": "No flicker",
+                            "value": "0"
                         },
                         {
-                            "label": "Flicker whole transmission"
+                            "label": "Flicker whole transmission",
+                            "value": "1"
                         },
                         {
-                            "label": "Flicker 1 second"
+                            "label": "Flicker 1 second",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "How often to poll to keep synchronized with group.",
                     "label": "Polling interval",
                     "index": "20",
-                    "items": [],
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "Poll only the first node in Group 1.",
                     "label": "Poll first node in group",
                     "index": "21",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

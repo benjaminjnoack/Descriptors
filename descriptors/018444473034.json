@@ -8,31 +8,31 @@
                     "help": "\n\t\t     The orientation of the ON/OFF on the rocker switch can be inverted by changing the configuration item from 0 to 1\n\t\t  ",
                     "label": "Orientation",
                     "index": "4",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t    indicates the number of levels the lighting will change when the timer runs out\n\t\t  ",
                     "label": "Levels",
                     "index": "9",
-                    "items": [],
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t    indicates the time duration of each level.  The resolution is 10 miliseconds.  for example, a default value of 3 means the timer runs out every 30 milliseconds.\n\t\t  ",
                     "label": "duration",
                     "index": "10",
-                    "items": [],
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "10 ms"
+                    "units": "10 ms",
+                    "items": []
                 }
             ]
         },

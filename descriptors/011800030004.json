@@ -8,46 +8,46 @@
                     "help": "The LED on the TZ55D will by default, turn ON when the load attached is turned OFF. To make the LED turn ON when the load attached is turned ON instead, set parameter to a value of 1.",
                     "label": "Night light",
                     "index": "1",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Stated in the above form,switch by default value is 1,when the value is 0,switch memory function not open; when the value is 1,open switch memory function",
                     "label": "Memory Function",
                     "index": "2",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "To change the top of the switch to OFF and the bottom of the switch ON , set parameter 4 to 1.",
                     "label": "Invert switch",
                     "index": "3",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The TZ56-D will flicker its LED when it is transmitting to any of its 4 groups. This flickering can be set to not flicker at all (set to 0), to flicker the entire time it is transmitting (set to 1), or to flicker for only 1 second when it begins transmitting (set to 2). By default, the TZ55D is set to flicker for only 1 second.",
                     "label": "LED Transmission indication",
                     "index": "4",
-                    "items": [],
                     "max": "2",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Setting this parameter to the value of 1 will stop theTZ55D from transmitting to devices that are associated into Group 4.",
                     "label": "Suspend Group 4",
                     "index": "5",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         }

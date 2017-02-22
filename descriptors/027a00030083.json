@@ -8,127 +8,133 @@
                     "help": "Adjust motion detection sensitivity.  Lower number is for higher sensitivity, while higher number os for lower sensitivity.  Defaults to 12.",
                     "label": "Motion Sensitivity",
                     "index": "1",
-                    "items": [],
                     "max": "255",
                     "min": "8",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Set the duration you want the associated device to stay ON after being triggered by the sensor before it automatically turns OFF, in seconds.",
                     "label": "Trigger ON Duration",
                     "index": "2",
-                    "items": [],
                     "max": "600",
                     "min": "5",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Configure whether the Mini Sensor turns an associated device on or off when sending the BASIC_SET command.  0 is OFF, 255 is ON, and 1-99 is a percentage of light level.  Value of 100-254 is NOT valid.",
                     "label": "Trigger Action",
                     "index": "3",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Enable or Disable motion detection.",
                     "label": "Motion Detection",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "Set light sensor as a secondary trigger for associated devices.  If light level in a room falls beyond the set point and motion is detected, the Mini Sensor will send BASIC_SET command to assocated devices to turn ON.",
                     "label": "Light Trigger Level",
                     "index": "5",
-                    "items": [],
                     "max": "1000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "lux"
+                    "units": "lux",
+                    "items": []
                 },
                 {
                     "help": "Adjust the time when motion is reported again after initial trigger, in seconds.",
                     "label": "Motion Trigger Interval",
                     "index": "6",
-                    "items": [],
                     "max": "8",
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "How often the Mini Sensor reports light level to the controller and associated devices, in seconds.",
                     "label": "Light Polling Interval",
                     "index": "7",
-                    "items": [],
                     "max": "36000",
                     "min": "60",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Enable/Disable the light sensor as secondary trigger.",
                     "label": "Light Trigger",
                     "index": "8",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "Change required to report to the controller, in lux.",
                     "label": "Light Report",
                     "index": "9",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "lux"
+                    "units": "lux",
+                    "items": []
                 },
                 {
                     "help": "Enable or Disable LED Notification.",
                     "label": "LED Notification",
                     "index": "10",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         },

@@ -8,85 +8,89 @@
                     "help": "If this parameter is set to 0, the beep and LED will be turn on always until water leakage is not detected.",
                     "label": "Alarm Duration Time",
                     "index": "1",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "minute"
+                    "units": "minute",
+                    "items": []
                 },
                 {
                     "help": "This Parameter defines beep on/off interval time when water leakage is detected.",
                     "label": "Alarm Interval",
                     "index": "2",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "minute"
+                    "units": "minute",
+                    "items": []
                 },
                 {
                     "help": "This parameter defines beep on duration first time when water leakage is detected.",
                     "label": "First Alarm On Time Duration",
                     "index": "3",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "second"
+                    "units": "second",
+                    "items": []
                 },
                 {
                     "help": "This parameter defines beep on duration after fist beep on when water leakage is detected.",
                     "label": "Alarm on Time Duration",
                     "index": "4",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "second"
+                    "units": "second",
+                    "items": []
                 },
                 {
                     "help": "This parameter defines beep on is enabled or disabled when water leakage is detected.\n                0 indicate beep on is disable, but LED will be turned on when water leakage detected.\n                1 indicate beep on is enabled, the BEEP and LED will be turned on when water leakage detected.\n            ",
                     "label": "Alarm sound",
                     "index": "5",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This parameter defines the function than water leakage detect is enabled or disabled.\n                0 indicate disable water leakage detect,\n                1 indicate enable water leakage detect.\n            ",
                     "label": "Water Leakage Detected Report",
                     "index": "6",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Basic Set Command will be sent where contains a value when the leakage is detected, the receiver will take it for consideration;\n                for instance, if a lamp module is received the Basic Set Command of which value is decisive as to how bright of dim level of lamp module shall be.\n            ",
                     "label": "Basic Set Level",
                     "index": "7",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

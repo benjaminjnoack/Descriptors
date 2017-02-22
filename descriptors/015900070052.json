@@ -8,158 +8,176 @@
                     "help": "Default value 4",
                     "label": "Input 1 switch function selection",
                     "index": "7",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "IR external relay control - mono stable push button"
-                        },
-                        {
-                            "label": "IR external relay control - bi stable switch"
-                        },
-                        {
-                            "label": "External relay control - mono stable push button"
-                        },
-                        {
-                            "label": "External relay control - bi stable switch"
-                        }
-                    ],
                     "max": "5",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "IR external relay control - mono stable push button",
+                            "value": "2"
+                        },
+                        {
+                            "label": "IR external relay control - bi stable switch",
+                            "value": "3"
+                        },
+                        {
+                            "label": "External relay control - mono stable push button",
+                            "value": "4"
+                        },
+                        {
+                            "label": "External relay control - bi stable switch",
+                            "value": "5"
+                        }
+                    ]
                 },
                 {
                     "help": "Smart meter module responds to commands ALL ON / ALL OFF that may be sent by the main controller or by other controller belonging to the system.\n\t\t\tDefault value 255.",
                     "label": "Activate / deactivate functions ALL ON/ALL OFF",
                     "index": "10",
-                    "items": [
-                        {
-                            "label": "ALL ON active, ALL OFF active"
-                        },
-                        {
-                            "label": "ALL ON is not active, ALL OFF is not active"
-                        },
-                        {
-                            "label": "ALL ON is not active, ALL OFF active"
-                        },
-                        {
-                            "label": "ALL ON active, ALL OFF is not active"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "ALL ON active, ALL OFF active",
+                            "value": "255"
+                        },
+                        {
+                            "label": "ALL ON is not active, ALL OFF is not active",
+                            "value": "0"
+                        },
+                        {
+                            "label": "ALL ON is not active, ALL OFF active",
+                            "value": "1"
+                        },
+                        {
+                            "label": "ALL ON active, ALL OFF is not active",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "0 - Auto OFF disabled.\n\t\t\t1 second to 32536 seconds Auto OFF enabled with defined time, step is 1 second.\n\t\t\tDefault value 0.",
                     "label": "Automatic turning off IR external relay output after set time",
                     "index": "11",
-                    "items": [],
                     "max": "32536",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "0 - Auto ON disabled.\n\t\t\t1 second to 32535 seconds Auto ON enabled with defined time, step is 1 second.\n\t\t\tDefault value 0.",
                     "label": "Automatic turning on IR external relay output after set time",
                     "index": "12",
-                    "items": [],
                     "max": "32535",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "0 - Auto OFF disabled.\n\t\t\t1 second to 32536 seconds Auto OFF enabled with defined time, step is 1 second.\n\t\t\tDefault value 0.",
                     "label": "Automatic turning off External relay output after set time",
                     "index": "13",
-                    "items": [],
                     "max": "32536",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "0 - Auto ON disabled.\n\t\t\t1 second to 32535 seconds Auto ON enabled with defined time, step is 1 second.\n\t\t\tDefault value 0.",
                     "label": "Automatic turning on External relay output after set time",
                     "index": "14",
-                    "items": [],
                     "max": "32535",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Set value from 0 - 100 (0% - 100%).\n\t\t\t0 - Reporting Disabled.\n\t\t\t1 - 100 = 1% - 100% Reporting enabled.\n\t\t\tPower report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%.\n\t\t\tDefault value 10.",
                     "label": "Power reporting in Watts on power change",
                     "index": "40",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Set value means time interval (0 - 32767) in seconds, when power report is send.\n\t\t\t0 - Reporting Disabled.\n\t\t\t1 second to 32767 seconds reporting enabled.\n\t\t\tPower report is send with time interval set by entered value.\n\t\t\tDefault value 0.",
                     "label": "Power reporting in Watts by time interval",
                     "index": "42",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Default value 0",
                     "label": "Reset Power counters",
                     "index": "45",
-                    "items": [
-                        {
-                            "label": "No function"
-                        },
-                        {
-                            "label": "Reset counter 1 - KWh"
-                        },
-                        {
-                            "label": "Reset counter 2 - KVARh"
-                        },
-                        {
-                            "label": "Reset counter 3 - KVAh"
-                        },
-                        {
-                            "label": "Reset ALL counters"
-                        }
-                    ],
                     "max": "15",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "No function",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Reset counter 1 - KWh",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Reset counter 2 - KVARh",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Reset counter 3 - KVAh",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Reset ALL counters",
+                            "value": "15"
+                        }
+                    ]
                 },
                 {
                     "help": "Enabling IR external relay and External relay or both of them, means that endpoint (IR external relay) and endpoint (External relay) or both will be prensent on UI. \n\t\t\t\tDisabling them will result in hiding endpoints according to parameter set value.Note that hiding endpoint has no impact on its functionality. \n\t\t\t\tDefault value 0",
                     "label": "Enable /Disable endpoints IR external relay and External relay",
                     "index": "100",
-                    "items": [
-                        {
-                            "label": "Endpoints IR external relay and External relay disabled"
-                        },
-                        {
-                            "label": "Endpoints IR external relay disabled, External relay enabled"
-                        },
-                        {
-                            "label": "Endpoints IR external relay enabled, External relay disabled"
-                        },
-                        {
-                            "label": "Endpoints IR external relay and External relay enabled"
-                        }
-                    ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Endpoints IR external relay and External relay disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Endpoints IR external relay disabled, External relay enabled",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Endpoints IR external relay enabled, External relay disabled",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Endpoints IR external relay and External relay enabled",
+                            "value": "3"
+                        }
+                    ]
                 }
             ]
         },

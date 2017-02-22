@@ -8,59 +8,59 @@
                     "help": "Set all configuration values to default values (factory settings).",
                     "label": "Set to Default",
                     "index": "1",
-                    "items": [],
                     "size": "1",
-                    "type": "button"
+                    "type": "button",
+                    "items": []
                 },
                 {
                     "help": "\n                The time that the panic pushbutton must be pressed before a (panic) message is sent out to the controller.\n                0: send directly the panic message when pressed.\n                1-255: send a panic message after you keep holding the button pressed for this value x 10ms.\n            ",
                     "label": "Time to press the panic button",
                     "index": "2",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n                Minimum time that led feedback is shown after a panic message.\n                0: led only stays on during the send time.\n                1-255: led stays on during send time + this value*10ms.\n            ",
                     "label": "Min led feedback time panic",
                     "index": "3",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n                With this config parameter you can map the buttons to send different Z-Wave messages.\n                0: SOS button sends an ALARM_REPORT to nodes group 1 LOCK button sends a BASIC_SET, 0xFF to nodes group 1 UNLOCK button sends a BASIC_SET, 0x00 to nodes group 1.\n                1-255: button sends an BASIC_SET,0xFF to nodes group 1 LOCK button sends a BASIC_SET, 0xFF to nodes group 2 UNLOCK button sends a BASIC_SET, 0x00 to nodes group 2\n            ",
                     "label": "Buttons mapped",
                     "index": "4",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n                The time that the control pushbutton(s) must be pressed before a (control) message is sent out to the controller.\n                0: send directly the panic message when pressed\n                1-255: send a control message after you keep holding pushbutton pressed for this value x 10ms.\n            ",
                     "label": "Time to press the control buttons",
                     "index": "5",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n                Minimum time that led feedback is shown after a control message is sent.\n                0: led only stays on during the send time.\n                1-255: led stays on during send time + this value*10ms.\n            ",
                     "label": "Min led feedback time control",
                     "index": "6",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

@@ -8,198 +8,204 @@
                     "help": "\n      If the reverse clamping pliers, negative power is detected. \n      ",
                     "label": "Reverse Clamping",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n\tAutomatic report only when power is changed.\n      ",
                     "label": "Power changed",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (whole HEM).\n      ",
                     "label": "Wattage Threshold",
                     "index": "4",
-                    "items": [],
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (Clamp 1).\n      ",
                     "label": "Wattage Threshold C1",
                     "index": "5",
-                    "items": [],
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (Clamp 2).\n      ",
                     "label": "Wattage Threshold C2",
                     "index": "6",
-                    "items": [],
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "\n\tThreshold change in wattage to induce a automatic report (Clamp 3).\n      ",
                     "label": "Wattage Threshold C3",
                     "index": "7",
-                    "items": [],
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (whole HEM).\n      ",
                     "label": "Wattage Percentage Change",
                     "index": "8",
-                    "items": [],
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (Clamp 1).\n      ",
                     "label": "Wattage Percentage Change C1",
                     "index": "9",
-                    "items": [],
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (Clamp 2).\n      ",
                     "label": "Wattage Percentage Change C2",
                     "index": "10",
-                    "items": [],
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n\tPercentage change in wattage to induce a automatic report (Clamp 3).\n      ",
                     "label": "Wattage Percentage Change C3",
                     "index": "11",
-                    "items": [],
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n\tReset to default parameters number 101-103. Any value other then 0 will initiate this reset.\n      ",
                     "label": "Reset #101-103",
                     "index": "100",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tWhich reports need to send in group1. Format is as follows:\n\tByte 1 (msb): Reserved\n\tByte 2: Reserved\n\tByte 3: Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n                Bit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (Clamp 3)\n                Bit 1: Auto Send Meter Report (for watts) at the group time interval (Clamp 2)\n                Bit 0: Auto Send Meter Report (for watts) at the group time interval (Clamp 1)\n\tByte 4 (lsb): Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: reserved\n                Bit 4: reserved\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (whole HEM)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (whole HEM)\n                Bit 1: Auto Send Multilevel Sensor Report (for watts) at the group time interval (whole HEM)\n                Bit 0: Auto Send Battery Report at the group time interval (whole HEM)\n      ",
                     "label": "Group 1 Reports",
                     "index": "101",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tWhich reports need to send in group2. Format is as follows:\n\tByte 1 (msb): Reserved\n\tByte 2: Reserved\n\tByte 3: Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n                Bit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (Clamp 3)\n                Bit 1: Auto Send Meter Report (for watts) at the group time interval (Clamp 2)\n                Bit 0: Auto Send Meter Report (for watts) at the group time interval (Clamp 1)\n\tByte 4 (lsb): Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: reserved\n                Bit 4: reserved\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (whole HEM)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (whole HEM)\n                Bit 1: Auto Send Multilevel Sensor Report (for watts) at the group time interval (whole HEM)\n                Bit 0: Auto Send Battery Report at the group time interval (whole HEM)\n      ",
                     "label": "Group 2 Reports",
                     "index": "102",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tWhich reports need to send in group3. Format is as follows:\n\tByte 1 (msb): Reserved\n\tByte 2: Reserved\n\tByte 3: Bit 7: reserved\n\tBit 6: reserved\n                Bit 5: Auto Send Meter Report (for kWh) at the group time interval (Clamp 3)\n                Bit 4: Auto Send Meter Report (for kWh) at the group time interval (Clamp 2)\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (Clamp 1)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (Clamp 3)\n                Bit 1: Auto Send Meter Report (for watts) at the group time interval (Clamp 2)\n                Bit 0: Auto Send Meter Report (for watts) at the group time interval (Clamp 1)\n\tByte 4 (lsb): Bit 7: reserved\n                Bit 6: reserved\n                Bit 5: reserved\n                Bit 4: reserved\n                Bit 3: Auto Send Meter Report (for kWh) at the group time interval (whole HEM)\n                Bit 2: Auto Send Meter Report (for watts) at the group time interval (whole HEM)\n                Bit 1: Auto Send Multilevel Sensor Report (for watts) at the group time interval (whole HEM)\n                Bit 0: Auto Send Battery Report at the group time interval (whole HEM)\n      ",
                     "label": "Group 3 Reports",
                     "index": "103",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tReset to default parameters number 111-113. Any value other then 0 will initiate this reset.\n      ",
                     "label": "Reset #111-113",
                     "index": "110",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tThe interval of sending report group 1.\n      ",
                     "label": "Group 1 Interval",
                     "index": "111",
-                    "items": [],
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n\tThe interval of sending report group 2.\n      ",
                     "label": "Group 2 Interval",
                     "index": "112",
-                    "items": [],
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n\tThe interval of sending report group 3.\n      ",
                     "label": "Group 3 Interval",
                     "index": "113",
-                    "items": [],
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "label": "Partner ID",
                     "index": "200",
-                    "items": [
-                        {
-                            "label": "Aeon Labs Standard Product"
-                        },
-                        {
-                            "label": "AT&T"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Aeon Labs Standard Product",
+                            "value": "0"
+                        },
+                        {
+                            "label": "AT&T",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n\tDevice tag.\n      ",
                     "label": "Device Tag",
                     "index": "254",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tReset to the default configuration.\n      ",
                     "label": "Reset default configuration",
                     "index": "255",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

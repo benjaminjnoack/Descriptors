@@ -8,105 +8,105 @@
                     "help": "\n          Setting the BASIC command value to turn on the light. The 0xFF (255) means turn on the light. \n          For dimmer equipment 1 to 100 means the light strength.\n\t  ",
                     "label": "Basic Set Level",
                     "index": "2",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          PIR sensitivity settings. \n          0 means disable the PIR motion.\n          1 means the lowest sensitivity.\n          99 means the highest sensitivity.\n          High sensitivity means can detect long distance, but if there is more noise signal in the environment, it will re-trigger too frequently. \n       ",
                     "label": "PIR Sensitivity",
                     "index": "3",
-                    "items": [],
                     "max": "99",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Setting the illummination threshold to turn on the light. When the event triggered and the environment illumination lower then \n          the threshold, the device will turn on the light.\n          0 means turn off illumination detected function and never turn on the light.\n          1 means darkest.\n          99 means brightest.\n          100 means turn off illumination detected function. And always turn on the light.\n          * Notice * in none test mode, only the value in 1 to 99 will enable the illumination detected function and update the illumination value.\n       ",
                     "label": "Light threshold",
                     "index": "4",
-                    "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Bit 0: 1 means security mode; 0 means home automation mode.\n          Bit 1: 1 means enable test mode; 0 means disable test mode\n          * Notice * Bit 0 and bit 1 will effect when the DIP Switch setting to program mode. If bit1 is enabled, the bit0 is useless.\n          Bit 2: Reserved, always 1.\n          Bit 3: Setting the temperature scale; 0: Fahrenheit, 1:Celsius\n          Bit 4: Disable illumination report after event triggered.\n          Bit 5: Disable temperature report after event triggered\n       ",
                     "label": "Operation Mode",
                     "index": "5",
-                    "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Multi-Sensor Function switch. Using bit to control.\n          Bit 0: Reserved, always 1.\n          Bit 1: Disable PIR integrate Illumination.\n          Bit 2: Reserved, always 1.\n          Bit 3: Reserved.\n          Bit 4: Reserved.\n          Bit 5: Reserved.\n          Bit 6: Enable temperature monitoring. When this bit enabled, the temperature changed 3 degree Fahrenheit, it will report. \n          And also the temperature over 140 degree Fahrenheit, it will report every 64 seconds.\n\t  ",
                     "label": "Multi-Sensor Function Switch",
                     "index": "6",
-                    "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Customer function switch, using bit control. \n          Bit 0: Reserve. \n          Bit 1: Enable sending motion OFF report (0:Disable, 1:Enable). \n\t\t\t\t Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00. \n          Bit 2: Enable PIR super sensitivity mode (0:Disable, 1:Enable).\n          Bit 3: Disable send out BASIC OFF after door closed (1:Disable, 0:Enable). \n          Bit 4: Notification Type (0: Notification Report, 1: Sensor Binary Report).\n          Bit 5: Disable Multi CC in auto report (1:Disable, 0:Enable).\n          Bit 6: Disable to report battery state when the device triggered (1:Disable, 0:Enable)\n          Bit 7: Reserve.\n\t\t  ozw recommended setting: 00010110 : 22\n       ",
                     "label": "Customer Function",
                     "index": "7",
-                    "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          In the security mode, after the PIR report motion detected, setting the re-detect time. 8 seconds per tick, and minimum time is 24 seconds, default tick is 3 (24 seconds).\n          Setting the suitable value to prevent received the trigger signal too frequency. Also can save the battery energy.\n          * Notice * If this value bigger than the configuration setting NO. 9. There is a period after the light turned off and the PIR not detecting.\n       ",
                     "label": "PIR re-detect interval time",
                     "index": "8",
-                    "items": [],
                     "max": "27",
                     "min": "3",
                     "type": "byte",
-                    "units": "8 sec"
+                    "units": "8 sec",
+                    "items": []
                 },
                 {
                     "help": "\n          After turn on the light, setting the delay time to turn off the light when the PIR motion is not detected.\n          8 seconds per tick, and minimum time is 32 seconds, default tick is 4 (32 seconds).\n       ",
                     "label": "Turn Off Light Time",
                     "index": "9",
-                    "items": [],
                     "max": "127",
                     "min": "4",
                     "type": "byte",
-                    "units": "8 sec"
+                    "units": "8 sec",
+                    "items": []
                 },
                 {
                     "help": "\n         The interval time for auto report the battery level.\n         30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)\n      ",
                     "label": "Auto Report Battery Time",
                     "index": "10",
-                    "items": [],
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min"
+                    "units": "30 min",
+                    "items": []
                 },
                 {
                     "help": "\n         The interval time for auto report the illumination.\n         30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)\n      ",
                     "label": "Auto Report Illumination Time",
                     "index": "12",
-                    "items": [],
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min"
+                    "units": "30 min",
+                    "items": []
                 },
                 {
                     "help": "\n         The interval time for auto report the temperature.\n         30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)\n      ",
                     "label": "Auto Report Temperature time",
                     "index": "13",
-                    "items": [],
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min"
+                    "units": "30 min",
+                    "items": []
                 }
             ]
         },
@@ -116,24 +116,24 @@
                 {
                     "label": "Motion Sensor",
                     "index": "0",
-                    "items": [],
                     "max": "0",
                     "min": "0",
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 },
                 {
                     "label": "Door/Window Sensor",
                     "index": "1",
-                    "items": [],
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 },
                 {
                     "label": "Tamper Sensor",
                     "index": "2",
-                    "items": [],
                     "max": "0",
                     "min": "0",
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 }
             ]
         },

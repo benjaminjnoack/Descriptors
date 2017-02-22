@@ -8,31 +8,31 @@
                     "help": "\n\tThis is the time the switching status needs to remain\nunchanged after a change to cause the device to send out a status\nmessage. 0 is Disabled.\n      ",
                     "label": "True Period",
                     "index": "1",
-                    "items": [],
                     "max": "120",
                     "min": "0",
                     "type": "short",
-                    "units": "100ms"
+                    "units": "100ms",
+                    "items": []
                 },
                 {
                     "help": "\n\tEnable or Disable Send Basic Command to Group 2 when the local\nbutton press changes the switching state.\n      ",
                     "label": "Send Out Basic Command",
                     "index": "2",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tThe device will report its meter value within the interval\nset. Set to 0 will disable the autoreporting function.\n      ",
                     "label": "Meter Report Period",
                     "index": "3",
-                    "items": [],
                     "max": "3240",
                     "min": "0",
                     "type": "short",
-                    "units": "10s"
+                    "units": "10s",
+                    "items": []
                 }
             ]
         },

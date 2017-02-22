@@ -8,21 +8,21 @@
                     "help": "\n\tColor Temperature\n      ",
                     "label": "RGB Color",
                     "index": "1",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n        Shock sensor : 0=Maximum sensitivity ; 32=minimum sensitivity \n      ",
                     "label": "Shock Sensor",
                     "index": "2",
-                    "items": [],
                     "max": "32",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

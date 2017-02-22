@@ -8,32 +8,32 @@
                     "help": "\n\t\t\t0: No automated close after command open.\n\t\t\t1 - 127: Close again after x seconds (Default 3)\n\t\t\t",
                     "label": "Automatically switch off after",
                     "index": "0",
-                    "items": [],
                     "max": "127",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "0 - 99 (Default 0)",
                     "label": "Value of Off-Command",
                     "index": "1",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "0 - 99 (Default 99)",
                     "label": "Value of On-Command",
                     "index": "2",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

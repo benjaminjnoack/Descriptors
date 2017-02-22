@@ -8,18 +8,20 @@
                     "help": "Lock/unlock all configuration parameters",
                     "label": "Configuration Command",
                     "index": "254",
-                    "items": [
-                        {
-                            "label": "Unlock"
-                        },
-                        {
-                            "label": "Lock"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Unlock",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Lock",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         },

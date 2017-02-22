@@ -4,12 +4,14 @@
 'use strict';
 
 const
-  h     = require('./h'),
-  Value = require('./Value');
+  Element = require('./Element'),
+  h       = require('./h'),
+  Value   = require('./Value');
 
-class CommandClass {
+class CommandClass extends Element {
   constructor(cc) {
-    this.id = cc[h.META];
+    super(cc[h.META]);
+
     this.values = cc[h.VALUE];
   }
 
@@ -17,8 +19,8 @@ class CommandClass {
     return this._id;
   }
 
-  set id(meta) {
-    this._id = parseInt(meta[h.ID]);
+  set id(id) {
+    this._id = parseInt(id);
   }
 
   get values() {

@@ -8,30 +8,30 @@
                     "help": "Set all configuration values to default values (factory settings).",
                     "label": "Set to Default",
                     "index": "1",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The mode in which a different Z-Wave message is sent.",
                     "label": "Mode",
                     "index": "10",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The time that a user has to activate the double button pressed scene, if time is passed then the single pressed button scene is notified. (value * 10 ms)",
                     "label": "Double press time",
                     "index": "11",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "A signed integer to determine the offset of the temperature.",
                     "label": "Temperature offset",
                     "index": "12",
-                    "items": [],
                     "size": "2",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 }
             ]
         },

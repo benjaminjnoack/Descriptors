@@ -8,71 +8,75 @@
                     "help": "The additional siren is creating a different acoustic signal differentiate from the smoke alarm. This sound is partly on and partly off. This parameter defines the total length of the interval in seconds.",
                     "label": "Siren alarm sequence interval",
                     "index": "1",
-                    "items": [],
                     "max": "129",
                     "min": "3",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The additional siren is creating a different acoustic signal differentiate from the smoke alarm. This sound is partly on and partly off. This parameter defines the total length of the sound versus silence within this interval.",
                     "label": "Siren alarm tone length",
                     "index": "2",
-                    "items": [],
                     "max": "129",
                     "min": "3",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Value of On-Command",
                     "label": "Value of On-Command",
                     "index": "3",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Value of Off-Command",
                     "label": "Value of Off-Command",
                     "index": "4",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "This smoke detector can automatically inform other smoke detectors of same type about smoke alarms. They will then also turn on the siren. This function is a requirement of wireless networked smoke detectors.",
                     "label": "Status of automated meshing of smoke alarms",
                     "index": "5",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Inactive"
+                            "label": "Inactive",
+                            "value": "0"
                         },
                         {
-                            "label": "Active (default)"
+                            "label": "Active (default)",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This smoke detector can automatically inform other smoke detectors of same type about battery alarms. They will then also turn on the siren. This function is a requirement of wireless networked smoke detectors.",
                     "label": "Status of automated meshing of battery alarms",
                     "index": "6",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Inactive"
+                            "label": "Inactive",
+                            "value": "0"
                         },
                         {
-                            "label": "Active (default)"
+                            "label": "Active (default)",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

@@ -8,211 +8,248 @@
                     "help": "\n                This parameter defines the output volume when siren plays door bell music.\n                Door Bell music volume is divided into 3 stages\n            ",
                     "label": "Alarm Music Volume",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Low"
-                        },
-                        {
-                            "label": "Middle"
-                        },
-                        {
-                            "label": "High"
-                        }
-                    ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Low",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Middle",
+                            "value": "2"
+                        },
+                        {
+                            "label": "High",
+                            "value": "3"
+                        }
+                    ]
                 },
                 {
                     "help": "\n                This Parameter defines the alarm music duration time when siren receive an alarm sensor notification report or an alarm command from controller.\n                The duration time is divided into 5 stages.\n            ",
                     "label": "Alarm Music Duration Time",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Off"
-                        },
-                        {
-                            "label": "30 second"
-                        },
-                        {
-                            "label": "1 minute"
-                        },
-                        {
-                            "label": "5 minute"
-                        },
-                        {
-                            "label": "Always on"
-                        }
-                    ],
                     "max": "255",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "30 second",
+                            "value": "1"
+                        },
+                        {
+                            "label": "1 minute",
+                            "value": "2"
+                        },
+                        {
+                            "label": "5 minute",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Always on",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter defines the door bell music duration time when siren receives a door/window sensor notification report or an alarm command (BASIC_SET = 0x02) from controller.\n                The door bell music will be played always if this parameter is set to 255.\n                The door bell music will not be  played if this parameter is set to 0.\n                Other values are the door bell music playing duration time.",
                     "label": "Door Bell Music Duration Time",
                     "index": "3",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "minute"
+                    "units": "minute",
+                    "items": []
                 },
                 {
                     "help": "This parameter defines the output volume when siren plays alarm music.\n                Door Bell music volume is divided into 3 stages",
                     "label": "Door Bell Music Volume",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "Low"
-                        },
-                        {
-                            "label": "Middle"
-                        },
-                        {
-                            "label": "High"
-                        }
-                    ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Low",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Middle",
+                            "value": "2"
+                        },
+                        {
+                            "label": "High",
+                            "value": "3"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter defines the alarm music index for siren play different music when alarm occurs.\n                There are 10 different music for user selection",
                     "label": "Alarm Music Index",
                     "index": "5",
-                    "items": [
-                        {
-                            "label": "1"
-                        },
-                        {
-                            "label": "2"
-                        },
-                        {
-                            "label": "3"
-                        },
-                        {
-                            "label": "4"
-                        },
-                        {
-                            "label": "5"
-                        },
-                        {
-                            "label": "6"
-                        },
-                        {
-                            "label": "7"
-                        },
-                        {
-                            "label": "8"
-                        },
-                        {
-                            "label": "9"
-                        },
-                        {
-                            "label": "10"
-                        }
-                    ],
                     "max": "10",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "1",
+                            "value": "1"
+                        },
+                        {
+                            "label": "2",
+                            "value": "2"
+                        },
+                        {
+                            "label": "3",
+                            "value": "3"
+                        },
+                        {
+                            "label": "4",
+                            "value": "4"
+                        },
+                        {
+                            "label": "5",
+                            "value": "5"
+                        },
+                        {
+                            "label": "6",
+                            "value": "6"
+                        },
+                        {
+                            "label": "7",
+                            "value": "7"
+                        },
+                        {
+                            "label": "8",
+                            "value": "8"
+                        },
+                        {
+                            "label": "9",
+                            "value": "9"
+                        },
+                        {
+                            "label": "10",
+                            "value": "10"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter defines the door bell music index for siren play different music when alarm occurs.\n                There are 10 different music for user selection.",
                     "label": "Door Bell Music Index",
                     "index": "6",
-                    "items": [
-                        {
-                            "label": "1"
-                        },
-                        {
-                            "label": "2"
-                        },
-                        {
-                            "label": "3"
-                        },
-                        {
-                            "label": "4"
-                        },
-                        {
-                            "label": "5"
-                        },
-                        {
-                            "label": "6"
-                        },
-                        {
-                            "label": "7"
-                        },
-                        {
-                            "label": "8"
-                        },
-                        {
-                            "label": "9"
-                        },
-                        {
-                            "label": "10"
-                        }
-                    ],
                     "max": "10",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "1",
+                            "value": "1"
+                        },
+                        {
+                            "label": "2",
+                            "value": "2"
+                        },
+                        {
+                            "label": "3",
+                            "value": "3"
+                        },
+                        {
+                            "label": "4",
+                            "value": "4"
+                        },
+                        {
+                            "label": "5",
+                            "value": "5"
+                        },
+                        {
+                            "label": "6",
+                            "value": "6"
+                        },
+                        {
+                            "label": "7",
+                            "value": "7"
+                        },
+                        {
+                            "label": "8",
+                            "value": "8"
+                        },
+                        {
+                            "label": "9",
+                            "value": "9"
+                        },
+                        {
+                            "label": "10",
+                            "value": "10"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter defines the default music index, volume and the duration time for 3 siren on.\n                This parameter can be selected between ALARM MUSIC and DOOR BELL MUSIC.\n                The settings for ALARM MUSIC MODE defines by Param #1, #2 and #5.\n                The settings for DOOR BELL MUSIC MODE defines by Param #3, #4 and #6",
                     "label": "Configure Default Siren On Mode",
                     "index": "7",
-                    "items": [
-                        {
-                            "label": "Alarm music"
-                        },
-                        {
-                            "label": "Door bell music"
-                        }
-                    ],
                     "max": "2",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Alarm music",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Door bell music",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter defines the default led enable status when siren is on for ALARM MUSIC MODE",
                     "label": "Configure Alarm Led Enable",
                     "index": "8",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter defines the default led enable status when siren is on for DOOR BELL MUSIC MODE",
                     "label": "Door Bell Led Enable",
                     "index": "9",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         },

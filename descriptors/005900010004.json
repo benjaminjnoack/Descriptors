@@ -12,40 +12,44 @@
                     "help": "Enables or not the temperature sensor reading",
                     "label": "Temperature sensor reading",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Controls the temperature sensor scale",
                     "label": "Temperature Scale",
                     "index": "2",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Celsius"
+                            "label": "Celsius",
+                            "value": "0"
                         },
                         {
-                            "label": "Fahrenheit"
+                            "label": "Fahrenheit",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1) (Default 10 = 1C)",
                     "label": "Delta T: Temperature change",
                     "index": "3",
-                    "items": [],
                     "max": "100",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

@@ -12,160 +12,164 @@
                     "help": "How many pulses are counted per 10 kWh.",
                     "label": "Pulse factor",
                     "index": "1",
-                    "items": [],
                     "max": "65535",
                     "min": "1",
                     "size": "2",
                     "type": "short",
-                    "units": "pulses"
+                    "units": "pulses",
+                    "items": []
                 },
                 {
                     "help": "Defines the meter type on which the Power Reader is placed",
                     "label": "Sensor type",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Pulse Meter"
-                        },
-                        {
-                            "label": "Rotating Wheel"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Pulse Meter",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Rotating Wheel",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "\n                Additional time for feedback measurement.\n                Should always be 0.\n            ",
                     "label": "IR Listen period",
                     "index": "3",
-                    "items": [],
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n                Adjusts transmit signal so received signal will in average be equal to this values.\n                Auto calibration might select another value than this.\n            ",
                     "label": "IR Pulse Width",
                     "index": "4",
-                    "items": [],
                     "max": "127",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n                Wake device up this many times per second.\n                This value also controls number of measurements per second on mechanical meters.\n            ",
                     "label": "Poll / Wake up frequency",
                     "index": "5",
-                    "items": [],
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Low detection threshold for wheel meters.",
                     "label": "Pulse Threshold Low",
                     "index": "6",
-                    "items": [],
                     "max": "113",
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "High detection threshold for wheel meters.",
                     "label": "Pulse Threshold high",
                     "index": "7",
-                    "items": [],
                     "max": "113",
                     "min": "1",
                     "size": "1",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Do not use. Set this value using WAKE_UP_INTERVAL_SET instead.",
                     "label": "Wake up interval",
                     "index": "8",
-                    "items": [],
                     "max": "113",
                     "min": "0",
                     "size": "2",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "In order for the Power Reader to report the proper total meter consumption the value for this registered has to be initialized with total_meter_consumption_stated_on_the_meter * impulse factor.",
                     "label": "Pulse count",
                     "index": "9",
-                    "items": [],
                     "max": "2147483647",
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "set to the number of seconds that it will take the controlling node to send a response / request to the wake up notification",
                     "label": "Keep alive period",
                     "index": "10",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "second"
+                    "units": "second",
+                    "items": []
                 },
                 {
                     "help": "Set this to enter real-time mode from remote. Contains seconds * poll frequency before going back to sleep. If you press the button once this value will be set.",
                     "label": "Real-time mode",
                     "index": "11",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "The serial numbers written on the Power Reader are in HEX",
                     "label": "serial number",
                     "index": "12",
-                    "items": [],
                     "size": "4",
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "Debug Mode",
                     "label": "Debug",
                     "index": "13",
-                    "items": [
-                        {
-                            "label": "Off"
-                        },
-                        {
-                            "label": "LED blinks at pulse counting"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED blinks at pulse counting",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "The calibration progress is calculated as (value[1] - 65 + value[2] / value[3]) * 25\n                The calibration is finished successfully when value[0] = 2 and value[2] = value[3].\n                The calibration has failed if value[0] != 1 OR (value[0] = 2 AND value[2] != value[3])\n            ",
                     "label": "Calibration status",
                     "index": "15",
-                    "items": [],
                     "size": "4",
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 }
             ]
         }

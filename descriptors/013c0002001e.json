@@ -8,20 +8,20 @@
                     "help": "\n                Customer function switch, using bit control.\n                Bit0: Reserve.\n                Bit1: Reserve.\n                Bit2: Reserve => 1.\n                Bit4: Notification Type (0: Notification Report, 1: Sensor Binary Report).\n                Bit5: Reserve.\n                Bit6: Reserve.\n                Bit7: Reserve.\n            ",
                     "label": "Customer Function",
                     "index": "7",
-                    "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n                The interval time for auto report the battery level.\n                30 minutes per tick and minimum time is 30 minutes, default tick is 12 (6 hours)\n            ",
                     "label": "Auto Report Battery Time",
                     "index": "10",
-                    "items": [],
                     "max": "127",
                     "min": "1",
                     "type": "byte",
-                    "units": "30 min"
+                    "units": "30 min",
+                    "items": []
                 }
             ]
         },

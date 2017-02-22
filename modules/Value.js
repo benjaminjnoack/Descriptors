@@ -4,14 +4,16 @@
 'use strict';
 
 const
-  h     = require('./h'),
-  Item  = require('./Item');
+  Element = require('./Element'),
+  h       = require('./h'),
+  Item    = require('./Item');
 
-class Value {
+class Value extends Element {
   constructor(value) {
+    super(value[h.META]);
+
     this.help = value[h.HELP];
     this.items = value[h.ITEM];
-    this.meta = value[h.META];
   }
 
   get help() {
@@ -34,7 +36,17 @@ class Value {
   }
 
   get meta() {
-    return this._meta;
+    return {
+      help: this.help,
+      label: this.label,
+      index: this.index,
+      max: this.max,
+      min: this.min,
+      size: this.size,
+      type: this.type,
+      units: this.units,
+      value: this.value
+    };
   }
 
   set meta(meta) {
@@ -46,8 +58,6 @@ class Value {
     this[h.TYPE] = meta[h.TYPE];
     this[h.UNITS] = meta[h.UNITS];
     this[h.VALUE] = meta[h.VALUE];
-
-    this._meta = meta;
   }
 
   parse() {
@@ -57,22 +67,13 @@ class Value {
   }
 
   print() {
-    let items = this.items.map(item => {
+    let print = this.meta;
+
+    print['items'] = this.items.map(item => {
       return item.print();
     });
 
-    return {
-      help: this.help,
-      label: this.label,
-      index: this.index,
-      items: items,
-      max: this.max,
-      min: this.min,
-      size: this.size,
-      type: this.type,
-      units: this.units,
-      value: this.value
-    };
+    return print;
   }
 
 }

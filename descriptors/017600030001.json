@@ -8,43 +8,46 @@
                     "help": "\n                Number of minutes before it shutdown automatically (0 = disabled).\n            ",
                     "label": "Countdown timer",
                     "index": "1",
-                    "items": [],
                     "max": "254",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "\n                Define how the plug will react after the power supply is back on.\n            ",
                     "label": "Power state",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Always off"
-                        },
-                        {
-                            "label": "Remember status"
-                        },
-                        {
-                            "label": "Always on"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Always off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Remember status",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Always on",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "\n                Set the intensity of the LED indicator (0-100).\n            ",
                     "label": "LED indicator",
                     "index": "3",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 }
             ]
         },

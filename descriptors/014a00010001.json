@@ -12,18 +12,20 @@
                     "help": "Enable/Disable Basic Sets of 0x00 on a fault restore to nodes in Group 2",
                     "label": "Fault restore",
                     "index": "991",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "255"
+                        }
+                    ]
                 }
             ]
         },

@@ -8,22 +8,22 @@
                     "help": "This configuration parameter that can be used to adjust the amount of delay before the OFF command is transmitted. This parameter can be configured with the value of 0 through 65535, where 0 means send OFF command immediately and 65535 means 65535 seconds of delay.",
                     "label": "Configuring the OFF Delay",
                     "index": "1",
-                    "items": [],
                     "max": "65536",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "second"
+                    "units": "second",
+                    "items": []
                 },
                 {
                     "help": "Basic Set Command will be sent where contains a value when the door/window is opened or closed, the receiver will take it for consideration; for instance, if a lamp module is received the Basic Set Command of which value is decisive as to how bright of dim level of lamp module shall be.\r\n      ",
                     "label": "Basic Set Level",
                     "index": "2",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

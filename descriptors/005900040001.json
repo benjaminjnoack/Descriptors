@@ -16,43 +16,45 @@
                     "help": "Controls the temperature sensor scale",
                     "label": "Temperature Scale",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Celsius"
+                            "label": "Celsius",
+                            "value": "1"
                         },
                         {
-                            "label": "Fahrenheit"
+                            "label": "Fahrenheit",
+                            "value": "128"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines the minimum temperature. Steps are 1C",
                     "label": "Lower temperature limit",
                     "index": "2",
-                    "items": [],
                     "max": "30",
                     "min": "5",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Defines the maximum temperature. Steps are 1C",
                     "label": "Upper temperature limit",
                     "index": "3",
-                    "items": [],
                     "max": "30",
                     "min": "5",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Change between temperatures to trigger a temperature report (step 0.1)\n        1 to 50, 1 or 0.1 (Default 5 = 0,5C) -> (1C = 10)\n      ",
                     "label": "Delta T: Temperature change",
                     "index": "4",
-                    "items": [],
                     "max": "50",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

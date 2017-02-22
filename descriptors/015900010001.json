@@ -8,147 +8,159 @@
                     "help": "",
                     "label": "Input 1 switch type",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Mono-stable switch type (push button)"
-                        },
-                        {
-                            "label": "Bi-stable switch type"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Mono-stable switch type (push button)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Bi-stable switch type",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Default value 0.",
                     "label": "Input 2 contact type",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "NO (normaly open) input type"
-                        },
-                        {
-                            "label": "NC (normaly closed) input type"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "NO (normaly open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly closed) input type",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Default value 0.",
                     "label": "Input 3 contact type",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "NO (normaly open) input type"
-                        },
-                        {
-                            "label": "NC (normaly close) input type"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "NO (normaly open) input type",
+                            "value": "0"
+                        },
+                        {
+                            "label": "NC (normaly close) input type",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Flush 1 relay module responds to commands ALL ON / ALL OFF that may be sent by the main controller or by other controller belonging to the system. Default value 0.",
                     "label": "Activate / deactivate functions ALL ON/ALL OFF",
                     "index": "10",
-                    "items": [
-                        {
-                            "label": "ALL ON active, ALL OFF active"
-                        },
-                        {
-                            "label": "ALL ON is not active ALL OFF is not active"
-                        },
-                        {
-                            "label": "ALL ON is not active ALL OFF active"
-                        },
-                        {
-                            "label": "ALL ON active ALL OFF is not active"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "ALL ON active, ALL OFF active",
+                            "value": "255"
+                        },
+                        {
+                            "label": "ALL ON is not active ALL OFF is not active",
+                            "value": "0"
+                        },
+                        {
+                            "label": "ALL ON is not active ALL OFF active",
+                            "value": "1"
+                        },
+                        {
+                            "label": "ALL ON active ALL OFF is not active",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Default value 0.",
                     "label": "Saving the state of the relay after a power failure",
                     "index": "30",
-                    "items": [
-                        {
-                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)"
-                        },
-                        {
-                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Flush dimmer module saves its state before power failure (it returns to the last position saved before a power failure)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Flush dimmer module does not save the state after a power failure, it returns to off position",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Set value from 0 - 100 (0% - 100%). 0 - Reporting Disabled. 1 - 100 = 1% - 100% Reporting enabled. Power report is send (push) only when actual power in Watts in real time change for more than set percentage comparing to previous actual power in Watts, step is 1%. Default value 5.",
                     "label": "Power reporting in Watts on power change",
                     "index": "40",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Set value means time interval (0 - 65535) in seconds, when power report is send. 0 - Reporting Disabled. 1 - 65535 = 1 second - 65535 seconds. Reporting enabled. Power report is send with time interval set by entered value. Default value 300 (power report in Watts is send each 300s).",
                     "label": "Power reporting in Watts by time interval",
                     "index": "42",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "1 - 98 = 1% - 98%, step is 1%. Minimum dimming values is set by entered value. Default value 1 (Minimum dimming value is 1%). NOTE: The minimum level may not be higher than the maximum level.",
                     "label": "Minimum dimming value",
                     "index": "60",
-                    "items": [],
                     "max": "98",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "2 - 99 = 2% - 99%, step is 1%. Maximum dimming values is set by entered value. Default value 99 (Maximum dimming value is 99%). NOTE: The maximum level may not be lower than the minimum level.",
                     "label": "Maximum dimming value",
                     "index": "61",
-                    "items": [],
                     "max": "99",
                     "min": "2",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Set value means time of moving the Dimmer between min. and max. dimming values by short press of push button I1 or controlled through. 1- 255 = 10mseconds - 2550mseconds (2,55s), step is 10mseconds. Default value 100 (Dimming time between min. and max. dimming values is 1s).",
                     "label": "Dimming time (soft on/off)",
                     "index": "65",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Time of moving the Dimmer between min. and max dimming values by continues hold of push button I1. 1- 255 = 1 second - 255 seconds. Default value 3 (Dimming time between min. and max. dimming values is 3s).",
                     "label": "Dimming time when key pressed",
                     "index": "66",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

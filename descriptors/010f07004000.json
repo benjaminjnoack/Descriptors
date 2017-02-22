@@ -8,168 +8,190 @@
                     "help": "Input I alarm cancellation delay. Additional delay after an alarm from input IN1 has ceased. The parameter allows you to specify additional time, after which the input no. 1 alarm is cancelled once its violation has ceased.",
                     "label": "IN1 Alarm Cancellation Delay",
                     "index": "1",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Status change signalled by LED. Default setting: LED turned On",
                     "label": "Status change signalled by LED",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "LED turned Off"
-                        },
-                        {
-                            "label": "LED turned On"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "LED turned Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED turned On",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Type of input no. 1, what the input 1 will report if no contact is made",
                     "label": "Type of input no. 1",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "NO (Normal Open)"
+                            "label": "NO (Normal Open)",
+                            "value": "0"
                         },
                         {
-                            "label": "NC (Normal Close)"
+                            "label": "NC (Normal Close)",
+                            "value": "1"
                         },
                         {
-                            "label": "MONOSTABLE"
+                            "label": "MONOSTABLE",
+                            "value": "2"
                         },
                         {
-                            "label": "BISTABLE"
+                            "label": "BISTABLE",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Type of transmitted control frame for association group 1, activated via input IN1. The parameter allows to specify the type of alarm frame or to force transmission of control commands (BASIC_SET)",
                     "label": "Type of transmitted control frame for association group 1",
                     "index": "5",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "ALARM GENERIC"
+                            "label": "ALARM GENERIC",
+                            "value": "0"
                         },
                         {
-                            "label": "ALARM SMOKE"
+                            "label": "ALARM SMOKE",
+                            "value": "1"
                         },
                         {
-                            "label": "ALARM CO"
+                            "label": "ALARM CO",
+                            "value": "2"
                         },
                         {
-                            "label": "ALARM CO2"
+                            "label": "ALARM CO2",
+                            "value": "3"
                         },
                         {
-                            "label": "ALARM HEAT"
+                            "label": "ALARM HEAT",
+                            "value": "4"
                         },
                         {
-                            "label": "ALARM WATER"
+                            "label": "ALARM WATER",
+                            "value": "5"
                         },
                         {
-                            "label": "BASIC_SET"
+                            "label": "BASIC_SET",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Value of the parameter specifying the forced level of dimming / opening sun blinds when comes \"switch on\" / \"open\" command to devices from association group no. 1.\n\t\t\t  In the case of alarm frames the alarm priority is specified. Possible parameter settings: (1 - 99) and 255. Value of 255 makes it possible to activate the device when using the Dimmer module it means activating the device and setting it to the previous stored condition, e.g. when Dimmer is set to 30%, then deactivated, and then reactivated using command 255, it will automatically be set to the previous condition, i.e. 30%.",
                     "label": "Forced Level of Dimming group 1",
                     "index": "7",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Deactivating transmission of the frame cancelling the alarm or the control frame deactivating the device (Basic). It allows for disabling the deactivation function or the alarm cancellation function for devices associated with the appropriate input of the Fibaro Sensor. NOTE: Information concerning alarm violation or activation commands for devices from association groups are always sent.",
                     "label": "Deactivate transmission of frame cancelling alarm",
                     "index": "9",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Groups 1 and 2 sent"
+                            "label": "Groups 1 and 2 sent",
+                            "value": "0"
                         },
                         {
-                            "label": "Group 1 sent, Group 2 not sent."
+                            "label": "Group 1 sent, Group 2 not sent.",
+                            "value": "1"
                         },
                         {
-                            "label": "Group 1 not sent, Group 2 sent."
+                            "label": "Group 1 not sent, Group 2 sent.",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Interval between successive readings of temperature from all sensors connected to the device in seconds. Note: taking temperature readings from the sensor does not result in sending a temperature condition report to the central hub.",
                     "label": "Interval between successive readings of temperature sensors",
                     "index": "10",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Interval between forcing to send report concerning the temperature conditions. The forced report is sent immediately after the next reading of temperature from the sensor, irrespective of the settings of parameter no. 12. Value 0 = Deactivates the function. Note: Frequent sending of temperature condition reports is reasonable when the sensor is located somewhere where can occure rapid changes of ambient temperature. In other cases it is recommended to leave the parameter set to the default value.",
                     "label": "Interval between forcing to send report concerning the temperature conditions",
                     "index": "11",
-                    "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Insensitiveness to temperature changes. This is the maximum acceptable difference between the last reported temperature and the current temperature taken from the sensor. If the temperatures differ by the set value or more, then a report with the current temperature value is sent to the device assigned to association group no. 3. Intervals between taking readings from sensors are specified by parameter no. 10.\n\t\t\t  Possible parameter settings:0 - 255 [0oC to 16oC] [0 oF - 28.8oF]\n\t\t\t  In order to set the appropriate value of the parameter, the following formula should be used:\n\t\t\t  x = delta T x 16 - for Celsius\n\t\t\t  x = delta T x 80 / 9 - for Fahrenheit\n\t\t\t  x - parameter value\n\t\t\t  delta T - maximum acceptable temperature gradient in Celsius or Fahrenheit\n\t\t\t  If the value is set to 0, then information about the temperature will be sent every time, immediately once the readings have been taken from the sensor.",
                     "label": "Insensitiveness to temperature changes",
                     "index": "12",
-                    "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Transmitting the alarm or control frame in \"broadcast\" mode (i.e. to all devices within range), information sent in this mode is not repeated by the mesh network. NOTE: If the broadcast mode of information transmission is activated for a given channel, then transmission of information in singlecast mode to devices assigned to the association group of this channel is deactivated.",
                     "label": "Transmitting the alarm or control frame broadcast mode",
                     "index": "13",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "IN1 and IN2 Broadcast inactive"
+                            "label": "IN1 and IN2 Broadcast inactive",
+                            "value": "0"
                         },
                         {
-                            "label": "IN1 broadcast mode active, Sensor 2 broadcast mode inactive"
+                            "label": "IN1 broadcast mode active, Sensor 2 broadcast mode inactive",
+                            "value": "1"
                         },
                         {
-                            "label": "IN1 broadcast mode inactive, Sensor 2 broadcast mode active"
+                            "label": "IN1 broadcast mode inactive, Sensor 2 broadcast mode active",
+                            "value": "2"
                         },
                         {
-                            "label": "INI and IN2 broadcast mode active"
+                            "label": "INI and IN2 broadcast mode active",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Enable/Disable scene functionality. The device offers the possibility of sending commands compatible with Command class scene activation. Information is sent to devices assigned to association group no. 3.",
                     "label": "Scene activation",
                     "index": "14",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Scenes disabled"
+                            "label": "Scenes disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Scenes enabled"
+                            "label": "Scenes enabled",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

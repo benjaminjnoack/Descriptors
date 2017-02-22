@@ -8,160 +8,184 @@
                     "help": "This parameter configures the behavior of the buttons 1 and 3 when the product is in \"Gateway Centric Mode\"",
                     "label": "Profile Buttons 1 & 3",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Scene Mode"
-                        },
-                        {
-                            "label": "Mono Mode"
-                        },
-                        {
-                            "label": "Duo Mode"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Scene Mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Mono Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Duo Mode",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter configures the behavior of the buttons 2 and 4 when the product is in \"Gateway Centric Mode\"",
                     "label": "Profile Buttons 2 & 4",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Scene Mode"
-                        },
-                        {
-                            "label": "Mono Mode"
-                        },
-                        {
-                            "label": "Duo Mode"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Scene Mode",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Mono Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Duo Mode",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "This parameter configures the type of command sent when the product is in \"Gateway Centric Mode\", with buttons profile configuration set in \"Scene Behavior\".",
                     "label": "Scene Type",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "Central Scene"
-                        },
-                        {
-                            "label": "Scene Activation"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Central Scene",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene Activation",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "When button are set in Mono Button mode they can have 3 different behaviors :\n        1: They can directly control other nodes with Basic and multi-level command class\n        2: Send Switch All On command\n        3: Send Switch All Off command\n         ",
                     "label": "Action Button 1 Mono",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "Control Group 2"
-                        },
-                        {
-                            "label": "All Switch ON"
-                        },
-                        {
-                            "label": "All Switch OFF"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Control Group 2",
+                            "value": "0"
+                        },
+                        {
+                            "label": "All Switch ON",
+                            "value": "1"
+                        },
+                        {
+                            "label": "All Switch OFF",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "When button are set in Mono Button mode they can have 3 different behaviors :\n        1: They can directly control other nodes with Basic and multi-level command class\n        2: Send Switch All On command\n        3: Send Switch All Off command\n         ",
                     "label": "Action Button 2 Mono",
                     "index": "5",
-                    "items": [
-                        {
-                            "label": "Control Group 3"
-                        },
-                        {
-                            "label": "All Switch ON"
-                        },
-                        {
-                            "label": "All Switch OFF"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Control Group 3",
+                            "value": "0"
+                        },
+                        {
+                            "label": "All Switch ON",
+                            "value": "1"
+                        },
+                        {
+                            "label": "All Switch OFF",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "When button are set in Mono Button mode they can have 3 different behaviors :\n        1: They can directly control other nodes with Basic and multi-level command class\n        2: Send Switch All On command\n        3: Send Switch All Off command\n         ",
                     "label": "Action Button 3 Mono",
                     "index": "6",
-                    "items": [
-                        {
-                            "label": "Control Group 4"
-                        },
-                        {
-                            "label": "All Switch ON"
-                        },
-                        {
-                            "label": "All Switch OFF"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Control Group 4",
+                            "value": "0"
+                        },
+                        {
+                            "label": "All Switch ON",
+                            "value": "1"
+                        },
+                        {
+                            "label": "All Switch OFF",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "When button are set in Mono Button mode they can have 3 different behaviors :\n        1: They can directly control other nodes with Basic and multi-level command class\n        2: Send Switch All On command\n        3: Send Switch All Off command\n         ",
                     "label": "Action Button 4 Mono",
                     "index": "7",
-                    "items": [
-                        {
-                            "label": "Control Group 5"
-                        },
-                        {
-                            "label": "All Switch ON"
-                        },
-                        {
-                            "label": "All Switch OFF"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Control Group 5",
+                            "value": "0"
+                        },
+                        {
+                            "label": "All Switch ON",
+                            "value": "1"
+                        },
+                        {
+                            "label": "All Switch OFF",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "label": "Led Management",
                     "index": "8",
-                    "items": [
-                        {
-                            "label": "Led OFF"
-                        },
-                        {
-                            "label": "Led Blink on button action"
-                        },
-                        {
-                            "label": "Led Blink on transmission result"
-                        },
-                        {
-                            "label": "Led Blink on button action and transmission result"
-                        }
-                    ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Led OFF",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Led Blink on button action",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Led Blink on transmission result",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Led Blink on button action and transmission result",
+                            "value": "3"
+                        }
+                    ]
                 }
             ]
         },

@@ -7,219 +7,255 @@
                 {
                     "label": "Set LED indication mode",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Show switch/dimmer state / when in motion or inactive (for blinds)"
-                        },
-                        {
-                            "label": "Night mode (inverted switch state)"
-                        },
-                        {
-                            "label": "Operated by Indicator Command Class (default)"
-                        },
-                        {
-                            "label": "Show if not closed (for blinds only)"
-                        }
-                    ],
                     "max": "99",
                     "min": "1",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Show switch/dimmer state / when in motion or inactive (for blinds)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Night mode (inverted switch state)",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Operated by Indicator Command Class (default)",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Show if not closed (for blinds only)",
+                            "value": "4"
+                        }
+                    ]
                 },
                 {
                     "help": "If not zero, automatically switch off/close blind after a user defined time",
                     "label": "Automatically switch off after",
                     "index": "2",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "If not zero, automatically switch off/close blind after a user defined time",
                     "label": "What to do on RF off command",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Switch off (default)"
+                            "label": "Switch off (default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Ignore"
+                            "label": "Ignore",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch on"
+                            "label": "Switch on",
+                            "value": "2"
                         },
                         {
-                            "label": "Switch on if load is off else switch off"
+                            "label": "Switch on if load is off else switch off",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines if the dimmer shall ignore start level in StartLevelChange command despite it is specified or not.",
                     "label": "Ignore Start Level",
                     "index": "4",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes (default)"
+                            "label": "Yes (default)",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines if the switch should restore switch state to the last state prior to device power off (power cycle).",
                     "label": "Restore switch state after power cycle",
                     "index": "5",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No, turn OFF"
+                            "label": "No, turn OFF",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes (default)"
+                            "label": "Yes (default)",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Typical time used to differentiate click, hold, double and triple clicks.",
                     "label": "Typical click timeout",
                     "index": "10",
-                    "items": [],
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "x 10 milliseconds"
+                    "units": "x 10 milliseconds",
+                    "items": []
                 },
                 {
                     "label": "Invert buttons",
                     "index": "11",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No default)"
+                            "label": "No default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "If disabled, the local operations by buttons will not switch the load, but only send commands to On/Off association group. In  this mode buttons are not linked with the switch anymore. They can be used separately: buttons to control remote device, switch will operate by RF commands only. ",
                     "label": "Switch by buttons",
                     "index": "12",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "By single press and hold (default)"
+                            "label": "By single press and hold (default)",
+                            "value": "1"
                         },
                         {
-                            "label": "By double press and hold"
+                            "label": "By double press and hold",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines which command should be sent on button single press or hold. Basic commands are sent to Association group. Switch All commands are sent broadcast. ",
                     "label": "Action on button single press or hold",
                     "index": "13",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (Default)"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel) (Default)",
+                            "value": "4"
                         },
                         {
-                            "label": "Switch On, Off and dim using Basic Set"
+                            "label": "Switch On, Off and dim using Basic Set",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch All On/Off"
+                            "label": "Switch All On/Off",
+                            "value": "2"
                         },
                         {
-                            "label": "Send Scenes"
+                            "label": "Send Scenes",
+                            "value": "3"
                         },
                         {
-                            "label": "Send Predefined Scenes"
+                            "label": "Send Predefined Scenes",
+                            "value": "5"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines which command should be sent on button double press or press-hold. Basic commands are sent to Association group.   Switch   All commands are sent broadcast. If not disabled, the device will wait for a click timeout to see if the second click would be pressed. This will introduce a small delay for single click commands.",
                     "label": "Action on button double press or hold",
                     "index": "14",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled (don't wait for double click,default)"
+                            "label": "Disabled (don't wait for double click,default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)"
+                            "label": "Switch On/Off and Dim (send Basic Set and Switch Multilevel)",
+                            "value": "4"
                         },
                         {
-                            "label": "Switch On, Off and dim using Basic Set"
+                            "label": "Switch On, Off and dim using Basic Set",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch All On/Off"
+                            "label": "Switch All On/Off",
+                            "value": "2"
                         },
                         {
-                            "label": "Send Scenes"
+                            "label": "Send Scenes",
+                            "value": "3"
                         },
                         {
-                            "label": "Send Predefined Scenes"
+                            "label": "Send Predefined Scenes",
+                            "value": "5"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "label": "Send the following Switch All commands",
                     "index": "15",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Switch All Off only (default)"
+                            "label": "Switch All Off only (default)",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch All On only"
+                            "label": "Switch All On only",
+                            "value": "2"
                         },
                         {
-                            "label": "Switch All On and Off"
+                            "label": "Switch All On and Off",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "label": "What to do on button Down press",
                     "index": "16",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Switch off (Default)"
+                            "label": "Switch off (Default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Switch All On only"
+                            "label": "Switch All On only",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch on"
+                            "label": "Switch on",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

@@ -8,67 +8,73 @@
                     "help": "\n\t  This is actually a double byte value. \n\t  The LSB defines the total time the device needs to blink in seconds. \n\t  The MSB defines the on/off interval of the blink in tenths of seconds.\n      ",
                     "label": "Blinking behavior",
                     "index": "2",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Enables automatic notifications to associated devices whenever there is a state change.",
                     "label": "Notification status",
                     "index": "80",
-                    "items": [
-                        {
-                            "label": "None"
-                        },
-                        {
-                            "label": "Hail"
-                        },
-                        {
-                            "label": "Basic"
-                        }
-                    ],
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "None",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Hail",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Basic",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Set External Switch/Button Control mode",
                     "label": "Set External Switch/Button Control mode",
                     "index": "120",
-                    "items": [
-                        {
-                            "label": "Momentary button"
-                        },
-                        {
-                            "label": "2 state switch"
-                        },
-                        {
-                            "label": "Unidentified"
-                        }
-                    ],
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Momentary button",
+                            "value": "0"
+                        },
+                        {
+                            "label": "2 state switch",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Unidentified",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "\n\tDevice tag.\n      ",
                     "label": "Device tag",
                     "index": "254",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tReset to the default configuration.\n      ",
                     "label": "Reset device",
                     "index": "255",
-                    "items": [],
                     "type": "button",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

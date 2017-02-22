@@ -8,16 +8,18 @@
                     "help": "Defines the behavior of the blue LED.",
                     "label": "LED behavior",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Night light"
+                            "label": "Night light",
+                            "value": "0"
                         },
                         {
-                            "label": "On indicator"
+                            "label": "On indicator",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

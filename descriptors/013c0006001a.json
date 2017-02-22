@@ -16,61 +16,64 @@
                     "help": "",
                     "label": "Watt Meter Report Period",
                     "index": "1",
-                    "items": [],
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "5 sec"
+                    "units": "5 sec",
+                    "items": []
                 },
                 {
                     "help": "",
                     "label": "kWh meter report period",
                     "index": "2",
-                    "items": [],
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "5 sec"
+                    "units": "5 sec",
+                    "items": []
                 },
                 {
                     "help": "",
                     "label": "Selected End Point",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "CT1 and CT2"
-                        },
-                        {
-                            "label": "CT1"
-                        },
-                        {
-                            "label": "CT2"
-                        }
-                    ],
                     "max": "3",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "CT1 and CT2",
+                            "value": "1"
+                        },
+                        {
+                            "label": "CT1",
+                            "value": "2"
+                        },
+                        {
+                            "label": "CT2",
+                            "value": "3"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Threshold of Current for Load Caution",
                     "index": "4",
-                    "items": [],
                     "max": "750",
                     "min": "10",
                     "type": "short",
-                    "units": "0.01 Amp"
+                    "units": "0.01 Amp",
+                    "items": []
                 },
                 {
                     "help": "",
                     "label": "Threshold of KWH for Load Caution",
                     "index": "5",
-                    "items": [],
                     "max": "10000",
                     "min": "1",
                     "type": "short",
-                    "units": "KWh"
+                    "units": "KWh",
+                    "items": []
                 }
             ]
         },

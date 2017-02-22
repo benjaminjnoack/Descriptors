@@ -8,48 +8,50 @@
                     "help": "Basic Set Command value",
                     "label": "Basic Set",
                     "index": "1",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "\n                The delaying time to report to Group 1\n            ",
                     "label": "Delay",
                     "index": "2",
-                    "items": [],
                     "max": "25",
                     "min": "3",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "\n                Remember the last status on plug\n            ",
                     "label": "Remember Last",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "Do not remember"
-                        },
-                        {
-                            "label": "Remember"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Do not remember",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Remember",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n        0: Single Pole Double Throw (1: Toggle switch)\n      ",
                     "label": "Switching type",
                     "index": "4",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

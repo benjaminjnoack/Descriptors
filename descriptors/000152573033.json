@@ -8,64 +8,73 @@
                     "help": "Dimmers controlled by this switch will start dimming from their current level.",
                     "label": "Ignore Start-Level (Transmitting)",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "In night-light mode the LED on the switch will turn ON when the switch is turned OFF.",
                     "label": "Night Light",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
                     "label": "Invert Switch",
                     "index": "4",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "The ZRW103 will flicker its LED when it is transmitting to any of its 4 groups. This flickering can be set to not flicker at all, to flicker the entire time it is transmitting, or to flicker for only 1 second when it begins transmitting.",
                     "label": "LED Transmission Indication",
                     "index": "19",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "None"
+                            "label": "None",
+                            "value": "0"
                         },
                         {
-                            "label": "While Transmitting"
+                            "label": "While Transmitting",
+                            "value": "1"
                         },
                         {
-                            "label": "One Second Maximum"
+                            "label": "One Second Maximum",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

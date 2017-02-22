@@ -8,211 +8,226 @@
                     "help": "Set LED indication mode",
                     "label": "Led mode",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Operated by Indicator Command Class  (Default)"
+                            "label": "Operated by Indicator Command Class  (Default)",
+                            "value": "3"
                         },
                         {
-                            "label": "Show switch state"
+                            "label": "Show switch state",
+                            "value": "1"
                         },
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Night mode (inverted switch state)"
+                            "label": "Night mode (inverted switch state)",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "If not zero, automatically switch off after a user defined time. Unit: Sec, Min: 0, Max: 65535, Default: 0",
                     "label": "Automatically switch off after",
                     "index": "2",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "size": "2",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the light off that would break logics; Switch on - to switch on the light on both On and Off paddle press on the remote and switch it off after some amount of time. Button off click will still work (if button operations are not disabled).",
                     "label": "What to do on RF off command",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Switch off (Default)"
+                            "label": "Switch off (Default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Ignore"
+                            "label": "Ignore",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch on"
+                            "label": "Switch on",
+                            "value": "2"
                         },
                         {
-                            "label": "Switch on if load is off else switch off"
+                            "label": "Switch on if load is off else switch off",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines if the dimmer shall ignore start level in Start Level Change command despite it is specified or not",
                     "label": "Ignore start level",
                     "index": "4",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Yes (Default)"
+                            "label": "Yes (Default)",
+                            "value": "1"
                         },
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Time to dim on button presses and Set command (if it has no duration specified). If not 0, dimming will be done smoothly to preserve bulb life. 0=Instantly, 1-255 in 10ms units (Default 30)",
                     "label": "Speed for fast dimming",
                     "index": "5",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Time to dim on button holds and Start Level Change command (if it has no duration specified). Unit in Seconds 1-255 (Default 3)",
                     "label": "Speed for slow dimming",
                     "index": "6",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Defines the dim level on command 'ON'. On default he dimmer restores last dim level. This parameter allows configuring the maximum level on second On command (if already On) or to always switch on to maximum level.",
                     "label": "Behavior on 'Switch On'",
                     "index": "7",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "last dim level (Default)"
+                            "label": "last dim level (Default)",
+                            "value": "0"
                         },
                         {
-                            "label": "maximum dim level when already turned on"
+                            "label": "maximum dim level when already turned on",
+                            "value": "1"
                         },
                         {
-                            "label": "Always maximum dim level"
+                            "label": "Always maximum dim level",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Time to dim on double click Off button for Baby-Dim function. This function works only if the load is operated by single press and hold button action. If enabled, the device will wait for a click timeout to see if the second click would be pressed. This will introduce a small delay for single click commands. Unit in minutes 1-99 (0=Disable(Default)",
                     "label": "Baby Dimming time",
                     "index": "8",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Target level on which to stop while executing Baby Dimming. Can be 0 to completely switch off the light. Unit in % 0-255 (0=Default)",
                     "label": "Target dimming level for Baby Dimming",
                     "index": "9",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Typical time used to differentiate click, hold, double and triple clicks. in 10ms units (Default 50)",
                     "label": "Typical click timeout",
                     "index": "10",
-                    "items": [],
                     "max": "100",
                     "min": "1",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Minimal level should be greater than maximal. 1-95 Level limit (Default 1)",
                     "label": "Limit minimal light level",
                     "index": "17",
-                    "items": [],
                     "max": "95",
                     "min": "1",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Maximal level should be greater than minimal. 0=Work as switch: use off and maximal level 10-99 Level limit (Default 99)",
                     "label": "Limit maximal light level",
                     "index": "18",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Defines how the dimmer hall react on a simple ON Command. 0-99 0=Use previous light level (Default), 1 . 99 Define light level in %",
                     "label": "Dim Level on 'Switch On'",
                     "index": "19",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 1. For other bulbs use default value. 5-60 (Default 28)",
                     "label": "Pause before pulse",
                     "index": "51",
-                    "items": [],
                     "max": "60",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 40. For other bulbs use default value. 5-60 (Default 28)",
                     "label": "Pause after pulse",
                     "index": "52",
-                    "items": [],
                     "max": "60",
                     "min": "0",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 20. For other bulbs use default value. 3-20 (Default 10)",
                     "label": "Pulse width",
                     "index": "53",
-                    "items": [],
                     "max": "20",
                     "min": "3",
                     "size": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! (Default 0)",
                     "label": "Pulse type",
                     "index": "54",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Long pulse (Default)"
+                            "label": "Long pulse (Default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Short pulse"
+                            "label": "Short pulse",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

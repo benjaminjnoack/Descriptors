@@ -7,331 +7,369 @@
                 {
                     "label": "Set LED indication mode",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Show switch state"
+                            "label": "Show switch state",
+                            "value": "1"
                         },
                         {
-                            "label": "Night mode"
+                            "label": "Night mode",
+                            "value": "2"
                         },
                         {
-                            "label": "Operated by Indicator CC"
+                            "label": "Operated by Indicator CC",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "0\tDisabled (Default).\n\t\t\t1 - 65535, automatically switch off after a user defined time",
                     "label": "Automatically switch off after",
                     "index": "2",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Defines how to interpret RF Off command.\n\t\t\tCan be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the light off that would break logics;\n\t\t\tSwitch on - to switch on the light on both On and Off paddle press on the remote and switch it off after some amount of time. Button off click will still work (if button operations are not disabled).",
                     "label": "What to do on RF off command",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Switch off"
+                            "label": "Switch off",
+                            "value": "0"
                         },
                         {
-                            "label": "Ignore"
+                            "label": "Ignore",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch on"
+                            "label": "Switch on",
+                            "value": "2"
                         },
                         {
-                            "label": "Switch on if load is off else switch off"
+                            "label": "Switch on if load is off else switch off",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines if the dimmer shall ignore start level in StartLevelChange command despite it is specified or not.",
                     "label": "Ignore Start Level",
                     "index": "4",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Time to dim on button presses and Set command (if it has no duration specified).\n\t\t\tIf not 0, dimming will be done smoothly to preserv bulb life.\n\t\t\t0 : Instantly.\n\t\t\t1 - 255\t: in 10ms units (Default 30).\n\t\t\t",
                     "label": "Dimmer speed",
                     "index": "5",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "x 10 milliseconds"
+                    "units": "x 10 milliseconds",
+                    "items": []
                 },
                 {
                     "help": "Time to dim on button holds and StartLevel Change command (if it has no duration specified).",
                     "label": "Dimming long speed",
                     "index": "6",
-                    "items": [],
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "Seconds"
+                    "units": "Seconds",
+                    "items": []
                 },
                 {
                     "help": "Defines if the dimmer shall set maximum light level on On command.\n\t\t\tBy default on On command dimmer restores last level.\n\t\t\tThis parameter allows to configure to set maximum level on second On command (if already On) or to always switch on to maximum level.",
                     "label": "Set Maximum Light on On click",
                     "index": "7",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "If already On"
+                            "label": "If already On",
+                            "value": "1"
                         },
                         {
-                            "label": "Always"
+                            "label": "Always",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Time to dim on double click Off button for Baby-Dim function.\n\t\t\tThis function works only if the load is operated by single press and hold button action.\n\t\t\tIf enabled, the device will wait for a click timeout to see if the second click would be pressed.\n\t\t\tThis will introduce a small delay for single click commands.\n\t\t\t0 : Disabled (Default).\n\t\t\t1 - 99 : in minutes.\n\t\t\t",
                     "label": "Baby Dimming Time",
                     "index": "8",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "Target level on which to stop while executing Baby Dimming. Can be 0 to completely switch off the light. ",
                     "label": "Target Dimming Level for Baby Dimming",
                     "index": "9",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Typical time used to differentiate click, hold, double and triple clicks.",
                     "label": "Typical click timeout",
                     "index": "10",
-                    "items": [],
                     "max": "100",
                     "min": "1",
                     "type": "byte",
-                    "units": "x 10 milliseconds"
+                    "units": "x 10 milliseconds",
+                    "items": []
                 },
                 {
                     "label": "Invert buttons",
                     "index": "11",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "If disabled, the local operations by buttons will not switch the load, but only send commands to On/Off association group.\n\t\t\tIn  this mode buttons are not linked with the switch anymore.\n\t\t\tThey can be used separately: buttons to control remote device, switch will operate by RF commands only.",
                     "label": "Switch by buttons",
                     "index": "12",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "By single press and hold"
+                            "label": "By single press and hold",
+                            "value": "1"
                         },
                         {
-                            "label": "By double press and hold"
+                            "label": "By double press and hold",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines which command should be sent on button single press or hold.\n\t\t\tBasic and Scene Activation commands are sent to Association group.\n\t\t\tUse Scene Controller Conf to set up Scene ID for Scene Activation.\n\t\t\tSwitch All commands are sent broadcast.\n\t\t\t",
                     "label": "Action on button single press or hold",
                     "index": "13",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Send Basic Set"
+                            "label": "Send Basic Set",
+                            "value": "1"
                         },
                         {
-                            "label": "Send Switch All"
+                            "label": "Send Switch All",
+                            "value": "2"
                         },
                         {
-                            "label": "Send Scenes"
+                            "label": "Send Scenes",
+                            "value": "3"
                         },
                         {
-                            "label": "Send Basic Set and Switch Multilevel"
+                            "label": "Send Basic Set and Switch Multilevel",
+                            "value": "4"
                         },
                         {
-                            "label": "Send Preconfigured Scenes"
+                            "label": "Send Preconfigured Scenes",
+                            "value": "5"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "\n\t\t\tDefines which command should be sent on button double press or press-hold.\n\t\t\tBasic and Scene Activation commands are sent to Association group.\n\t\t\tUse Scene Controller Conf to set up Scene ID for Scene Activation.\n\t\t\tSwitch All commands are sent broadcast.\n\t\t\tIf not disabled, the device will wait for a click timeout to see if the second click would be pressed.\n\t\t\tThis will introduce a small delay for single click commands.\n\t\t\t",
                     "label": "Action on button double press or hold",
                     "index": "14",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Send Basic Set"
+                            "label": "Send Basic Set",
+                            "value": "1"
                         },
                         {
-                            "label": "Send Switch All"
+                            "label": "Send Switch All",
+                            "value": "2"
                         },
                         {
-                            "label": "Send Scenes"
+                            "label": "Send Scenes",
+                            "value": "3"
                         },
                         {
-                            "label": "Send Basic Set and Switch Multilevel"
+                            "label": "Send Basic Set and Switch Multilevel",
+                            "value": "4"
                         },
                         {
-                            "label": "Send Preconfigured Scenes"
+                            "label": "Send Preconfigured Scenes",
+                            "value": "5"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "label": "Send the following Switch All commands",
                     "index": "15",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Switch All Off only"
+                            "label": "Switch All Off only",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch All On only"
+                            "label": "Switch All On only",
+                            "value": "2"
                         },
                         {
-                            "label": "Switch All On and Off"
+                            "label": "Switch All On and Off",
+                            "value": "255"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "\n\t\t\tDefines how to interpret button Down press. Depends on \"Switch by buttons\" parameter.\n\t\t\tIf not Disabled this parameter will affect the action selected by the latter parameter.\n\t\t\tCan be used in conjunction with Auto Off function.\n\t\t\t",
                     "label": "What to do on button Down press",
                     "index": "16",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Switch Off"
+                            "label": "Switch Off",
+                            "value": "0"
                         },
                         {
-                            "label": "Switch On if load is Off, else switch Off"
+                            "label": "Switch On if load is Off, else switch Off",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch on"
+                            "label": "Switch on",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "label": "Limit minimal light level",
                     "index": "17",
-                    "items": [],
                     "max": "95",
                     "min": "1",
                     "type": "byte",
-                    "units": "dimmer level %"
+                    "units": "dimmer level %",
+                    "items": []
                 },
                 {
                     "help": "Maximum level should be greater than minimal level. Set to 0 to work as a switch (off or full on only), or set to 10 - 99",
                     "label": "Limit maximal light level",
                     "index": "18",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "dimmer level %"
+                    "units": "dimmer level %",
+                    "items": []
                 },
                 {
                     "help": "Set to 0 to use previous light level, or set to 1 - 99",
                     "label": "Switch On on a defined level",
                     "index": "19",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "dimmer level %"
+                    "units": "dimmer level %",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 1. For other bulbs use default value.",
                     "label": "Pause before pulse",
                     "index": "51",
-                    "items": [],
                     "max": "60",
                     "min": "1",
                     "type": "byte",
-                    "units": "x 10/156 milliseconds"
+                    "units": "x 10/156 milliseconds",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 40. For other bulbs use default value.",
                     "label": "Pause after pulse",
                     "index": "52",
-                    "items": [],
                     "max": "60",
                     "min": "5",
                     "type": "byte",
-                    "units": "x 10/156 milliseconds"
+                    "units": "x 10/156 milliseconds",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 20. For other bulbs use default value.",
                     "label": "Pulse width",
                     "index": "53",
-                    "items": [],
                     "max": "20",
                     "min": "3",
                     "type": "byte",
-                    "units": "x 10/156 milliseconds"
+                    "units": "x 10/156 milliseconds",
+                    "items": []
                 },
                 {
                     "help": "NB: Do not touch these settings if you are not sure what they mean!",
                     "label": "Pulse type",
                     "index": "54",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Long pulse"
+                            "label": "Long pulse",
+                            "value": "0"
                         },
                         {
-                            "label": "Short pulse"
+                            "label": "Short pulse",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

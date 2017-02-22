@@ -8,18 +8,20 @@
                     "help": "Enable/Disable ALL ON/OFF",
                     "label": "Switch All",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "255"
+                        }
+                    ]
                 }
             ]
         },

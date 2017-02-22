@@ -8,44 +8,51 @@
                     "help": "Defines the reaction of the siren: turn either Siren sound, Strobe light, or both when triggered",
                     "label": "Siren Strobe Mode",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "All Enable"
-                        },
-                        {
-                            "label": "Siren Only"
-                        },
-                        {
-                            "label": "Strobe Only"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "All Enable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Siren Only",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Strobe Only",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Defines the duration of siren time when triggered",
                     "label": "Alarm Auto Stop Time",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "30s"
-                        },
-                        {
-                            "label": "60s"
-                        },
-                        {
-                            "label": "120s"
-                        },
-                        {
-                            "label": "Will Not Automatically Stop"
-                        }
-                    ],
                     "max": "3",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "30s",
+                            "value": "0"
+                        },
+                        {
+                            "label": "60s",
+                            "value": "1"
+                        },
+                        {
+                            "label": "120s",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Will Not Automatically Stop",
+                            "value": "3"
+                        }
+                    ]
                 }
             ]
         },

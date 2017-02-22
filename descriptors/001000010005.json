@@ -15,11 +15,11 @@
                 {
                     "label": "Autosend enable",
                     "index": "23",
-                    "items": [],
                     "max": "",
                     "min": "",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         }

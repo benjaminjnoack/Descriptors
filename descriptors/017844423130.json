@@ -8,18 +8,20 @@
                     "help": "Send a battery report in addition to the alarm report when the alarm report is triggered",
                     "label": "Send Battery Report with Notification Report",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "No (default)"
-                        },
-                        {
-                            "label": "Yes (recommended)"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "No (default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes (recommended)",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         },

@@ -8,26 +8,28 @@
                     "help": "Continuous operation. 0x01-0x7F: 1-127 seconds in 1-second steps. 0x80-0xFE: 130-1390 seconds (0xFE) in 10 second-steps. 0xFF: 120 seconds (default;",
                     "label": "Running time",
                     "index": "0",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Stop-functionality",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled (default)"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled (default)",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         }

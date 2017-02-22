@@ -8,109 +8,125 @@
                     "help": "Enable/Disable LED indicator when plugged in",
                     "label": "LED indicator configuration",
                     "index": "81",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "1~10, other= ignore. \n\t\t\t\tA total of 10 levels, level 1 as the weak output power, and so on, 10 for most output power level",
                     "label": "Configuration of the RF power level",
                     "index": "220",
-                    "items": [
-                        {
-                            "label": "1"
-                        },
-                        {
-                            "label": "2"
-                        },
-                        {
-                            "label": "3"
-                        },
-                        {
-                            "label": "4"
-                        },
-                        {
-                            "label": "5"
-                        },
-                        {
-                            "label": "6"
-                        },
-                        {
-                            "label": "7"
-                        },
-                        {
-                            "label": "8"
-                        },
-                        {
-                            "label": "9"
-                        },
-                        {
-                            "label": "10"
-                        }
-                    ],
                     "max": "10",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "1",
+                            "value": "1"
+                        },
+                        {
+                            "label": "2",
+                            "value": "2"
+                        },
+                        {
+                            "label": "3",
+                            "value": "3"
+                        },
+                        {
+                            "label": "4",
+                            "value": "4"
+                        },
+                        {
+                            "label": "5",
+                            "value": "5"
+                        },
+                        {
+                            "label": "6",
+                            "value": "6"
+                        },
+                        {
+                            "label": "7",
+                            "value": "7"
+                        },
+                        {
+                            "label": "8",
+                            "value": "8"
+                        },
+                        {
+                            "label": "9",
+                            "value": "9"
+                        },
+                        {
+                            "label": "10",
+                            "value": "10"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Security network enabled",
                     "index": "242",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Security network key",
                     "index": "243",
-                    "items": [],
                     "size": "16",
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "Lock/ unlock all configuration parameters",
                     "label": "Lock/Unlock Configuration",
                     "index": "252",
-                    "items": [
-                        {
-                            "label": "Unlock"
-                        },
-                        {
-                            "label": "Lock"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Unlock",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Lock",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Reset to the default configuration",
                     "label": "Reset default configuration",
                     "index": "255",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         }

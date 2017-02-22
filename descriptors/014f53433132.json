@@ -8,27 +8,30 @@
                     "help": "Set the switch to control other devices or issue various scene activation commands to a central controller.",
                     "label": "Control Mode",
                     "index": "2",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Scenes and groups"
+                            "label": "Scenes and groups",
+                            "value": "0"
                         },
                         {
-                            "label": "Scenes"
+                            "label": "Scenes",
+                            "value": "1"
                         },
                         {
-                            "label": "Groups"
+                            "label": "Groups",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
                     "label": "Invert Switch",
                     "index": "4",
-                    "items": [],
                     "size": "1",
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 }
             ]
         },

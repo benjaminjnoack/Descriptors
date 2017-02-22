@@ -8,16 +8,18 @@
                     "help": "Defines the behavior of the blue LED. Default: 0",
                     "label": "LED-Behaviour",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Blue Indicator Off"
+                            "label": "Blue Indicator Off",
+                            "value": "0"
                         },
                         {
-                            "label": "Blue Indicator On"
+                            "label": "Blue Indicator On",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

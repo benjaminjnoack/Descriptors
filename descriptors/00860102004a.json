@@ -8,216 +8,228 @@
                     "help": "Stay awake for 10 minutes after batteries are inserted",
                     "label": "Wake up 10 minutes on Power On",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "No"
-                        },
-                        {
-                            "label": "Yes"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "No",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "How long should the device associated to multi sensor keep state On before sending it Off command (if the value is bigger than 255, the value would be rounded to next integer in minutes)",
                     "label": "On time",
                     "index": "3",
-                    "items": [],
                     "max": "15300",
                     "min": "1",
                     "type": "short",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Enable Motion Sensor",
                     "label": "Enable Motion Sensor",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Which commands to send when PIR motion sensor triggered\n\t\t\tOZW Ideal Value is Binary Sensor Report",
                     "label": "Command Options",
                     "index": "5",
-                    "items": [
-                        {
-                            "label": "Basic Set (default) "
-                        },
-                        {
-                            "label": "Binary Sensor Report"
-                        }
-                    ],
                     "max": "2",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Basic Set (default) ",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Binary Sensor Report",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Enable/disable the selective reporting only when measurements reach a certain threshold or percentage \n\t\t\tset in the threshold settings.  This is used to reduce network\n\t\t\ttraffic.",
                     "label": "Reporting Threshold",
                     "index": "40",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Threshold change in temperature to induce an automatic report.  \n\t\t\tNote: \n\t\t\t1. When the unit is Celsius, threshold=Value. \n\t\t\t2. When the unit is Fahrenheit, threshold=Value*1.8. The accuracy is 0.1. \n\t\t\t3. The high byte is the part of integer, the low byte is the fractional part. \n\t\t\t",
                     "label": "Temperature Reporting Threshold",
                     "index": "41",
-                    "items": [],
                     "max": "39321",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in humidity to induce an automatic report. \n\t\t\tNote: \n\t\t\tThe accuracy is 0.1. \n\t\t\tThe high byte is the part of integer, the low byte is the fractional part. \n\t\t\t",
                     "label": "Humidity Reporting Threshold",
                     "index": "42",
-                    "items": [],
                     "max": "39321",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in luminance to induce an automatic report. ",
                     "label": "Luminance Reporting Threshold",
                     "index": "43",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "LUX"
+                    "units": "LUX",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in battery level to induce an  automatic report. \n\t\t\tNote: \n\t\t\tThe accuracy is 0.1. \n\t\t\tThe high byte is the part of integer, the low byte is the fractional part.  \n\t\t\t",
                     "label": "Battery Reporting Threshold",
                     "index": "44",
-                    "items": [],
                     "max": "39321",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Enable/disable to send the alarm report of low temperature(Less than 15 Degress C)\n\t\t\t",
                     "label": "Low Temp Alarm",
                     "index": "46",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Which reports need to send automatically in timing intervals for group 1. Bitsets: 0 -> Battery report, 5 -> Temperature, 6 -> Humidity, 7 -> Luminosity",
                     "label": "Group 1 Reports",
                     "index": "101",
-                    "items": [],
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "Which reports need to send automatically in timing intervals for group 2. Bitsets: 0 -> Battery report, 5 -> Temperature, 6 -> Humidity, 7 -> Luminosity",
                     "label": "Group 2 Reports",
                     "index": "102",
-                    "items": [],
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "Which reports need to send automatically in timing intervals for group 3. Bitsets: 0 -> Battery report, 5 -> Temperature, 6 -> Humidity, 7 -> Luminosity",
                     "label": "Group 3 Reports",
                     "index": "103",
-                    "items": [],
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "The interval of sending report group 1. 1 to 2678400 seconds",
                     "label": "Group 1 Interval",
                     "index": "111",
-                    "items": [],
                     "max": "2678400",
                     "min": "1",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "The interval of sending report group 2. 1 to 2678400 seconds",
                     "label": "Group 2 Interval",
                     "index": "112",
-                    "items": [],
                     "max": "2678400",
                     "min": "1",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "The interval of sending report group 3. 1 to 2678400 seconds",
                     "label": "Group 3 Interval",
                     "index": "113",
-                    "items": [],
                     "max": "2678400",
                     "min": "1",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tEnable/disable Lock Configuration\n\t\t\t",
                     "label": "Enable/disable Lock Configuration",
                     "index": "252",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Reset to factory defaults.",
                     "label": "Reset to default",
                     "index": "255",
-                    "items": [],
-                    "type": "button"
+                    "type": "button",
+                    "items": []
                 }
             ]
         },

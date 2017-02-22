@@ -8,71 +8,75 @@
                     "help": "Defines the behavior of the LED.",
                     "label": "LED-Behaviour",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Indicator Off"
+                            "label": "Indicator Off",
+                            "value": "0"
                         },
                         {
-                            "label": "Indicator On"
+                            "label": "Indicator On",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Memory function",
                     "index": "2",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disable"
+                            "label": "Disable",
+                            "value": "0"
                         },
                         {
-                            "label": "Enable"
+                            "label": "Enable",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "If the setting is configured for 1 hour (value=720), the TZ69E will report its instant power consumption every 1 hour.",
                     "label": "Watt meter report period",
                     "index": "3",
-                    "items": [],
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "5 sec"
+                    "units": "5 sec",
+                    "items": []
                 },
                 {
                     "help": "If the setting is configured for 1 hour (value=6), the TZ69E will report its accumulated power consumption (kWh) every 1 hour.",
                     "label": "kWh meter report period",
                     "index": "4",
-                    "items": [],
                     "max": "32767",
                     "min": "1",
                     "type": "short",
-                    "units": "10 min"
+                    "units": "10 min",
+                    "items": []
                 },
                 {
                     "help": "",
                     "label": "Threshold of Kwh for Load Caution",
                     "index": "5",
-                    "items": [],
                     "max": "10000",
                     "min": "1",
                     "type": "short",
-                    "units": "Kwh"
+                    "units": "Kwh",
+                    "items": []
                 },
                 {
                     "help": "",
                     "label": "Threshold of Watt for Load Caution",
                     "index": "6",
-                    "items": [],
                     "max": "3000",
                     "min": "10",
                     "type": "short",
-                    "units": "Watt"
+                    "units": "Watt",
+                    "items": []
                 }
             ]
         },

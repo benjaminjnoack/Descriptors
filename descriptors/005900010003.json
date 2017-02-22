@@ -16,42 +16,46 @@
                     "help": "",
                     "label": "Temperature sensor reading",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Temperature Scale",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Celsius"
-                        },
-                        {
-                            "label": "Fahrenheit"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Celsius",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Fahrenheit",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "\n        Delta T in steps of 0.1 degree.\n      ",
                     "label": "Temperature Delta T",
                     "index": "3",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

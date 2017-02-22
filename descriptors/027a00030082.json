@@ -8,22 +8,22 @@
                     "help": "Set the delay time for turning associated devices OFF based on status change of your Contact Sensor, in seconds.  0 is default, which is instant.",
                     "label": "Trigger Delay",
                     "index": "1",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "You can choose if your Contact Sensor turns an associated device on or off when sending the basic command set.  Value of 0 will set the associated device OFF and value 255 to turn it on.  Value between 1 and 99 will be a percentage of light.  Value between 100-254 are invalid.",
                     "label": "Trigger Action",
                     "index": "2",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

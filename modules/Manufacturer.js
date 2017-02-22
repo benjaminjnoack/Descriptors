@@ -3,13 +3,14 @@
  */
 'use strict';
 
-const Product = require('./Product');
+const
+  Element = require('./Element'),
+  h       = require('./h'),
+  Product = require('./Product');
 
-const h = require('./h');
-
-class Manufacturer {
+class Manufacturer extends Element {
   constructor(manufacturer) {
-    this.meta = manufacturer[h.META];
+    super(manufacturer[h.META]);
 
     if (manufacturer[h.PRODUCT])
       this.products = manufacturer[h.PRODUCT];
@@ -41,8 +42,7 @@ class Manufacturer {
   }
 
   set meta(meta) {
-    this.id = meta[h.ID];
-    this.name = meta[h.NAME];
+    super.meta = meta;
   }
 
   get products() {

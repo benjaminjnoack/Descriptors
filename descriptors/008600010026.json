@@ -16,27 +16,29 @@
                     "help": "Enable selective Group Mode or Scene Mode when the Panic Button is in Use mode",
                     "label": "Mode",
                     "index": "250",
-                    "items": [
-                        {
-                            "label": "Group"
-                        },
-                        {
-                            "label": "Scene"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Group",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Reset configuration set up to default setting",
                     "label": "Reset configuration",
                     "index": "255",
-                    "items": [],
                     "type": "button",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

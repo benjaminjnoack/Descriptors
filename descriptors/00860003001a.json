@@ -8,106 +8,117 @@
                     "help": "\n\tThis is actually a double byte value. The LSB defines the total time the device needs to blink in seconds. The MSB defines the on/off interval of the blink in tenths of seconds.\n      ",
                     "label": "Blinking behavior",
                     "index": "2",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Enables automatic notifications to associated devices whenever there is a state change.",
                     "label": "Notification status",
                     "index": "80",
-                    "items": [
-                        {
-                            "label": "None"
-                        },
-                        {
-                            "label": "Hail"
-                        },
-                        {
-                            "label": "Basic"
-                        }
-                    ],
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "None",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Hail",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Basic",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Turn external button mode",
                     "label": "Turn external button mode",
                     "index": "120",
-                    "items": [
-                        {
-                            "label": "Momentary button"
-                        },
-                        {
-                            "label": "2 state switch"
-                        },
-                        {
-                            "label": "3 way switch"
-                        },
-                        {
-                            "label": "Unidentified"
-                        }
-                    ],
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Momentary button",
+                            "value": "0"
+                        },
+                        {
+                            "label": "2 state switch",
+                            "value": "1"
+                        },
+                        {
+                            "label": "3 way switch",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Unidentified",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "Partner ID",
                     "label": "Partner ID",
                     "index": "200",
-                    "items": [
-                        {
-                            "label": "Aeon Labs Standard (Default)"
-                        },
-                        {
-                            "label": "AT&T"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Aeon Labs Standard (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "AT&T",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
                     "label": "Configuration Locked",
                     "index": "252",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Device tag.",
                     "label": "Device tag",
                     "index": "254",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Reset to the default configuration.",
                     "label": "Reset device",
                     "index": "255",
-                    "items": [],
                     "type": "button",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

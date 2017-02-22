@@ -3,11 +3,13 @@
  */
 'use strict';
 
-const h = require('./h');
+const
+  Element = require('./Element'),
+  h       = require('./h');
 
-class Item {
+class Item extends Element {
   constructor(item) {
-    this.meta = item[h.META];
+    super(item[h.META]);
   }
 
   get meta() {
@@ -18,8 +20,7 @@ class Item {
   }
 
   set meta(meta) {
-    this[h.LABEL] = meta[h.LABEL];
-    this[h.VALUE] = meta[h.VALUE];
+    super.meta = meta;
   }
 
   print() {

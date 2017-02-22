@@ -8,16 +8,18 @@
                     "help": "In night-light mode the LED on the switch will turn ON when the switch is turned OFF.",
                     "label": "Night Light",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         }

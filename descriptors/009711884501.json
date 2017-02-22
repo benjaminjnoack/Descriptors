@@ -8,55 +8,61 @@
                     "help": "Attention: This will delete all your configuration, but the device will remain in the network. Handle with care.",
                     "label": "1. Reset to factory Default",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Keep current config"
+                            "label": "Keep current config",
+                            "value": "0"
                         },
                         {
-                            "label": "Reset to factory Default"
+                            "label": "Reset to factory Default",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Configure what the external contact sends when trigger",
                     "label": "2. Commands sent on external dry contact",
                     "index": "2",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Alarm Report Type 2(default)"
+                            "label": "Alarm Report Type 2(default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Basic On or Basic OFF"
+                            "label": "Basic On or Basic OFF",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Defines if the sensor is in normal wakeup-mode or always on. This function shall be used only for testing since it draining the battery very fast.",
                     "label": "5. Operating Mode",
                     "index": "5",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Normal Wakeup (default)"
+                            "label": "Normal Wakeup (default)",
+                            "value": "0"
                         },
                         {
-                            "label": "Always awake"
+                            "label": "Always awake",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Offset to the temperature. This parameter can be used to calibrate the temperature sensor function if needed. Note. As factory default the temperature sensor function is calibrated. 0 = 0K (default), not 0 = Temperature Offset in K",
                     "label": "6. Temperature Offset",
                     "index": "6",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 }
             ]
         }

@@ -8,16 +8,18 @@
                     "help": "Causes the device to send double alarm messages.",
                     "label": "Send double alarm messages",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disable"
+                            "label": "Disable",
+                            "value": "0"
                         },
                         {
-                            "label": "Enable"
+                            "label": "Enable",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

@@ -8,32 +8,34 @@
                     "help": "In night-light mode the LED on the switch will turn ON when the switch is turned OFF, instead of folliwng the state of the load.",
                     "label": "LED Mode",
                     "index": "3",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Normal"
+                            "label": "Normal",
+                            "value": "0"
                         },
                         {
-                            "label": "Night-light"
+                            "label": "Night-light",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Change the top of the switch to OFF and the bottom of the switch to ON.",
                     "label": "Invert Switch",
                     "index": "4",
-                    "items": [],
                     "size": "1",
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 },
                 {
                     "help": "This dimmer will always start dimming from its current level, ignoring any commanded start level.",
                     "label": "Ignore Start-Level (Receiving)",
                     "index": "5",
-                    "items": [],
                     "size": "1",
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 }
             ]
         },
@@ -43,10 +45,10 @@
                 {
                     "label": "Level",
                     "index": "0",
-                    "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         }

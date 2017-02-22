@@ -8,34 +8,39 @@
                     "help": "Set Notification type.",
                     "label": "Notification type",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Binary Sensor report"
+                            "label": "Binary Sensor report",
+                            "value": "0"
                         },
                         {
-                            "label": "Notification report"
+                            "label": "Notification report",
+                            "value": "1"
                         },
                         {
-                            "label": "Basic report"
+                            "label": "Basic report",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Set Led indication.",
                     "label": "Led indication",
                     "index": "2",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Off"
+                            "label": "Off",
+                            "value": "0"
                         },
                         {
-                            "label": "On"
+                            "label": "On",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

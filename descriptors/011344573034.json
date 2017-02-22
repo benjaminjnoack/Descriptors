@@ -8,31 +8,31 @@
                     "help": "By default, the LED on the LRM-AS will turn OFF when the load attached is turned ON. To make the LED turn ON when the load attached is turned ON, set parameter to a value of 0.",
                     "label": "Night Light",
                     "index": "3",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "To change the top of the switch to OFF and the bottom of the switch to ON, set parameter to 1.",
                     "label": "Invert Switch",
                     "index": "4",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Set this parameter to 0 to disable load sense. Set this parameter to 1 to enable load sense",
                     "label": "Load Sense",
                     "index": "29",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         }

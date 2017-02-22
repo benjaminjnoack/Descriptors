@@ -8,12 +8,12 @@
                     "help": "Sets the time after triggering the sensor to send the Basic OFF command. 0: Don't send Basic OFF. 1-240: N minutes. 241-255: 15 seconds.",
                     "label": "Off time",
                     "index": "0",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "1",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

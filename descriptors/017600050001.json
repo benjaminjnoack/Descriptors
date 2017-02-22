@@ -8,129 +8,145 @@
                     "help": "Type of input no. 2, what the input 1 will report if no contact is made",
                     "label": "Type of command no. 2",
                     "index": "1",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Basic"
+                            "label": "Basic",
+                            "value": "0"
                         },
                         {
-                            "label": "Switch Binary"
+                            "label": "Switch Binary",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch All"
+                            "label": "Switch All",
+                            "value": "2"
                         },
                         {
-                            "label": "Switch Multilevel"
+                            "label": "Switch Multilevel",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Possible parameter settings: (1 - 63) and 255. When setting 255 will automatically be set dimmer to the previous condition i.e 30% or what the last state was.",
                     "label": "Forced Level of Dimming group 2",
                     "index": "2",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Type of commands to association group 2",
                     "label": "Type of commands no. 2",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "Normal"
-                        },
-                        {
-                            "label": "Inverted"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Inverted",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Type of input no. 3, what the input 3 will report if no contact is made",
                     "label": "Type of command no. 3",
                     "index": "4",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Basic"
+                            "label": "Basic",
+                            "value": "0"
                         },
                         {
-                            "label": "Switch Binary"
+                            "label": "Switch Binary",
+                            "value": "1"
                         },
                         {
-                            "label": "Switch All"
+                            "label": "Switch All",
+                            "value": "2"
                         },
                         {
-                            "label": "Switch Multilevel"
+                            "label": "Switch Multilevel",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Possible parameter settings: (1 - 63) and 255. When setting 255 will automatically be set dimmer to the previous condition i.e 30% or what the last state was.",
                     "label": "Forced Level of Dimming group 3",
                     "index": "5",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Type of commands to association group 3",
                     "label": "Type of commands no. 3",
                     "index": "6",
-                    "items": [
-                        {
-                            "label": "Normal"
-                        },
-                        {
-                            "label": "Inverted"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Inverted",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Status change signalled by LED. Default setting: LED turned On",
                     "label": "Status change signalled by LED",
                     "index": "7",
-                    "items": [
-                        {
-                            "label": "LED turned Off"
-                        },
-                        {
-                            "label": "LED turned On"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "LED turned Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "LED turned On",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Select the type of command to be sent in the Lifeline",
                     "label": "Sent in the Lifeline",
                     "index": "8",
-                    "items": [
-                        {
-                            "label": "Notification"
-                        },
-                        {
-                            "label": "Sensor binary"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Notification",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Sensor binary",
+                            "value": "1"
+                        }
+                    ]
                 }
             ]
         },

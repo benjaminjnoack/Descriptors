@@ -7,344 +7,346 @@
                 {
                     "label": "Button #1(tap) Value 1",
                     "index": "0",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(tap) Value 2",
                     "index": "1",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(tap) Value 3",
                     "index": "2",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(tap) Value 4",
                     "index": "3",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(tap) Value 5",
                     "index": "4",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(hold) Value 1",
                     "index": "20",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(hold) Value 2",
                     "index": "21",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(hold) Value 3",
                     "index": "22",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(hold) Value 4",
                     "index": "23",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1(hold) Value 5",
                     "index": "24",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(tap) Value 1",
                     "index": "40",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(tap) Value 2",
                     "index": "41",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(tap) Value 3",
                     "index": "42",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(tap) Value 4",
                     "index": "43",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(tap) Value 5",
                     "index": "44",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(hold) Value 1",
                     "index": "60",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(hold) Value 2",
                     "index": "61",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(hold) Value 3",
                     "index": "62",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(hold) Value 4",
                     "index": "63",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2(hold) Value 5",
                     "index": "64",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(tap) Value 1",
                     "index": "80",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(tap) Value 2",
                     "index": "81",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(tap) Value 3",
                     "index": "82",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(tap) Value 4",
                     "index": "83",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(tap) Value 5",
                     "index": "84",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(hold) Value 1",
                     "index": "100",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(hold) Value 2",
                     "index": "101",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(hold) Value 3",
                     "index": "102",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(hold) Value 4",
                     "index": "103",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3(hold) Value 5",
                     "index": "104",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(tap) Value 1",
                     "index": "120",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(tap) Value 2",
                     "index": "121",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(tap) Value 3",
                     "index": "122",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(tap) Value 4",
                     "index": "123",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(tap) Value 5",
                     "index": "124",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(hold) Value 1",
                     "index": "140",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(hold) Value 2",
                     "index": "141",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(hold) Value 3",
                     "index": "142",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(hold) Value 4",
                     "index": "143",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4(hold) Value 5",
                     "index": "144",
-                    "items": [],
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #1 Programmable",
                     "index": "241",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "bool",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #2 Programmable",
                     "index": "242",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "bool",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #3 Programmable",
                     "index": "243",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "bool",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "label": "Button #4 Programmable",
                     "index": "244",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "type": "bool",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Enable selective Group Mode or Scene Mode",
                     "label": "Mode",
                     "index": "250",
-                    "items": [
-                        {
-                            "label": "Group"
-                        },
-                        {
-                            "label": "Scene"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Group",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Scene",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Reset configuration set up to default setting",
                     "label": "Reset configuration",
                     "index": "255",
-                    "items": [],
                     "type": "button",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

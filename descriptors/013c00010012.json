@@ -8,65 +8,68 @@
                     "help": "If the setting is configured for 1hour (set value =720), the device will report its instant power consumption every 1 hour to Z-Wave Controller. Unit: 5 seconds.",
                     "label": "Watt meter report period",
                     "index": "1",
-                    "items": [],
                     "max": "32000",
                     "min": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "If the setting is configured for 1hour (set value =720), the device will report its power consumption in KWh every 1 hour to Z-Wave Controller. Unit: 5 seconds.",
                     "label": "kWh meter report period",
                     "index": "2",
-                    "items": [],
                     "max": "32000",
                     "min": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "1: Relay 1 and Relay 2. 2: Relay 1. 3: Relay 2",
                     "label": "Selected end point",
                     "index": "3",
-                    "items": [],
                     "max": "3",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Edge or Pulse mode or Edge-Togle mode defines the operating mode of the externally connected switch. Default: Edge Mode",
                     "label": "Edge or Pulse mode or Edge-Togle mode",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "Edge Mode"
-                        },
-                        {
-                            "label": "Toggle Mode"
-                        },
-                        {
-                            "label": "Edge/Toggle Mode"
-                        }
-                    ],
                     "max": "3",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": [
+                        {
+                            "label": "Edge Mode",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Toggle Mode",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Edge/Toggle Mode",
+                            "value": "3"
+                        }
+                    ]
                 },
                 {
                     "help": "Threshold of Watt for Load Caution",
                     "label": "Threshold of Watt for Load Caution",
                     "index": "5",
-                    "items": [],
                     "max": "1500",
                     "min": "10",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Threshold of kWh for Load Caution",
                     "label": "Threshold of kWh for Load Caution",
                     "index": "6",
-                    "items": [],
                     "max": "10000",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 }
             ]
         },

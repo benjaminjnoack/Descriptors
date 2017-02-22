@@ -8,24 +8,28 @@
                     "help": "Enable/Disable ALL ON/OFF",
                     "label": "Switch All",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Switch off only"
-                        },
-                        {
-                            "label": "Switch on only"
-                        },
-                        {
-                            "label": "Fully enabled (Default)"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Switch off only",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switch on only",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Fully enabled (Default)",
+                            "value": "255"
+                        }
+                    ]
                 }
             ]
         },

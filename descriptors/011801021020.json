@@ -8,82 +8,82 @@
                     "help": "If the bit is set to 1, the dimmer will ignore the start level and instead start dimming from its current level. If this bit is set to 0, the dimmer will not ignore the start level.",
                     "label": "Set Ignore start level bit when transmitting dim commands",
                     "index": "1",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Setting this parameter to the value of 1 will stop theTZ66D from transmitting to devices that are associated into Group 4.",
                     "label": "Disable transmitting to group 4",
                     "index": "2",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The LED on the TZ66D will by default, turn ON when the load attached is turned OFF. To make the LED turn ON when the load attached is turned ON instead, set parameter to a value of 1.",
                     "label": "Night light",
                     "index": "3",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "To change the top of the switch to OFF and the bottom of the switch ON , set parameter 4 to 1.",
                     "label": "Invert switch",
                     "index": "4",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The TZ66D can operate shade control devices via its Group 2 if this configuration parameter is set to 1.",
                     "label": "Enable shade control Group 2",
                     "index": "14",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The TZ66D can operate shade control devices via its Group 3 if this configuration parameter is set to 1.",
                     "label": "Enable shade control Group 3",
                     "index": "15",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The TZ66-D will flicker its LED when it is transmitting to any of its 4 groups. This flickering can be set to not flicker at all (set to 0), to flicker the entire time it is transmitting (set to 1), or to flicker for only 1 second when it begins transmitting (set to 2). By default, the TZ66D is set to flicker for only 1 second.",
                     "label": "LED Transmission indication",
                     "index": "19",
-                    "items": [],
                     "max": "2",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Defines the poll interval in minutes for group 2 if polling is activated.",
                     "label": "Poll Group 2 Interval (minutes)",
                     "index": "20",
-                    "items": [],
                     "max": "255",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "If value is 0, the TZ66D will not poll Group 2. If value is 1, the TZ66D will poll Group 2 at the interval set in Configuration Parameter 20.",
                     "label": "Poll Group 2",
                     "index": "22",
-                    "items": [],
                     "max": "1",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         }

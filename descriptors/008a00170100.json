@@ -12,15 +12,15 @@
                     "help": "Set all configuration values to default values (factory settings).",
                     "label": "Set to Default",
                     "index": "1",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "The time that a user has to activate the double button pressed scene, if time is passed then the single pressed button scene is notified.",
                     "label": "Double press time",
                     "index": "16",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

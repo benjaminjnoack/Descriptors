@@ -8,81 +8,81 @@
                     "help": "\n\t\t\t\tDefines the level in the Basic Set event sent to group 2 when the sensor is triggered.  Default is 99 (full brightness for a Z-Wave dimmer). 0 disables.\n\t\t\t",
                     "label": "Basic Set Level",
                     "index": "1",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tTemperature level to trigger when a ON command is sent out. 99 will clear the value.\n\t\t\t",
                     "label": "Temperature On Trigger",
                     "index": "2",
-                    "items": [],
                     "max": "99",
                     "min": "-20",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tTemperature level to trigger when an OFF command is sent out. 99 will clear the value.\n\t\t\t",
                     "label": "Temperature Off Trigger",
                     "index": "3",
-                    "items": [],
                     "max": "99",
                     "min": "-20",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tHumidity level to trigger when a ON command is sent out. 99 will clear the value.\n\t\t\t",
                     "label": "Humidity On Trigger",
                     "index": "4",
-                    "items": [],
                     "max": "99",
                     "min": "20",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tHumidity level to trigger when a OFF command is sent out. 99 will clear the value.\n\t\t\t",
                     "label": "Humidity Off Trigger",
                     "index": "5",
-                    "items": [],
                     "max": "99",
                     "min": "20",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report time interval. 0 disables.\n\t\t\t",
                     "label": "Auto Report Time",
                     "index": "6",
-                    "items": [],
                     "max": "1439",
                     "min": "0",
                     "type": "short",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report temperature trigger interval. 0 disables.\n\t\t\t",
                     "label": "Auto Report Temperature",
                     "index": "7",
-                    "items": [],
                     "max": "70",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tSets the auto report humidity trigger interval. 0 disables.\n\t\t\t",
                     "label": "Auto Report Humidity",
                     "index": "8",
-                    "items": [],
                     "max": "70",
                     "min": "5",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 }
             ]
         },

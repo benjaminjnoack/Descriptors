@@ -8,38 +8,40 @@
                     "help": "\n          Bit 0: Reserved \n          Bit 1: Reserved \n          Bit 2: Reserved \n          Bit 3: Reserved \n          Bit 4: Notification type (0: Using Notification Report, 1: Using sensor Binary Report). \n          Bit 5: Reserved\n          Bit 6: Reserved\n          Bit 7: Reserved\n       ",
                     "label": "Customer Function",
                     "index": "7",
-                    "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Disable the alarm function.\n          0: Enable Alarm, 1:Disable Alarm,\n          Caution: After the power up, this configuration always be 0.\n       ",
                     "label": "Disable Alarm",
                     "index": "29",
-                    "items": [
-                        {
-                            "label": "Enable Alarm"
-                        },
-                        {
-                            "label": "Disable Alarm"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Enable Alarm",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Disable Alarm",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n          Play alarm sound duration.\n          1 tick is 30 second. Default is 3 minutes, maximum is 63.5 minutes.\n          0: means never auto stop\n       ",
                     "label": "31. Alarm Duration",
                     "index": "31",
-                    "items": [],
                     "max": "12",
                     "min": "0",
                     "type": "byte",
-                    "units": "30 sec"
+                    "units": "30 sec",
+                    "items": []
                 }
             ]
         },

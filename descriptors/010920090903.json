@@ -8,19 +8,19 @@
                     "help": "Defines the reaction of the siren: [0] Strobe and Siren, [1] Siren, [2] Strobe (Default setting: 0)",
                     "label": "Siren Strobe Mode",
                     "index": "0",
-                    "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Defines the auto time out of the alarm indication: [0] 30 seconds, [1] 60 seconds, [2] 120 seconds, [3] Continuous (Default setting: 0)",
                     "label": "Alarm auto stop",
                     "index": "1",
-                    "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

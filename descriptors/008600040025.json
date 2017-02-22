@@ -8,34 +8,36 @@
                     "help": "Partner ID",
                     "label": "Partner ID",
                     "index": "200",
-                    "items": [
-                        {
-                            "label": "Aeon Labs Standard (Default)"
-                        },
-                        {
-                            "label": "Others"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Aeon Labs Standard (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Others",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Device Tag",
                     "label": "Device Tag",
                     "index": "254",
-                    "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Reset to factory defaults.",
                     "label": "Reset configuration settings to factory defaults",
                     "index": "255",
-                    "items": [],
-                    "type": "button"
+                    "type": "button",
+                    "items": []
                 }
             ]
         },

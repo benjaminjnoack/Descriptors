@@ -12,127 +12,136 @@
                     "help": "\n       Temperature Report threshold (1=0.1C)\n      ",
                     "label": "Temperature Threshold",
                     "index": "1",
-                    "items": [],
                     "max": "100",
                     "min": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "\n        Set-point display resolution (1=0.1C)\n      ",
                     "label": "Setpoint resolution",
                     "index": "2",
-                    "items": [],
                     "max": "100",
                     "min": "1",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "\n       Min Set-point and override limit\n      ",
                     "label": "Min/Override Setpoint",
                     "index": "3",
-                    "items": [],
                     "max": "10",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "\n       Max Set-point and override limit\n      ",
                     "label": "Max/Override Setpoint",
                     "index": "4",
-                    "items": [],
                     "max": "40",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "\n       Setpoint control function\n      ",
                     "label": "Setpoint control function",
                     "index": "6",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "\n       Temporarily override scheduler\n      ",
                     "label": "Temporarily override scheduler",
                     "index": "7",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "\n       Setpoint type in thermostat setpoint_reports\n      ",
                     "label": "Setpoint type",
                     "index": "8",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Heating"
+                            "label": "Heating",
+                            "value": "1"
                         },
                         {
-                            "label": "Cooling"
+                            "label": "Cooling",
+                            "value": "2"
                         },
                         {
-                            "label": "Auto Changeover"
+                            "label": "Auto Changeover",
+                            "value": "10"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "\n       Led on time (1=100ms)\n      ",
                     "label": "Led on time",
                     "index": "9",
-                    "items": [],
                     "max": "5",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n       Led Flash Period (0 to 65535 seconds)\n      ",
                     "label": "Led Flash Period",
                     "index": "5",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "\n       Number of led flashes (duration)\n      ",
                     "label": "Number of flash",
                     "index": "10",
-                    "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n       Led Color\n      ",
                     "label": "Led Color",
                     "index": "11",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Green"
+                            "label": "Green",
+                            "value": "1"
                         },
                         {
-                            "label": "Red"
+                            "label": "Red",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         }

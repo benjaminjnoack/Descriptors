@@ -8,18 +8,20 @@
                     "help": "External Switch Status",
                     "label": "External Switch",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "On"
-                        },
-                        {
-                            "label": "Off"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "On",
+                            "value": "255"
+                        },
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        }
+                    ]
                 }
             ]
         },

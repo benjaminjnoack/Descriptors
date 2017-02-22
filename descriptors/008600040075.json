@@ -12,82 +12,91 @@
                     "help": "Set the default status of the LED when the Range Extender relays Z-Wave message.",
                     "label": "LED when the Range Extender relays Z-Wave message",
                     "index": "82",
-                    "items": [
-                        {
-                            "label": "On for 2 seconds"
-                        },
-                        {
-                            "label": "Off"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "On for 2 seconds",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Off",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Partner ID",
                     "label": "Partner ID",
                     "index": "200",
-                    "items": [
-                        {
-                            "label": "Aeon Labs Standard (Default)"
-                        },
-                        {
-                            "label": "Others"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Aeon Labs Standard (Default)",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Others",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
                     "label": "Configuration Locked",
                     "index": "252",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Device tag.",
                     "label": "Device tag",
                     "index": "254",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Reset to factory defaults",
                     "label": "Reset To Factory Defaults",
                     "index": "255",
+                    "size": "4",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Reset to factory default setting"
+                            "label": "Reset to factory default setting",
+                            "value": "0"
                         },
                         {
-                            "label": "Normal"
+                            "label": "Normal",
+                            "value": "1"
                         },
                         {
-                            "label": "Reset to factory default setting and removed from the z-wave network"
+                            "label": "Reset to factory default setting and removed from the z-wave network",
+                            "value": "1431655765"
                         }
-                    ],
-                    "size": "4",
-                    "type": "list"
+                    ]
                 }
             ]
         },

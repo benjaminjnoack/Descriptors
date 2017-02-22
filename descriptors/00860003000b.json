@@ -8,316 +8,323 @@
                     "help": "Enable selective reporting only when power change reaches a certain threshold or percentage set in 4.11 below.\n\t  This is used to reduce network traffic.",
                     "label": "Report threshold",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "Disable,"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disable,",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Threshold change in wattage to induce an automatic report (Whole Smart Strip).",
                     "label": "Whole Smart Strip Minimum Change to send Report (Watt) ",
                     "index": "5",
-                    "items": [],
                     "max": "60000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in wattage to induce an automatic report (Socket 1).",
                     "label": "Socket 1 Minimum Change to send Report (Watt) ",
                     "index": "6",
-                    "items": [],
                     "max": "60000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in wattage to induce an automatic report (Socket 2).",
                     "label": "Socket 2 Minimum Change to send Report (Watt) ",
                     "index": "7",
-                    "items": [],
                     "max": "60000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in wattage to induce an automatic report (Socket 3).",
                     "label": "Socket 3 Minimum Change to send Report (Watt) ",
                     "index": "8",
-                    "items": [],
                     "max": "60000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in wattage to induce an automatic report (Socket 4).",
                     "label": "Socket 4 Minimum Change to send Report (Watt) ",
                     "index": "9",
-                    "items": [],
                     "max": "60000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in wattage to induce an automatic report (Socket 5).",
                     "label": "Socket 5 Minimum Change to send Report (Watt) ",
                     "index": "10",
-                    "items": [],
                     "max": "60000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in wattage to induce an automatic report (Socket 6).",
                     "label": "Socket 6 Minimum Change to send Report (Watt) ",
                     "index": "11",
-                    "items": [],
                     "max": "60000",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Percentage change in wattage to induce an automatic report (Whole Smart Strip).",
                     "label": "Whole Smart Strip Minimum Change to send Report (%)",
                     "index": "12",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Percentage change in wattage to induce an automatic report (Socket 1).",
                     "label": "Socket 1 Minimum Change to send Report (%)",
                     "index": "13",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Percentage change in wattage to induce an automatic report (Socket 2).",
                     "label": "Socket 2 Minimum Change to send Report (%)",
                     "index": "14",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Percentage change in wattage to induce an automatic report (Socket 3).",
                     "label": "Socket 3 Minimum Change to send Report (%)",
                     "index": "15",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Percentage change in wattage to induce an automatic report (Socket 4).",
                     "label": "Socket 4 Minimum Change to send Report (%)",
                     "index": "16",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Percentage change in wattage to induce an automatic report (Socket 5).",
                     "label": "Socket 5 Minimum Change to send Report (%)",
                     "index": "17",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Percentage change in wattage to induce an automatic report (Socket 6).",
                     "label": "Socket 6 Minimum Change to send Report (%)",
                     "index": "18",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Defines the automated status notification of an associated device when status changes",
                     "label": "Notification status",
                     "index": "80",
-                    "items": [
-                        {
-                            "label": "Nothing"
-                        },
-                        {
-                            "label": "Hail"
-                        },
-                        {
-                            "label": "Basic"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Nothing",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Hail",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Basic",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Get temperature of Smart Strip",
                     "label": "Temperature of Smart Strip",
                     "index": "90",
-                    "items": [],
                     "size": "2",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tSet report types for groups 1, 2 and 3 to default.\n      ",
                     "label": "Default Group Reports",
                     "index": "100",
-                    "items": [],
                     "type": "button",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Configure auto report which information as Group 1.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 \n\t\t\tbit 7 reserved\n\t\t\tbit 6 Auto report power level with specified time interval (channel 6)\n\t\t\tbit 5 Auto report power level with specified time interval (channel 5)\n\t\t\tbit 4 Auto report power level with specified time interval (channel 4)\n\t\t\tbit 3 Auto report power level with specified time interval (channel 3)\n\t\t\tbit 2 Auto report power level with specified time interval (channel 2)\n\t\t\tbit 1 Auto report power level with specified time interval (channel 1)\n\t\t\tbit 0 Auto report the total power level with specified time interval\n\tValue 4 (lsb) \n\t\t\tbit 7 reserved\n\t\t\tbit 6 Auto report power consumption with specified time interval (channel 6)\n\t\t\tbit 5 Auto report power consumption with specified time interval (channel 5)\n\t\t\tbit 4 Auto report power consumption with specified time interval (channel 4)\n\t\t\tbit 3 Auto report power consumption with specified time interval (channel 3)\n\t\t\tbit 2 Auto report power consumption with specified time interval (channel 2)\n\t\t\tbit 1 Auto report power consumption with specified time interval (channel 1)\n\t\t\tbit 0 Auto report the total power consumption with specified time interval\n      ",
                     "label": "Report type sent in Reporting Group 1",
                     "index": "101",
-                    "items": [],
                     "size": "4",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Configure auto report which information as Group 2.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 \n\t\t\tbit 7 reserved\n\t\t\tbit 6 Auto report power level with specified time interval (channel 6)\n\t\t\tbit 5 Auto report power level with specified time interval (channel 5)\n\t\t\tbit 4 Auto report power level with specified time interval (channel 4)\n\t\t\tbit 3 Auto report power level with specified time interval (channel 3)\n\t\t\tbit 2 Auto report power level with specified time interval (channel 2)\n\t\t\tbit 1 Auto report power level with specified time interval (channel 1)\n\t\t\tbit 0 Auto report the total power level with specified time interval\n\tValue 4 (lsb) \n\t\t\tbit 7 reserved\n\t\t\tbit 6 Auto report power consumption with specified time interval (channel 6)\n\t\t\tbit 5 Auto report power consumption with specified time interval (channel 5)\n\t\t\tbit 4 Auto report power consumption with specified time interval (channel 4)\n\t\t\tbit 3 Auto report power consumption with specified time interval (channel 3)\n\t\t\tbit 2 Auto report power consumption with specified time interval (channel 2)\n\t\t\tbit 1 Auto report power consumption with specified time interval (channel 1)\n\t\t\tbit 0 Auto report the total power consumption with specified time interval\n      ",
                     "label": "Report type sent in Reporting Group 2",
                     "index": "102",
-                    "items": [],
                     "size": "4",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Configure auto report which information as Group 3.\n\t Value 1 (msb) Reserved\n\t Value 2 Reserved\n\t Value 3 \n\t\t\tbit 7 reserved\n\t\t\tbit 6 Auto report power level with specified time interval (channel 6)\n\t\t\tbit 5 Auto report power level with specified time interval (channel 5)\n\t\t\tbit 4 Auto report power level with specified time interval (channel 4)\n\t\t\tbit 3 Auto report power level with specified time interval (channel 3)\n\t\t\tbit 2 Auto report power level with specified time interval (channel 2)\n\t\t\tbit 1 Auto report power level with specified time interval (channel 1)\n\t\t\tbit 0 Auto report the total power level with specified time interval\n\tValue 4 (lsb) \n\t\t\tbit 7 reserved\n\t\t\tbit 6 Auto report power consumption with specified time interval (channel 6)\n\t\t\tbit 5 Auto report power consumption with specified time interval (channel 5)\n\t\t\tbit 4 Auto report power consumption with specified time interval (channel 4)\n\t\t\tbit 3 Auto report power consumption with specified time interval (channel 3)\n\t\t\tbit 2 Auto report power consumption with specified time interval (channel 2)\n\t\t\tbit 1 Auto report power consumption with specified time interval (channel 1)\n\t\t\tbit 0 Auto report the total power consumption with specified time interval\n      ",
                     "label": "Report type sent in Reporting Group 3",
                     "index": "103",
-                    "items": [],
                     "size": "4",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tSet time interval for sending reports for groups 1, 2 and 3 to default.\n      ",
                     "label": "Set 111-113 to default",
                     "index": "110",
-                    "items": [],
                     "type": "button",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tDefines the time interval when the defined report for group 1 is sent.\n      ",
                     "label": "Send Interval for Reporting Group 1",
                     "index": "111",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n\tDefines the time interval when the defined report for group 2 is sent.\n      ",
                     "label": "Send Interval for Reporting Group 2",
                     "index": "112",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n\tDefines the time interval when the defined report for group 3 is sent.\n      ",
                     "label": "Send Interval for Reporting Group 3",
                     "index": "113",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Enable/disable Configuration Locked",
                     "label": "Configuration Locked",
                     "index": "252",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Enter Meter Calibration Mode",
                     "label": "Enter Meter Calibration Mode",
                     "index": "253",
-                    "items": [],
                     "max": "1",
                     "min": "0",
                     "size": "4",
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\tDevice tag.\n      ",
                     "label": "Device tag",
                     "index": "254",
-                    "items": [],
                     "max": "65535",
                     "min": "0",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Reset to the default configuration.",
                     "label": "Reset device",
                     "index": "255",
-                    "items": [],
                     "type": "button",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

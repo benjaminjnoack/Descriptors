@@ -8,52 +8,54 @@
                     "help": "\n          Control the value represented by the left-side in area D.\n\t\t  E.g. Setting this configuration\n\t\t  to 15 means range of Command Basic Set value start from 15\n\t  ",
                     "label": "Basic Set Off Level",
                     "index": "1",
-                    "items": [],
                     "max": "99",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Control the value represented by the right-side in area D.\n\t\t  E.g. Setting this configuration\n\t\t  to 15 means range of Command Basic Set value start from 15\n\t  ",
                     "label": "Basic Set On Level",
                     "index": "2",
-                    "items": [],
                     "max": "99",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          The interval time for auto reporting\n          the Battery level. 0 means turn off auto report battery.\n          The default value is 12.\n       ",
                     "label": "Auto report battery time",
                     "index": "10",
-                    "items": [],
                     "max": "127",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Bit 0: Dimmer setting method.\n          0 : Auto send Command Basic Set after rotating.\n          1 : Send Command Basic Set by touching key after rotating\n          Bit 1: Disable buzzer in timer mode.\n          0: Enable.\n          1: Disable.\n       ",
                     "label": "Customer function",
                     "index": "25",
-                    "items": [],
                     "max": "3",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n          Send Central Scene Holding when the button is held.\n       ",
                     "label": "Scene Holding report",
                     "index": "26",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Enabled"
+                            "label": "Enabled",
+                            "value": "0"
                         },
                         {
-                            "label": "Disabled"
+                            "label": "Disabled",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 }
             ]
         },

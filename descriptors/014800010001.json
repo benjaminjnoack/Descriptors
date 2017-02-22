@@ -7,21 +7,25 @@
                 {
                     "label": "Mode",
                     "index": "0",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Frost Protection"
+                            "label": "Frost Protection",
+                            "value": "0"
                         },
                         {
-                            "label": "Comfort"
+                            "label": "Comfort",
+                            "value": "1"
                         },
                         {
-                            "label": "Energy Saving"
+                            "label": "Energy Saving",
+                            "value": "11"
                         },
                         {
-                            "label": "Direct Valve Control"
+                            "label": "Direct Valve Control",
+                            "value": "31"
                         }
-                    ],
-                    "type": "list"
+                    ]
                 }
             ]
         },
@@ -31,23 +35,23 @@
                 {
                     "label": "Frost protection setpoint",
                     "index": "0",
-                    "items": [],
                     "type": "decimal",
-                    "units": "C"
+                    "units": "C",
+                    "items": []
                 },
                 {
                     "label": "Comfort setpoint",
                     "index": "1",
-                    "items": [],
                     "type": "decimal",
-                    "units": "C"
+                    "units": "C",
+                    "items": []
                 },
                 {
                     "label": "Energy saving setpoint",
                     "index": "11",
-                    "items": [],
                     "type": "decimal",
-                    "units": "C"
+                    "units": "C",
+                    "items": []
                 }
             ]
         }

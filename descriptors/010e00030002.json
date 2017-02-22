@@ -12,188 +12,209 @@
                     "help": "0=The motor goes clockwise when unlatched; 1= The motor goes counterclockwise when unlatched",
                     "label": "Direction",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Clockwise"
-                        },
-                        {
-                            "label": "Counterclockwise"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Clockwise",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Counterclockwise",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Speed (Torque)",
                     "label": "Lock Speed",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Slowest"
-                        },
-                        {
-                            "label": "Slow"
-                        },
-                        {
-                            "label": "Normal"
-                        },
-                        {
-                            "label": "Fast"
-                        },
-                        {
-                            "label": "Fastest"
-                        }
-                    ],
                     "max": "5",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Slowest",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Slow",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Normal",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Fast",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Fastest",
+                            "value": "5"
+                        }
+                    ]
                 },
                 {
                     "help": "0=Stepper motor mode wave drive (Power Saving); 1=Stepper motor mode full drive(Normal)",
                     "label": "Lock Mode",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "Wave drive"
-                        },
-                        {
-                            "label": "Full drive"
-                        },
-                        {
-                            "label": "Relay mode"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Wave drive",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Full drive",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Relay mode",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Factor 10 turn degree( 1 = degrees, 9 = 90 degres, etc. )",
                     "label": "Lock Turn Degrees",
                     "index": "4",
-                    "items": [],
                     "max": "100",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "How many seconds from the lock has been unlatched to it automatically close again. If 0 then it's disabled",
                     "label": "Auto Latch time",
                     "index": "5",
-                    "items": [],
                     "max": "60",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Disable or enable the beep sound from latch or unlatch operations(",
                     "label": "Sound",
                     "index": "6",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Set the type of battery that powers the device. This affect the returned battery state.",
                     "label": "Battery Type",
                     "index": "7",
-                    "items": [
-                        {
-                            "label": "3.6V"
-                        },
-                        {
-                            "label": "3.0V"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "3.6V",
+                            "value": "0"
+                        },
+                        {
+                            "label": "3.0V",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "When the battery level is equal to, or under this value, the device will notify with a beep sound after latch or unlatch",
                     "label": "Battery Alarm Percent",
                     "index": "8",
-                    "items": [],
                     "max": "100",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Used if the lock is using a optional rotation sensor. Latch and Go on will turn automatically when manual turn is detected.",
                     "label": "Turn and Go",
                     "index": "9",
-                    "items": [
-                        {
-                            "label": "Off"
-                        },
-                        {
-                            "label": "On"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "On",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n\t\t\t0 = Disabled. \n\t\t\t1-15 Seconds to brake. \n\t\t\tWhen used the lock will brake for x amount of seconds and then turn 75 degrees back. \n\t\t\tMade for special doors without door lever.(Only when unlatching).",
                     "label": "Brake and Go Back",
                     "index": "10",
-                    "items": [],
                     "max": "15",
                     "min": "0",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\tUsed if the lock is using an optional rotation sensor. \n\t\t\tWhen async is enabled the lock will auto calibrate if already unlatched and asked to Unlatch again (used for special door locks where the key turn is asynced from the inside nob.)\n\t\t\t",
                     "label": "Async",
                     "index": "11",
-                    "items": [
-                        {
-                            "label": "Off"
-                        },
-                        {
-                            "label": "On"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "On",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "\n\t\t\t0 = Simple supported by all controllers that support door locks. \n\t\t\t1 = Advanced, more specific reports through notification Command Class. \n\t\t\t2 = No Door lock operation reports are sent unsolicited.\n\t\t\t",
                     "label": "Door lock operation report type",
                     "index": "12",
-                    "items": [
-                        {
-                            "label": "Simple"
-                        },
-                        {
-                            "label": "Advanced"
-                        },
-                        {
-                            "label": "Nothing"
-                        }
-                    ],
                     "max": "2",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Simple",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Advanced",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Nothing",
+                            "value": "2"
+                        }
+                    ]
                 }
             ]
         },

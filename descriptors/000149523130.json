@@ -8,54 +8,59 @@
                     "help": "\n\t\t\t\tThe ZIR010 can be configured to operate in 1 of 3 modes.\n\t\t\t\tThose modes are:\n\t\t\t\tLighting Mode (factory default)\n\t\t\t\tAlarm Mode\n\t\t\t\tSensor Mode\n\t\t\t\tTo change the mode of operation:\n\t\t\t\tFor Lighting Mode: Send a value of 0 to Configuration Parameter #17.\n\t\t\t\tFor Alarm Mode: Send a value of 1 to Configuration Parameter #17.\n\t\t\t\tFor Sensor Mode: Send a value of 2 to Configuration Parameter # 17.\n\t\t\t\tInformation reproduced from: http://www.pepper1.net/zwavedb/uploads/resources/bdf086a9388325a2fb8b8aa298e24e512faec65d.pdf\n\t\t\t",
                     "label": "Mode",
                     "index": "17",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Lighting"
+                            "label": "Lighting",
+                            "value": "0"
                         },
                         {
-                            "label": "Alarm"
+                            "label": "Alarm",
+                            "value": "1"
                         },
                         {
-                            "label": "Sensor"
+                            "label": "Sensor",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "\n\t\t\t\tThe configuration parameter that can be used to adjust the amount of delay before the OFF or IDLE command is transmitted is Configuration Parameter # 18.\n\t\t\t\tThis parameter can be configured with the value of 0 through 255.\n\t\t\t\tWhere 0 means no delay and 255 means 255 minutes of delay.\n\t\t\t\tDefault appears to be 1 min.\n\t\t\t\tInformation reproduced from: http://www.pepper1.net/zwavedb/uploads/resources/bdf086a9388325a2fb8b8aa298e24e512faec65d.pdf\n\t\t\t",
                     "label": "Off/Idle Delay",
                     "index": "18",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t\t\tThe ZIR010 can be disabled from sending commands unsolicited without removing associated devices by\n\t\t\t\tsetting Configuration Parameter # 19 to 0 (when asked for number of bytes, select 1).\n\t\t\t\tSetting it back to 1 will re-enable the ZIR010.\n\t\t\t\tInformation reproduced from: http://www.pepper1.net/zwavedb/uploads/resources/bdf086a9388325a2fb8b8aa298e24e512faec65d.pdf\n\t\t\t",
                     "label": "Unsolicited Commands",
                     "index": "19",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No"
+                            "label": "No",
+                            "value": "0"
                         },
                         {
-                            "label": "Yes"
+                            "label": "Yes",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "\n\t\t\t\tThe time the ZIR010 stays awake can be adjusted from 15 seconds to 45 seconds by sending a value of 15\n\t\t\t\tto 45 to the ZIR010 using Configuration Parameter # 22 (when asked for the number of bytes, select 1).\n\t\t\t\tThis awake time period starts over every time the ZIR010 receives a command or request.\n\t\t\t\tDefaults to 30 seconds.\n\t\t\t\tInformation reproduced from: http://www.pepper1.net/zwavedb/uploads/resources/bdf086a9388325a2fb8b8aa298e24e512faec65d.pdf\n\t\t\t",
                     "label": "Awake Time",
                     "index": "22",
-                    "items": [],
                     "max": "45",
                     "min": "15",
                     "type": "byte",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 }
             ]
         },

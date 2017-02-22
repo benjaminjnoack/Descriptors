@@ -8,28 +8,30 @@
                     "help": "\n            ",
                     "label": "Mode",
                     "index": "0",
-                    "items": [
-                        {
-                            "label": "Water Alarm"
-                        },
-                        {
-                            "label": "Water Level"
-                        }
-                    ],
                     "max": "255",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Water Alarm",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Water Level",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "",
                     "label": "Water Level timeout",
                     "index": "1",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
                     "type": "short",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 }
             ]
         }

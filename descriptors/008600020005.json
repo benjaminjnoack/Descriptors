@@ -8,135 +8,141 @@
                     "help": "Stay awake for 10 minutes after batteries are inserted",
                     "label": "Wake up 10 minutes when batteries are inserted",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "No"
-                        },
-                        {
-                            "label": "Yes"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "No",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "How long should the device associated to multi sensor keep state On before sending it Off command (if the value is bigger than 255, the value would be rounded to next integer in minutes)",
                     "label": "On time",
                     "index": "3",
-                    "items": [],
                     "max": "15300",
                     "min": "1",
                     "type": "short",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Enable Motion Sensor",
                     "label": "Enable Motion Sensor",
                     "index": "4",
-                    "items": [
-                        {
-                            "label": "Disabled"
-                        },
-                        {
-                            "label": "Enabled"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disabled",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enabled",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Which commands to send when PIR motion sensor triggered",
                     "label": "Command Options",
                     "index": "5",
-                    "items": [
-                        {
-                            "label": "Basic Set (default)"
-                        },
-                        {
-                            "label": "Binary Sensor Report"
-                        }
-                    ],
                     "max": "2",
                     "min": "1",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Basic Set (default)",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Binary Sensor Report",
+                            "value": "2"
+                        }
+                    ]
                 },
                 {
                     "help": "Reset to default parameters number 101-103. Any value other then 0 will initiate this reset.",
                     "label": "Reset #101-103",
                     "index": "100",
-                    "items": [],
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "Which reports need to send automatically in timing intervals for group 1. Bitsets: 0 -> Battery report, 5 -> Temperature, 6 -> Humidity, 7 -> Luminosity",
                     "label": "Group 1 Reports",
                     "index": "101",
-                    "items": [],
                     "type": "int",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "Which reports need to send automatically in timing intervals for group 2. Bitsets: 0 -> Battery report, 5 -> Temperature, 6 -> Humidity, 7 -> Luminosity",
                     "label": "Group 2 Reports",
                     "index": "102",
-                    "items": [],
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "Which reports need to send automatically in timing intervals for group 3. Bitsets: 0 -> Battery report, 5 -> Temperature, 6 -> Humidity, 7 -> Luminosity",
                     "label": "Group 3 Reports",
                     "index": "103",
-                    "items": [],
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "Reset to default parameters number 111-113. Any value other then 0 will initiate this reset.",
                     "label": "Reset #111-113",
                     "index": "110",
-                    "items": [],
-                    "type": "int"
+                    "type": "int",
+                    "items": []
                 },
                 {
                     "help": "The interval of sending report group 1. 1 to 2678400 seconds",
                     "label": "Group 1 Interval",
                     "index": "111",
-                    "items": [],
                     "max": "2678400",
                     "min": "1",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "The interval of sending report group 2. 1 to 2678400 seconds",
                     "label": "Group 2 Interval",
                     "index": "112",
-                    "items": [],
                     "max": "2678400",
                     "min": "1",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "The interval of sending report group 3. 1 to 2678400 seconds",
                     "label": "Group 3 Interval",
                     "index": "113",
-                    "items": [],
                     "max": "2678400",
                     "min": "1",
                     "type": "int",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "Reset to factory defaults.",
                     "label": "Reset to default",
                     "index": "255",
-                    "items": [],
-                    "type": "button"
+                    "type": "button",
+                    "items": []
                 }
             ]
         },

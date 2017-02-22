@@ -8,77 +8,79 @@
                     "help": "",
                     "label": "Temperature Unit",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Celsius"
-                        },
-                        {
-                            "label": "Fahrenheit"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Celsius",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Fahrenheit",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Threshold change in temperature to induce an automatic report.\n            1 to 50 ( Set up from 0.1C to 5C)\n            ",
                     "label": "Temperature Reporting Threshold",
                     "index": "2",
-                    "items": [],
                     "max": "50",
                     "min": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Threshold change in humidity to induce an automatic report.\n            1 to 50 ( Set up from 1%-50%)\n            ",
                     "label": "Humidity Reporting Threshold",
                     "index": "3",
-                    "items": [],
                     "max": "50",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n                Threshold change in luminance to induce an automatic report.\n                0 is disabled.\n                5 to 50 ( Set up from 5%-50%)\n            ",
                     "label": "Luminance Reporting Threshold",
                     "index": "4",
-                    "items": [],
                     "max": "50",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "\n                Value from 1 to 255 minutes to setup the re-trigger time when there is no movement detected in the period of time.\n            ",
                     "label": "Motion Sensor Re-trigger Duration",
                     "index": "5",
-                    "items": [],
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "min"
+                    "units": "min",
+                    "items": []
                 },
                 {
                     "help": "\n                Sensitivity of the integrated PIR sensor.\n                1 to 7 ( 1 = Most Sensitive )\n            ",
                     "label": "Motion Sensor Sensitivity Adjustment",
                     "index": "6",
-                    "items": [],
                     "max": "7",
                     "min": "1",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n\t\t1 - Turn Off LED\n\t\t2 - Breathing Light Mode (High Battery Consumption)\n\t\t3 - Quick Flash on Sensor Reporting or Motion Trigger\n            ",
                     "label": "LED Mode",
                     "index": "7",
-                    "items": [],
                     "max": "3",
                     "min": "1",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         },

@@ -12,35 +12,39 @@
                     "help": "\n\t\t\tConfigures the sensor to send or not send Basic Set commands of 0x00 to nodes in Association group 2 turning the devices off when the sensor is in a restored state (i.e. motion not detected).  \n\t\t\tBy default the sensor does NOT send Basic Set commands of 0x00.\n\t\t\t",
                     "label": "Basic Set Report when sensor is restored",
                     "index": "1",
-                    "items": [
-                        {
-                            "label": "Disable"
-                        },
-                        {
-                            "label": "Enable"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Disable",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enable",
+                            "value": "255"
+                        }
+                    ]
                 },
                 {
                     "help": "\n\t\t\tConfigures the sensor to either to send or not to send Sensor Binary Report commands to Association Group 1 when the sensor is faulted and restored.  \n\t\t\t",
                     "label": "Basic Set Report",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Enable Binary Reports"
-                        },
-                        {
-                            "label": "Disable Binary Reports"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Enable Binary Reports",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Disable Binary Reports",
+                            "value": "255"
+                        }
+                    ]
                 }
             ]
         },

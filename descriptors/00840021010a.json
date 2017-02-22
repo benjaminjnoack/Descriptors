@@ -8,21 +8,21 @@
                     "help": "",
                     "label": "Low Temperature Trigger Point",
                     "index": "1",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 },
                 {
                     "help": "",
                     "label": "High Temperature Trigger Point",
                     "index": "2",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "degrees"
+                    "units": "degrees",
+                    "items": []
                 }
             ]
         },

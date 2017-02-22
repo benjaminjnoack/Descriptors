@@ -8,85 +8,87 @@
                     "help": "\n\tSet Basic Set Command value to be sent to group 2 when switch is turned on.\n\n\tWhen the physical button on the mini-plug is used to turn OFF the switch the value \"0\" will always be sent to group 2,\n\thowever this is not the case when the switch is turned off remotely.\n\t    ",
                     "label": "Basic Set Command",
                     "index": "1",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "\n                The delaying time to report to Group 1\n            ",
                     "label": "Delay",
                     "index": "2",
-                    "items": [],
                     "max": "25",
                     "min": "3",
                     "size": "1",
                     "type": "byte",
-                    "units": "seconds"
+                    "units": "seconds",
+                    "items": []
                 },
                 {
                     "help": "\n                Remember the last status on plug\n            ",
                     "label": "Remember Last",
                     "index": "3",
-                    "items": [
-                        {
-                            "label": "Do not remember"
-                        },
-                        {
-                            "label": "Remember"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
                     "type": "list",
-                    "units": ""
+                    "units": "",
+                    "items": [
+                        {
+                            "label": "Do not remember",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Remember",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Set the interval for wattage auto report (0 = disabled)",
                     "label": "Wattage Auto Report",
                     "index": "4",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "Set the interval for kWh auto report (0 = disabled)",
                     "label": "Energy Auto report",
                     "index": "5",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "Auto report is sent when load surpasses the set value of wattage (0 = disabled)",
                     "label": "Value of Wattage surpassed",
                     "index": "6",
-                    "items": [],
                     "max": "2500",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "watts"
+                    "units": "watts",
+                    "items": []
                 },
                 {
                     "help": "Auto report is sent when the change of wattage surpasses the set percentage (0 = disabled)",
                     "label": "Change of Wattage surpassed",
                     "index": "7",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 }
             ]
         },

@@ -8,17 +8,17 @@
                     "help": "Turn on the module when the attached load is connected.",
                     "label": "Load Sensing",
                     "index": "29",
-                    "items": [],
                     "size": "1",
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 },
                 {
                     "help": "This dimmer will always start dimming from its current level, ignoring any commanded start level.",
                     "label": "Ignore Start-Level (Receiving)",
                     "index": "5",
-                    "items": [],
                     "size": "1",
-                    "type": "bool"
+                    "type": "bool",
+                    "items": []
                 }
             ]
         },
@@ -28,11 +28,11 @@
                 {
                     "label": "Level",
                     "index": "0",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 }
             ]
         }

@@ -8,36 +8,36 @@
                     "help": "To configure the time (value * 0.1 sec) the motor waits before switching direction.",
                     "label": "Changeover delay (motor protection)",
                     "index": "176",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "To configure input 1 of the raising time calculation (256 * Input 1 + Input 2) * 0.1 sec",
                     "label": "Raising time input 1",
                     "index": "177",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "To configure input 1 of the raising time calculation (256 * Input 1 + Input 2) * 0.1 sec",
                     "label": "Raising time input 2",
                     "index": "178",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "To configure input 1 of the lowering time calculation (256 * Input 1 + Input 2) * 0.1 sec",
                     "label": "Lowering time input 1",
                     "index": "179",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "To configure input 1 of the lowering time calculation (256 * Input 1 + Input 2) * 0.1 sec",
                     "label": "Lowering time input 2",
                     "index": "180",
-                    "items": [],
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 }
             ]
         },

@@ -8,713 +8,790 @@
                     "help": "Parameter is set automatically during the calibration process. Options for changing parameter 1-98. Default 1.",
                     "label": "Minimum brightness level",
                     "index": "1",
-                    "items": [],
                     "max": "98",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Parameter is set automatically during the calibration process. Options for changing parameter 2-99. Default 99.",
                     "label": "Maximum brightness level",
                     "index": "2",
-                    "items": [],
                     "max": "99",
                     "min": "2",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Virtual value set as a percentage level between parameters MIN (1%) and MAX. (99%). The Dimmer will set to this value after first switch on. It is required for warming up and switching dimmable compact fluorescent lamps and certain types of light sources. Options for changing parameter 1-99. Default 1.",
                     "label": "Incandescence level of dimmable compact fluorescent lamps",
                     "index": "3",
-                    "items": [],
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "This parameter determines the time required for switching compact fluorescent lamps and certain types of light sources. Setting this parameter to 0 will disable the incandescence functionality. Available settings: 0-255 (0s - 25,5s)",
                     "label": "Incandescence time of dimmable compact fluorescent lamps",
                     "index": "4",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "sec"
+                    "units": "sec",
+                    "items": []
                 },
                 {
                     "help": "Available settings: 1-99 Default: 1",
                     "label": "The percentage of a dimming step at automatic control",
                     "index": "5",
-                    "items": [],
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Available settings: 0-255 (0s - 2,55s) Default setting: 1",
                     "label": "Time of a dimming step at automatic control",
                     "index": "6",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "sec"
+                    "units": "sec",
+                    "items": []
                 },
                 {
                     "help": "Available settings: 1-99 Default: 1",
                     "label": "The percentage of a dimming step at manual control",
                     "index": "7",
-                    "items": [],
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Available settings: 0-255 (0s - 2,55s) Default setting: 1",
                     "label": "Time of a dimming step at manual control",
                     "index": "8",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "sec"
+                    "units": "sec",
+                    "items": []
                 },
                 {
                     "help": "Saving state before power failure. Default 1.",
                     "label": "Saving state before power failure",
                     "index": "9",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore"
+                            "label": "State NOT saved at power failure, all outputs are set to OFF upon power restore",
+                            "value": "0"
                         },
                         {
-                            "label": "State saved at power failure, all outputs are set to previous state upon power restore"
+                            "label": "State saved at power failure, all outputs are set to previous state upon power restore",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Available settings: 0 - Function disabled; 1-32767 - time to turn off measured in seconds (1s - 9,1h) Default setting: 0",
                     "label": "Timer functionality (auto - off)",
                     "index": "10",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "sec"
+                    "units": "sec",
+                    "items": []
                 },
                 {
                     "help": "Enable/Disable ALL ON/OFF. Default 255.",
                     "label": "Enable/Disable ALL ON/OFF",
                     "index": "11",
+                    "size": "2",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "ALL ON active / ALL OFF active"
+                            "label": "ALL ON active / ALL OFF active",
+                            "value": "255"
                         },
                         {
-                            "label": "ALL ON disabled/ ALL OFF disabled"
+                            "label": "ALL ON disabled/ ALL OFF disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "ALL ON disabled/ ALL OFF active"
+                            "label": "ALL ON disabled/ ALL OFF active",
+                            "value": "1"
                         },
                         {
-                            "label": "ALL ON active / ALL OFF disabled"
+                            "label": "ALL ON active / ALL OFF disabled",
+                            "value": "2"
                         }
-                    ],
-                    "size": "2",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Changing value of this parameter will force the calibration process.",
                     "label": "Force auto-calibration",
                     "index": "13",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "idle"
+                            "label": "idle",
+                            "value": "0"
                         },
                         {
-                            "label": "Start auto-calibration of the load without Fibaro Bypass"
+                            "label": "Start auto-calibration of the load without Fibaro Bypass",
+                            "value": "1"
                         },
                         {
-                            "label": "Start auto-calibration of the load with Fibaro Bypass"
+                            "label": "Start auto-calibration of the load with Fibaro Bypass",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This parameter determines operating mode of the Dimmer (automatic/manual settings).",
                     "label": "Auto-calibration status",
                     "index": "14",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "calibration procedure not performed or Dimmer operates on manual settings"
+                            "label": "calibration procedure not performed or Dimmer operates on manual settings",
+                            "value": "0"
                         },
                         {
-                            "label": "Dimmer operates on auto-calibration settings"
+                            "label": "Dimmer operates on auto-calibration settings",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Function based on the sudden power variation of a specific value, interpreted as a LOAD ERROR. Available settings: 0 - function disabled; 1-99 - percentage value of power variation, compared to standard power consumption, measured during the calibration procedure (to be interpreted as load error/burnt out bulb) Default setting: 30",
                     "label": "Burnt out bulb detection",
                     "index": "15",
-                    "items": [],
                     "max": "99",
                     "min": "1",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Time of delay (in seconds) for power variation detection, interpreted as a LOAD ERROR or OVERLOAD detection (too much power connected to the Dimmer). Available settings: 0 - detection of a burnt out bulb disabled; 1-255 - delay time in seconds; Default setting: 5",
                     "label": "Time delay of a burnt out bulb",
                     "index": "16",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "If the parameter is active, switching on the Dimmer (S1 single click) will always set this brightness level. Available settings: 0 - function disabled; 1-99 - percentage level of brightness; Default setting: 0",
                     "label": "Forced switch on brightness level",
                     "index": "19",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Binary inputs type configuration. Default 0.",
                     "label": "Inputs Button/Switch configuration",
                     "index": "20",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Mono-stable input (button)"
+                            "label": "Mono-stable input (button)",
+                            "value": "0"
                         },
                         {
-                            "label": "Bi-stable input (switch)"
+                            "label": "Bi-stable input (switch)",
+                            "value": "1"
                         },
                         {
-                            "label": "Role blind switch (UP / DOWN) - two switch keys operate the Dimmer"
+                            "label": "Role blind switch (UP / DOWN) - two switch keys operate the Dimmer",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "The value sent to associated devices on single click.",
                     "label": "The value sent to associated devices on single click",
                     "index": "21",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "0xFF value is sent, which will set associated devices to their last saved state."
+                            "label": "0xFF value is sent, which will set associated devices to their last saved state.",
+                            "value": "0"
                         },
                         {
-                            "label": "Current Dimmer state is sent, which will synchronize brightness level of associated devices (other Dimmers for example)."
+                            "label": "Current Dimmer state is sent, which will synchronize brightness level of associated devices (other Dimmers for example).",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "label": "Assign toggle switch status to the device status",
                     "index": "22",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Device changes status on switch status change"
+                            "label": "Device changes status on switch status change",
+                            "value": "0"
                         },
                         {
-                            "label": "Device status is synchronized with switch status"
+                            "label": "Device status is synchronized with switch status",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Double-click set lighting at 100%. Default 1.",
                     "label": "Double click option",
                     "index": "23",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Disable double click"
+                            "label": "Disable double click",
+                            "value": "0"
                         },
                         {
-                            "label": "Enable double click"
+                            "label": "Enable double click",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Parameter determines, which actions will not result in sending frames to association groups. Parameter values may be combined, e.g. 1+2=3 means that associations on switching on or off the Dimmer (single click) will not be sent.\nAvailable settings: 0-31\n0 - all actions send to association groups;\n1 - do not send when switching on the Dimmer (single click);\n2 - do not send when switching off the Dimmer (single click);\n4 - do not send when changing dimming level (holding and releasing);\n8 - do not send on double click;\n16 - send 0xFF value on double click;\nDefault setting: 0",
                     "label": "Command frames sent in 2-nd and 3-rd association groups (S1 associations)",
                     "index": "24",
-                    "items": [],
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Parameter determines, which actions will not result in sending frames to association groups. Parameter values may be combined, e.g. 1+2=3 means that associations on switching on or off the Dimmer (single click) will not be sent.\nAvailable settings: 0-31\n0 - all actions send to association groups;\n1 - do not send when switching on the Dimmer (single click);\n2 - do not send when switching off the Dimmer (single click);\n4 - do not send when changing dimming level (holding and releasing);\n8 - do not send on double click;\n16 - send 0xFF value on double click;\nDefault setting: 0",
                     "label": "Command frames sent in 4-th and 5-th association groups (S2 associations)",
                     "index": "25",
-                    "items": [],
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "Switch no. 2 controls the Dimmer additionally (in 3-way switch mode). Function disabled for parameter 20 set to 2 (roller blind switch)",
                     "label": "The function of 3-way switch",
                     "index": "26",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "3-way switch function for S2 disabled"
+                            "label": "3-way switch function for S2 disabled",
+                            "value": "0"
                         },
                         {
-                            "label": "3-way switch function for S2 enabled"
+                            "label": "3-way switch function for S2 enabled",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This parameter defines how commands are sent in specified association groups: as secure or non-secure. Parameter is active only in Z-Wave network security mode. It does not apply to 1st Lifeline group. Parameter values may be combined, e.g. 1+2=3 means that 2nd & 3rd group are sent as secure.\nAvailable settings: 0-15\n0 - all groups (II-V) sent as non-secure;\n1 - 2nd group sent as secure;\n2 - 3rd group sent as secure;\n4 - 4th group sent as secure;\n8 - 5th group sent as secure;\n15 - all groups (II-V) sent as secure;\nDefault setting: 15",
                     "label": "Associations in Z-Wave network security mode",
                     "index": "27",
-                    "items": [],
                     "size": "1",
-                    "type": "byte"
+                    "type": "byte",
+                    "items": []
                 },
                 {
                     "help": "SCENE ID depends on the switch type configurations. Default 0.",
                     "label": "Scene activation functionality",
                     "index": "28",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Functionality deactivated"
+                            "label": "Functionality deactivated",
+                            "value": "0"
                         },
                         {
-                            "label": "Functionality activated"
+                            "label": "Functionality activated",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "label": "Switch functionality of S1 and S2",
                     "index": "29",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "standard mode"
+                            "label": "standard mode",
+                            "value": "0"
                         },
                         {
-                            "label": "S1 operates as S2, S2 operates as S1"
+                            "label": "S1 operates as S2, S2 operates as S1",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Forced auto-calibration will set this parameter value to 2.",
                     "label": "Load control mode",
                     "index": "30",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "forced leading edge control"
+                            "label": "forced leading edge control",
+                            "value": "0"
                         },
                         {
-                            "label": "forced trailing edge control"
+                            "label": "forced trailing edge control",
+                            "value": "1"
                         },
                         {
-                            "label": "control mode selected automatically (based on auto-calibration)"
+                            "label": "control mode selected automatically (based on auto-calibration)",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Load control mode recognized during auto-calibration.",
                     "label": "Load control mode",
                     "index": "31",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "leading edge"
+                            "label": "leading edge",
+                            "value": "0"
                         },
                         {
-                            "label": "trailing edge"
+                            "label": "trailing edge",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Load control mode recognized during auto-calibration.",
                     "label": "On/Off mode",
                     "index": "32",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "on/off mode disabled (dimming is possible)"
+                            "label": "on/off mode disabled (dimming is possible)",
+                            "value": "0"
                         },
                         {
-                            "label": "on/off mode enabled (dimming is not possible)"
+                            "label": "on/off mode enabled (dimming is not possible)",
+                            "value": "1"
                         },
                         {
-                            "label": "mode selected automatically"
+                            "label": "mode selected automatically",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Dimmability of the load",
                     "label": "Dimmability of the load",
                     "index": "33",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Load recognized as dimmable"
+                            "label": "Load recognized as dimmable",
+                            "value": "0"
                         },
                         {
-                            "label": "Load recognized as non-dimmable"
+                            "label": "Load recognized as non-dimmable",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Time required to warm up the filament of halogen bulb.",
                     "label": "Soft-Start functionality",
                     "index": "34",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "no soft-start"
+                            "label": "no soft-start",
+                            "value": "0"
                         },
                         {
-                            "label": "short soft-start (0.1s)"
+                            "label": "short soft-start (0.1s)",
+                            "value": "1"
                         },
                         {
-                            "label": "long soft-start (0.5s)"
+                            "label": "long soft-start (0.5s)",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This parameter determines the trigger of auto-calibration procedure, e.g. power on, load error, etc.",
                     "label": "Auto-calibration after power on",
                     "index": "35",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No auto-calibration of the load after power on"
+                            "label": "No auto-calibration of the load after power on",
+                            "value": "0"
                         },
                         {
-                            "label": "Auto-calibration performed after first power on"
+                            "label": "Auto-calibration performed after first power on",
+                            "value": "1"
                         },
                         {
-                            "label": "Auto-calibration performed after each power on"
+                            "label": "Auto-calibration performed after each power on",
+                            "value": "2"
                         },
                         {
-                            "label": "Auto-calibration performed after first power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb)"
+                            "label": "Auto-calibration performed after first power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb)",
+                            "value": "3"
                         },
                         {
-                            "label": "Auto-calibration performed after each power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb),"
+                            "label": "Auto-calibration performed after each power on or after each LOAD ERROR alarm (no load, load failure, burnt out bulb),",
+                            "value": "4"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Behaviour of the Dimmer after OVERCURRENT or SURGE",
                     "label": "Behaviour of the Dimmer after OVERCURRENT or SURGE",
                     "index": "37",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "device permanently disabled until re-enabling by comand or external switch"
+                            "label": "device permanently disabled until re-enabling by comand or external switch",
+                            "value": "0"
                         },
                         {
-                            "label": "three atempts to turn on the load"
+                            "label": "three atempts to turn on the load",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Correction reduces spontaneous flickering of some capacitive load (e.g. dimmable lEDs) at certain brightness levels in 2-wire installation. In countries using ripple-control, correction may cause changes in brightness. In this case it is necessary to disable correction or adjust time of correction for flickering loads. Available settings: 0 - automatic correction disabled 1-254 - duration of correction in seconds 255 - automatic correction always enabled Default setting: 255",
                     "label": "Brightness level correction for flickering loads",
                     "index": "38",
-                    "items": [],
                     "max": "255",
                     "min": "0",
-                    "type": "short"
+                    "type": "short",
+                    "items": []
                 },
                 {
                     "help": "Reaching the defined value will result in turning off the load. Additional apparent power limit of 350VA is active by default. Available settings: 0 - functionality disabled; 1-350 - 1W-350W; Default setting: 250",
                     "label": "Power limit - OVERLOAD",
                     "index": "39",
-                    "items": [],
                     "max": "350",
                     "min": "1",
                     "type": "short",
-                    "units": "Watt"
+                    "units": "Watt",
+                    "items": []
                 },
                 {
                     "help": "Response to General Purpose Alarm; Default 3.",
                     "label": "Response to General Purpose Alarm",
                     "index": "40",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction - no response to alarm frames"
+                            "label": "No reaction - no response to alarm frames",
+                            "value": "0"
                         },
                         {
-                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame"
+                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+                            "value": "1"
                         },
                         {
-                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame"
+                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+                            "value": "2"
                         },
                         {
-                            "label": "ALARM FLASHING - device will turn ON and OFF periodically"
+                            "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Response to Water Flooding Alarm; Default 2.",
                     "label": "Response to Water Flooding Alarm",
                     "index": "41",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction - no response to alarm frames"
+                            "label": "No reaction - no response to alarm frames",
+                            "value": "0"
                         },
                         {
-                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame"
+                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+                            "value": "1"
                         },
                         {
-                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame"
+                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+                            "value": "2"
                         },
                         {
-                            "label": "ALARM FLASHING - device will turn ON and OFF periodically"
+                            "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Response to Smoke, CO or CO2 Alarm; Default 3.",
                     "label": "Response to Smoke, CO or CO2 Alarm",
                     "index": "42",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction - no response to alarm frames"
+                            "label": "No reaction - no response to alarm frames",
+                            "value": "0"
                         },
                         {
-                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame"
+                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+                            "value": "1"
                         },
                         {
-                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame"
+                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+                            "value": "2"
                         },
                         {
-                            "label": "ALARM FLASHING - device will turn ON and OFF periodically"
+                            "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Response to Temperature Alarm; Default 1.",
                     "label": "Response to Temperature Alarm",
                     "index": "43",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction - no response to alarm frames"
+                            "label": "No reaction - no response to alarm frames",
+                            "value": "0"
                         },
                         {
-                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame"
+                            "label": "ALARM DIMMER ON - device turn ON upon receipt of alarm frame",
+                            "value": "1"
                         },
                         {
-                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame"
+                            "label": "ALARM DIMMER OFF - device will turn OFF upon receipt of alarm frame",
+                            "value": "2"
                         },
                         {
-                            "label": "ALARM FLASHING - device will turn ON and OFF periodically"
+                            "label": "ALARM FLASHING - device will turn ON and OFF periodically",
+                            "value": "3"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "Alarm state may be cancelled earlier, as a result of pressing the switches or sending the Z-Wave command frame.",
                     "label": "Time of alarm state",
                     "index": "44",
-                    "items": [],
                     "max": "32767",
                     "min": "1",
                     "size": "2",
                     "type": "byte",
-                    "units": "sec"
+                    "units": "sec",
+                    "items": []
                 },
                 {
                     "help": "OVERLOAD alarm report (load power consumption too high)",
                     "label": "OVERLOAD alarm report",
                     "index": "45",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction"
+                            "label": "No reaction",
+                            "value": "0"
                         },
                         {
-                            "label": "Send an alarm frame"
+                            "label": "Send an alarm frame",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "LOAD ERROR alarm report (no load, load failure, burnt out bulb)",
                     "label": "LOAD ERROR alarm report",
                     "index": "46",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction"
+                            "label": "No reaction",
+                            "value": "0"
                         },
                         {
-                            "label": "Send an alarm frame"
+                            "label": "Send an alarm frame",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "OVERCURRENT alarm report (short circuit, burnt out bulb causing overcurrent)",
                     "label": "OVERCURRENT alarm report",
                     "index": "47",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction"
+                            "label": "No reaction",
+                            "value": "0"
                         },
                         {
-                            "label": "Send an alarm frame"
+                            "label": "Send an alarm frame",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "SURGE alarm report (Dimmer output overvoltage)",
                     "label": "SURGE alarm report",
                     "index": "48",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction"
+                            "label": "No reaction",
+                            "value": "0"
                         },
                         {
-                            "label": "Send an alarm frame"
+                            "label": "Send an alarm frame",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "OVERHEAT (critical temperature) and VOLTAGE DROP (low voltage) alarm report",
                     "label": "OVERHEAT and VOLTAGE DROP alarm report",
                     "index": "49",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "No reaction"
+                            "label": "No reaction",
+                            "value": "0"
                         },
                         {
-                            "label": "Send an alarm frame"
+                            "label": "Send an alarm frame",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "The parameter defines the power level change that will result in a new power report being sent. The value is a percentage of the previous report. Available settings:\n0 - power reports disabled;\n1-100 (1-100%) - power report threshold;\nDefault setting: 10 (10%)",
                     "label": "Active power reports",
                     "index": "50",
-                    "items": [],
                     "max": "100",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 },
                 {
                     "help": "Parameter 52 defines a time period between consecutive reports. Timer is reset and counted from zero after each report. Available settings:\n0 - periodic reports disabled;\n1-32767 (1-32767 seconds);\nDefault setting: 3600 (3600s)",
                     "label": "Periodic active power and energy reports",
                     "index": "52",
-                    "items": [],
                     "max": "32767",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "sec"
+                    "units": "sec",
+                    "items": []
                 },
                 {
                     "help": "Energy level change which will result in sending a new energy report. Available settings:\n0 - energy reports disabled; \n1-255 (0,01 - 2,55 kWh) - report triggering threshold;\nDefault setting: 10 (0,1 kWh)",
                     "label": "Energy reports",
                     "index": "59",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "size": "2",
                     "type": "byte",
-                    "units": "kWh"
+                    "units": "kWh",
+                    "items": []
                 },
                 {
                     "help": "The Dimmer may include active power and energy consumed by itself in reports sent to the main controller.",
                     "label": "Self-measurement",
                     "index": "54",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "Self-measurement inactive"
+                            "label": "Self-measurement inactive",
+                            "value": "0"
                         },
                         {
-                            "label": "Self-measurement active"
+                            "label": "Self-measurement active",
+                            "value": "1"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This parameter defines how to calculate active power. This parameter is useful in a case of 2-wire connection with light sources other than resistive. The parameter is set to 0 after forced auto-calibration.",
                     "label": "Method of calculating the active power",
                     "index": "58",
+                    "size": "1",
+                    "type": "list",
                     "items": [
                         {
-                            "label": "power measurement based on the standard algorithm"
+                            "label": "power measurement based on the standard algorithm",
+                            "value": "0"
                         },
                         {
-                            "label": "approximation based on the calibration data"
+                            "label": "approximation based on the calibration data",
+                            "value": "1"
                         },
                         {
-                            "label": "approximation based on the control angle"
+                            "label": "approximation based on the control angle",
+                            "value": "2"
                         }
-                    ],
-                    "size": "1",
-                    "type": "list"
+                    ]
                 },
                 {
                     "help": "This parameter determines the approximate value of the power that will be reported by the device at its maximum brightness level. This parameter works only when parameter 58 has a value other than 0. Available settings: 0-500 (0-500W) - power consumed by the load at the maximum brightness level. Default setting: 0",
                     "label": "Approximated power at the maximum brightness level",
                     "index": "53",
-                    "items": [],
                     "max": "500",
                     "min": "0",
                     "size": "2",
                     "type": "short",
-                    "units": "Watt"
+                    "units": "Watt",
+                    "items": []
                 }
             ]
         },

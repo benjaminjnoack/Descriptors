@@ -7,21 +7,24 @@
                 {
                     "label": "Mode",
                     "index": "0",
-                    "items": [
-                        {
-                            "label": "Off"
-                        },
-                        {
-                            "label": "Heat"
-                        },
-                        {
-                            "label": "Heat Econ"
-                        }
-                    ],
                     "max": "11",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Off",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Heat",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Heat Econ",
+                            "value": "11"
+                        }
+                    ]
                 }
             ]
         },
@@ -31,16 +34,16 @@
                 {
                     "label": "Comfort setpoint",
                     "index": "1",
-                    "items": [],
                     "type": "decimal",
-                    "units": "C"
+                    "units": "C",
+                    "items": []
                 },
                 {
                     "label": "Energy saving setpoint",
                     "index": "11",
-                    "items": [],
                     "type": "decimal",
-                    "units": "C"
+                    "units": "C",
+                    "items": []
                 }
             ]
         }

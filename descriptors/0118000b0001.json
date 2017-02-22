@@ -8,11 +8,11 @@
                     "help": "\n\t\t\t\tDefines the level in the Basic Set event sent to group 2 when the sensor is triggered.  Default is 99 (full brightness for a Z-Wave dimmer). 0 disables.\n\t\t\t",
                     "label": "Basic Set Level",
                     "index": "1",
-                    "items": [],
                     "max": "99",
                     "min": "0",
                     "type": "byte",
-                    "units": "%"
+                    "units": "%",
+                    "items": []
                 }
             ]
         },

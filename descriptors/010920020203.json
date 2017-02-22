@@ -8,48 +8,50 @@
                     "help": "Time until an associated device will turn off if no new movement is detected",
                     "label": "Re-Trigger Waiting Time",
                     "index": "1",
-                    "items": [],
                     "max": "255",
                     "min": "1",
                     "type": "byte",
-                    "units": "minutes"
+                    "units": "minutes",
+                    "items": []
                 },
                 {
                     "help": "Report temperature in Celcius or Fahrenheit",
                     "label": "Celcius/Fahrenheit",
                     "index": "2",
-                    "items": [
-                        {
-                            "label": "Celcius"
-                        },
-                        {
-                            "label": "Fahrenheit"
-                        }
-                    ],
                     "max": "1",
                     "min": "0",
                     "size": "1",
-                    "type": "list"
+                    "type": "list",
+                    "items": [
+                        {
+                            "label": "Celcius",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Fahrenheit",
+                            "value": "1"
+                        }
+                    ]
                 },
                 {
                     "help": "Sensitivity 1-7 (1 = most sensitive, 7 = most insensitive. 4 is default)",
                     "label": "Sensitivity",
                     "index": "3",
-                    "items": [],
                     "max": "7",
                     "min": "1",
                     "type": "byte",
-                    "units": ""
+                    "units": "",
+                    "items": []
                 },
                 {
                     "help": "-10 to -1, 0 to 10 (Signed decimal: 246 to 255, 0 to 10)",
                     "label": "Temperature adjustment",
                     "index": "4",
-                    "items": [],
                     "max": "255",
                     "min": "0",
                     "type": "byte",
-                    "units": "Degrees Celsius"
+                    "units": "Degrees Celsius",
+                    "items": []
                 }
             ]
         },
