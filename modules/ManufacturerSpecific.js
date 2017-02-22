@@ -18,19 +18,14 @@ class ManufacturerSpecific extends File {
       .then((results) => {
         results = results[h.MSD];
         results = results[h.MANUFACTURER];//An Array
-        return ManufacturerSpecific.buildManufacturers(results);
+
+        let all = results.map((manufacturer) => {
+          manufacturer = new Manufacturer(manufacturer);
+          return manufacturer.parse();
+        });
+
+        return Promise.all(all);
       });
-  }
-
-  static buildManufacturers(manufacturers) {
-    let all = [];
-
-    manufacturers.forEach((manufacturer) => {
-      manufacturer = new Manufacturer(manufacturer);
-      all.push(manufacturer.parse());
-    });
-
-    return Promise.all(all);
   }
 }
 
