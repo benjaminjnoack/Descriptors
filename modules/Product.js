@@ -41,14 +41,6 @@ class Product extends File {
     this._manufacturer = meta;
   }
 
-  get name() {
-    return this._name;
-  }
-
-  set name(name) {
-    this._name = name;
-  }
-
   get type() {
     return this._type;
   }

@@ -26,14 +26,6 @@ class Manufacturer extends Element {
     this._id = parseInt(id, 16);
   }
 
-  get name() {
-    return this._name;
-  }
-
-  set name(name) {
-    this._name = name;
-  }
-
   get meta() {
     return {
       id: this.id,
