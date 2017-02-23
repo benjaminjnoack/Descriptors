@@ -40,8 +40,8 @@ h = Object.defineProperties(h, {
 });
 
 h = Object.defineProperties(h, {
-  'CONFIG_DIR'      : { value: path.join(__dirname, '..', 'config')},
-  'DESCRIPTORS_DIR' : { value: path.join(__dirname, '..', 'descriptors')},
+  'CONFIG_DIR'      : { value: path.join(h.BASE_DIR, 'config')},
+  "OUTPUT_DIR" : { value: path.join(h.BASE_DIR, 'output')},
   'META_DIR'        : { value: path.join(h.BASE_DIR, 'meta')}
 });
 

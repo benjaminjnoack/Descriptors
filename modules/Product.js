@@ -112,7 +112,7 @@ class Product extends File {
 
   static writeProductFile(manufacturer, product) {
     let file = Product.categoryProductId(manufacturer, product);
-    file = `${h.DESCRIPTORS_DIR}/${file}.json`;
+    file = `${h.OUTPUT_DIR}/${file}.json`;
     fs.writeFileSync(file, Product.getTemplate(manufacturer, product));
   }
 }
