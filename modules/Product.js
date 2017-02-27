@@ -94,7 +94,7 @@ class Product extends File {
   static getTemplate(manufacturer, product) {
     let template = {
       commands: {},
-      command_classes: product.command_classes,
+      // command_classes: product.command_classes,
       configurations: [],
       meta: {
         display: {
