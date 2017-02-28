@@ -53,8 +53,8 @@ class Manufacturer extends Element {
   }
 
   parse() {
-    if (!this.products.length)
-      return Promise.resolve();
+    if (!this.products || !this.products.length)
+      return Promise.resolve(this.print());
 
     let all = [];
 
@@ -65,20 +65,29 @@ class Manufacturer extends Element {
     return Promise.all(all)
       .then(() => {
         Manufacturer.writeManufacturerFile(this);
+        return this.print();
       });
   }
 
   print() {
-    return JSON.stringify({
+    return {
       id: this.id,
-      name: this.name,
-      products: this.products.map(p => { return p.print(); })
+      name: this.name
+    };
+  }
+
+  static getTemplate(manufacturer) {
+    return JSON.stringify({
+      id: manufacturer.id,
+      name: manufacturer.name,
+      products: manufacturer.products.map(p => { return p.print(); })
     }, null, 4);
   }
 
   static writeManufacturerFile(manufacturer) {
     let file = `${h.OUTPUT_DIR}/manufacturers/${manufacturer.id}.json`;
-    fs.writeFileSync(file, manufacturer.print());
+    let template = Manufacturer.getTemplate(manufacturer);
+    fs.writeFileSync(file, template);
   }
 }
 

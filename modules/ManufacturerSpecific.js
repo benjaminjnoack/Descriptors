@@ -5,6 +5,7 @@
 
 const
   File          = require('./File'),
+  fs            = require('fs'),
   h             = require('./h'),
   Manufacturer  = require('./Manufacturer');
 
@@ -24,8 +25,17 @@ class ManufacturerSpecific extends File {
           return manufacturer.parse();
         });
 
-        return Promise.all(all);
+        return Promise.all(all)
+          .then((manufacturers) => {
+            ManufacturerSpecific.writeIndex(manufacturers);
+          });
       });
+  }
+
+  static writeIndex(manufacturers) {
+    let file = `${h.OUTPUT_DIR}/manufacturers/index.json`;
+    let data = JSON.stringify(manufacturers, null, 4);
+    fs.writeFileSync(file, data);
   }
 }
 
