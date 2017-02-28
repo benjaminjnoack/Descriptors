@@ -92,16 +92,24 @@ class Product extends File {
   }
 
   static getTemplate(manufacturer, product) {
+    // let template = {
+    //   commands: {},
+    //   configurations: [],
+    //   meta: {
+    //     display: {
+    //       manufacturer: manufacturer.name,
+    //       product: product.name
+    //     }
+    //   },
+    //   manufacturerId: manufacturer.id,
+    //   productId: product.id,
+    //   productTypeId: product.type
+    // };
+
     let template = {
-      commands: {},
-      // command_classes: product.command_classes,
-      configurations: [],
-      meta: {
-        display: {
-          manufacturer: manufacturer.name,
-          product: product.name
-        }
-      },
+      command_classes: product.command_classes,
+      manufacturer: manufacturer.name,
+      product: product.name,
       manufacturerId: manufacturer.id,
       productId: product.id,
       productTypeId: product.type
@@ -112,7 +120,7 @@ class Product extends File {
 
   static writeProductFile(manufacturer, product) {
     let file = Product.categoryProductId(manufacturer, product);
-    file = `${h.OUTPUT_DIR}/${file}.json`;
+    file = `${h.OUTPUT_DIR}/cc/${file}.json`;
     fs.writeFileSync(file, Product.getTemplate(manufacturer, product));
   }
 }
