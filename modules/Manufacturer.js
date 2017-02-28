@@ -5,6 +5,7 @@
 
 const
   Element = require('./Element'),
+  fs      = require('fs'),
   h       = require('./h'),
   Product = require('./Product');
 
@@ -61,7 +62,23 @@ class Manufacturer extends Element {
       all.push(product.parse());
     });
 
-    return Promise.all(all);
+    return Promise.all(all)
+      .then(() => {
+        Manufacturer.writeManufacturerFile(this);
+      });
+  }
+
+  print() {
+    return JSON.stringify({
+      id: this.id,
+      name: this.name,
+      products: this.products.map(p => { return p.print(); })
+    }, null, 4);
+  }
+
+  static writeManufacturerFile(manufacturer) {
+    let file = `${h.OUTPUT_DIR}/manufacturers/${manufacturer.id}.json`;
+    fs.writeFileSync(file, manufacturer.print());
   }
 }
 
