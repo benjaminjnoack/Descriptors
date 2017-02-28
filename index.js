@@ -11,8 +11,7 @@ const
 
 new ManufacturerSpecific(FILE)
   .parse()
-  .then((results) => {
-    console.log(`RESULTS: ${results.length}`);
+  .then((/*results*/) => {
     console.timeEnd('runtime');
   })
   .catch((reason) => {
