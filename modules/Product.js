@@ -76,11 +76,21 @@ class Product extends File {
     });
 
     result = result.then(() => {
-      Product.writeProductFile(this.manufacturer, this);
+      Product.writeCCFile(this.manufacturer, this);
+      Product.writeDescriptorFile(this.manufacturer, this);
       this.log();
     });
 
     return result;
+  }
+
+  print() {
+    return {
+      categoryProductId: Product.categoryProductId(this.manufacturer, this),
+      name: this.name,
+      id: this.id,
+      type: this.type
+    };
   }
 
   static categoryProductId(manufacturer, product) {
@@ -91,21 +101,7 @@ class Product extends File {
     return id.toString('hex');
   }
 
-  static getTemplate(manufacturer, product) {
-    // let template = {
-    //   commands: {},
-    //   configurations: [],
-    //   meta: {
-    //     display: {
-    //       manufacturer: manufacturer.name,
-    //       product: product.name
-    //     }
-    //   },
-    //   manufacturerId: manufacturer.id,
-    //   productId: product.id,
-    //   productTypeId: product.type
-    // };
-
+  static getCCTemp(manufacturer, product) {
     let template = {
       command_classes: product.command_classes,
       manufacturer: manufacturer.name,
@@ -118,10 +114,36 @@ class Product extends File {
     return JSON.stringify(template, null, 4);
   }
 
-  static writeProductFile(manufacturer, product) {
+  static writeCCFile(manufacturer, product) {
     let file = Product.categoryProductId(manufacturer, product);
     file = `${h.OUTPUT_DIR}/cc/${file}.json`;
-    fs.writeFileSync(file, Product.getTemplate(manufacturer, product));
+    fs.writeFileSync(file, Product.getCCTemp(manufacturer, product));
+  }
+
+  static getDescriptorTemp(manufacturer, product) {
+    let template = {
+      commands: {},
+      configurations: [],
+      meta: {
+        display: {
+          category: "",
+          manufacturer: manufacturer.name,
+          product: product.name,
+          type: ""
+        }
+      },
+      manufacturerId: manufacturer.id,
+      productId: product.id,
+      productTypeId: product.type
+    };
+
+    return JSON.stringify(template, null, 4);
+  }
+
+  static writeDescriptorFile(manufacturer, product) {
+    let file = Product.categoryProductId(manufacturer, product);
+    file = `${h.OUTPUT_DIR}/descriptors/${file}.json`;
+    fs.writeFileSync(file, Product.getDescriptorTemp(manufacturer, product));
   }
 }
 
