@@ -66,7 +66,7 @@ class DeviceClasses extends File {
   static writeMetaFile(path, collection) {
     collection = collection.map(e => { return e.print(); });
     collection = JSON.stringify(collection, null, 4);
-    path = `${h.META_DIR}/${path}.json`;
+    path = `${h.OUTPUT_DIR}/meta/${path}.json`;
     fs.writeFileSync(path, collection);
   }
 }

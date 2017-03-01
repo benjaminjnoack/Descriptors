@@ -41,8 +41,7 @@ h = Object.defineProperties(h, {
 
 h = Object.defineProperties(h, {
   'CONFIG_DIR'      : { value: path.join(h.BASE_DIR, 'config')},
-  "OUTPUT_DIR" : { value: path.join(h.BASE_DIR, 'output')},
-  'META_DIR'        : { value: path.join(h.BASE_DIR, 'meta')}
+  'OUTPUT_DIR'      : { value: path.join(h.BASE_DIR, 'output')}
 });
 
 module.exports = h;
