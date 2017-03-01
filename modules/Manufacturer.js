@@ -53,8 +53,10 @@ class Manufacturer extends Element {
   }
 
   parse() {
-    if (!this.products || !this.products.length)
+    if (!this.products || !this.products.length) {
+      Manufacturer.writeManufacturerFile(this);
       return Promise.resolve(this.print());
+    }
 
     let all = [];
 
